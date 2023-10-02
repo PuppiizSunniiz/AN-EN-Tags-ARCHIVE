@@ -2039,8 +2039,8 @@
 
             if(db.uniequip.charEquip[opKey]){
                 var equiplist = db.uniequip.charEquip[opKey]
-
-                ModuletalentValue = [[0,0],[0,0]]
+                
+                ModuletalentValue = Array.from({ length: db.uniequip.charEquip[opKey].length-1 }, () => [0, 0])
                 var num = 1
                 var tabhtml = ""
                 var contenthtml = ""
@@ -4491,7 +4491,7 @@
 
             $(`#Modtabtalent-${modulenum}-${phase}-${potential}`).addClass("active")
             $(`#ModuleTalent-${modulenum}-${phase}-${potential}`).addClass("active")
-
+            
             ModuletalentValue[modulenum-2][phase-1]=potential
             }
 
