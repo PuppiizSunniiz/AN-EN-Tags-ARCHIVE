@@ -1261,7 +1261,7 @@
             },
             {
                 "name": "Military Fortress",
-                "upgradeDescription": "When this unit is on the field, Defender Operators gain +28%<@ba.talpu>(+3%)</> ATK"
+                "upgradeDescription": "When this unit is on the field, Defender Operators gain +28% <@ba.talpu>(+3%)</> ATK"
             }
         ],
         [
@@ -1271,7 +1271,7 @@
             },
             {
                 "name": "Military Fortress",
-                "upgradeDescription": "When this unit is on the field, Defender Operators gain +31%<@ba.talpu>(+3%)</> ATK"
+                "upgradeDescription": "When this unit is on the field, Defender Operators gain +31% <@ba.talpu>(+3%)</> ATK"
             }
         ]
     ],
@@ -1380,21 +1380,21 @@
         [
             {
                 "name": "Appoggiatura",
-                "upgradeDescription": "If there are no other enemies near the target, attacks deal an additional 24% ATK as Arts damage; If target have <$ba.dt.apoptosis2>Apoptosis</> deal an additional 20% ATK as Elemental damage"
+                "upgradeDescription": "If there are no other enemies near the target, attacks deal an additional 24% ATK as Arts damage; If target still in <$ba.dt.apoptosis2>Apoptosis</> duration deal an additional 20% ATK as Elemental damage"
             },
             {
                 "name": "Appoggiatura",
-                "upgradeDescription": "If there are no other enemies near the target, attacks deal an additional 26% <@ba.talpu>(+2%)</> ATK as Arts damage; If target have <$ba.dt.apoptosis2>Apoptosis</> deal an additional 20% <@ba.talpu>(+2%)</> ATK as Elemental damage"
+                "upgradeDescription": "If there are no other enemies near the target, attacks deal an additional 26% <@ba.talpu>(+2%)</> ATK as Arts damage; If target still in <$ba.dt.apoptosis2>Apoptosis</> duration deal an additional 20% ATK as Elemental damage"
             }
         ],
         [
             {
                 "name": "Appoggiatura",
-                "upgradeDescription": "If there are no other enemies near the target, attacks deal an additional 30% ATK as Arts damage; If target have <$ba.dt.apoptosis2>Apoptosis</> deal an additional 30% ATK as Elemental damage"
+                "upgradeDescription": "If there are no other enemies near the target, attacks deal an additional 30% ATK as Arts damage; If target still in <$ba.dt.apoptosis2>Apoptosis</> duration deal an additional 30% ATK as Elemental damage"
             },
             {
                 "name": "Appoggiatura",
-                "upgradeDescription": "If there are no other enemies near the target, attacks deal an additional 32% <@ba.talpu>(+2%)</> ATK as Arts damage; If target have <$ba.dt.apoptosis2>Apoptosis</> deal an additional 30% <@ba.talpu>(+2%)</> ATK as Elemental damage"
+                "upgradeDescription": "If there are no other enemies near the target, attacks deal an additional 32% <@ba.talpu>(+2%)</> ATK as Arts damage; If target still in <$ba.dt.apoptosis2>Apoptosis</> duration deal an additional 30% ATK as Elemental damage"
             }
         ]
     ]
