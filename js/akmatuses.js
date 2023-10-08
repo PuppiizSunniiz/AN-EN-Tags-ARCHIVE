@@ -479,6 +479,7 @@ function changeUILanguage() {
 var total_materials = {};
 var inverse_levels = {"Skill-up": 2, "E1": 1, "E2": 0,"Module":3};
 var skill_levels = ["0", "1", "2", "3", "4", "5", "6", "7", "M-1", "M-2", "M-3",];
+var modindex={"x":3,"y":2,"d":1}
 function actualize() {
     $("#tbody-recommend").html("");
 
@@ -493,11 +494,11 @@ function actualize() {
             optStars.includes(char["char_level"].toString()) && optLevels.includes(char["class"]));
         // sort by stars > levels > skill index (if any) > skill level (if any) > name
         chars_selection[key] = chars_selection[key].sort((a, b) => { // Positive b then a while negative a then b
-
+            
             let s1 = (b.char_level - a.char_level) * 50000 // compare rarity 6 > 1
             let s2 = (inverse_levels[b.class] - inverse_levels[a.class]) * 10000 // compare class Module > skill > E2 > E1
-            let s3 = ('mod_index' in b && 'mod_index' in a)?a.name.localeCompare(b.name)* 2500:0 // compare name alphabatically when both module 
-            let s4 = (('mod_index' in a) ? a.mod_index.slice(-1) : 'Z').localeCompare(('mod_index' in b) ? b.mod_index.slice(-1):"Z") * 1000 // compare get x > y > not module
+            let s3 = ('mod_index' in b && 'mod_index' in a)?a.name.localeCompare(b.name)* 5000:0 // compare name alphabatically when both module 
+            let s4 = ((('mod_index' in b) ? modindex[b.mod_index.slice(-1)] : 0)-(('mod_index' in a) ? modindex[a.mod_index.slice(-1)]:0)) * 1000 // compare get x > y > d > not module
             let s5 = ((('mod_level' in a) ? a.mod_level : 0) - (('mod_level' in b) ? b.mod_level : 0))* 250 // compare module lv 1 > 3 > not module
             let s6 = ((('skill_level' in a) ? a.skill_level : 0) - (('skill_level' in b) ? b.skill_level : 0)) * 20 // compare skill lv 1 > 10(M3)
             let s7 = ((('skill_index' in b) ? b.skill_index : 0) - (('skill_index' in a) ? a.skill_index : 0)) * 5 // compare skill index S1 > S3
@@ -630,7 +631,7 @@ function mat_modal(){
         LangLib.forEach(Lang => {
             modalhtml.push('<td>')
             matLib.forEach(id => {
-                if(id.slice(-1)==Tier && id.length==5){
+                if(id.slice(-1)==Tier && id.length==5 && mat_total[Lang][id]){
                         modalhtml.push('<div class="internal-container" style="position: relative;width:100px;display: inline-block;">' +
                                     '<img class="item-rarity" width=100 height=100 style="top: 0; left: 0; z-index: 0;" src="https://raw.githubusercontent.com/Aceship/Arknight-Images/main/material/bg/item-' + (id.includes("update_token_1")?'4':id.includes("mod")?'5':String(id % 10)) + '.png">' +
                                     '<img class="item-image" width=100 height=100 style="top:0; left: 0; padding: 10px; z-index: 1; position: absolute;object-fit: contain;" src="https://raw.githubusercontent.com/Aceship/Arknight-Images/main/items/' + materials[id].iconId + `.png" title="${materials[id][Lang]}">` +
@@ -661,6 +662,7 @@ function mat_modal(){
     modalhtml.push('</tr>')
     // Module
     modalhtml.push(`<tr class="tr-matusage"><td>Module Material</td>`)
+    console.log(matLib)
     LangLib.forEach(Lang => {
         modalhtml.push('<td>')
         matLib.slice(-3,).forEach(id => {

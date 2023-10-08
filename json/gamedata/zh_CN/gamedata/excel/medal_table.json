@@ -1317,10 +1317,98 @@
       "isHidden": false
     },
     {
+      "medalId": "medal_stage_normal_19",
+      "medalName": "“飘零巨骸”",
+      "medalType": "stageMedal",
+      "slotId": 38,
+      "preMedalIdList": [],
+      "rarity": "T1",
+      "template": "PassStageSome",
+      "unlockParam": [
+        "3",
+        "easy_13-11;main_13-11;tough_13-11",
+        "1"
+      ],
+      "getMethod": "在任意环境以3星评价完成关卡13-13",
+      "description": "您看到骸骨之上，历史的幻影与未明的前路交错重叠。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": -1,
+      "expireTimes": [],
+      "medalRewardGroup": [],
+      "isHidden": false
+    },
+    {
+      "medalId": "medal_stage_normal_20",
+      "medalName": "“猩红之寂”",
+      "medalType": "stageMedal",
+      "slotId": 39,
+      "preMedalIdList": [],
+      "rarity": "T1",
+      "template": "PassStageSome",
+      "unlockParam": [
+        "3",
+        "easy_13-19;main_13-19;tough_13-19",
+        "1"
+      ],
+      "getMethod": "在任意环境以3星评价完成关卡13-21",
+      "description": "鲜血失去了它们的主宰，您让沸腾的红归于寂灭。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": -1,
+      "expireTimes": [],
+      "medalRewardGroup": [],
+      "isHidden": false
+    },
+    {
+      "medalId": "medal_stage_fourstar_11",
+      "medalName": "不屈突袭奖章",
+      "medalType": "stageMedal",
+      "slotId": 40,
+      "preMedalIdList": [],
+      "rarity": "T2",
+      "template": "PassStageSome",
+      "unlockParam": [
+        "3",
+        "tough_13-01;tough_13-02;tough_13-03;tough_13-04;tough_13-05;tough_13-06;tough_13-07;tough_13-08;tough_13-09;tough_13-10;tough_13-11;tough_13-12;tough_13-13;tough_13-14;tough_13-15;tough_13-16;tough_13-17;tough_13-18;tough_13-19",
+        "19"
+      ],
+      "getMethod": "在磨难险地环境中以3星评价完成第十三章全部非绝境作战关卡",
+      "description": "您已具备在鲜血与骸骨的环绕下执行作战的能力。\n没有例外，一切历史都由这些编订而成。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": -1,
+      "expireTimes": [],
+      "medalRewardGroup": [],
+      "isHidden": false
+    },
+    {
+      "medalId": "medal_stage_hard_09",
+      "medalName": "涤血绝境奖章",
+      "medalType": "stageMedal",
+      "slotId": 41,
+      "preMedalIdList": [],
+      "rarity": "T2",
+      "template": "PassStageSome",
+      "unlockParam": [
+        "3",
+        "hard_13-01;hard_13-02;hard_13-03;hard_13-04",
+        "4"
+      ],
+      "getMethod": "以3星评价完成第十三章全部绝境作战关卡",
+      "description": "您没有因浓稠的鲜血而窒息。\n可这片战场上的鲜血永不可能真正涤清。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": -1,
+      "expireTimes": [],
+      "medalRewardGroup": [],
+      "isHidden": false
+    },
+    {
       "medalId": "medal_stage_weekly_01",
       "medalName": "物资筹备奖章",
       "medalType": "stageMedal",
-      "slotId": 38,
+      "slotId": 42,
       "preMedalIdList": [],
       "rarity": "T1",
       "template": "PassStageSome",
@@ -1348,7 +1436,7 @@
       "medalId": "medal_stage_weekly_02",
       "medalName": "芯片搜索奖章",
       "medalType": "stageMedal",
-      "slotId": 39,
+      "slotId": 43,
       "preMedalIdList": [],
       "rarity": "T1",
       "template": "PassStageSome",
@@ -8130,6 +8218,153 @@
       "isHidden": false
     },
     {
+      "medalId": "medal_story_dagda_1",
+      "medalName": "“脚步不停”",
+      "medalType": "storyMedal",
+      "slotId": 231,
+      "preMedalIdList": [],
+      "rarity": "T1",
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_157_dagda",
+        "story_dagda_set_1"
+      ],
+      "getMethod": "解锁干员达格达的干员密录《脚步不停》",
+      "description": "塔楼骑士伊莎贝尔·孟塔古，格拉斯哥帮达格达。她攥着光荣与悲凉，脚步不停，撞向未来。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1695801600,
+      "expireTimes": [],
+      "medalRewardGroup": [],
+      "isHidden": false
+    },
+    {
+      "medalId": "medal_story_bena_1",
+      "medalName": "“简单的愿望”",
+      "medalType": "storyMedal",
+      "slotId": 232,
+      "preMedalIdList": [],
+      "rarity": "T1",
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_369_bena",
+        "story_bena_set_1"
+      ],
+      "getMethod": "解锁干员贝娜的干员密录《简单的愿望》",
+      "description": "拥有愿望很简单，实现愿望也不总是那么难，而记住愿望直到它实现，或许才是真正棘手的事情。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1695801600,
+      "expireTimes": [],
+      "medalRewardGroup": [],
+      "isHidden": false
+    },
+    {
+      "medalId": "medal_story_clour_1",
+      "medalName": "“安身之处”",
+      "medalType": "storyMedal",
+      "slotId": 233,
+      "preMedalIdList": [],
+      "rarity": "T1",
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_190_clour",
+        "story_clour_set_1"
+      ],
+      "getMethod": "解锁干员红云的干员密录《安身之处》",
+      "description": "她在这里停留，她早已置身其中。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1695801600,
+      "expireTimes": [],
+      "medalRewardGroup": [],
+      "isHidden": false
+    },
+    {
+      "medalId": "medal_story_excu_2",
+      "medalName": "“敌人”",
+      "medalType": "storyMedal",
+      "slotId": 234,
+      "preMedalIdList": [],
+      "rarity": "T2",
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_279_excu",
+        "story_excu_set_2"
+      ],
+      "getMethod": "解锁干员送葬人的干员密录《敌人》",
+      "description": "只要威胁客观存在，执行者的铳就会做出正确的判断。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1696737600,
+      "expireTimes": [],
+      "medalRewardGroup": [],
+      "isHidden": false
+    },
+    {
+      "medalId": "medal_story_sddrag_1",
+      "medalName": "“芦苇之心”",
+      "medalType": "storyMedal",
+      "slotId": 235,
+      "preMedalIdList": [],
+      "rarity": "T1",
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_261_sddrag",
+        "story_sddrag_set_1"
+      ],
+      "getMethod": "解锁干员苇草的干员密录《芦苇之心》",
+      "description": "即使是随风飘荡的她，如今也有了奋起追寻的勇气。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1696737600,
+      "expireTimes": [],
+      "medalRewardGroup": [],
+      "isHidden": false
+    },
+    {
+      "medalId": "medal_story_heidi_1",
+      "medalName": "“第一封信”",
+      "medalType": "storyMedal",
+      "slotId": 236,
+      "preMedalIdList": [],
+      "rarity": "T1",
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_4045_heidi",
+        "story_heidi_set_1"
+      ],
+      "getMethod": "解锁干员海蒂的干员密录《第一封信》",
+      "description": "在纸上，她凭始终不变的理想对时代怒吼，以脆弱的生命起身寻索当下的答案。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1696737600,
+      "expireTimes": [],
+      "medalRewardGroup": [],
+      "isHidden": false
+    },
+    {
+      "medalId": "medal_story_almond_1",
+      "medalName": "“远航”",
+      "medalType": "storyMedal",
+      "slotId": 237,
+      "preMedalIdList": [],
+      "rarity": "T1",
+      "template": "CharStoryUnlock",
+      "unlockParam": [
+        "char_4105_almond",
+        "story_almond_set_1"
+      ],
+      "getMethod": "解锁干员杏仁的干员密录《远航》",
+      "description": "踏上新的甲板，她会看清未来的方向。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1696737600,
+      "expireTimes": [],
+      "medalRewardGroup": [],
+      "isHidden": false
+    },
+    {
       "medalId": "medal_rogue_3_01",
       "medalName": "“遗忘之银”",
       "medalType": "rogueMedal",
@@ -9186,6 +9421,142 @@
       "isHidden": false
     },
     {
+      "medalId": "medal_activity_42d0_01",
+      "medalName": "纷争制胜试验章",
+      "medalType": "activityMedal",
+      "slotId": 1,
+      "preMedalIdList": [],
+      "rarity": "T3",
+      "template": "Act42D0UnlockArea",
+      "unlockParam": [
+        "act42d0",
+        "area_4"
+      ],
+      "getMethod": "纷争演绎活动期间，解锁拟构战场中的S区：战场核心",
+      "description": "在拟构战场中抵达战场深处，PRTS评估通过后弹出的纪念章。\n您距传说中的胜利仅有一步之遥。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1695801600,
+      "expireTimes": [
+        {
+          "start": 1697227200,
+          "end": -1,
+          "type": "PERM"
+        }
+      ],
+      "medalRewardGroup": [],
+      "isHidden": false
+    },
+    {
+      "medalId": "medal_activity_42d0_02",
+      "medalName": "纷争溃围试验章",
+      "medalType": "activityMedal",
+      "slotId": 2,
+      "preMedalIdList": [],
+      "rarity": "T2",
+      "template": "Act42D0UnlockArea",
+      "unlockParam": [
+        "act42d0",
+        "area_3"
+      ],
+      "getMethod": "纷争演绎活动期间，解锁拟构战场中的A区：战场腹地",
+      "description": "在拟构战场中越过重重阻碍，PRTS评估通过后弹出的纪念章。\n您高超的指挥艺术，是队伍突出重围的关键所在。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1695801600,
+      "expireTimes": [
+        {
+          "start": 1697227200,
+          "end": -1,
+          "type": "PERM"
+        }
+      ],
+      "medalRewardGroup": [],
+      "isHidden": false
+    },
+    {
+      "medalId": "medal_activity_42d0_03",
+      "medalName": "纷争协作试验章",
+      "medalType": "activityMedal",
+      "slotId": 3,
+      "preMedalIdList": [],
+      "rarity": "T2",
+      "template": "Act42D0UseAssistPassStage",
+      "unlockParam": [
+        "act42d0",
+        "5"
+      ],
+      "getMethod": "纷争演绎活动期间，使用助战完成任意关卡不小于5次",
+      "description": "在拟构战场中善于协作，PRTS评估通过后弹出的纪念章。\n协作创造文明，协作延续文明。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1695801600,
+      "expireTimes": [
+        {
+          "start": 1697227200,
+          "end": -1,
+          "type": "PERM"
+        }
+      ],
+      "medalRewardGroup": [],
+      "isHidden": false
+    },
+    {
+      "medalId": "medal_activity_42d0_04",
+      "medalName": "“向阳”",
+      "medalType": "activityMedal",
+      "slotId": 4,
+      "preMedalIdList": [],
+      "rarity": "T2",
+      "template": "GotItemBeforeTime",
+      "unlockParam": [
+        "1",
+        "char_209_ardign@epoque#26",
+        "1697227199"
+      ],
+      "getMethod": "纷争演绎活动期间，获得时装晴日",
+      "description": "卡缇从家乡带回的奖章，感谢您帮助她通过了艰难的模拟训练。\n奖章在她口袋里捂得热热的，像淋上阳光一般温暖。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1695801600,
+      "expireTimes": [
+        {
+          "start": 1697227200,
+          "end": -1,
+          "type": "PERM"
+        }
+      ],
+      "medalRewardGroup": [],
+      "isHidden": false
+    },
+    {
+      "medalId": "medal_activity_42d0_05",
+      "medalName": "纷争履险试验章",
+      "medalType": "activityMedal",
+      "slotId": 5,
+      "preMedalIdList": [],
+      "rarity": "T2",
+      "template": "Act42D0FinishChallenge",
+      "unlockParam": [
+        "act42d0",
+        "3"
+      ],
+      "getMethod": "纷争演绎活动期间，完成创伤干预内3个作战",
+      "description": "在您的带领下，罗德岛已能够应对任何极端环境的挑战。",
+      "advancedMedal": "medal_activity_42d0_055",
+      "originMedal": null,
+      "displayTime": 1695801600,
+      "expireTimes": [
+        {
+          "start": 1697227200,
+          "end": -1,
+          "type": "PERM"
+        }
+      ],
+      "medalRewardGroup": [],
+      "isHidden": false
+    },
+    {
       "medalId": "medal_activity_28side_01",
       "medalName": "“铳响之后”",
       "medalType": "activityMedal",
@@ -9372,7 +9743,7 @@
         "egun_over_energy",
         "2"
       ],
-      "getMethod": "三星通关CV-6，且至多让匪帮射手进入过2次过充状态",
+      "getMethod": "三星通关CV-6，且至多让匪帮射手进入过2次过载状态",
       "description": "您指挥小队迅速出击，让匪帮无法有效利用热能增幅装置。\n这支黑钢小队的成员虽然年纪不大，战斗经验却已相当丰富。",
       "advancedMedal": null,
       "originMedal": null,
@@ -11468,8 +11839,13 @@
       "expireTimes": [
         {
           "start": 1669665600,
-          "end": -1,
+          "end": 1697961599,
           "type": "TEMP"
+        },
+        {
+          "start": 1699128000,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": [],
@@ -11494,8 +11870,13 @@
       "expireTimes": [
         {
           "start": 1669665600,
-          "end": -1,
+          "end": 1697961599,
           "type": "TEMP"
+        },
+        {
+          "start": 1699128000,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": [],
@@ -11521,8 +11902,13 @@
       "expireTimes": [
         {
           "start": 1669665600,
-          "end": -1,
+          "end": 1697961599,
           "type": "TEMP"
+        },
+        {
+          "start": 1699128000,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": [],
@@ -11549,8 +11935,13 @@
       "expireTimes": [
         {
           "start": 1669665600,
-          "end": -1,
+          "end": 1697961599,
           "type": "TEMP"
+        },
+        {
+          "start": 1699128000,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": [],
@@ -11576,8 +11967,13 @@
       "expireTimes": [
         {
           "start": 1669665600,
-          "end": -1,
+          "end": 1697961599,
           "type": "TEMP"
+        },
+        {
+          "start": 1699128000,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": [],
@@ -11604,8 +12000,13 @@
       "expireTimes": [
         {
           "start": 1669665600,
-          "end": -1,
+          "end": 1697961599,
           "type": "TEMP"
+        },
+        {
+          "start": 1699128000,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": [],
@@ -11632,8 +12033,13 @@
       "expireTimes": [
         {
           "start": 1669665600,
-          "end": -1,
+          "end": 1697961599,
           "type": "TEMP"
+        },
+        {
+          "start": 1699128000,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": [],
@@ -11660,8 +12066,13 @@
       "expireTimes": [
         {
           "start": 1669665600,
-          "end": -1,
+          "end": 1697961599,
           "type": "TEMP"
+        },
+        {
+          "start": 1699128000,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": [],
@@ -11688,8 +12099,13 @@
       "expireTimes": [
         {
           "start": 1669665600,
-          "end": -1,
+          "end": 1697961599,
           "type": "TEMP"
+        },
+        {
+          "start": 1699128000,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": [],
@@ -11714,8 +12130,13 @@
       "expireTimes": [
         {
           "start": 1669665600,
-          "end": -1,
+          "end": 1697961599,
           "type": "TEMP"
+        },
+        {
+          "start": 1699128000,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": [],
@@ -11741,8 +12162,13 @@
       "expireTimes": [
         {
           "start": 1669665600,
-          "end": -1,
+          "end": 1697961599,
           "type": "TEMP"
+        },
+        {
+          "start": 1699128000,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": [],
@@ -22621,8 +23047,13 @@
       "expireTimes": [
         {
           "start": 1669665600,
-          "end": -1,
+          "end": 1697961599,
           "type": "TEMP"
+        },
+        {
+          "start": 1699128000,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": [],
@@ -22847,6 +23278,33 @@
           "start": 1695672000,
           "end": -1,
           "type": "TEMP"
+        }
+      ],
+      "medalRewardGroup": [],
+      "isHidden": false
+    },
+    {
+      "medalId": "medal_activity_42d0_055",
+      "medalName": "纷争履险试验章",
+      "medalType": "activityMedal",
+      "slotId": 5,
+      "preMedalIdList": null,
+      "rarity": "T2D5",
+      "template": "Act42D0FinishChallenge",
+      "unlockParam": [
+        "act42d0",
+        "5"
+      ],
+      "getMethod": "纷争演绎活动期间，完成创伤干预内所有作战",
+      "description": null,
+      "advancedMedal": null,
+      "originMedal": "medal_activity_42d0_05",
+      "displayTime": 1695801600,
+      "expireTimes": [
+        {
+          "start": 1697227200,
+          "end": -1,
+          "type": "PERM"
         }
       ],
       "medalRewardGroup": [],
@@ -23737,8 +24195,13 @@
           "sharedExpireTimes": [
             {
               "start": 1669665600,
-              "end": -1,
+              "end": 1697961599,
               "type": "TEMP"
+            },
+            {
+              "start": 1699128000,
+              "end": -1,
+              "type": "PERM"
             }
           ]
         },

@@ -3,21 +3,21 @@ import pandas as pd
 
 datajson=json.loads(open('json/gamedata/zh_CN/gamedata/excel/uniequip_table.json').read())
 
-maxparam4List=0
+maxparam3List=0
 maxparamList=0
 
 for key in datajson["missionList"].keys():
     if len(datajson["missionList"][key]["paramList"]) > maxparamList:
         maxparamList = len(datajson["missionList"][key]["paramList"])
     if len(datajson["missionList"][key]["paramList"]) > 3:
-        if len(datajson["missionList"][key]["paramList"][3].split(";")[0].split(","))>maxparam4List:
-            maxparam4List=len(datajson["missionList"][key]["paramList"][3].split(";")[0].split(","))
+        if len(datajson["missionList"][key]["paramList"][3].split(";")[0].split(","))>maxparam3List:
+            maxparam3List=len(datajson["missionList"][key]["paramList"][3].split(";")[0].split(","))
 
 Module = []
 Moduletemplate = []
 Moduledesc=[]
 ModuleparamList =[[] for x in range(maxparamList)]
-Moduleparam4List=[[] for x in range(maxparam4List)]
+Moduleparam4List=[[] for x in range(maxparam3List)]
 
 for key in datajson["missionList"].keys():
     Module.append(key)
@@ -28,7 +28,7 @@ for key in datajson["missionList"].keys():
             ModuleparamList[x].append(datajson["missionList"][key]["paramList"][x])
         else:
             ModuleparamList[x].append("")
-    for y in range(maxparam4List):
+    for y in range(maxparam3List):
         if len(datajson["missionList"][key]["paramList"]) > 3:
             if(y<len(datajson["missionList"][key]["paramList"][3].split(";")[0].split(","))):
                 Moduleparam4List[y].append(datajson["missionList"][key]["paramList"][3].split(";")[0].split(",")[y])
@@ -44,9 +44,9 @@ for i in range(maxparamList):
     dfList.append(ModuleparamList[i])
     dfindex.append("para"+str(i))
     
-for i in range(maxparam4List):
+for i in range(maxparam3List):
     dfList.append(Moduleparam4List[i])
-    dfindex.append("para4."+str(i))
+    dfindex.append("para3."+str(i))
 
 df=pd.DataFrame(dfList,index=dfindex).transpose()
 
