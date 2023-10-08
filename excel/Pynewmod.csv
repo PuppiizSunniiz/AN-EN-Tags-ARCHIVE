@@ -1,0 +1,16 @@
+sep=|
+Module|Mission|template|Desc|para0|para1|para2|para3|para4|para5
+uniequip_002_dusk|uniequip_002_dusk_1|EquipmentEventTotal|战斗中累计召唤非助战夕的召唤物20回|char_2015_dusk|SPAWN,token_10015_dusk_drgn|20|||
+uniequip_002_dusk|uniequip_002_dusk_2|EquipmentSquadPro|使用至多2人（包含助战）的队伍3星通关主题曲1-6；必须编入非助战夕并上场，其他成员仅可编入重装干员|3|main_01-06|char_2015_dusk|1,TANK||
+uniequip_002_mostma|uniequip_002_mostma_1|EquipmentCharKilled|由非助战莫斯提马累计造成100歼灭数|char_213_mostma|100|char_213_mostma|||
+uniequip_002_mostma|uniequip_002_mostma_2|EquipmentEventStageKill|3星通关别传CB-5；必须编入非助战莫斯提马并上场，且使用莫斯提马歼灭至少8名敌人、其中包括至少1名欺凌者|3|act5d0_05|char_213_mostma|8|DEATHDETAIL,char_213_mostma,enemy_1058_traink|1
+uniequip_002_rope|uniequip_002_rope_1|EquipmentSkillCast|战斗中非助战暗索累计使用复式钩爪10次|char_236_rope|skchr_rope_2|10|char_236_rope||
+uniequip_002_rope|uniequip_002_rope_2|EquipmentEventStageMore|3星通关主题曲3-3；必须编入非助战暗索，且使弑君者坠落地穴|3|main_03-03|char_236_rope|SIMPLE,enemy_1502_crowns,fall_down|1|
+uniequip_002_phenxi|uniequip_002_phenxi_1|EquipmentDamageTotal|由非助战菲亚梅塔累计造成180000点伤害|char_300_phenxi|180000||||
+uniequip_002_phenxi|uniequip_002_phenxi_2|EquipmentDamageStage|3星通关主题曲S5-9；必须编入非助战菲亚梅塔并上场，且使用菲亚梅塔造成至少60000点伤害|3|sub_05-4-3|char_300_phenxi|60000||
+uniequip_003_saga|uniequip_003_saga_1|EquipmentDamageTotal|由非助战嵯峨累计造成80000点伤害|char_362_saga|80000||||
+uniequip_003_saga|uniequip_003_saga_2|EquipmentDeployOneNoEvac|3星通关别传WR-3；必须编入非助战嵯峨，且第一位部署嵯峨、嵯峨全程不撤退或被击倒|3|act16d5_03|char_362_saga|1||
+uniequip_002_kalts|uniequip_002_kalts_1|EquipmentDamageTotalWithToken|由非助战凯尔希累计造成150000点伤害|char_003_kalts|150000|char_003_kalts|||
+uniequip_002_kalts|uniequip_002_kalts_2|EquipmentSkillCastStage|3星通关主题曲5-10；必须编入非助战凯尔希并上场，且使用4次指令：熔毁|3|main_05-10|skchr_kalts_3|4|char_003_kalts|
+uniequip_002_cqbw|uniequip_002_cqbw_1|EquipmentEventTotal|由非助战W累计造成80歼灭数|char_113_cqbw|DEATHDETAIL,char_113_cqbw,killcount|80|||
+uniequip_002_cqbw|uniequip_002_cqbw_2|EquipmentEventStageMore|3星通关插曲DM-3；必须编入非助战W并上场，且使用W歼灭至少2个萨卡兹穿刺手|3|act9d0_03|char_113_cqbw|DEATHDETAIL,char_113_cqbw,enemy_1072_dlancer|2|
