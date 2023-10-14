@@ -2,10 +2,10 @@ def CharReady(JSON,mode=0):
     '''
         Get character_table -> Return Code2Name Name2Code dict
         
-        Mode 1 : Code2Name
-        Mode 2 : Name2Code
-        Mode 3 : Exclude Ops
-        Default : both
+        Mode 1 : ["Code2Name"]
+        Mode 2 : ["Name2Code"]
+        Mode 3 : ["Exclude"]
+        Default : All
     '''
     def Charname(JSON,key) -> str:
         def NameCheck(appellation):

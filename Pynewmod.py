@@ -12,8 +12,7 @@ json_mod_table      =   json.loads(open("json/gamedata/zh_CN/gamedata/excel/unie
 #########################################################################################################
 # Expected Mod
 #########################################################################################################
-#expected=[["Horn","002"],["Ashlock","002"],["Firewhistle","002"],["Delphine","002"],["Verdant","002"],["Fiammetta","003"],["Ebenholz","004"]]
-expected=[["dusk","002"],["mostima","002"],["rope","002"],["fiammetta","002"],["saga","003"],["Kal'tsit","002"],["W","002"]]
+expected=[["Horn","002"],["Ashlock","002"],["Firewhistle","002"],["Delphine","002"],["Verdant","002"],["Fiammetta","003"],["Ebenholz","004"]]
 #########################################################################################################
 # Char Prep
 #########################################################################################################
@@ -118,27 +117,6 @@ for mod in expectedmod:
                         if "TALENT" in removelist:
                             removelist.remove("TALENT")
                     case "TALENT_DATA_ONLY":
-                        '''
-                            "TALENT_DATA_ONLY" = {
-                                0 : {
-                                        "para1": [token false,token true]
-                                        "para2": [token false,token true]
-                                        ...
-                                    },
-                                4 : {
-                                        "para1": [token false,token true]
-                                        "para2": [token false,token true]
-                                        ...
-                                }
-                            }
-                            
-                            temp=[lv1,lv2]
-                            lv1=[pot1,pot2]
-                            pot1=[token false,token true]
-                            token= [para ,para]
-                            temp=[[[],[]],[[],[]]]
-                            
-                        '''
                         for pot in range(len(json_mod_battle[mod]["phases"][modlevel]["parts"][part]["addOrOverrideTalentDataBundle"]["candidates"])):
                             token=str(json_mod_battle[mod]["phases"][modlevel]["parts"][part]["isToken"])
                             temp[pot].append({
@@ -164,17 +142,7 @@ for mod in expectedmod:
         if "TALENT_DATA_ONLY" not in removelist:
             for x in range(talentpot):
                 potential=temp[x][0]['potential']
-                if talentpot==1:
-                    moddict[mod][modlevel]["TALENT_DATA_ONLY"][potential] = {
-                        "talentIndex": temp[0][0]["Token"][0],
-                        "name":temp[0][0]["Token"][1],
-                        "description":temp[0][0]["Token"][2],
-                        "upgradeDescription":temp[0][0]["Token"][3],
-                        "rangeId":temp[0][0]["Token"][4],
-                        "blackboard":temp[0][0]["Token"][5]
-                    }
-                else:
-                    moddict[mod][modlevel]["TALENT_DATA_ONLY"][potential] = {
+                moddict[mod][modlevel]["TALENT_DATA_ONLY"][potential] = {
                         "token":[temp[x][y]["TokenID"] for y in range(len(temp[0]))],
                         "talentIndex":[temp[x][y]["Token"][0] for y in range(len(temp[0]))],
                         "name":[temp[x][y]["Token"][1] for y in range(len(temp[0]))],
@@ -182,8 +150,7 @@ for mod in expectedmod:
                         "upgradeDescription":[temp[x][y]["Token"][3] for y in range(len(temp[0]))],
                         "rangeId":[temp[x][y]["Token"][4] for y in range(len(temp[0]))],
                         "blackboard":[temp[x][y]["Token"][5] for y in range(len(temp[0]))]
-                    }
-                        
+                }              
         for removing in removelist:
             moddict[mod][modlevel].pop(removing)
             
@@ -219,53 +186,54 @@ print("\nDataframe Completed !!!")
 # test
 #########################################################################################################
 '''
-#maxtrait = 0
-#maxtraitonly =0
-#maxtalent = 0
-#maxtalentonly = 0
+    #maxtrait = 0
+    #maxtraitonly =0
+    #maxtalent = 0
+    #maxtalentonly = 0
 
-maxTRAIT= 0
-maxTRAIT_DATA_ONLY= 0
-maxTALENT= 0
-maxTALENT_DATA_ONLY= 0
-maxDISPLAY= 0
+    maxTRAIT= 0
+    maxTRAIT_DATA_ONLY= 0
+    maxTALENT= 0
+    maxTALENT_DATA_ONLY= 0
+    maxDISPLAY= 0
 
-for key in json_mod_battle.keys():
-    for phase in range(len(json_mod_battle[key]["phases"])):
-        countTRAIT= 0
-        countTRAIT_DATA_ONLY= 0
-        countTALENT= 0
-        countTALENT_DATA_ONLY= 0
-        countDISPLAY= 0
-        for part in range(len(json_mod_battle[key]["phases"][phase]["parts"])):
-            match json_mod_battle[key]["phases"][phase]["parts"][part]["target"]:
-                case "TRAIT" :
-                    #if len (json_mod_battle[key]["phases"][phase]["parts"][part]["overrideTraitDataBundle"]["candidates"])>maxtrait:
-                        #maxtrait=len (json_mod_battle[key]["phases"][phase]["parts"][part]["overrideTraitDataBundle"]["candidates"])
-                    countTRAIT+=1
-                case "TRAIT_DATA_ONLY":
-                    countTRAIT_DATA_ONLY+=1
-                case "TALENT":
-                    countTALENT+=1
-                case "TALENT_DATA_ONLY":
-                    countTALENT_DATA_ONLY+=1
-                case "DISPLAY":
-                    countDISPLAY+=1
-        if countTRAIT > maxTRAIT :
-            TRAIT = [key,phase,countTRAIT]
-            maxTRAIT = countTRAIT
-        if countTRAIT_DATA_ONLY > maxTRAIT_DATA_ONLY :
-            TRAIT_DATA_ONLY = [key,phase,countTRAIT_DATA_ONLY]
-            maxTRAIT_DATA_ONLY = countTRAIT_DATA_ONLY
-        if countTALENT > maxTALENT :
-            TALENT = [key,phase,countTALENT]
-            maxTALENT = countTALENT
-        if countTALENT_DATA_ONLY > maxTALENT_DATA_ONLY :
-            TALENT_DATA_ONLY = [key,phase,countTALENT_DATA_ONLY]
-            maxTALENT_DATA_ONLY = countTALENT_DATA_ONLY
-        if countDISPLAY > maxDISPLAY :
-            DISPLAY = [key,phase,countDISPLAY]
-            maxDISPLAY = countDISPLAY
+    for key in json_mod_battle.keys():
+        for phase in range(len(json_mod_battle[key]["phases"])):
+            countTRAIT= 0
+            countTRAIT_DATA_ONLY= 0
+            countTALENT= 0
+            countTALENT_DATA_ONLY= 0
+            countDISPLAY= 0
+            for part in range(len(json_mod_battle[key]["phases"][phase]["parts"])):
+                match json_mod_battle[key]["phases"][phase]["parts"][part]["target"]:
+                    case "TRAIT" :
+                        #if len (json_mod_battle[key]["phases"][phase]["parts"][part]["overrideTraitDataBundle"]["candidates"])>maxtrait:
+                            #maxtrait=len (json_mod_battle[key]["phases"][phase]["parts"][part]["overrideTraitDataBundle"]["candidates"])
+                        countTRAIT+=1
+                    case "TRAIT_DATA_ONLY":
+                        countTRAIT_DATA_ONLY+=1
+                    case "TALENT":
+                        countTALENT+=1
+                    case "TALENT_DATA_ONLY":
+                        countTALENT_DATA_ONLY+=1
+                    case "DISPLAY":
+                        countDISPLAY+=1
+            if countTRAIT > maxTRAIT :
+                TRAIT = [key,phase,countTRAIT]
+                maxTRAIT = countTRAIT
+            if countTRAIT_DATA_ONLY > maxTRAIT_DATA_ONLY :
+                TRAIT_DATA_ONLY = [key,phase,countTRAIT_DATA_ONLY]
+                maxTRAIT_DATA_ONLY = countTRAIT_DATA_ONLY
+            if countTALENT > maxTALENT :
+                TALENT = [key,phase,countTALENT]
+                maxTALENT = countTALENT
+            if countTALENT_DATA_ONLY > maxTALENT_DATA_ONLY :
+                TALENT_DATA_ONLY = [key,phase,countTALENT_DATA_ONLY]
+                maxTALENT_DATA_ONLY = countTALENT_DATA_ONLY
+            if countDISPLAY > maxDISPLAY :
+                DISPLAY = [key,phase,countDISPLAY]
+                maxDISPLAY = countDISPLAY
 
-#print (maxtrait)
-print(f"TRAIT = {TRAIT}\nTRAIT_DATA_ONLY = {TRAIT_DATA_ONLY}\nTALENT= {TALENT}\nTALENT_DATA_ONLY = {TALENT_DATA_ONLY}\nDISPLAY={DISPLAY}")'''
+    #print (maxtrait)
+    print(f"TRAIT = {TRAIT}\nTRAIT_DATA_ONLY = {TRAIT_DATA_ONLY}\nTALENT= {TALENT}\nTALENT_DATA_ONLY = {TALENT_DATA_ONLY}\nDISPLAY={DISPLAY}")
+'''

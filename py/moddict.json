@@ -1,355 +1,37 @@
 {
-    "uniequip_002_dusk": {
+    "uniequip_002_horn": {
         "mission": {
-            "uniequip_002_dusk_1": {
-                "template": "EquipmentEventTotal",
-                "desc": "战斗中累计召唤非助战夕的召唤物20回",
-                "paramList": [
-                    "char_2015_dusk",
-                    "SPAWN,token_10015_dusk_drgn",
-                    "20"
-                ]
-            },
-            "uniequip_002_dusk_2": {
-                "template": "EquipmentSquadPro",
-                "desc": "使用至多2人（包含助战）的队伍3星通关主题曲1-6；必须编入非助战夕并上场，其他成员仅可编入重装干员",
-                "paramList": [
-                    "3",
-                    "main_01-06",
-                    "char_2015_dusk",
-                    "1,TANK"
-                ]
-            }
-        },
-        "0": {
-            "TALENT": {
-                "dusk_equip_1_1_p1": {
-                    "0": {
-                        "talentIndex": -1,
-                        "name": null,
-                        "description": null,
-                        "upgradeDescription": "",
-                        "rangeId": "3-1",
-                        "blackboard": []
-                    }
-                }
-            },
-            "DISPLAY": {}
-        },
-        "1": {
-            "TALENT": {
-                "dusk_equip_1_2_p1": {
-                    "0": {
-                        "talentIndex": -1,
-                        "name": null,
-                        "description": null,
-                        "upgradeDescription": "",
-                        "rangeId": "3-1",
-                        "blackboard": []
-                    }
-                }
-            },
-            "TALENT_DATA_ONLY": {
-                "0": {
-                    "token": [
-                        "TokenFalse"
-                    ],
-                    "talentIndex": [
-                        0
-                    ],
-                    "name": [
-                        "化境"
-                    ],
-                    "description": [
-                        null
-                    ],
-                    "upgradeDescription": [
-                        "夕与\"小自在\"击杀一名敌人时，夕获得2%攻击力，最多可叠加20层"
-                    ],
-                    "rangeId": [
-                        null
-                    ],
-                    "blackboard": [
-                        [
-                            {
-                                "key": "atk",
-                                "value": 0.02
-                            },
-                            {
-                                "key": "max_stack_cnt",
-                                "value": 20.0
-                            }
-                        ]
-                    ]
-                },
-                "4": {
-                    "token": [
-                        "TokenFalse"
-                    ],
-                    "talentIndex": [
-                        0
-                    ],
-                    "name": [
-                        "化境"
-                    ],
-                    "description": [
-                        null
-                    ],
-                    "upgradeDescription": [
-                        "夕与\"小自在\"击杀一名敌人时，夕获得2%攻击力，最多可叠加23<@ba.talpu>（+3）</>层"
-                    ],
-                    "rangeId": [
-                        null
-                    ],
-                    "blackboard": [
-                        [
-                            {
-                                "key": "atk",
-                                "value": 0.02
-                            },
-                            {
-                                "key": "max_stack_cnt",
-                                "value": 23.0
-                            }
-                        ]
-                    ]
-                }
-            },
-            "DISPLAY": {}
-        },
-        "2": {
-            "TALENT": {
-                "dusk_equip_1_3_p1": {
-                    "0": {
-                        "talentIndex": -1,
-                        "name": null,
-                        "description": null,
-                        "upgradeDescription": "",
-                        "rangeId": "3-1",
-                        "blackboard": []
-                    }
-                }
-            },
-            "TALENT_DATA_ONLY": {
-                "0": {
-                    "token": [
-                        "TokenFalse"
-                    ],
-                    "talentIndex": [
-                        0
-                    ],
-                    "name": [
-                        "化境"
-                    ],
-                    "description": [
-                        null
-                    ],
-                    "upgradeDescription": [
-                        "夕与\"小自在\"击杀一名敌人时，夕获得2%攻击力，最多可叠加21层"
-                    ],
-                    "rangeId": [
-                        null
-                    ],
-                    "blackboard": [
-                        [
-                            {
-                                "key": "atk",
-                                "value": 0.02
-                            },
-                            {
-                                "key": "max_stack_cnt",
-                                "value": 21.0
-                            }
-                        ]
-                    ]
-                },
-                "4": {
-                    "token": [
-                        "TokenFalse"
-                    ],
-                    "talentIndex": [
-                        0
-                    ],
-                    "name": [
-                        "化境"
-                    ],
-                    "description": [
-                        null
-                    ],
-                    "upgradeDescription": [
-                        "夕与\"小自在\"击杀一名敌人时，夕获得2%攻击力，最多可叠加24<@ba.talpu>（+3）</>层"
-                    ],
-                    "rangeId": [
-                        null
-                    ],
-                    "blackboard": [
-                        [
-                            {
-                                "key": "atk",
-                                "value": 0.02
-                            },
-                            {
-                                "key": "max_stack_cnt",
-                                "value": 24.0
-                            }
-                        ]
-                    ]
-                }
-            },
-            "DISPLAY": {}
-        }
-    },
-    "uniequip_002_mostma": {
-        "mission": {
-            "uniequip_002_mostma_1": {
-                "template": "EquipmentCharKilled",
-                "desc": "由非助战莫斯提马累计造成100歼灭数",
-                "paramList": [
-                    "char_213_mostma",
-                    "100",
-                    "char_213_mostma"
-                ]
-            },
-            "uniequip_002_mostma_2": {
-                "template": "EquipmentEventStageKill",
-                "desc": "3星通关别传CB-5；必须编入非助战莫斯提马并上场，且使用莫斯提马歼灭至少8名敌人、其中包括至少1名欺凌者",
-                "paramList": [
-                    "3",
-                    "act5d0_05",
-                    "char_213_mostma",
-                    "8",
-                    "DEATHDETAIL,char_213_mostma,enemy_1058_traink",
-                    "1"
-                ]
-            }
-        },
-        "0": {
-            "DISPLAY": {}
-        },
-        "1": {
-            "TALENT": {
-                "mostma_equip_1_2_p1": {
-                    "0": {
-                        "talentIndex": 1,
-                        "name": "主观缓时",
-                        "description": null,
-                        "upgradeDescription": "攻击范围内的敌人移动速度-25%，攻击范围外的敌人移动速度-10%（不受技能影响）",
-                        "rangeId": null,
-                        "blackboard": [
-                            {
-                                "key": "move_speed",
-                                "value": -0.25
-                            },
-                            {
-                                "key": "mostma_e_t_2[global].move_speed",
-                                "value": -0.1
-                            }
-                        ]
-                    },
-                    "4": {
-                        "talentIndex": 1,
-                        "name": "主观缓时",
-                        "description": null,
-                        "upgradeDescription": "攻击范围内的敌人移动速度-28%<@ba.talpu>（+3%）</>，攻击范围外的敌人移动速度-10%（不受技能影响）",
-                        "rangeId": null,
-                        "blackboard": [
-                            {
-                                "key": "move_speed",
-                                "value": -0.28
-                            },
-                            {
-                                "key": "mostma_e_t_2[global].move_speed",
-                                "value": -0.1
-                            }
-                        ]
-                    }
-                }
-            },
-            "DISPLAY": {}
-        },
-        "2": {
-            "TALENT": {
-                "mostma_equip_1_3_p1": {
-                    "0": {
-                        "talentIndex": 1,
-                        "name": "主观缓时",
-                        "description": null,
-                        "upgradeDescription": "攻击范围内的敌人移动速度-30%，攻击范围外的敌人移动速度-18%（不受技能影响）",
-                        "rangeId": null,
-                        "blackboard": [
-                            {
-                                "key": "move_speed",
-                                "value": -0.3
-                            },
-                            {
-                                "key": "mostma_e_t_2[global].move_speed",
-                                "value": -0.18
-                            }
-                        ]
-                    },
-                    "4": {
-                        "talentIndex": 1,
-                        "name": "主观缓时",
-                        "description": null,
-                        "upgradeDescription": "攻击范围内的敌人移动速度-33%<@ba.talpu>（+3%）</>，攻击范围外的敌人移动速度-18%（不受技能影响）",
-                        "rangeId": null,
-                        "blackboard": [
-                            {
-                                "key": "move_speed",
-                                "value": -0.33
-                            },
-                            {
-                                "key": "mostma_e_t_2[global].move_speed",
-                                "value": -0.18
-                            }
-                        ]
-                    }
-                }
-            },
-            "DISPLAY": {}
-        }
-    },
-    "uniequip_002_rope": {
-        "mission": {
-            "uniequip_002_rope_1": {
+            "uniequip_002_horn_1": {
                 "template": "EquipmentSkillCast",
-                "desc": "战斗中非助战暗索累计使用复式钩爪10次",
+                "desc": "战斗中非助战号角累计使用终极防线10次",
                 "paramList": [
-                    "char_236_rope",
-                    "skchr_rope_2",
+                    "char_4039_horn",
+                    "skchr_horn_3",
                     "10",
-                    "char_236_rope"
+                    "char_4039_horn"
                 ]
             },
-            "uniequip_002_rope_2": {
-                "template": "EquipmentEventStageMore",
-                "desc": "3星通关主题曲3-3；必须编入非助战暗索，且使弑君者坠落地穴",
+            "uniequip_002_horn_2": {
+                "template": "EquipmentCharKilledStage",
+                "desc": "3星通关主题曲7-15；必须编入非助战号角并上场，且使用号角至少歼灭10个敌人",
                 "paramList": [
                     "3",
-                    "main_03-03",
-                    "char_236_rope",
-                    "SIMPLE,enemy_1502_crowns,fall_down",
-                    "1"
+                    "main_07-13",
+                    "char_4039_horn",
+                    "10",
+                    "char_4039_horn"
                 ]
             }
         },
         "0": {
             "TRAIT": {
                 "overrideDescripton": null,
-                "additionalDescription": "拖拽期间敌人受到正比于距离的法术伤害",
+                "additionalDescription": "攻击被阻挡的敌人时攻击力提升至<@ba.vup>{atk_scale:0%}</>",
                 "rangeId": null,
                 "blackboard": [
                     {
-                        "key": "dist",
-                        "value": 1.0
-                    },
-                    {
-                        "key": "value",
-                        "value": 800.0
-                    },
-                    {
-                        "key": "interval",
-                        "value": 0.066
+                        "key": "atk_scale",
+                        "value": 1.1
                     }
                 ]
             }
@@ -357,20 +39,12 @@
         "1": {
             "TRAIT": {
                 "overrideDescripton": null,
-                "additionalDescription": "拖拽期间敌人受到正比于距离的法术伤害",
+                "additionalDescription": "攻击被阻挡的敌人时攻击力提升至<@ba.vup>{atk_scale:0%}</>",
                 "rangeId": null,
                 "blackboard": [
                     {
-                        "key": "dist",
-                        "value": 1.0
-                    },
-                    {
-                        "key": "value",
-                        "value": 800.0
-                    },
-                    {
-                        "key": "interval",
-                        "value": 0.066
+                        "key": "atk_scale",
+                        "value": 1.1
                     }
                 ]
             },
@@ -383,13 +57,13 @@
                         0
                     ],
                     "name": [
-                        "听觉训练"
+                        "军事要塞"
                     ],
                     "description": [
                         null
                     ],
                     "upgradeDescription": [
-                        "获得35%的物理闪避"
+                        "在场时所有重装干员的攻击力+25%"
                     ],
                     "rangeId": [
                         null
@@ -397,8 +71,8 @@
                     "blackboard": [
                         [
                             {
-                                "key": "prob",
-                                "value": 0.35
+                                "key": "atk",
+                                "value": 0.25
                             }
                         ]
                     ]
@@ -411,13 +85,13 @@
                         0
                     ],
                     "name": [
-                        "听觉训练"
+                        "军事要塞"
                     ],
                     "description": [
                         null
                     ],
                     "upgradeDescription": [
-                        "获得39%<@ba.talpu>（+4%）</>的物理闪避"
+                        "在场时所有重装干员的攻击力+28%<@ba.talpu>（+3%）</>"
                     ],
                     "rangeId": [
                         null
@@ -425,8 +99,8 @@
                     "blackboard": [
                         [
                             {
-                                "key": "prob",
-                                "value": 0.39
+                                "key": "atk",
+                                "value": 0.28
                             }
                         ]
                     ]
@@ -436,20 +110,12 @@
         "2": {
             "TRAIT": {
                 "overrideDescripton": null,
-                "additionalDescription": "拖拽期间敌人受到正比于距离的法术伤害",
+                "additionalDescription": "攻击被阻挡的敌人时攻击力提升至<@ba.vup>{atk_scale:0%}</>",
                 "rangeId": null,
                 "blackboard": [
                     {
-                        "key": "dist",
-                        "value": 1.0
-                    },
-                    {
-                        "key": "value",
-                        "value": 800.0
-                    },
-                    {
-                        "key": "interval",
-                        "value": 0.066
+                        "key": "atk_scale",
+                        "value": 1.1
                     }
                 ]
             },
@@ -462,13 +128,13 @@
                         0
                     ],
                     "name": [
-                        "听觉训练"
+                        "军事要塞"
                     ],
                     "description": [
                         null
                     ],
                     "upgradeDescription": [
-                        "获得40%的物理闪避"
+                        "在场时所有重装干员的攻击力+28%"
                     ],
                     "rangeId": [
                         null
@@ -476,8 +142,8 @@
                     "blackboard": [
                         [
                             {
-                                "key": "prob",
-                                "value": 0.4
+                                "key": "atk",
+                                "value": 0.28
                             }
                         ]
                     ]
@@ -490,13 +156,13 @@
                         0
                     ],
                     "name": [
-                        "听觉训练"
+                        "军事要塞"
                     ],
                     "description": [
                         null
                     ],
                     "upgradeDescription": [
-                        "获得44%<@ba.talpu>（+4%）</>的物理闪避"
+                        "在场时所有重装干员的攻击力+31%<@ba.talpu>（+3%）</>"
                     ],
                     "rangeId": [
                         null
@@ -504,8 +170,8 @@
                     "blackboard": [
                         [
                             {
-                                "key": "prob",
-                                "value": 0.44
+                                "key": "atk",
+                                "value": 0.31
                             }
                         ]
                     ]
@@ -513,658 +179,32 @@
             }
         }
     },
-    "uniequip_002_phenxi": {
+    "uniequip_002_ashlok": {
         "mission": {
-            "uniequip_002_phenxi_1": {
+            "uniequip_002_ashlok_1": {
                 "template": "EquipmentDamageTotal",
-                "desc": "由非助战菲亚梅塔累计造成180000点伤害",
+                "desc": "由非助战灰毫累计造成100000点伤害",
                 "paramList": [
-                    "char_300_phenxi",
-                    "180000"
+                    "char_431_ashlok",
+                    "100000"
                 ]
             },
-            "uniequip_002_phenxi_2": {
-                "template": "EquipmentDamageStage",
-                "desc": "3星通关主题曲S5-9；必须编入非助战菲亚梅塔并上场，且使用菲亚梅塔造成至少60000点伤害",
-                "paramList": [
-                    "3",
-                    "sub_05-4-3",
-                    "char_300_phenxi",
-                    "60000"
-                ]
-            }
-        },
-        "0": {
-            "TRAIT": {
-                "overrideDescripton": "攻击造成<@ba.kw>群体物理伤害</>",
-                "additionalDescription": "攻击时无视敌人<@ba.vup>{def_penetrate_fixed}</>点的防御力",
-                "rangeId": null,
-                "blackboard": [
-                    {
-                        "key": "def_penetrate_fixed",
-                        "value": 100.0
-                    }
-                ]
-            }
-        },
-        "1": {
-            "TRAIT": {
-                "overrideDescripton": "攻击造成<@ba.kw>群体物理伤害</>",
-                "additionalDescription": "攻击时无视敌人<@ba.vup>{def_penetrate_fixed}</>点的防御力",
-                "rangeId": null,
-                "blackboard": [
-                    {
-                        "key": "def_penetrate_fixed",
-                        "value": 100.0
-                    }
-                ]
-            },
-            "TALENT": {
-                "phenxi_equip_1_2_p2": {
-                    "0": {
-                        "talentIndex": 1,
-                        "name": "宣告终局",
-                        "description": null,
-                        "upgradeDescription": "技能持续期间外，攻击速度+27，技能期间攻击速度+5",
-                        "rangeId": null,
-                        "blackboard": [
-                            {
-                                "key": "attack_speed",
-                                "value": 27.0
-                            },
-                            {
-                                "key": "phenxi_e_t_2[in_skill].attack_speed",
-                                "value": 5.0
-                            }
-                        ]
-                    },
-                    "4": {
-                        "talentIndex": 1,
-                        "name": "宣告终局",
-                        "description": null,
-                        "upgradeDescription": "技能持续期间外，攻击速度+30<@ba.talpu>（+3）</>，技能期间攻击速度+5",
-                        "rangeId": null,
-                        "blackboard": [
-                            {
-                                "key": "attack_speed",
-                                "value": 30.0
-                            },
-                            {
-                                "key": "phenxi_e_t_2[in_skill].attack_speed",
-                                "value": 5.0
-                            }
-                        ]
-                    }
-                }
-            }
-        },
-        "2": {
-            "TRAIT": {
-                "overrideDescripton": "攻击造成<@ba.kw>群体物理伤害</>",
-                "additionalDescription": "攻击时无视敌人<@ba.vup>{def_penetrate_fixed}</>点的防御力",
-                "rangeId": null,
-                "blackboard": [
-                    {
-                        "key": "def_penetrate_fixed",
-                        "value": 100.0
-                    }
-                ]
-            },
-            "TALENT": {
-                "phenxi_equip_1_3_p2": {
-                    "0": {
-                        "talentIndex": 1,
-                        "name": "宣告终局",
-                        "description": null,
-                        "upgradeDescription": "技能持续期间外，攻击速度+30，技能期间攻击速度+10",
-                        "rangeId": null,
-                        "blackboard": [
-                            {
-                                "key": "attack_speed",
-                                "value": 30.0
-                            },
-                            {
-                                "key": "phenxi_e_t_2[in_skill].attack_speed",
-                                "value": 10.0
-                            }
-                        ]
-                    },
-                    "4": {
-                        "talentIndex": 1,
-                        "name": "宣告终局",
-                        "description": null,
-                        "upgradeDescription": "技能持续期间外，攻击速度+33<@ba.talpu>（+3）</>，技能期间攻击速度+10",
-                        "rangeId": null,
-                        "blackboard": [
-                            {
-                                "key": "attack_speed",
-                                "value": 33.0
-                            },
-                            {
-                                "key": "phenxi_e_t_2[in_skill].attack_speed",
-                                "value": 10.0
-                            }
-                        ]
-                    }
-                }
-            }
-        }
-    },
-    "uniequip_003_saga": {
-        "mission": {
-            "uniequip_003_saga_1": {
-                "template": "EquipmentDamageTotal",
-                "desc": "由非助战嵯峨累计造成80000点伤害",
-                "paramList": [
-                    "char_362_saga",
-                    "80000"
-                ]
-            },
-            "uniequip_003_saga_2": {
-                "template": "EquipmentDeployOneNoEvac",
-                "desc": "3星通关别传WR-3；必须编入非助战嵯峨，且第一位部署嵯峨、嵯峨全程不撤退或被击倒",
-                "paramList": [
-                    "3",
-                    "act16d5_03",
-                    "char_362_saga",
-                    "1"
-                ]
-            }
-        },
-        "0": {
-            "TRAIT": {
-                "overrideDescripton": "能够阻挡两个敌人，阻挡敌人时攻击力和防御力各+8％",
-                "additionalDescription": null,
-                "rangeId": null,
-                "blackboard": [
-                    {
-                        "key": "atk",
-                        "value": 0.08
-                    },
-                    {
-                        "key": "def",
-                        "value": 0.08
-                    }
-                ]
-            }
-        },
-        "1": {
-            "TRAIT": {
-                "overrideDescripton": "能够阻挡两个敌人，阻挡敌人时攻击力和防御力各+8％",
-                "additionalDescription": null,
-                "rangeId": null,
-                "blackboard": [
-                    {
-                        "key": "atk",
-                        "value": 0.08
-                    },
-                    {
-                        "key": "def",
-                        "value": 0.08
-                    }
-                ]
-            },
-            "TALENT": {
-                "saga_equip_2_2_p2": {
-                    "0": {
-                        "talentIndex": -1,
-                        "name": null,
-                        "description": null,
-                        "upgradeDescription": "",
-                        "rangeId": null,
-                        "blackboard": [
-                            {
-                                "key": "hp_ratio",
-                                "value": 0.5
-                            },
-                            {
-                                "key": "damage_scale",
-                                "value": 1.1
-                            }
-                        ]
-                    }
-                }
-            },
-            "TALENT_DATA_ONLY": {
-                "0": {
-                    "talentIndex": 0,
-                    "name": "劝善",
-                    "description": null,
-                    "upgradeDescription": "对生命值低于一半的单位造成的伤害提升10%；造成致命伤害时使敌人保留1点生命并使其<$ba.dying>重伤</>（击杀者技力+2）；嵯峨不攻击<$ba.dying>重伤</>单位",
-                    "rangeId": null,
-                    "blackboard": [
-                        {
-                            "key": "move_speed",
-                            "value": -0.8
-                        },
-                        {
-                            "key": "sp",
-                            "value": 2.0
-                        },
-                        {
-                            "key": "interval",
-                            "value": 10.0
-                        }
-                    ]
-                }
-            }
-        },
-        "2": {
-            "TRAIT": {
-                "overrideDescripton": "能够阻挡两个敌人，阻挡敌人时攻击力和防御力各+8％",
-                "additionalDescription": null,
-                "rangeId": null,
-                "blackboard": [
-                    {
-                        "key": "atk",
-                        "value": 0.08
-                    },
-                    {
-                        "key": "def",
-                        "value": 0.08
-                    }
-                ]
-            },
-            "TALENT": {
-                "saga_equip_2_3_p2": {
-                    "0": {
-                        "talentIndex": -1,
-                        "name": null,
-                        "description": null,
-                        "upgradeDescription": "",
-                        "rangeId": null,
-                        "blackboard": [
-                            {
-                                "key": "hp_ratio",
-                                "value": 0.5
-                            },
-                            {
-                                "key": "damage_scale",
-                                "value": 1.15
-                            }
-                        ]
-                    }
-                }
-            },
-            "TALENT_DATA_ONLY": {
-                "0": {
-                    "talentIndex": 0,
-                    "name": "劝善",
-                    "description": null,
-                    "upgradeDescription": "对生命值低于一半的单位造成的伤害提升15%；造成致命伤害时使敌人保留1点生命并使其<$ba.dying>重伤</>（击杀者技力+2）；嵯峨不攻击<$ba.dying>重伤</>单位",
-                    "rangeId": null,
-                    "blackboard": [
-                        {
-                            "key": "move_speed",
-                            "value": -0.8
-                        },
-                        {
-                            "key": "sp",
-                            "value": 2.0
-                        },
-                        {
-                            "key": "interval",
-                            "value": 10.0
-                        }
-                    ]
-                }
-            }
-        }
-    },
-    "uniequip_002_kalts": {
-        "mission": {
-            "uniequip_002_kalts_1": {
-                "template": "EquipmentDamageTotalWithToken",
-                "desc": "由非助战凯尔希累计造成150000点伤害",
-                "paramList": [
-                    "char_003_kalts;token_10002_kalts_mon3tr",
-                    "150000",
-                    "char_003_kalts"
-                ]
-            },
-            "uniequip_002_kalts_2": {
-                "template": "EquipmentSkillCastStage",
-                "desc": "3星通关主题曲5-10；必须编入非助战凯尔希并上场，且使用4次指令：熔毁",
-                "paramList": [
-                    "3",
-                    "main_05-10",
-                    "skchr_kalts_3",
-                    "4",
-                    "char_003_kalts"
-                ]
-            }
-        },
-        "0": {
-            "TRAIT": {
-                "overrideDescripton": null,
-                "additionalDescription": "治疗生命值低于50%的友方单位时治疗量提升<@ba.kw>15%</>",
-                "rangeId": null,
-                "blackboard": [
-                    {
-                        "key": "heal_scale",
-                        "value": 1.15
-                    },
-                    {
-                        "key": "hp_ratio",
-                        "value": 0.5
-                    }
-                ]
-            }
-        },
-        "1": {
-            "TRAIT": {
-                "overrideDescripton": null,
-                "additionalDescription": "治疗生命值低于50%的友方单位时治疗量提升<@ba.kw>15%</>",
-                "rangeId": null,
-                "blackboard": [
-                    {
-                        "key": "heal_scale",
-                        "value": 1.15
-                    },
-                    {
-                        "key": "hp_ratio",
-                        "value": 0.5
-                    }
-                ]
-            },
-            "TALENT": {
-                "kalts_equip_1_2_p2": {
-                    "0": {
-                        "talentIndex": 1,
-                        "name": null,
-                        "description": null,
-                        "upgradeDescription": "",
-                        "rangeId": "x-4",
-                        "blackboard": [
-                            {
-                                "key": "stun",
-                                "value": 3.0
-                            },
-                            {
-                                "key": "value",
-                                "value": 1200.0
-                            },
-                            {
-                                "key": "hp_ratio",
-                                "value": 0.5
-                            }
-                        ]
-                    },
-                    "4": {
-                        "talentIndex": 1,
-                        "name": null,
-                        "description": null,
-                        "upgradeDescription": "",
-                        "rangeId": "x-4",
-                        "blackboard": [
-                            {
-                                "key": "stun",
-                                "value": 3.5
-                            },
-                            {
-                                "key": "value",
-                                "value": 1400.0
-                            },
-                            {
-                                "key": "hp_ratio",
-                                "value": 0.5
-                            }
-                        ]
-                    }
-                }
-            },
-            "TALENT_DATA_ONLY": {
-                "0": {
-                    "token": [
-                        "TokenFalse",
-                        "TokenTrue"
-                    ],
-                    "talentIndex": [
-                        1,
-                        1
-                    ],
-                    "name": [
-                        "不毁重构",
-                        "不毁重构"
-                    ],
-                    "description": [
-                        null,
-                        null
-                    ],
-                    "upgradeDescription": [
-                        "Mon3tr在生命值首次低于50%和被击倒后（不包括撤退）使周围8格内所有敌人<$ba.stun>晕眩</>3秒并对其造成1200点真实伤害",
-                        "生命值首次低于50%和被击倒后（不包括撤退）使周围8格内所有敌人<$ba.stun>晕眩</>3秒并对其造成1200点真实伤害"
-                    ],
-                    "rangeId": [
-                        null,
-                        "x-4"
-                    ],
-                    "blackboard": [
-                        [],
-                        [
-                            {
-                                "key": "stun",
-                                "value": 3.0
-                            },
-                            {
-                                "key": "value",
-                                "value": 1200.0
-                            }
-                        ]
-                    ]
-                },
-                "4": {
-                    "token": [
-                        "TokenFalse",
-                        "TokenTrue"
-                    ],
-                    "talentIndex": [
-                        1,
-                        1
-                    ],
-                    "name": [
-                        "不毁重构",
-                        "不毁重构"
-                    ],
-                    "description": [
-                        null,
-                        null
-                    ],
-                    "upgradeDescription": [
-                        "Mon3tr在生命值首次低于50%和被击倒后（不包括撤退）使周围8格内所有敌人<$ba.stun>晕眩</>3.5<@ba.talpu>（+0.5）</>秒并对其造成1400<@ba.talpu>（+200）</>点真实伤害",
-                        "生命值首次低于50%和被击倒后（不包括撤退）使周围8格内所有敌人<$ba.stun>晕眩</>3.5<@ba.talpu>（+0.5）</>秒并对其造成1400<@ba.talpu>（+200）</>点真实伤害"
-                    ],
-                    "rangeId": [
-                        null,
-                        "x-4"
-                    ],
-                    "blackboard": [
-                        [],
-                        [
-                            {
-                                "key": "stun",
-                                "value": 3.5
-                            },
-                            {
-                                "key": "value",
-                                "value": 1400.0
-                            }
-                        ]
-                    ]
-                }
-            }
-        },
-        "2": {
-            "TRAIT": {
-                "overrideDescripton": null,
-                "additionalDescription": "治疗生命值低于50%的友方单位时治疗量提升<@ba.kw>15%</>",
-                "rangeId": null,
-                "blackboard": [
-                    {
-                        "key": "heal_scale",
-                        "value": 1.15
-                    },
-                    {
-                        "key": "hp_ratio",
-                        "value": 0.5
-                    }
-                ]
-            },
-            "TALENT": {
-                "kalts_equip_1_3_p2": {
-                    "0": {
-                        "talentIndex": 1,
-                        "name": null,
-                        "description": null,
-                        "upgradeDescription": "",
-                        "rangeId": "x-4",
-                        "blackboard": [
-                            {
-                                "key": "stun",
-                                "value": 3.5
-                            },
-                            {
-                                "key": "value",
-                                "value": 1500.0
-                            },
-                            {
-                                "key": "hp_ratio",
-                                "value": 0.5
-                            }
-                        ]
-                    },
-                    "4": {
-                        "talentIndex": 1,
-                        "name": null,
-                        "description": null,
-                        "upgradeDescription": "",
-                        "rangeId": "x-4",
-                        "blackboard": [
-                            {
-                                "key": "stun",
-                                "value": 4.0
-                            },
-                            {
-                                "key": "value",
-                                "value": 1700.0
-                            },
-                            {
-                                "key": "hp_ratio",
-                                "value": 0.5
-                            }
-                        ]
-                    }
-                }
-            },
-            "TALENT_DATA_ONLY": {
-                "0": {
-                    "token": [
-                        "TokenFalse",
-                        "TokenTrue"
-                    ],
-                    "talentIndex": [
-                        1,
-                        1
-                    ],
-                    "name": [
-                        "不毁重构",
-                        "不毁重构"
-                    ],
-                    "description": [
-                        null,
-                        null
-                    ],
-                    "upgradeDescription": [
-                        "Mon3tr在生命值首次低于50%和被击倒后（不包括撤退）使周围8格内所有敌人<$ba.stun>晕眩</>3.5秒并对其造成1500点真实伤害",
-                        "生命值首次低于50%和被击倒后（不包括撤退）使周围8格内所有敌人<$ba.stun>晕眩</>3.5秒并对其造成1500点真实伤害"
-                    ],
-                    "rangeId": [
-                        null,
-                        "x-4"
-                    ],
-                    "blackboard": [
-                        [],
-                        [
-                            {
-                                "key": "stun",
-                                "value": 3.5
-                            },
-                            {
-                                "key": "value",
-                                "value": 1500.0
-                            }
-                        ]
-                    ]
-                },
-                "4": {
-                    "token": [
-                        "TokenFalse",
-                        "TokenTrue"
-                    ],
-                    "talentIndex": [
-                        1,
-                        1
-                    ],
-                    "name": [
-                        "不毁重构",
-                        "不毁重构"
-                    ],
-                    "description": [
-                        null,
-                        null
-                    ],
-                    "upgradeDescription": [
-                        "Mon3tr在生命值首次低于50%和被击倒后（不包括撤退）使周围8格内所有敌人<$ba.stun>晕眩</>4<@ba.talpu>（+0.5）</>秒并对其造成1700<@ba.talpu>（+200）</>点真实伤害",
-                        "生命值首次低于50%和被击倒后（不包括撤退）使周围8格内所有敌人<$ba.stun>晕眩</>4<@ba.talpu>（+0.5）</>秒并对其造成1700<@ba.talpu>（+200）</>点真实伤害"
-                    ],
-                    "rangeId": [
-                        null,
-                        "x-4"
-                    ],
-                    "blackboard": [
-                        [],
-                        [
-                            {
-                                "key": "stun",
-                                "value": 4.0
-                            },
-                            {
-                                "key": "value",
-                                "value": 1700.0
-                            }
-                        ]
-                    ]
-                }
-            }
-        }
-    },
-    "uniequip_002_cqbw": {
-        "mission": {
-            "uniequip_002_cqbw_1": {
-                "template": "EquipmentEventTotal",
-                "desc": "由非助战W累计造成80歼灭数",
-                "paramList": [
-                    "char_113_cqbw",
-                    "DEATHDETAIL,char_113_cqbw,killcount",
-                    "80"
-                ]
-            },
-            "uniequip_002_cqbw_2": {
+            "uniequip_002_ashlok_2": {
                 "template": "EquipmentEventStageMore",
-                "desc": "3星通关插曲DM-3；必须编入非助战W并上场，且使用W歼灭至少2个萨卡兹穿刺手",
+                "desc": "3星通关主题曲7-9；必须编入非助战灰毫并上场，且使用灰毫歼灭至少2名游击队传令兵",
                 "paramList": [
                     "3",
-                    "act9d0_03",
-                    "char_113_cqbw",
-                    "DEATHDETAIL,char_113_cqbw,enemy_1072_dlancer",
+                    "main_07-07",
+                    "char_431_ashlok",
+                    "DEATHDETAIL,char_431_ashlok,enemy_1080_sotidp",
                     "2"
                 ]
             }
         },
         "0": {
             "TRAIT": {
-                "overrideDescripton": "攻击造成<@ba.kw>群体物理伤害</>",
-                "additionalDescription": "攻击被阻挡的敌人时攻击力提升至<@ba.kw>{atk_scale:0%}</>",
+                "overrideDescripton": null,
+                "additionalDescription": "攻击被阻挡的敌人时攻击力提升至<@ba.vup>{atk_scale:0%}</>",
                 "rangeId": null,
                 "blackboard": [
                     {
@@ -1176,8 +216,8 @@
         },
         "1": {
             "TRAIT": {
-                "overrideDescripton": "攻击造成<@ba.kw>群体物理伤害</>",
-                "additionalDescription": "攻击被阻挡的敌人时攻击力提升至<@ba.kw>{atk_scale:0%}</>",
+                "overrideDescripton": null,
+                "additionalDescription": "攻击被阻挡的敌人时攻击力提升至<@ba.vup>{atk_scale:0%}</>",
                 "rangeId": null,
                 "blackboard": [
                     {
@@ -1187,66 +227,46 @@
                 ]
             },
             "TALENT": {
-                "cqbw_equip_1_2_p2": {
+                "ashlok_equip_1_2_p2": {
                     "0": {
-                        "talentIndex": 1,
-                        "name": "落井下石",
+                        "talentIndex": 0,
+                        "name": "炮术研习",
                         "description": null,
-                        "upgradeDescription": "攻击范围内的敌人在被<$ba.stun>晕眩</>时受到的物理伤害+21%，击倒敌人时获得1点技力",
+                        "upgradeDescription": "攻击力+10%，前后两格为地面时改为攻击力+16%",
                         "rangeId": null,
                         "blackboard": [
                             {
-                                "key": "damage_scale",
-                                "value": 1.21
+                                "key": "atk",
+                                "value": 0.1
                             },
                             {
-                                "key": "sp",
-                                "value": 1.0
+                                "key": "ashlok_t_1.atk",
+                                "value": 0.16
+                            },
+                            {
+                                "key": "cnt",
+                                "value": 2.0
                             }
                         ]
                     },
                     "4": {
-                        "talentIndex": 1,
-                        "name": "落井下石",
+                        "talentIndex": 0,
+                        "name": "炮术研习",
                         "description": null,
-                        "upgradeDescription": "攻击范围内的敌人在被<$ba.stun>晕眩</>时受到的物理伤害+24%<@ba.talpu>（+3%）</>，击倒敌人时获得1点技力",
+                        "upgradeDescription": "攻击力+12%<@ba.talpu>（+2%）</>，前后两格为地面时改为攻击力+18%<@ba.talpu>（+2%）</>",
                         "rangeId": null,
                         "blackboard": [
                             {
-                                "key": "damage_scale",
-                                "value": 1.24
+                                "key": "atk",
+                                "value": 0.12
                             },
                             {
-                                "key": "sp",
-                                "value": 1.0
-                            }
-                        ]
-                    }
-                },
-                "token_cqbw_equip_1_2_p2": {
-                    "0": {
-                        "talentIndex": -1,
-                        "name": null,
-                        "description": null,
-                        "upgradeDescription": "",
-                        "rangeId": null,
-                        "blackboard": [
+                                "key": "ashlok_t_1.atk",
+                                "value": 0.18
+                            },
                             {
-                                "key": "sp",
-                                "value": 1.0
-                            }
-                        ]
-                    },
-                    "4": {
-                        "talentIndex": -1,
-                        "name": null,
-                        "description": null,
-                        "upgradeDescription": "",
-                        "rangeId": null,
-                        "blackboard": [
-                            {
-                                "key": "sp",
-                                "value": 1.0
+                                "key": "cnt",
+                                "value": 2.0
                             }
                         ]
                     }
@@ -1255,8 +275,8 @@
         },
         "2": {
             "TRAIT": {
-                "overrideDescripton": "攻击造成<@ba.kw>群体物理伤害</>",
-                "additionalDescription": "攻击被阻挡的敌人时攻击力提升至<@ba.kw>{atk_scale:0%}</>",
+                "overrideDescripton": null,
+                "additionalDescription": "攻击被阻挡的敌人时攻击力提升至<@ba.vup>{atk_scale:0%}</>",
                 "rangeId": null,
                 "blackboard": [
                     {
@@ -1266,71 +286,1013 @@
                 ]
             },
             "TALENT": {
-                "cqbw_equip_1_3_p2": {
+                "ashlok_equip_1_3_p2": {
                     "0": {
-                        "talentIndex": 1,
-                        "name": "落井下石",
+                        "talentIndex": 0,
+                        "name": "炮术研习",
                         "description": null,
-                        "upgradeDescription": "攻击范围内的敌人在被<$ba.stun>晕眩</>时受到的物理伤害+24%，击倒敌人时获得1点技力",
+                        "upgradeDescription": "攻击力+10%，前后两格为地面时改为攻击力+20%",
                         "rangeId": null,
                         "blackboard": [
                             {
-                                "key": "damage_scale",
-                                "value": 1.24
+                                "key": "atk",
+                                "value": 0.1
                             },
                             {
-                                "key": "sp",
-                                "value": 1.0
+                                "key": "ashlok_t_1.atk",
+                                "value": 0.2
+                            },
+                            {
+                                "key": "cnt",
+                                "value": 2.0
                             }
                         ]
                     },
                     "4": {
-                        "talentIndex": 1,
-                        "name": "落井下石",
+                        "talentIndex": 0,
+                        "name": "炮术研习",
                         "description": null,
-                        "upgradeDescription": "攻击范围内的敌人在被<$ba.stun>晕眩</>时受到的物理伤害+27%<@ba.talpu>（+3%）</>，击倒敌人时获得1点技力",
+                        "upgradeDescription": "攻击力+12%<@ba.talpu>（+2%）</>，前后两格为地面时改为攻击力+22%<@ba.talpu>（+2%）</>",
                         "rangeId": null,
                         "blackboard": [
                             {
-                                "key": "damage_scale",
-                                "value": 1.27
+                                "key": "atk",
+                                "value": 0.12
                             },
                             {
-                                "key": "sp",
-                                "value": 1.0
-                            }
-                        ]
-                    }
-                },
-                "token_cqbw_equip_1_3_p2": {
-                    "0": {
-                        "talentIndex": -1,
-                        "name": null,
-                        "description": null,
-                        "upgradeDescription": "",
-                        "rangeId": null,
-                        "blackboard": [
+                                "key": "ashlok_t_1.atk",
+                                "value": 0.22
+                            },
                             {
-                                "key": "sp",
-                                "value": 1.0
-                            }
-                        ]
-                    },
-                    "4": {
-                        "talentIndex": -1,
-                        "name": null,
-                        "description": null,
-                        "upgradeDescription": "",
-                        "rangeId": null,
-                        "blackboard": [
-                            {
-                                "key": "sp",
-                                "value": 1.0
+                                "key": "cnt",
+                                "value": 2.0
                             }
                         ]
                     }
                 }
             }
+        }
+    },
+    "uniequip_002_firwhl": {
+        "mission": {
+            "uniequip_002_firwhl_1": {
+                "template": "EquipmentSkillCast",
+                "desc": "战斗中非助战火哨累计使用焦土8次",
+                "paramList": [
+                    "char_493_firwhl",
+                    "skchr_firwhl_2",
+                    "8",
+                    "char_493_firwhl"
+                ]
+            },
+            "uniequip_002_firwhl_2": {
+                "template": "EquipmentSquadPos",
+                "desc": "3星通关主题曲S4-6；必须携带并部署非助战火哨，其他成员仅可编入远程位干员",
+                "paramList": [
+                    "3",
+                    "sub_04-2-3",
+                    "char_493_firwhl",
+                    "13,RANGED"
+                ]
+            }
+        },
+        "0": {
+            "TRAIT": {
+                "overrideDescripton": null,
+                "additionalDescription": "攻击被阻挡的敌人时攻击力提升至<@ba.vup>{atk_scale:0%}</>",
+                "rangeId": null,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 1.1
+                    }
+                ]
+            }
+        },
+        "1": {
+            "TRAIT": {
+                "overrideDescripton": null,
+                "additionalDescription": "攻击被阻挡的敌人时攻击力提升至<@ba.vup>{atk_scale:0%}</>",
+                "rangeId": null,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 1.1
+                    }
+                ]
+            },
+            "TALENT_DATA_ONLY": {
+                "0": {
+                    "token": [
+                        "TokenFalse"
+                    ],
+                    "talentIndex": [
+                        0
+                    ],
+                    "name": [
+                        "进退自如"
+                    ],
+                    "description": [
+                        null
+                    ],
+                    "upgradeDescription": [
+                        "未阻挡敌人时攻击力+16%，阻挡敌人时防御力+16%"
+                    ],
+                    "rangeId": [
+                        null
+                    ],
+                    "blackboard": [
+                        [
+                            {
+                                "key": "atk",
+                                "value": 0.16
+                            },
+                            {
+                                "key": "def",
+                                "value": 0.16
+                            }
+                        ]
+                    ]
+                },
+                "4": {
+                    "token": [
+                        "TokenFalse"
+                    ],
+                    "talentIndex": [
+                        0
+                    ],
+                    "name": [
+                        "进退自如"
+                    ],
+                    "description": [
+                        null
+                    ],
+                    "upgradeDescription": [
+                        "未阻挡敌人时攻击力+18%<@ba.talpu>（+2%）</>，阻挡敌人时防御力+18%<@ba.talpu>（+2%）</>"
+                    ],
+                    "rangeId": [
+                        null
+                    ],
+                    "blackboard": [
+                        [
+                            {
+                                "key": "atk",
+                                "value": 0.18
+                            },
+                            {
+                                "key": "def",
+                                "value": 0.18
+                            }
+                        ]
+                    ]
+                }
+            }
+        },
+        "2": {
+            "TRAIT": {
+                "overrideDescripton": null,
+                "additionalDescription": "攻击被阻挡的敌人时攻击力提升至<@ba.vup>{atk_scale:0%}</>",
+                "rangeId": null,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 1.1
+                    }
+                ]
+            },
+            "TALENT_DATA_ONLY": {
+                "0": {
+                    "token": [
+                        "TokenFalse"
+                    ],
+                    "talentIndex": [
+                        0
+                    ],
+                    "name": [
+                        "进退自如"
+                    ],
+                    "description": [
+                        null
+                    ],
+                    "upgradeDescription": [
+                        "未阻挡敌人时攻击力+18%，阻挡敌人时防御力+18%"
+                    ],
+                    "rangeId": [
+                        null
+                    ],
+                    "blackboard": [
+                        [
+                            {
+                                "key": "atk",
+                                "value": 0.18
+                            },
+                            {
+                                "key": "def",
+                                "value": 0.18
+                            }
+                        ]
+                    ]
+                },
+                "4": {
+                    "token": [
+                        "TokenFalse"
+                    ],
+                    "talentIndex": [
+                        0
+                    ],
+                    "name": [
+                        "进退自如"
+                    ],
+                    "description": [
+                        null
+                    ],
+                    "upgradeDescription": [
+                        "未阻挡敌人时攻击力+20%<@ba.talpu>（+2%）</>，阻挡敌人时防御力+20%<@ba.talpu>（+2%）</>"
+                    ],
+                    "rangeId": [
+                        null
+                    ],
+                    "blackboard": [
+                        [
+                            {
+                                "key": "atk",
+                                "value": 0.2
+                            },
+                            {
+                                "key": "def",
+                                "value": 0.2
+                            }
+                        ]
+                    ]
+                }
+            }
+        }
+    },
+    "uniequip_002_delphn": {
+        "mission": {
+            "uniequip_002_delphn_1": {
+                "template": "EquipmentCharKilled",
+                "desc": "由非助战戴菲恩累计造成30歼灭数",
+                "paramList": [
+                    "char_4110_delphn",
+                    "30",
+                    "char_4110_delphn"
+                ]
+            },
+            "uniequip_002_delphn_2": {
+                "template": "EquipmentSkillCastStage",
+                "desc": "3星通关插曲WD-6；必须携带且部署非助战戴菲恩，且至少使用2次抢攻",
+                "paramList": [
+                    "3",
+                    "act18d0_06",
+                    "skchr_delphn_2",
+                    "2",
+                    "char_4110_delphn"
+                ]
+            }
+        },
+        "0": {
+            "TALENT": {
+                "delphn_equip_1_1_p1": {
+                    "0": {
+                        "talentIndex": -1,
+                        "name": null,
+                        "description": null,
+                        "upgradeDescription": "",
+                        "rangeId": null,
+                        "blackboard": [
+                            {
+                                "key": "attack_speed",
+                                "value": 30.0
+                            }
+                        ]
+                    }
+                }
+            },
+            "DISPLAY": {}
+        },
+        "1": {
+            "TALENT": {
+                "delphn_equip_1_2_p1": {
+                    "0": {
+                        "talentIndex": -1,
+                        "name": null,
+                        "description": null,
+                        "upgradeDescription": "",
+                        "rangeId": null,
+                        "blackboard": [
+                            {
+                                "key": "attack_speed",
+                                "value": 30.0
+                            }
+                        ]
+                    }
+                }
+            },
+            "TALENT_DATA_ONLY": {
+                "0": {
+                    "token": [
+                        "TokenFalse"
+                    ],
+                    "talentIndex": [
+                        0
+                    ],
+                    "name": [
+                        "濯洗剑锋"
+                    ],
+                    "description": [
+                        null
+                    ],
+                    "upgradeDescription": [
+                        "攻击生命值高于80%的敌人时造成的伤害提高21%"
+                    ],
+                    "rangeId": [
+                        null
+                    ],
+                    "blackboard": [
+                        [
+                            {
+                                "key": "hp_ratio",
+                                "value": 0.8
+                            },
+                            {
+                                "key": "damage_scale",
+                                "value": 1.21
+                            }
+                        ]
+                    ]
+                },
+                "4": {
+                    "token": [
+                        "TokenFalse"
+                    ],
+                    "talentIndex": [
+                        0
+                    ],
+                    "name": [
+                        "濯洗剑锋"
+                    ],
+                    "description": [
+                        null
+                    ],
+                    "upgradeDescription": [
+                        "攻击生命值高于80%的敌人时造成的伤害提高23%<@ba.talpu>（+2%）</>"
+                    ],
+                    "rangeId": [
+                        null
+                    ],
+                    "blackboard": [
+                        [
+                            {
+                                "key": "hp_ratio",
+                                "value": 0.8
+                            },
+                            {
+                                "key": "damage_scale",
+                                "value": 1.23
+                            }
+                        ]
+                    ]
+                }
+            },
+            "DISPLAY": {}
+        },
+        "2": {
+            "TALENT": {
+                "delphn_equip_1_3_p1": {
+                    "0": {
+                        "talentIndex": -1,
+                        "name": null,
+                        "description": null,
+                        "upgradeDescription": "",
+                        "rangeId": null,
+                        "blackboard": [
+                            {
+                                "key": "attack_speed",
+                                "value": 30.0
+                            }
+                        ]
+                    }
+                }
+            },
+            "TALENT_DATA_ONLY": {
+                "0": {
+                    "token": [
+                        "TokenFalse"
+                    ],
+                    "talentIndex": [
+                        0
+                    ],
+                    "name": [
+                        "濯洗剑锋"
+                    ],
+                    "description": [
+                        null
+                    ],
+                    "upgradeDescription": [
+                        "攻击生命值高于80%的敌人时造成的伤害提高23%"
+                    ],
+                    "rangeId": [
+                        null
+                    ],
+                    "blackboard": [
+                        [
+                            {
+                                "key": "hp_ratio",
+                                "value": 0.8
+                            },
+                            {
+                                "key": "damage_scale",
+                                "value": 1.23
+                            }
+                        ]
+                    ]
+                },
+                "4": {
+                    "token": [
+                        "TokenFalse"
+                    ],
+                    "talentIndex": [
+                        0
+                    ],
+                    "name": [
+                        "濯洗剑锋"
+                    ],
+                    "description": [
+                        null
+                    ],
+                    "upgradeDescription": [
+                        "攻击生命值高于80%的敌人时造成的伤害提高25%<@ba.talpu>（+2%）</>"
+                    ],
+                    "rangeId": [
+                        null
+                    ],
+                    "blackboard": [
+                        [
+                            {
+                                "key": "hp_ratio",
+                                "value": 0.8
+                            },
+                            {
+                                "key": "damage_scale",
+                                "value": 1.25
+                            }
+                        ]
+                    ]
+                }
+            },
+            "DISPLAY": {}
+        }
+    },
+    "uniequip_002_vrdant": {
+        "mission": {
+            "uniequip_002_vrdant_1": {
+                "template": "EquipmentDamageTotal",
+                "desc": "由非助战维荻累计造成60000点伤害",
+                "paramList": [
+                    "char_4107_vrdant",
+                    "60000"
+                ]
+            },
+            "uniequip_002_vrdant_2": {
+                "template": "EquipmentSkillCastStage",
+                "desc": "3星通关主题曲9-3标准实战环境；必须编入非助战维荻并上场，且至少使用2次双刃毒藤",
+                "paramList": [
+                    "3",
+                    "main_09-02",
+                    "skchr_vrdant_2",
+                    "2",
+                    "char_4107_vrdant"
+                ]
+            }
+        },
+        "0": {
+            "TRAIT_DATA_ONLY": {
+                "overrideDescripton": "受到致命伤时不撤退，切换成<替身>作战（替身阻挡数为0但生命值<@ba.kw>提升</>），持续20秒后自身再次替换<替身>",
+                "additionalDescription": null,
+                "rangeId": "x-4",
+                "blackboard": [
+                    {
+                        "key": "duration",
+                        "value": 20.0
+                    },
+                    {
+                        "key": "max_hp",
+                        "value": 0.2
+                    },
+                    {
+                        "key": "talent_override_rangeid_flag",
+                        "value": 1.0
+                    }
+                ]
+            }
+        },
+        "1": {
+            "TRAIT_DATA_ONLY": {
+                "overrideDescripton": "受到致命伤时不撤退，切换成<替身>作战（替身阻挡数为0但生命值<@ba.kw>提升</>），持续20秒后自身再次替换<替身>",
+                "additionalDescription": null,
+                "rangeId": "x-4",
+                "blackboard": [
+                    {
+                        "key": "duration",
+                        "value": 20.0
+                    },
+                    {
+                        "key": "max_hp",
+                        "value": 0.2
+                    },
+                    {
+                        "key": "talent_override_rangeid_flag",
+                        "value": 1.0
+                    }
+                ]
+            },
+            "TALENT_DATA_ONLY": {
+                "0": {
+                    "token": [
+                        "TokenFalse"
+                    ],
+                    "talentIndex": [
+                        0
+                    ],
+                    "name": [
+                        "植物自愈力"
+                    ],
+                    "description": [
+                        null
+                    ],
+                    "upgradeDescription": [
+                        "<替身>每秒回复3.5%生命值，法术抗性+5"
+                    ],
+                    "rangeId": [
+                        null
+                    ],
+                    "blackboard": [
+                        [
+                            {
+                                "key": "hp_recovery_per_sec_by_max_hp_ratio",
+                                "value": 0.035
+                            },
+                            {
+                                "key": "magic_resistance",
+                                "value": 5.0
+                            }
+                        ]
+                    ]
+                },
+                "4": {
+                    "token": [
+                        "TokenFalse"
+                    ],
+                    "talentIndex": [
+                        0
+                    ],
+                    "name": [
+                        "植物自愈力"
+                    ],
+                    "description": [
+                        null
+                    ],
+                    "upgradeDescription": [
+                        "<替身>每秒回复4%<@ba.talpu>（+0.5%）</>生命值，法术抗性+5"
+                    ],
+                    "rangeId": [
+                        null
+                    ],
+                    "blackboard": [
+                        [
+                            {
+                                "key": "hp_recovery_per_sec_by_max_hp_ratio",
+                                "value": 0.04
+                            },
+                            {
+                                "key": "magic_resistance",
+                                "value": 5.0
+                            }
+                        ]
+                    ]
+                }
+            }
+        },
+        "2": {
+            "TRAIT_DATA_ONLY": {
+                "overrideDescripton": "受到致命伤时不撤退，切换成<替身>作战（替身阻挡数为0但生命值<@ba.kw>提升</>），持续20秒后自身再次替换<替身>",
+                "additionalDescription": null,
+                "rangeId": "x-4",
+                "blackboard": [
+                    {
+                        "key": "duration",
+                        "value": 20.0
+                    },
+                    {
+                        "key": "max_hp",
+                        "value": 0.2
+                    },
+                    {
+                        "key": "talent_override_rangeid_flag",
+                        "value": 1.0
+                    }
+                ]
+            },
+            "TALENT_DATA_ONLY": {
+                "0": {
+                    "token": [
+                        "TokenFalse"
+                    ],
+                    "talentIndex": [
+                        0
+                    ],
+                    "name": [
+                        "植物自愈力"
+                    ],
+                    "description": [
+                        null
+                    ],
+                    "upgradeDescription": [
+                        "<替身>每秒回复3.5%生命值，法术抗性+8"
+                    ],
+                    "rangeId": [
+                        null
+                    ],
+                    "blackboard": [
+                        [
+                            {
+                                "key": "hp_recovery_per_sec_by_max_hp_ratio",
+                                "value": 0.035
+                            },
+                            {
+                                "key": "magic_resistance",
+                                "value": 8.0
+                            }
+                        ]
+                    ]
+                },
+                "4": {
+                    "token": [
+                        "TokenFalse"
+                    ],
+                    "talentIndex": [
+                        0
+                    ],
+                    "name": [
+                        "植物自愈力"
+                    ],
+                    "description": [
+                        null
+                    ],
+                    "upgradeDescription": [
+                        "<替身>每秒回复4%<@ba.talpu>（+0.5%）</>生命值，法术抗性+8"
+                    ],
+                    "rangeId": [
+                        null
+                    ],
+                    "blackboard": [
+                        [
+                            {
+                                "key": "hp_recovery_per_sec_by_max_hp_ratio",
+                                "value": 0.04
+                            },
+                            {
+                                "key": "magic_resistance",
+                                "value": 8.0
+                            }
+                        ]
+                    ]
+                }
+            }
+        }
+    },
+    "uniequip_003_phenxi": {
+        "mission": {
+            "uniequip_003_phenxi_1": {
+                "template": "EquipmentBattleCharKilled",
+                "desc": "完成5次战斗；必须编入非助战菲亚梅塔并上场，且使用菲亚梅塔歼灭至少10个敌人",
+                "paramList": [
+                    "5",
+                    "char_300_phenxi",
+                    "10"
+                ]
+            },
+            "uniequip_003_phenxi_2": {
+                "template": "EquipmentSquadProEx",
+                "desc": "3星通关别传GA-4；必须编入非助战菲亚梅塔并上场，且队伍中不能有其他狙击干员",
+                "paramList": [
+                    "3",
+                    "act16side_04",
+                    "char_300_phenxi",
+                    "SNIPER"
+                ]
+            }
+        },
+        "0": {
+            "TRAIT": {
+                "overrideDescripton": null,
+                "additionalDescription": "攻击被阻挡的敌人时攻击力提升至<@ba.vup>{atk_scale:0%}</>",
+                "rangeId": null,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 1.1
+                    }
+                ]
+            }
+        },
+        "1": {
+            "TRAIT": {
+                "overrideDescripton": null,
+                "additionalDescription": "攻击被阻挡的敌人时攻击力提升至<@ba.vup>{atk_scale:0%}</>",
+                "rangeId": null,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 1.1
+                    }
+                ]
+            },
+            "TALENT": {
+                "phenxi_equip_2_2_p2": {
+                    "0": {
+                        "talentIndex": 0,
+                        "name": "陈述苦难",
+                        "description": null,
+                        "upgradeDescription": "自身生命会不断流失（该效果不会使生命降至30%以下）；生命值高于50%时获得+28%攻击力的<$ba.strong>精力充沛</>；高于80%效果翻倍",
+                        "rangeId": null,
+                        "blackboard": [
+                            {
+                                "key": "interval",
+                                "value": 0.1
+                            },
+                            {
+                                "key": "hp_ratio",
+                                "value": 0.005
+                            },
+                            {
+                                "key": "min_hp_ratio",
+                                "value": 0.302
+                            },
+                            {
+                                "key": "phenxi_t_1[peak_1].peak_performance.atk",
+                                "value": 0.28
+                            },
+                            {
+                                "key": "phenxi_t_1[peak_1].peak_performance.hp_ratio",
+                                "value": 0.5
+                            },
+                            {
+                                "key": "phenxi_t_1[peak_2].peak_performance.atk",
+                                "value": 0.56
+                            },
+                            {
+                                "key": "phenxi_t_1[peak_2].peak_performance.hp_ratio",
+                                "value": 0.8
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "2": {
+            "TRAIT": {
+                "overrideDescripton": null,
+                "additionalDescription": "攻击被阻挡的敌人时攻击力提升至<@ba.vup>{atk_scale:0%}</>",
+                "rangeId": null,
+                "blackboard": [
+                    {
+                        "key": "atk_scale",
+                        "value": 1.1
+                    }
+                ]
+            },
+            "TALENT": {
+                "phenxi_equip_2_3_p2": {
+                    "0": {
+                        "talentIndex": 0,
+                        "name": "陈述苦难",
+                        "description": null,
+                        "upgradeDescription": "自身生命会不断流失（该效果不会使生命降至50%以下）；生命值高于50%时获得+30%攻击力的<$ba.strong>精力充沛</>；高于80%效果翻倍",
+                        "rangeId": null,
+                        "blackboard": [
+                            {
+                                "key": "interval",
+                                "value": 0.1
+                            },
+                            {
+                                "key": "hp_ratio",
+                                "value": 0.005
+                            },
+                            {
+                                "key": "min_hp_ratio",
+                                "value": 0.503
+                            },
+                            {
+                                "key": "phenxi_t_1[peak_1].peak_performance.atk",
+                                "value": 0.3
+                            },
+                            {
+                                "key": "phenxi_t_1[peak_1].peak_performance.hp_ratio",
+                                "value": 0.5
+                            },
+                            {
+                                "key": "phenxi_t_1[peak_2].peak_performance.atk",
+                                "value": 0.6
+                            },
+                            {
+                                "key": "phenxi_t_1[peak_2].peak_performance.hp_ratio",
+                                "value": 0.8
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "uniequip_004_ebnhlz": {
+        "mission": {
+            "uniequip_004_ebnhlz_1": {
+                "template": "EquipmentSkillCast",
+                "desc": "战斗中非助战黑键累计使用寂静之声10次",
+                "paramList": [
+                    "char_4046_ebnhlz",
+                    "skchr_ebnhlz_3",
+                    "10",
+                    "char_4046_ebnhlz"
+                ]
+            },
+            "uniequip_004_ebnhlz_2": {
+                "template": "EquipmentEventStageMore",
+                "desc": "3星通关主题曲11-12标准实战环境；必须编入非助战黑键并上场，且使用黑键歼灭至少2名伦蒂尼姆城防自行炮",
+                "paramList": [
+                    "3",
+                    "main_11-10",
+                    "char_4046_ebnhlz",
+                    "DEATHDETAIL,char_4046_ebnhlz,enemy_1273_stmgun",
+                    "2"
+                ]
+            }
+        },
+        "0": {
+            "TALENT": {
+                "ebnhlz_equip_3_1_p1": {
+                    "0": {
+                        "talentIndex": -1,
+                        "name": null,
+                        "description": null,
+                        "upgradeDescription": "",
+                        "rangeId": null,
+                        "blackboard": [
+                            {
+                                "key": "ep_damage_ratio",
+                                "value": 0.08
+                            }
+                        ]
+                    }
+                }
+            },
+            "DISPLAY": {}
+        },
+        "1": {
+            "TALENT": {
+                "ebnhlz_equip_3_2_p1": {
+                    "0": {
+                        "talentIndex": -1,
+                        "name": null,
+                        "description": null,
+                        "upgradeDescription": "",
+                        "rangeId": null,
+                        "blackboard": [
+                            {
+                                "key": "ep_damage_ratio",
+                                "value": 0.08
+                            }
+                        ]
+                    }
+                },
+                "ebnhlz_equip_3_2_p2": {
+                    "0": {
+                        "talentIndex": 1,
+                        "name": "倚音",
+                        "description": null,
+                        "upgradeDescription": "若攻击目标周围没有其他敌人，攻击对其额外造成相当于攻击力24%的法术伤害；若攻击目标处于<$ba.dt.apoptosis2>凋亡损伤</>爆发期间，攻击对其额外造成相当于攻击力20%的元素伤害",
+                        "rangeId": null,
+                        "blackboard": [
+                            {
+                                "key": "atk_scale",
+                                "value": 0.24
+                            },
+                            {
+                                "key": "cnt",
+                                "value": 0.0
+                            },
+                            {
+                                "key": "range_radius",
+                                "value": 1.1
+                            },
+                            {
+                                "key": "element_atk_scale",
+                                "value": 0.2
+                            }
+                        ]
+                    },
+                    "4": {
+                        "talentIndex": 1,
+                        "name": "倚音",
+                        "description": null,
+                        "upgradeDescription": "若攻击目标周围没有其他敌人，攻击对其额外造成相当于攻击力26%<@ba.talpu>（+2%）</>的法术伤害；若攻击目标处于<$ba.dt.apoptosis2>凋亡损伤</>爆发期间，攻击对其额外造成相当于攻击力20%的元素伤害",
+                        "rangeId": null,
+                        "blackboard": [
+                            {
+                                "key": "atk_scale",
+                                "value": 0.26
+                            },
+                            {
+                                "key": "cnt",
+                                "value": 0.0
+                            },
+                            {
+                                "key": "range_radius",
+                                "value": 1.1
+                            },
+                            {
+                                "key": "element_atk_scale",
+                                "value": 0.2
+                            }
+                        ]
+                    }
+                }
+            },
+            "DISPLAY": {}
+        },
+        "2": {
+            "TALENT": {
+                "ebnhlz_equip_3_3_p1": {
+                    "0": {
+                        "talentIndex": -1,
+                        "name": null,
+                        "description": null,
+                        "upgradeDescription": "",
+                        "rangeId": null,
+                        "blackboard": [
+                            {
+                                "key": "ep_damage_ratio",
+                                "value": 0.08
+                            }
+                        ]
+                    }
+                },
+                "ebnhlz_equip_3_3_p2": {
+                    "0": {
+                        "talentIndex": 1,
+                        "name": "倚音",
+                        "description": null,
+                        "upgradeDescription": "若攻击目标周围没有其他敌人，攻击对其额外造成相当于攻击力30%的法术伤害；若攻击目标处于<$ba.dt.apoptosis2>凋亡损伤</>爆发期间，攻击对其额外造成相当于攻击力30%的元素伤害",
+                        "rangeId": null,
+                        "blackboard": [
+                            {
+                                "key": "atk_scale",
+                                "value": 0.3
+                            },
+                            {
+                                "key": "cnt",
+                                "value": 0.0
+                            },
+                            {
+                                "key": "range_radius",
+                                "value": 1.1
+                            },
+                            {
+                                "key": "element_atk_scale",
+                                "value": 0.3
+                            }
+                        ]
+                    },
+                    "4": {
+                        "talentIndex": 1,
+                        "name": "倚音",
+                        "description": null,
+                        "upgradeDescription": "若攻击目标周围没有其他敌人，攻击对其额外造成相当于攻击力32%<@ba.talpu>（+2%）</>的法术伤害；若攻击目标处于<$ba.dt.apoptosis2>凋亡损伤</>爆发期间，攻击对其额外造成相当于攻击力30%的元素伤害",
+                        "rangeId": null,
+                        "blackboard": [
+                            {
+                                "key": "atk_scale",
+                                "value": 0.32
+                            },
+                            {
+                                "key": "cnt",
+                                "value": 0.0
+                            },
+                            {
+                                "key": "range_radius",
+                                "value": 1.1
+                            },
+                            {
+                                "key": "element_atk_scale",
+                                "value": 0.3
+                            }
+                        ]
+                    }
+                }
+            },
+            "DISPLAY": {}
         }
     }
 }

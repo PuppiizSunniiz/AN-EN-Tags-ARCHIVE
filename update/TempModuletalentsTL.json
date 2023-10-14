@@ -1,0 +1,218 @@
+{
+    "uniequip_002_horn": [
+        [
+            {
+                "name": "Military Fortress",
+                "EN": "When this unit is on the field, Defender Operators gain +20% ATK",
+                "CN": "在场时所有重装干员的攻击力+20%",
+                "mod": "在场时所有重装干员的攻击力+25%",
+                "upgradeDescription": ""
+            },
+            {
+                "name": "Military Fortress",
+                "EN": "When this unit is on the field, Defender Operators gain +23%<@ba.talpu>(+3%)</> ATK",
+                "CN": "在场时所有重装干员的攻击力+23%<@ba.talpu>（+3%）</>",
+                "mod": "在场时所有重装干员的攻击力+28%<@ba.talpu>（+3%）</>",
+                "upgradeDescription": ""
+            }
+        ],
+        [
+            {
+                "name": "Military Fortress",
+                "EN": "When this unit is on the field, Defender Operators gain +20% ATK",
+                "CN": "在场时所有重装干员的攻击力+20%",
+                "mod": "在场时所有重装干员的攻击力+28%",
+                "upgradeDescription": ""
+            },
+            {
+                "name": "Military Fortress",
+                "EN": "When this unit is on the field, Defender Operators gain +23%<@ba.talpu>(+3%)</> ATK",
+                "CN": "在场时所有重装干员的攻击力+23%<@ba.talpu>（+3%）</>",
+                "mod": "在场时所有重装干员的攻击力+31%<@ba.talpu>（+3%）</>",
+                "upgradeDescription": ""
+            }
+        ]
+    ],
+    "uniequip_002_ashlok": [
+        [
+            {
+                "name": "Bombardment Studies",
+                "EN": "ATK +8%. If the four adjacent tiles are ground tiles, ATK +16% instead",
+                "CN": "攻击力+8%，周身四格为地面时改为攻击力+16%",
+                "mod": "攻击力+10%，前后两格为地面时改为攻击力+16%",
+                "upgradeDescription": ""
+            },
+            {
+                "name": "Bombardment Studies",
+                "EN": "ATK +10% <@ba.talpu>(+2%)</>. If the four adjacent tiles are ground tiles, ATK +18% <@ba.talpu>(+2%)</> instead",
+                "CN": "攻击力+10%<@ba.talpu>（+2%）</>，周身四格为地面时改为攻击力+18%<@ba.talpu>（+2%）</>",
+                "mod": "攻击力+12%<@ba.talpu>（+2%）</>，前后两格为地面时改为攻击力+18%<@ba.talpu>（+2%）</>",
+                "upgradeDescription": ""
+            }
+        ],
+        [
+            {
+                "name": "Bombardment Studies",
+                "EN": "ATK +8%. If the four adjacent tiles are ground tiles, ATK +16% instead",
+                "CN": "攻击力+8%，周身四格为地面时改为攻击力+16%",
+                "mod": "攻击力+10%，前后两格为地面时改为攻击力+20%",
+                "upgradeDescription": ""
+            },
+            {
+                "name": "Bombardment Studies",
+                "EN": "ATK +10% <@ba.talpu>(+2%)</>. If the four adjacent tiles are ground tiles, ATK +18% <@ba.talpu>(+2%)</> instead",
+                "CN": "攻击力+10%<@ba.talpu>（+2%）</>，周身四格为地面时改为攻击力+18%<@ba.talpu>（+2%）</>",
+                "mod": "攻击力+12%<@ba.talpu>（+2%）</>，前后两格为地面时改为攻击力+22%<@ba.talpu>（+2%）</>",
+                "upgradeDescription": ""
+            }
+        ]
+    ],
+    "uniequip_002_firwhl": [
+        [
+            {
+                "name": "Flexible Fighter",
+                "EN": "ATK +12% when not blocking an enemy, DEF +12% when blocking an enemy",
+                "CN": "未阻挡敌人时攻击力+12%，阻挡敌人时防御力+12%",
+                "mod": "未阻挡敌人时攻击力+16%，阻挡敌人时防御力+16%",
+                "upgradeDescription": ""
+            },
+            {
+                "name": "Flexible Fighter",
+                "EN": "ATK +14% <@ba.talpu>(+2%)</> when not blocking an enemy, DEF +14% <@ba.talpu>(+2%)</> when blocking an enemy",
+                "CN": "未阻挡敌人时攻击力+14%<@ba.talpu>（+2%）</>，阻挡敌人时防御力+14%<@ba.talpu>（+2%）</>",
+                "mod": "未阻挡敌人时攻击力+18%<@ba.talpu>（+2%）</>，阻挡敌人时防御力+18%<@ba.talpu>（+2%）</>",
+                "upgradeDescription": ""
+            }
+        ],
+        [
+            {
+                "name": "Flexible Fighter",
+                "EN": "ATK +12% when not blocking an enemy, DEF +12% when blocking an enemy",
+                "CN": "未阻挡敌人时攻击力+12%，阻挡敌人时防御力+12%",
+                "mod": "未阻挡敌人时攻击力+18%，阻挡敌人时防御力+18%",
+                "upgradeDescription": ""
+            },
+            {
+                "name": "Flexible Fighter",
+                "EN": "ATK +14% <@ba.talpu>(+2%)</> when not blocking an enemy, DEF +14% <@ba.talpu>(+2%)</> when blocking an enemy",
+                "CN": "未阻挡敌人时攻击力+14%<@ba.talpu>（+2%）</>，阻挡敌人时防御力+14%<@ba.talpu>（+2%）</>",
+                "mod": "未阻挡敌人时攻击力+20%<@ba.talpu>（+2%）</>，阻挡敌人时防御力+20%<@ba.talpu>（+2%）</>",
+                "upgradeDescription": ""
+            }
+        ]
+    ],
+    "uniequip_002_delphn": [
+        [
+            {
+                "name": "濯洗剑锋",
+                "CN": "攻击生命值高于80%的敌人时造成的伤害提高18%",
+                "mod": "攻击生命值高于80%的敌人时造成的伤害提高21%",
+                "upgradeDescription": ""
+            },
+            {
+                "name": "濯洗剑锋",
+                "CN": "攻击生命值高于80%的敌人时造成的伤害提高20%<@ba.talpu>（+2%）</>",
+                "mod": "攻击生命值高于80%的敌人时造成的伤害提高23%<@ba.talpu>（+2%）</>",
+                "upgradeDescription": ""
+            }
+        ],
+        [
+            {
+                "name": "濯洗剑锋",
+                "CN": "攻击生命值高于80%的敌人时造成的伤害提高18%",
+                "mod": "攻击生命值高于80%的敌人时造成的伤害提高23%",
+                "upgradeDescription": ""
+            },
+            {
+                "name": "濯洗剑锋",
+                "CN": "攻击生命值高于80%的敌人时造成的伤害提高20%<@ba.talpu>（+2%）</>",
+                "mod": "攻击生命值高于80%的敌人时造成的伤害提高25%<@ba.talpu>（+2%）</>",
+                "upgradeDescription": ""
+            }
+        ]
+    ],
+    "uniequip_002_vrdant": [
+        [
+            {
+                "name": "植物自愈力",
+                "CN": "<替身>每秒回复3.5%生命值",
+                "mod": "<替身>每秒回复3.5%生命值，法术抗性+5",
+                "upgradeDescription": ""
+            },
+            {
+                "name": "植物自愈力",
+                "CN": "<替身>每秒回复4%<@ba.talpu>（+0.5%）</>生命值",
+                "mod": "<替身>每秒回复4%<@ba.talpu>（+0.5%）</>生命值，法术抗性+5",
+                "upgradeDescription": ""
+            }
+        ],
+        [
+            {
+                "name": "植物自愈力",
+                "CN": "<替身>每秒回复3.5%生命值",
+                "mod": "<替身>每秒回复3.5%生命值，法术抗性+8",
+                "upgradeDescription": ""
+            },
+            {
+                "name": "植物自愈力",
+                "CN": "<替身>每秒回复4%<@ba.talpu>（+0.5%）</>生命值",
+                "mod": "<替身>每秒回复4%<@ba.talpu>（+0.5%）</>生命值，法术抗性+8",
+                "upgradeDescription": ""
+            }
+        ]
+    ],
+    "uniequip_003_phenxi": [
+        [
+            {
+                "name": "Sufferer of Tribulations",
+                "EN": "Continually loses HP over time (HP cannot drop to 0 as a result of this effect); While HP is above 50%, this unit gains <$ba.strong>Vigor</>, increasing ATK by 25%; this effect is doubled above 80% HP.",
+                "CN": "自身生命会不断流失（该效果不会使生命降至0）；生命值高于50%时获得+25%攻击力的<$ba.strong>精力充沛</>；高于80%效果翻倍",
+                "mod": "自身生命会不断流失（该效果不会使生命降至30%以下）；生命值高于50%时获得+28%攻击力的<$ba.strong>精力充沛</>；高于80%效果翻倍",
+                "upgradeDescription": ""
+            }
+        ],
+        [
+            {
+                "name": "Sufferer of Tribulations",
+                "EN": "Continually loses HP over time (HP cannot drop to 0 as a result of this effect); While HP is above 50%, this unit gains <$ba.strong>Vigor</>, increasing ATK by 25%; this effect is doubled above 80% HP.",
+                "CN": "自身生命会不断流失（该效果不会使生命降至0）；生命值高于50%时获得+25%攻击力的<$ba.strong>精力充沛</>；高于80%效果翻倍",
+                "mod": "自身生命会不断流失（该效果不会使生命降至50%以下）；生命值高于50%时获得+30%攻击力的<$ba.strong>精力充沛</>；高于80%效果翻倍",
+                "upgradeDescription": ""
+            }
+        ]
+    ],
+    "uniequip_004_ebnhlz": [
+        [
+            {
+                "name": "Appoggiatura",
+                "EN": "If there are no other enemies near the target, attacks deal an additional 15% ATK as Arts damage",
+                "CN": "若攻击目标周围没有其他敌人，攻击对其额外造成相当于攻击力15%的法术伤害",
+                "mod": "若攻击目标周围没有其他敌人，攻击对其额外造成相当于攻击力24%的法术伤害；若攻击目标处于<$ba.dt.apoptosis2>凋亡损伤</>爆发期间，攻击对其额外造成相当于攻击力20%的元素伤害",
+                "upgradeDescription": ""
+            },
+            {
+                "name": "Appoggiatura",
+                "EN": "If there are no other enemies near the target, attacks deal an additional 17% <@ba.talpu>(+2%)</> ATK as Arts damage",
+                "CN": "若攻击目标周围没有其他敌人，攻击对其额外造成相当于攻击力17%<@ba.talpu>（+2%）</>的法术伤害",
+                "mod": "若攻击目标周围没有其他敌人，攻击对其额外造成相当于攻击力26%<@ba.talpu>（+2%）</>的法术伤害；若攻击目标处于<$ba.dt.apoptosis2>凋亡损伤</>爆发期间，攻击对其额外造成相当于攻击力20%的元素伤害",
+                "upgradeDescription": ""
+            }
+        ],
+        [
+            {
+                "name": "Appoggiatura",
+                "EN": "If there are no other enemies near the target, attacks deal an additional 15% ATK as Arts damage",
+                "CN": "若攻击目标周围没有其他敌人，攻击对其额外造成相当于攻击力15%的法术伤害",
+                "mod": "若攻击目标周围没有其他敌人，攻击对其额外造成相当于攻击力30%的法术伤害；若攻击目标处于<$ba.dt.apoptosis2>凋亡损伤</>爆发期间，攻击对其额外造成相当于攻击力30%的元素伤害",
+                "upgradeDescription": ""
+            },
+            {
+                "name": "Appoggiatura",
+                "EN": "If there are no other enemies near the target, attacks deal an additional 17% <@ba.talpu>(+2%)</> ATK as Arts damage",
+                "CN": "若攻击目标周围没有其他敌人，攻击对其额外造成相当于攻击力17%<@ba.talpu>（+2%）</>的法术伤害",
+                "mod": "若攻击目标周围没有其他敌人，攻击对其额外造成相当于攻击力32%<@ba.talpu>（+2%）</>的法术伤害；若攻击目标处于<$ba.dt.apoptosis2>凋亡损伤</>爆发期间，攻击对其额外造成相当于攻击力30%的元素伤害",
+                "upgradeDescription": ""
+            }
+        ]
+    ]
+}
