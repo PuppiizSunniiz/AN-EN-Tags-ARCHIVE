@@ -9,6 +9,8 @@ json_building       =   json.loads(open("json/gamedata/zh_CN/gamedata/excel/buil
 
 json_char           =   json.loads(open("json/gamedata/zh_CN/gamedata/excel/character_table.json").read())
 json_charEN         =   json.loads(open("json/gamedata/en_US/gamedata/excel/character_table.json").read())
+'''json_charJP        =   json.loads(open("json/gamedata/ja_JP/gamedata/excel/character_table.json").read())
+json_charKR        =   json.loads(open("json/gamedata/ko_KR/gamedata/excel/character_table.json").read())'''
 
 json_handbook       =   json.loads(open("json/gamedata/zh_CN/gamedata/excel/handbook_info_table.json").read())
 json_mod_battle     =   json.loads(open("json/gamedata/zh_CN/gamedata/excel/battle_equip_table.json").read())

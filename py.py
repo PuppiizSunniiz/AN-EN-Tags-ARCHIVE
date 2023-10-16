@@ -119,19 +119,27 @@ def Rangecheck():
     
     return Continue()
 
-'''def Tagcheck():
-    print(msgbox("What Tag(s) to check ? (up to 5 tags | 0 : Exit)"))
-    tags=input()
+'''
+    def Tagcheck():
+        print(msgbox("What Tag(s) to check ? (up to 5 tags | 0 : Exit)"))
+        tags=input()
     
-    if tags=="0":
-        return False
-    else :
-        tagscheck(tags)
+        if tags=="0":
+            return False
+        else :
+            tagscheck(tags)
     
-    def tagscheck(tags):
-        tag = tags.split(" ")'''
+        def tagscheck(tags):
+            tags = tags.split(" ")
+            for i in range(len(tags)):
+                match tags[i]:
+                    case "Guard"
+                        
+                    case "dps"
+                        tags[i] = DPS
+                
         
-        
+'''
 #########################################################################################################
 # Ready
 #########################################################################################################
@@ -177,6 +185,17 @@ with open('py/dict.json','w') as JSON:
     JSON.write(jsonout)
 
 TagReady={}
+
+'''json_gacha  =   json.loads(open("json/gamedata/zh_CN/gamedata/excel/gacha_table.json").read())
+json_gachaEN  =   json.loads(open("json/gamedata/en_US/gamedata/excel/gacha_table.json").read())
+gachapon={}
+for tag in json_gacha["gachaTags"]:
+    gachapon[tag["tagId"]]={"tagName":tag["tagName"]}
+for tag in json_gachaEN["gachaTags"]:
+    gachapon[tag["tagId"]].update({"EN":tag["tagName"]})
+gacha=json.dumps(gachapon,indent=4, ensure_ascii=False)
+with open('temp/tag.json','w') as JSON:
+    JSON.write(gacha)'''
 
 #########################################################################################################
 # Go !!!
