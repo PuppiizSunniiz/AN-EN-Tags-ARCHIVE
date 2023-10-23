@@ -126,7 +126,7 @@ console.log("materials",materials)
 /*===== Put names into buttons =====*/
 $.when(d0[0],d0[1],d0[2],d0[3]).then(function() {
     $(".btn-tag").each(function() {
-        $(this).text(materials[$(this).attr("mat-id")][lang])
+        $(this).text(materials[$(this).attr("mat-id")][lang]?materials[$(this).attr("mat-id")][lang]:materials[$(this).attr("mat-id")]['cn'])
     });
 });
 
@@ -290,7 +290,7 @@ $.when(d1[0],d1[1],d2[0],d2[1]).then(function () {
                                     "id": mod.charId,
                                     "name": charparse[mod.charId]["name"],
                                     "count": mod.itemCost[String(i+1)][j].count,
-                                    "mod_index": (mod.typeIcon).toLowerCase(),
+                                    "mod_index": mod.typeIcon.replace("-d","-∆").toLowerCase(),
                                     "mod_level": i+1,
                                     "char_level": charparse[mod.charId].char_level
                                 })
@@ -479,7 +479,7 @@ function changeUILanguage() {
 var total_materials = {};
 var inverse_levels = {"Skill-up": 2, "E1": 1, "E2": 0,"Module":3};
 var skill_levels = ["0", "1", "2", "3", "4", "5", "6", "7", "M-1", "M-2", "M-3",];
-var modindex={"x":3,"y":2,"d":1}
+var modindex={"x":3,"y":2,"∆":1}
 function actualize() {
     $("#tbody-recommend").html("");
 
