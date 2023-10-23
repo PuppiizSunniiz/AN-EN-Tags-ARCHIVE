@@ -27,22 +27,15 @@ json_trait          =   json.loads(open("json/tl-attacktype.json").read())
 #########################################################################################################
 # test
 #########################################################################################################
-'''
-    # gender
-    for key in json_handbook["handbookDict"].keys():  
-        if key.split("_")[0]=="char":
-            print(key,json_handbook["handbookDict"][key]["storyTextAudio"][0]["stories"][0]["storyText"].split("\n")[1].split("】")[1])
-    # class
-    for key in json_char.keys():
-    Class.append(json_char[key]["profession"])
-'''
+
 
 #########################################################################################################
 # Prep
 #########################################################################################################
-newchars = ["Verdant","Vendela","Delphine", "Hoederer"]
-newmods = [["Horn",1],["Ashlock",1],["Firewhistle",1],["Delphine",1],["Verdant",1],["Fiammetta",2],["Ebenholz",3]]
+newchars = ['Virtuso', 'Viviana', 'Lessing' ,'Linebass','Diamante' ,'Caper']
+newmods = [["Mudrock",1],["Pennace",1],["Vulcan",1],["Lessing",1],["Bassline",1],["Nearl the Radiant Knight",2],["Bagpipe",2]]
 newmats = ["31074","31073","31084","31083"]
+
 newtrait ={}
 akhrOutput = []
 
@@ -53,14 +46,6 @@ Classparse= {'SNIPER':"狙击", 'PIONEER':"先锋", 'TANK':"重装",  'MEDIC':"�
 #########################################################################################################
 # Chars
 #########################################################################################################
-'''    
-    Char :
-    json/tl-akhr.json
-        - add new >>> char id / name / camp (???) / type (class) / level (rarity) / sex / tag (Rarity+Range/Melee+op tag) / hidden (recruit)
-        ** need json
-            + char table - 
-            + char story - 
-'''
 for newchar in newchars:
     newcode=CharReady["Name2Code"][newchar]
     akhrOutput.append({
@@ -97,24 +82,6 @@ with open("update/tl-akhr.json",'w') as JSON :
 #########################################################################################################
 # Mats
 #########################################################################################################
-
-'''
-    Item :
-        # akmatuses.html
-            - add new botton for new mat >>> 'Name' / 'item id'
-            ** need json
-                + item
-        # json/akmaterial.json
-            - List new >>> mat name / pic id / rarity / drop list / workshop recipe
-            ** need json
-                + item (+ all server for item name)
-                + stage
-        # json/tl-item.json
-            - List new >>> mat id / name
-            ** need json
-                + item (+ all server for item name)
-'''
-
 #akmatuses.html
 matbotton=[]
 for mat in newmats:
@@ -174,18 +141,8 @@ with open("update/tl-item.json",'w') as JSON :
     JSON.write(dumpling)
     
 #########################################################################################################
-# Mats
+# Mod
 #########################################################################################################   
-'''
-    Mod :
-        # json/TempModuletalentsTL.json
-            - add new mod name and Talent(+pot) description TL for new mod in CN 
-            ** BY HAND only
-            ** need json
-                + mod table - for char list
-                + mod battle - for mod talent desc and blackboard
-'''
-
 modtl={}
 for charlist in newmods:
     char=CharReady["Name2Code"][charlist[0]]
@@ -230,16 +187,6 @@ with open("update/TempModuletalentsTL.json",'w') as JSON :
 #########################################################################################################
 # Trait
 #########################################################################################################
-'''
-    Char + Mod :
-        # json/tl-attacktype.json
-            - add new char / mod triat that not already exist
-            ** nedd json
-                + char table - for char trait
-                + mod battle - for mod trait
-                + <itself> - for recheck exist
-        
-'''
 pop=[]
 for key in newtrait.keys():
     if key in json_trait["full"].keys():
