@@ -28,7 +28,7 @@
 [Character(name="avg_npc_404_1#1$1")]
 [name="맨프레드"]팔 분.
 [Character(name="avg_npc_404_1#1$1")]
-[name="맨프레드"]팔 분에 끝내. 시간이 그리 넉넉한 상황이 아니다.
+[name="맨프레드"]팔 분 안에 끝내. 시간이 그리 넉넉한 상황이 아니다.
 [dialog]
 [character]
 [delay(time=1)]

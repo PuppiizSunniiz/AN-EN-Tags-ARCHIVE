@@ -949,6 +949,7 @@
     "ga.limadgacha": "<color=#FF7E1F>{0}</color>",
     "ga.percent": "<color=#FFD800>{0}</color>",
     "ga.attention": "<color=#FF3126>{0}</color>",
+    "ga.classicgacha": "<color=#00A8FF>{0}</color>",
     "attainga.desc": "<color=#FF0000>{0}</color>",
     "attainga.desc2": "<color=#FFD800>{0}</color>",
     "attainga.attention": "<color=#E1322C>{0}</color>",
@@ -971,6 +972,9 @@
     "lv.mhitem": "<color=#A57F5B>{0}</color>",
     "lv.mhtx": "<color=#1B1B1B>{0}</color>",
     "lv.mhfs": "<color=#A57F5B>{0}</color>",
+    "ba.grt": "<color=#FFAB27>{0}</color>",
+    "ba.exl": "<color=#14F0AF>{0}</color>",
+    "ba.hrd": "<color=#DA2536>{0}</color>",
     "act.spreward": "<color=#FF5001>{0}</color>",
     "act.timelimit": "<color=#ffe300>{0}</color>",
     "vc.text": "<color=#898989>{0}</color>",
@@ -1067,8 +1071,12 @@
   "TSO": 1608188400,
   "isDynIllustEnabled": true,
   "isDynIllustStartEnabled": true,
+  "isClassicQCShopEnabled": true,
   "isRoguelikeTopicFuncEnabled": true,
   "isRoguelikeAvgAchieveFuncEnabled": true,
+  "isClassicPotentialItemFuncEnabled": true,
+  "isClassicGachaPoolFuncEnabled": true,
+  "isVoucherClassicItemDistinguishable": true,
   "voucherSkinRedeem": 1,
   "voucherSkinDesc": "[컬렉션 자유 선택권]으로 컬렉션 상점에서 판매 중인 컬렉션만 교환할 수 있으며, 일러스트 애니메이션이 포함된 컬렉션은 <color=#ffa633>교환할 수 없습니다</color>. 만약 컬렉션 상점에서 이미 모든 컬렉션을 구매했거나 판매 중인 컬렉션이 없으면, [컬렉션 자유 선택권]을 <color=#ffa633>사용할 수 없습니다</color>.\n\n이 밖에, [컬렉션 자유 선택권]으로 <color=#ffa633>교환할 수 없는</color> 다른 컬렉션이 출시될 경우, 별도 공지가 진행될 예정이오니 참고하여 주시기 바랍니다.",
   "charmEquipCount": 5,
@@ -1228,6 +1236,21 @@
       "termName": "무중력",
       "description": "무게 등급 1랭크 하락 (동종 효과 중첩 불가)"
     },
+    "ba.berserk": {
+      "termId": "ba.berserk",
+      "termName": "인내",
+      "description": "감소한 HP에 비례하여 능력치 상승, 일정 비례 시 최대 효과 도달 (동종 효과 중 최대 수치만 적용)"
+    },
+    "ba.steal": {
+      "termId": "ba.steal",
+      "termName": "탈취",
+      "description": "목표의 기본 능력치를 감소하여 자신에게 추가, 일정량 감소 시 최대 효과 도달 (동종 효과 중 최대 수치만 적용)"
+    },
+    "ba.weaken": {
+      "termId": "ba.weaken",
+      "termName": "약화",
+      "description": "목표의 공격력이 일정 비례 감소 (동종 효과 중 최대 수치만 적용)"
+    },
     "cc.bd_A_1": {
       "termId": "cc.bd_A_1",
       "termName": "염력",
@@ -1386,7 +1409,17 @@
     "cc.g.sui": {
       "termId": "cc.g.sui",
       "termName": "쉐이",
-      "description": "다음 오퍼레이터 포함\n시, 링, 총웨, 우요우, 멀베리"
+      "description": "다음 오퍼레이터 포함\n니엔, 시, 링, 총웨"
+    },
+    "cc.g.glasgow": {
+      "termId": "cc.g.glasgow",
+      "termName": "글래스고",
+      "description": "다음 오퍼레이터 포함\n시즈, 모건, 다그다, 인드라"
+    },
+    "cc.g.rh": {
+      "termId": "cc.g.rh",
+      "termName": "라인 랩",
+      "description": "다음 오퍼레이터 포함\n사일런스, 이프리트, 사리아, 프틸롭시스, 메이어, 마젤란, 도로시, 아스트젠"
     },
     "cc.c.abyssal2_1": {
       "termId": "cc.c.abyssal2_1",
@@ -1466,7 +1499,7 @@
     "cc.sk.manu2": {
       "termId": "cc.sk.manu2",
       "termName": "라인테크류 스킬",
-      "description": "다음의 스킬 포함\n라인테크 α, 라인테크 β"
+      "description": "다음 스킬 포함\n라인테크 α, 라인테크 β, 라인테크 γ"
     },
     "cc.sk.manu3": {
       "termId": "cc.sk.manu3",
@@ -1500,6 +1533,70 @@
     }
   },
   "storyReviewUnlockItemLackTip": "기록 조각이 부족합니다. 증명서 상점 또는 이벤트 기간에 열리는 상점을 통해 교환할 수 있습니다.",
-  "dataVersion": "33.3.0",
-  "resPrefVersion": "36d0d0"
+  "dataVersion": "34.1.0",
+  "resPrefVersion": "37d0d0",
+  "announceWebBusType": "ak_announcement",
+  "subProfessionDamageTypePairs": {
+    "notchar1": 0,
+    "notchar2": 0,
+    "none1": 0,
+    "none2": 0,
+    "pioneer": 1,
+    "charger": 1,
+    "tactician": 1,
+    "bearer": 1,
+    "centurion": 1,
+    "fighter": 1,
+    "artsfghter": 2,
+    "instructor": 1,
+    "lord": 1,
+    "sword": 1,
+    "musha": 1,
+    "fearless": 1,
+    "reaper": 1,
+    "librator": 1,
+    "protector": 1,
+    "guardian": 1,
+    "unyield": 1,
+    "artsprotector": 1,
+    "duelist": 1,
+    "fortress": 1,
+    "fastshot": 1,
+    "closerange": 1,
+    "aoesniper": 1,
+    "longrange": 1,
+    "reaperrange": 1,
+    "siegesniper": 1,
+    "bombarder": 1,
+    "corecaster": 2,
+    "splashcaster": 2,
+    "funnel": 2,
+    "phalanx": 0,
+    "mystic": 2,
+    "chain": 2,
+    "blastcaster": 2,
+    "physician": 3,
+    "ringhealer": 3,
+    "healer": 3,
+    "wandermedic": 3,
+    "slower": 2,
+    "underminer": 2,
+    "bard": 0,
+    "blessing": 2,
+    "summoner": 2,
+    "craftsman": 1,
+    "executor": 1,
+    "pusher": 1,
+    "stalker": 1,
+    "hookmaster": 1,
+    "geek": 1,
+    "merchant": 1,
+    "traper": 1,
+    "dollkeeper": 1,
+    "incantationmedic": 2,
+    "agent": 1,
+    "shotprotector": 1,
+    "chainhealer": 3,
+    "crusher": 1
+  }
 }
