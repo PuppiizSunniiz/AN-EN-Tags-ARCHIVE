@@ -642,6 +642,10 @@
         "攻击造成<@ba.kw>法术伤害</>，可以造成<@ba.kw>元素伤害</>": {
             "en": "Deals <@ba.kw>Arts damage</>, can deals <@ba.kw>Elemental Damage</>",
             "color": "magic"
+        },
+        "持有<@ba.kw>回旋投射物</>时才能够攻击（投射物需要时间回收）":{
+            "en": "Only attack when has <@ba.kw>Throwing Projectile</> (Projectile take time to return)",
+            "color":"physical"
         }
     },
     "parts":[
