@@ -1,1 +1,140 @@
-{}
+{
+    "uniequip_002_mudrok": [
+        [
+            {
+                "name": "Ward of the Fertile Soil",
+                "upgradeDescription": "Every 9 seconds, gains 1 <$ba.shield>Shield</> (Can have up to 3 stacks, with 1 stack granted immediately when deployed). When a Shield is broken, restores 22% of Max HP and 1 Skill Points"
+            },
+            {
+                "name": "Ward of the Fertile Soil",
+                "upgradeDescription": "Every 9 seconds, gains 1 <$ba.shield>Shield</> (Can have up to 3 stacks, with 1 stack granted immediately when deployed). When a Shield is broken, restores 24% <@ba.talpu>(+2%)</> of Max HP and 1 Skill Points"
+            }
+        ],
+        [
+            {
+                "name": "Ward of the Fertile Soil",
+                "upgradeDescription": "Every 9 seconds, gains 1 <$ba.shield>Shield</> (Can have up to 3 stacks, with 1 stack granted immediately when deployed). When a Shield is broken, restores 23% of Max HP and 2 Skill Points"
+            },
+            {
+                "name": "Ward of the Fertile Soil",
+                "upgradeDescription": "Every 9 seconds, gains 1 <$ba.shield>Shield</> (Can have up to 3 stacks, with 1 stack granted immediately when deployed). When a Shield is broken, restores 25% <@ba.talpu>(+2%)</> of Max HP and 2 Skill Points"
+            }
+        ]
+    ],
+    "uniequip_002_judge": [
+        [
+            {
+                "name": "Guardian of the Law",
+                "upgradeDescription": "After deployment, immediately gains a <$ba.barrier>Barrier</> equal to 60% Max HP; When defeating an enemy, gains a <$ba.barrier>Barrier</> equal to 11% Max HP (Cannot exceed 300% Max HP)"
+            },
+            {
+                "name": "Guardian of the Law",
+                "upgradeDescription": "After deployment, immediately gains a <$ba.barrier>Barrier</> equal to 65% <@ba.talpu>(+5%)</> Max HP; When defeating an enemy, gains a <$ba.barrier>Barrier</> equal to 11% Max HP (Cannot exceed 300% Max HP)"
+            }
+        ],
+        [
+            {
+                "name": "Guardian of the Law",
+                "upgradeDescription": "After deployment, immediately gains a <$ba.barrier>Barrier</> equal to 70% Max HP; When defeating an enemy, gains a <$ba.barrier>Barrier</> equal to 12% Max HP (Cannot exceed 300% Max HP)"
+            },
+            {
+                "name": "Guardian of the Law",
+                "upgradeDescription": "After deployment, immediately gains a <$ba.barrier>Barrier</> equal to 75% <@ba.talpu>(+5%)</> Max HP; When defeating an enemy, gains a <$ba.barrier>Barrier</> equal to 12% Max HP (Cannot exceed 300% Max HP)"
+            }
+        ]
+    ],
+    "uniequip_002_hpsts": [
+        [
+            {
+                "name": "Self-Defense",
+                "upgradeDescription": "Restores HP by 4% of Max HP per second and obtains 25% Physical Melee Dodge when the skill is activated"
+            },
+            {
+                "name": "Self-Defense",
+                "upgradeDescription": "Restores HP by 5% <@ba.talpu>(+1%)</> of Max HP per second and obtains 30% <@ba.talpu>(+5%)</> Physical Melee Dodge when the skill is activated"
+            }
+        ],
+        [
+            {
+                "name": "Self-Defense",
+                "upgradeDescription": "Restores HP by 4% of Max HP per second and obtains 25% Physical Melee Dodge when the skill is activated"
+            },
+            {
+                "name": "Self-Defense",
+                "upgradeDescription": "Restores HP by 5% <@ba.talpu>(+1%)</> of Max HP per second and obtains 30% <@ba.talpu>(+5%)</> Physical Melee Dodge when the skill is activated"
+            }
+        ]
+    ],
+    "uniequip_002_lessng": [
+        [
+            {
+                "name": "痛楚砺刃",
+                "CN": "受到伤害后，攻击力+12%，持续15秒（不可叠加）",
+                "mod": "受到伤害后，攻击力+17%，持续15秒（不可叠加）",
+                "upgradeDescription": ""
+            },
+            {
+                "name": "痛楚砺刃",
+                "CN": "受到伤害后，攻击力+16%<@ba.talpu>（+4%）</>，持续15秒（不可叠加）",
+                "mod": "受到伤害后，攻击力+21%<@ba.talpu>（+4%）</>，持续15秒（不可叠加）",
+                "upgradeDescription": ""
+            }
+        ],
+        [
+            {
+                "name": "痛楚砺刃",
+                "CN": "受到伤害后，攻击力+12%，持续15秒（不可叠加）",
+                "mod": "受到伤害后，攻击力+20%，持续15秒（不可叠加）",
+                "upgradeDescription": ""
+            },
+            {
+                "name": "痛楚砺刃",
+                "CN": "受到伤害后，攻击力+16%<@ba.talpu>（+4%）</>，持续15秒（不可叠加）",
+                "mod": "受到伤害后，攻击力+24%<@ba.talpu>（+4%）</>，持续15秒（不可叠加）",
+                "upgradeDescription": ""
+            }
+        ]
+    ],
+    "uniequip_002_baslin": [
+        [],
+        []
+    ],
+    "uniequip_003_nearl2": [
+        [],
+        []
+    ],
+    "uniequip_003_bpipe": [
+        [
+            {
+                "name": "Precise Reloading",
+                "EN": "When attacking, has a 25% chance to increase ATK to 130% and strike an additional target",
+                "CN": "每次攻击有25%的概率攻击力提升至130%，且额外攻击一个目标",
+                "mod": "每次攻击有30%的概率攻击力提升至135%，且额外攻击一个目标",
+                "upgradeDescription": ""
+            },
+            {
+                "name": "Precise Reloading",
+                "EN": "When attacking, has a 28%<@ba.talpu>(+3%)</> chance to increase ATK to 130% and strike an additional target",
+                "CN": "每次攻击有28%<@ba.talpu>（+3%）</>的概率攻击力提升至130%，且额外攻击一个目标",
+                "mod": "每次攻击有33%<@ba.talpu>（+3%）</>的概率攻击力提升至135%，且额外攻击一个目标",
+                "upgradeDescription": ""
+            }
+        ],
+        [
+            {
+                "name": "Precise Reloading",
+                "EN": "When attacking, has a 25% chance to increase ATK to 130% and strike an additional target",
+                "CN": "每次攻击有25%的概率攻击力提升至130%，且额外攻击一个目标",
+                "mod": "每次攻击有33%的概率攻击力提升至140%，且额外攻击一个目标",
+                "upgradeDescription": ""
+            },
+            {
+                "name": "Precise Reloading",
+                "EN": "When attacking, has a 28%<@ba.talpu>(+3%)</> chance to increase ATK to 130% and strike an additional target",
+                "CN": "每次攻击有28%<@ba.talpu>（+3%）</>的概率攻击力提升至130%，且额外攻击一个目标",
+                "mod": "每次攻击有36%<@ba.talpu>（+3%）</>的概率攻击力提升至140%，且额外攻击一个目标",
+                "upgradeDescription": ""
+            }
+        ]
+    ]
+}

@@ -35,8 +35,8 @@ json_tl_item        =   json.loads(open("json/tl-item.json").read())
 #########################################################################################################
 # Prep
 #########################################################################################################
-newchars = ['Virtuso', 'Viviana', 'Lessing' ,'Linebass','Diamante' ,'Caper']
-newmods = [["Mudrock",1],["Pennace",1],["Vulcan",1],["Lessing",1],["Bassline",1],["Nearl the Radiant Knight",2],["Bagpipe",2]]
+newchars = ['Virtuosa', 'Viviana', 'Lessing' ,'Bassline','Diamante' ,'Caper']
+newmods = [["Mudrock",1],["Penance",1],["Vulcan",1],["Lessing",1],["Bassline",1],["Nearl the Radiant Knight",2],["Bagpipe",2]]
 newmats = ["31074","31073","31084","31083"]
 
 recruitCN=["Eunectes","Aciddrop","Flint"]

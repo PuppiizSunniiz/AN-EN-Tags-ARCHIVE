@@ -1,121 +1,149 @@
 {
-    "uniequip_002_horn":[   # ATK Check
+    "uniequip_002_mudrok":[ # Mudrock - received hp% and sp
         [
             {
-                "name": "Military Fortress",
-                "upgradeDescription": "When this unit is on the field, Defender Operators gain +20% ATK"
+                "name": "Ward of the Fertile Soil",
+                "upgradeDescription": "Every 9 seconds, gains 1 <$ba.shield>Shield</> (Can have up to 3 stacks, with 1 stack granted immediately when deployed). When a Shield is broken, restores 20% of Max HP and 7 Skill Points"
             },
             {
-                "name": "Military Fortress",
-                "upgradeDescription": "When this unit is on the field, Defender Operators gain +13%<@ba.talpu>(+3%)</> ATK"
+                "name": "Ward of the Fertile Soil",
+                "upgradeDescription": "Every 9 seconds, gains 1 <$ba.shield>Shield</> (Can have up to 3 stacks, with 1 stack granted immediately when deployed). When a Shield is broken, restores 22% <@ba.talpu>(+2%)</> of Max HP and 7 Skill Points"
             }
         ],
         [
             {
-                "name": "Military Fortress",
-                "upgradeDescription": "When this unit is on the field, Defender Operators gain +20% ATK"
+                "name": "Ward of the Fertile Soil",
+                "upgradeDescription": "Every 9 seconds, gains 1 <$ba.shield>Shield</> (Can have up to 3 stacks, with 1 stack granted immediately when deployed). When a Shield is broken, restores 20% of Max HP and 7 Skill Points"
             },
             {
-                "name": "Military Fortress",
-                "upgradeDescription": "When this unit is on the field, Defender Operators gain +13%<@ba.talpu>(+3%)</> ATK"
+                "name": "Ward of the Fertile Soil",
+                "upgradeDescription": "Every 9 seconds, gains 1 <$ba.shield>Shield</> (Can have up to 3 stacks, with 1 stack granted immediately when deployed). When a Shield is broken, restores 22% <@ba.talpu>(+2%)</> of Max HP and 7 Skill Points"
             }
         ]
-    ],
-    "uniequip_002_ashlok":[ # ATK Check / Tile 4 or 2 ???
+    ],    "uniequip_002_judge":[ # Penance - barrier hp on deploy and barrier hp on kill
         [
             {
-                "name": "Bombardment Studies",
-                "upgradeDescription": "ATK +8%. If the four adjacent tiles are ground tiles, ATK +16% instead"
+                "name": "Guardian of the Law",
+                "upgradeDescription": "After deployment, immediately gains a <$ba.barrier>Barrier</> equal to 50% Max HP; When defeating an enemy, gains a <$ba.barrier>Barrier</> equal to 10% Max HP (Cannot exceed 300% Max HP)"
             },
             {
-                "name": "Bombardment Studies",
-                "upgradeDescription": "ATK +10% <@ba.talpu>(+2%)</>. If the four adjacent tiles are ground tiles, ATK +18% <@ba.talpu>(+2%)</> instead"
+                "name": "Guardian of the Law",
+                "upgradeDescription": "After deployment, immediately gains a <$ba.barrier>Barrier</> equal to 55% <@ba.talpu>(+5%)</> Max HP; When defeating an enemy, gains a <$ba.barrier>Barrier</> equal to 10% Max HP (Cannot exceed 300% Max HP)"
             }
         ],
         [
             {
-                "name": "Bombardment Studies",
-                "upgradeDescription": "ATK +8%. If the four adjacent tiles are ground tiles, ATK +16% instead"
+                "name": "Guardian of the Law",
+                "upgradeDescription": "After deployment, immediately gains a <$ba.barrier>Barrier</> equal to 50% Max HP; When defeating an enemy, gains a <$ba.barrier>Barrier</> equal to 10% Max HP (Cannot exceed 300% Max HP)"
             },
             {
-                "name": "Bombardment Studies",
-                "upgradeDescription": "ATK +10% <@ba.talpu>(+2%)</>. If the four adjacent tiles are ground tiles, ATK +18% <@ba.talpu>(+2%)</> instead"
+                "name": "Guardian of the Law",
+                "upgradeDescription": "After deployment, immediately gains a <$ba.barrier>Barrier</> equal to 55% <@ba.talpu>(+5%)</> Max HP; When defeating an enemy, gains a <$ba.barrier>Barrier</> equal to 10% Max HP (Cannot exceed 300% Max HP)"
             }
         ]
-    ],
-    "uniequip_002_firwhl":[ # ATK Check / DEF Check
+    ],    "uniequip_002_hpsts":[ # Vulcan - receive hp on skill
         [
             {
-                "name": "Flexible Fighter",
-                "upgradeDescription": "ATK +6% when not blocking an enemy, DEF +6% when blocking an enemy"
+                "name": "Self-Defense",
+                "upgradeDescription": "Restores HP by 4% of Max HP per second and obtains 25% Physical Melee Dodge when the skill is activated"
             },
             {
-                "name": "Flexible Fighter",
-                "upgradeDescription": "ATK +8% <@ba.talpu>(+2%)</> when not blocking an enemy, DEF +8% <@ba.talpu>(+2%)</> when blocking an enemy"
+                "name": "Self-Defense",
+                "upgradeDescription": "Restores HP by 5% <@ba.talpu>(+1%)</> of Max HP per second and obtains 30% <@ba.talpu>(+5%)</> Physical Melee Dodge when the skill is activated"
             }
         ],
         [
             {
-                "name": "Flexible Fighter",
-                "upgradeDescription": "ATK +6% when not blocking an enemy, DEF +6% when blocking an enemy"
+                "name": "Self-Defense",
+                "upgradeDescription": "Restores HP by 4% of Max HP per second and obtains 25% Physical Melee Dodge when the skill is activated"
             },
             {
-                "name": "Flexible Fighter",
-                "upgradeDescription": "ATK +8% <@ba.talpu>(+2%)</> when not blocking an enemy, DEF +8% <@ba.talpu>(+2%)</> when blocking an enemy"
+                "name": "Self-Defense",
+                "upgradeDescription": "Restores HP by 5% <@ba.talpu>(+1%)</> of Max HP per second and obtains 30% <@ba.talpu>(+5%)</> Physical Melee Dodge when the skill is activated"
             }
         ]
-    ],
-    "uniequip_002_???? (Delphine)":[ # Check HP Threshold / Check DMG increase / Check potential
+    ],    "uniequip_002_":[ # Lessing < code - atk++
         [
             {
-                "name": "?????????????",
-                "upgradeDescription": "When attacking enemies with 80% or more HP, Delphine will deal 25% increased damage to them",
-            }
-        ]
-    ],
-    "uniequip_002_???? (Verdant)":[ # Check HP% / Check RES % / Check potential
-        [
+                "name": "",
+                "upgradeDescription": "",
+                "tl":"After taking damage, ATK++, last 15 seconds"
+            },
             {
-                "name": "?????????????",
-                "upgradeDescription": "<Substitute> recovers 3.5% HP per second, Res +%",
-            }
-        ]
-    ],
-
-    "uniequip_003_phenxi":[ # ATK Check / Lose HP threshold stop effect check
-        [
-            {
-                "name": "Sufferer of Tribulations",
-                "upgradeDescription": "Continually loses HP over time (HP cannot drop to 0 as a result of this effect); While HP is above 50%, this unit gains <$ba.strong>Vigor</>, increasing ATK by 25%; this effect is doubled above 80% HP.",
+                "name": "",
+                "upgradeDescription": "",
+                "tl":"After taking damage, ATK++, last 15 seconds"
             }
         ],
         [
             {
-                "name": "Sufferer of Tribulations",
-                "upgradeDescription": "Continually loses HP over time (HP cannot drop to 0 as a result of this effect); While HP is above 50%, this unit gains <$ba.strong>Vigor</>, increasing ATK by 25%; this effect is doubled above 80% HP.",
-            }
-        ]
-    ],
-
-    "uniequip_004_ebnhlz":[ # Check ATK both Arts and Elemental / Check Elemental condition desc
-        [
-            {
-                "name": "Appoggiatura",
-                "upgradeDescription": "If there are no other enemies near the target, attacks deal an additional 15% ATK as Arts damage; If target have <$ba.dt.apoptosis2>Apoptosis</> deal an additional 15% ATK as Elemental damage",
+                "name": "",
+                "upgradeDescription": "",
+                "tl":"After taking damage, ATK++, last 15 seconds"
             },
             {
-                "name": "Appoggiatura",
-                "upgradeDescription": "If there are no other enemies near the target, attacks deal an additional 17% <@ba.talpu>(+2%)</> ATK as Arts damage; If target have <$ba.dt.apoptosis2>Apoptosis</> deal an additional 15% <@ba.talpu>(+2%)</> ATK as Elemental damage",
+                "name": "",
+                "upgradeDescription": "",
+                "tl":"After taking damage, ATK++, last 15 seconds"
+            }
+        ]
+    ],    "uniequip_002_":[ # Bassline < code - self res++
+        [
+            {
+                "name": "",
+                "upgradeDescription": "",
+                "tl":"Arts resistance+ ; When there is allied unit in 8 surrounding tile, self and their arts res increase further+"
+            },
+            {
+                "name": "",
+                "upgradeDescription": "",
+                "tl":"Arts resistance+ ; When there is allied unit in 8 surrounding tile, self and their arts res increase further+"
             }
         ],
         [
             {
-                "name": "Appoggiatura",
-                "upgradeDescription": "If there are no other enemies near the target, attacks deal an additional 15% ATK as Arts damage; If target have <$ba.dt.apoptosis2>Apoptosis</> deal an additional 15% ATK as Elemental damage",
+                "name": "",
+                "upgradeDescription": "",
+                "tl":"Arts resistance+ ; When there is allied unit in 8 surrounding tile, self and their arts res increase further+"
             },
             {
-                "name": "Appoggiatura",
-                "upgradeDescription": "If there are no other enemies near the target, attacks deal an additional 17% <@ba.talpu>(+2%)</> ATK as Arts damage; If target have <$ba.dt.apoptosis2>Apoptosis</> deal an additional 15% <@ba.talpu>(+2%)</> ATK as Elemental damage",
+                "name": "",
+                "upgradeDescription": "",
+                "tl":"Arts resistance+ ; When there is allied unit in 8 surrounding tile, self and their arts res increase further+"
+            }
+        ]
+    ],    "uniequip_003_bpipe":[ # Bagpipe - crit chance and atk
+        [
+            {
+                "name": "Precise Reloading",
+                "upgradeDescription": "When attacking, has a 25% chance to increase ATK to 130% and strike an additional target"
+            },
+            {
+                "name": "Precise Reloading",
+                "upgradeDescription": "When attacking, has a 28%<@ba.talpu>(+3%)</> chance to increase ATK to 130% and strike an additional target"
+            }
+        ],
+        [
+            {
+                "name": "Precise Reloading",
+                "upgradeDescription": "When attacking, has a 25% chance to increase ATK to 130% and strike an additional target"
+            },
+            {
+                "name": "Precise Reloading",
+                "upgradeDescription": "When attacking, has a 28%<@ba.talpu>(+3%)</> chance to increase ATK to 130% and strike an additional target"
+            }
+        ]
+    ],    "uniequip_003_nearl2":[ # Nearl The Radiant Knight - atk% and stun duration
+        [
+            {
+                "name": "Brave the Darkness",
+                "upgradeDescription": "When deploying and defeated for the first time, deals 80% ATK as True damage to enemies in the four adjacent tiles and <$ba.stun>Stuns</> them for 3 seconds. If the previously deployed Operator is from Kazimierz, deals an additional hit"
+            }
+        ],
+        [
+            {
+                "name": "Brave the Darkness",
+                "upgradeDescription": "When deploying and defeated for the first time, deals 80% ATK as True damage to enemies in the four adjacent tiles and <$ba.stun>Stuns</> them for 3 seconds. If the previously deployed Operator is from Kazimierz, deals an additional hit"
             }
         ]
     ]
