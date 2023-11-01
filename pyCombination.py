@@ -21,5 +21,5 @@ color={"乐":"🟨","怒":"🟥","哀":"🟦","惧":"🟩"}
 for i in formulas.keys():
     #print(formulas[i]["formDesc"],[parse[x] for x in formulas[i]["fragIdList"]])
     #print([mood[parse[x]] for x in formulas[i]["fragIdList"]])
-    print(formulas[i]["formDesc"],[parse[x] for x in formulas[i]["fragIdList"]],[color[parse[x]] for x in formulas[i]["fragIdList"]])
+    print(formulas[i]["formDesc"],[parse[x] for x in formulas[i]["fragIdList"]],"".join([color[parse[x]] for x in formulas[i]["fragIdList"]]))
     
