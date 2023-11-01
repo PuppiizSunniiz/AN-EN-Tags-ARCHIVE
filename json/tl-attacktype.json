@@ -620,7 +620,7 @@
             "color": "extra"
         },
         "攻击造成<@ba.kw>法术伤害</>，可以造成<@ba.kw>元素损伤</>": {
-            "en": "Deals <@ba.kw>Arts damage</>, can deals <@ba.kw>Elemental Damage</>",
+            "en": "Deals <@ba.kw>Arts damage</>, can inflicts <@ba.kw>Elemental Damage</>",
             "color": "magic"
         },
         "攻击时需要消耗子弹且攻击力提升至<@ba.kw>120%</>，不攻击时会缓慢地装填子弹（最多8发）":{
@@ -638,6 +638,10 @@
         "受到来自自身阻挡单位的伤害降低<@ba.kw>15%</>":{
             "en": "<@ba.kw>Cannot</> be healed by allies, Reduces damage taken by blocked enemies by <@ba.kw>15%</>",
             "color":"physical"
+        },
+        "攻击造成<@ba.kw>法术伤害</>，可以造成<@ba.kw>元素伤害</>": {
+            "en": "Deals <@ba.kw>Arts damage</>, can deals <@ba.kw>Elemental Damage</>",
+            "color": "magic"
         }
     },
     "parts":[
