@@ -3137,7 +3137,7 @@
             "控场"
         ],
         "hidden": false,
-        "globalHidden": true
+        "globalHidden": false
     },
     {
         "id": "char_294_ayer",
@@ -3160,7 +3160,7 @@
             "群攻"
         ],
         "hidden": false,
-        "globalHidden": true
+        "globalHidden": false
     },
     {
         "id": "char_345_folnic",
@@ -3207,7 +3207,7 @@
             "输出"
         ],
         "hidden": false,
-        "globalHidden": true
+        "globalHidden": false
     },
     {
         "id": "char_344_beewax",
@@ -6474,7 +6474,7 @@
             "近战位",
             "防护"
         ],
-        "hidden": true,
+        "hidden": false,
         "globalHidden": true
     },
     {
