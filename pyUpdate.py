@@ -17,6 +17,8 @@ json_mod_battle     =   json.loads(open("json/gamedata/zh_CN/gamedata/excel/batt
 json_mod_table      =   json.loads(open("json/gamedata/zh_CN/gamedata/excel/uniequip_table.json").read())
 json_stage          =   json.loads(open("json/gamedata/zh_CN/gamedata/excel/stage_table.json").read())
 
+json_constructEN    =   json.loads(open("json/gamedata/en_US/gamedata/excel/gamedata_const.json").read())
+
 json_item           =   json.loads(open("json/gamedata/zh_CN/gamedata/excel/item_table.json").read())
 json_itemEN         =   json.loads(open("json/gamedata/en_US/gamedata/excel/item_table.json").read())
 json_itemJP         =   json.loads(open("json/gamedata/ja_JP/gamedata/excel/item_table.json").read())
@@ -25,6 +27,7 @@ json_itemKR         =   json.loads(open("json/gamedata/ko_KR/gamedata/excel/item
 json_akhr           =   json.loads(open("json/tl-akhr.json").read())
 json_akmaterial     =   json.loads(open("json/akmaterial.json").read())
 json_trait          =   json.loads(open("json/tl-attacktype.json").read())
+json_term           =   json.loads(open("json/named_effects.json").read())
 
 json_tl_item        =   json.loads(open("json/tl-item.json").read())
 #########################################################################################################
@@ -35,12 +38,13 @@ json_tl_item        =   json.loads(open("json/tl-item.json").read())
 #########################################################################################################
 # Prep
 #########################################################################################################
-newchars = ['Virtuosa', 'Viviana', 'Lessing' ,'Bassline','Diamante' ,'Caper']
-newmods = [["Mudrock",1],["Penance",1],["Vulcan",1],["Lessing",1],["Bassline",1],["Nearl the Radiant Knight",2],["Bagpipe",2]]
-newmats = ["31074","31073","31084","31083"]
+newchars = ['Harold','Leto','Degenbrecher']
+newmods = [['Goldenglow',1],['Kjera',1],['Rockrock',1],['Minimalist',1],['Click',1],['Reed The Flame Shadow',1],['Hibiscus the Purifier',1],['Vendela',1],['Degenbrecher',1],['Lee',2],['Suzuran',2],['Carnelian',2],['Weedy',2],
+]
+newmats = []
 
-recruitCN=["Eunectes","Aciddrop","Flint"]
-recruitEN=[]
+recruitCN=[]
+recruitEN=['Friston-3']
 
 newtrait ={}
 
@@ -262,4 +266,17 @@ dumpling=json.dumps(newtrait,indent=4, ensure_ascii=False)
 with open("update/tl-attacktype.json",'w') as JSON :
     JSON.write(dumpling)
 
-print("Update Completed\n")
+#########################################################################################################
+# Termology Update
+#########################################################################################################
+
+for term in json_term["termDescriptionDict"].keys():
+    if term in json_constructEN["termDescriptionDict"].keys():
+        json_term["termDescriptionDict"][term]=json_constructEN["termDescriptionDict"][term]
+        
+dumpling=json.dumps(json_term,indent=4, ensure_ascii=False)
+with open("json/named_effects.json",'w') as JSON :
+    JSON.write(dumpling)
+
+
+print("\nUpdate Completed !!!\n")

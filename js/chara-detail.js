@@ -25,6 +25,7 @@
         charsEN         :"./json/gamedata/en_US/gamedata/excel/character_table.json",
         handbookInfoEN  :"./json/gamedata/en_US/gamedata/excel/handbook_info_table.json",
         charwordEN      :"./json/gamedata/en_US/gamedata/excel/charword_table.json",
+        buildEN         :"./json/gamedata/en_US/gamedata/excel/building_data.json",
         skillsEN        :"./json/gamedata/en_US/gamedata/excel/skill_table.json",
         item_tableEN    :"./json/gamedata/en_US/gamedata/excel/item_table.json",
         enemyEN         :"./json/gamedata/en_US/gamedata/excel/enemy_handbook_table.json",
@@ -3917,10 +3918,11 @@
 
             eachcat.list.forEach(id => {
                 var currbuff = db.build.buffs[id]
+                var currbuffEN = db.buildEN.buffs[id]
                 var tlbuff = db.riic[id]
 
-                var currname = tlbuff?tlbuff.name:currbuff.buffName
-                var currdesc = tlbuff?tlbuff.descformat:currbuff.description
+                var currname = currbuffEN?currbuffEN.buffName:tlbuff?tlbuff.name:currbuff.buffName
+                var currdesc = currbuffEN?currbuffEN.description:tlbuff?tlbuff.descformat:currbuff.description
                 var formattedesc = ChangeDescriptionColor2(currdesc)
                 formattedesc = formattedesc.replace(/\\n/g,"<br><br>")
                 riicskills.push(`
@@ -4197,11 +4199,13 @@
         for(i=0;i<opdataFull.talents.length;i++){
             var currTalent = opdataFull.talents[i]
             // if(!db.talentsTL[id])break;
+            var currTalentEN = db.charsEN[charName]?db.charsEN[charName].talents[i]:undefined
             var currTalentTL = db.talentsTL[id]?db.talentsTL[id][i]:undefined
             // var talentGroup = []
             talentObject.talents[talenttype]=[]
             for(j=0;j<currTalent.candidates.length;j++){
                 var currCandidate = currTalent.candidates[j]
+                var currCandidateEN = currTalentEN?currTalentEN.candidates[j]:undefined
                 var currCandidateTL = currTalentTL?currTalentTL[j]:undefined
                 // talentGroup.push({talent:currCandidate,talentTL:currCandidateTL})
                 var currlevel = parseInt(currCandidate.unlockCondition.level)
@@ -4209,7 +4213,7 @@
                 var currpotent = parseInt(currCandidate.requiredPotentialRank)
                 talentObject.req2.forEach(requirements => {
                     if(requirements[0]>=currphase&&requirements[1]>=currlevel&&requirements[2]>=currpotent){
-                        talentObject.html[`${requirements[0]}-${requirements[1]}-${requirements[2]}`].talents[talenttype]={talent:currCandidate,talentTL:currCandidateTL}
+                        talentObject.html[`${requirements[0]}-${requirements[1]}-${requirements[2]}`].talents[talenttype]={talent:currCandidate,talentEN:currCandidateEN,talentTL:currCandidateTL}
                     }
                 });
 
@@ -4507,11 +4511,9 @@
         if(eachtalent.talent.requiredPotentialRank >0)
         imagereq.push(`<img src="https://raw.githubusercontent.com/Aceship/Arknight-Images/main/ui/potential/${eachtalent.talent.requiredPotentialRank+1}.png" style="width:20px" title="Potential ${eachtalent.talent.requiredPotentialRank+1}">`)
 
-        var currTalentName = eachtalent.talentTL?eachtalent.talentTL.name:eachtalent.talent.name
-        var currTalentDesc = eachtalent.talentTL?eachtalent.talentTL.desc:eachtalent.talent.description
-        currTalentDesc = currTalentDesc.replace(/\<(.+)\>/g, function(m, rtf, text) {
-            return `\< ${rtf} \>`
-        })
+        var currTalentName = eachtalent.talentEN?eachtalent.talentEN.name:eachtalent.talentTL?eachtalent.talentTL.name:eachtalent.talent.name
+        var currTalentDesc = eachtalent.talentEN?eachtalent.talentEN.description:eachtalent.talentTL?eachtalent.talentTL.desc:eachtalent.talent.description
+        currTalentDesc = ChangeDescriptionColor2(currTalentDesc.replace(/\<([A-z]+)\>/g,"&lt;"+"$1"+'&gt;'))
         // console.log(eachtalent.talent.name)
         var isTalentRange = eachtalent.talent.rangeId
         var blacklist =
@@ -5176,10 +5178,11 @@
 
     function getSkillDesc(skillId,level){
         var skill = db.skills[skillId].levels[level];
+        var skillEN = db.skillsEN[skillId]?db.skillsEN[skillId].levels[level]:undefined;
         var skillTL = db.skillsTL[skillId];
-        var desc = skillTL?skillTL.desc[level]:skill.description;
+        var desc = skillEN?skillEN.description:skillTL?skillTL.desc[level]:skill.description;
 
-        desc = ChangeDescriptionColor2(desc)
+        desc = ChangeDescriptionColor2(desc.replace(/\<([A-z]+)\>/g,"&lt;"+"$1"+'&gt;'))
         if(desc){
             // console.log(skill)
             desc=ChangeDescriptionContent(desc,skill)

@@ -48,6 +48,7 @@
             "char_302_glaze": "Ambriel",
             "char_366_acdrop": "Aciddrop",
             "char_4062_totter": "Totter",
+            "char_4100_caper": "Caper",
             "char_198_blackd": "Courier",
             "char_149_scave": "Scavenger",
             "char_290_vigna": "Vigna",
@@ -155,6 +156,7 @@
             "char_4013_kjera": "Kjera",
             "char_4040_rockr": "Rockrock",
             "char_4054_malist": "Minimalist",
+            "char_499_kaitou": "Diamante",
             "char_242_otter": "Mayer",
             "char_336_folivo": "Scene",
             "char_108_silent": "Silence",
@@ -171,6 +173,7 @@
             "char_4071_peper": "Paprika",
             "char_148_nearl": "Nearl",
             "char_226_hmau": "Hung",
+            "char_4109_baslin": "Bassline",
             "char_144_red": "Projekt Red",
             "char_243_waaifu": "Waai Fu",
             "char_214_kafka": "Kafka",
@@ -261,6 +264,7 @@
             "char_1031_slent2": "Silence the Paradigmatic",
             "char_2023_ling": "Ling",
             "char_4072_ironmn": "Stainless",
+            "char_245_cello": "Virtuosa",
             "char_250_phatom": "Phantom",
             "char_1028_texas2": "Texas the Omertosa",
             "char_1029_yato2": "Kirin R Yato",
@@ -298,9 +302,11 @@
             "char_017_huang": "Blaze",
             "char_1026_gvial2": "Gavial the Invincible",
             "char_350_surtr": "Surtr",
+            "char_4098_vvana": "Viviana",
             "char_188_helage": "Hellagur",
             "char_485_pallas": "Pallas",
             "char_1014_nearl2": "Nearl the Radiant Knight",
+            "char_4011_lessng": "Lessing",
             "char_1032_excu2": "Executor the Ex Foedere",
             "char_4064_mlynar": "Młynar",
             "char_230_savage": "Savage",
@@ -361,6 +367,7 @@
             "Ambriel": "char_302_glaze",
             "Aciddrop": "char_366_acdrop",
             "Totter": "char_4062_totter",
+            "Caper": "char_4100_caper",
             "Courier": "char_198_blackd",
             "Scavenger": "char_149_scave",
             "Vigna": "char_290_vigna",
@@ -468,6 +475,7 @@
             "Kjera": "char_4013_kjera",
             "Rockrock": "char_4040_rockr",
             "Minimalist": "char_4054_malist",
+            "Diamante": "char_499_kaitou",
             "Mayer": "char_242_otter",
             "Scene": "char_336_folivo",
             "Silence": "char_108_silent",
@@ -484,6 +492,7 @@
             "Paprika": "char_4071_peper",
             "Nearl": "char_148_nearl",
             "Hung": "char_226_hmau",
+            "Bassline": "char_4109_baslin",
             "Projekt Red": "char_144_red",
             "Waai Fu": "char_243_waaifu",
             "Kafka": "char_214_kafka",
@@ -573,6 +582,7 @@
             "Silence the Paradigmatic": "char_1031_slent2",
             "Ling": "char_2023_ling",
             "Stainless": "char_4072_ironmn",
+            "Virtuosa": "char_245_cello",
             "Phantom": "char_250_phatom",
             "Texas the Omertosa": "char_1028_texas2",
             "Kirin R Yato": "char_1029_yato2",
@@ -610,9 +620,11 @@
             "Blaze": "char_017_huang",
             "Gavial the Invincible": "char_1026_gvial2",
             "Surtr": "char_350_surtr",
+            "Viviana": "char_4098_vvana",
             "Hellagur": "char_188_helage",
             "Pallas": "char_485_pallas",
             "Nearl the Radiant Knight": "char_1014_nearl2",
+            "Lessing": "char_4011_lessng",
             "Executor the Ex Foedere": "char_1032_excu2",
             "Młynar": "char_4064_mlynar",
             "Savage": "char_230_savage",
@@ -1213,6 +1225,10 @@
             "远程位",
             "输出"
         ],
+        "Caper": [
+            "远程位",
+            "输出"
+        ],
         "Courier": [
             "近战位",
             "费用回复",
@@ -1777,6 +1793,12 @@
             "远程位",
             "输出"
         ],
+        "Diamante": [
+            "资深干员",
+            "远程位",
+            "元素",
+            "输出"
+        ],
         "Mayer": [
             "资深干员",
             "远程位",
@@ -1858,6 +1880,12 @@
             "治疗"
         ],
         "Hung": [
+            "资深干员",
+            "近战位",
+            "防护",
+            "治疗"
+        ],
+        "Bassline": [
             "资深干员",
             "近战位",
             "防护",
@@ -2384,6 +2412,12 @@
             "支援",
             "输出"
         ],
+        "Virtuosa": [
+            "高级资深干员",
+            "远程位",
+            "元素",
+            "支援"
+        ],
         "Phantom": [
             "高级资深干员",
             "近战位",
@@ -2614,6 +2648,12 @@
             "近战位",
             "输出"
         ],
+        "Viviana": [
+            "高级资深干员",
+            "近战位",
+            "输出",
+            "生存"
+        ],
         "Hellagur": [
             "高级资深干员",
             "近战位",
@@ -2627,6 +2667,11 @@
             "支援"
         ],
         "Nearl the Radiant Knight": [
+            "高级资深干员",
+            "近战位",
+            "输出"
+        ],
+        "Lessing": [
             "高级资深干员",
             "近战位",
             "输出"
