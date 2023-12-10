@@ -112,6 +112,7 @@
             "char_157_dagda": "Dagda",
             "char_140_whitew": "Lappland",
             "char_294_ayer": "Ayerscarpe",
+            "char_194_leto": "Leto",
             "char_4083_chimes": "Wind Chimes",
             "char_252_bibeak": "Bibeak",
             "char_459_tachak": "Tachanka",
@@ -168,6 +169,7 @@
             "char_402_tuye": "Tuye",
             "char_473_mberry": "Mulberry",
             "char_449_glider": "Honeyberry",
+            "char_4114_harold": "Harold",
             "char_1024_hbisc2": "Hibiscus the Purifier",
             "char_494_vendla": "Vendela",
             "char_4071_peper": "Paprika",
@@ -299,6 +301,7 @@
             "char_4088_hodrer": "Hoederer",
             "char_010_chen": "Ch'en",
             "char_4009_irene": "Irene",
+            "char_4116_blkkgt": "Degenbrecher",
             "char_017_huang": "Blaze",
             "char_1026_gvial2": "Gavial the Invincible",
             "char_350_surtr": "Surtr",
@@ -431,6 +434,7 @@
             "Dagda": "char_157_dagda",
             "Lappland": "char_140_whitew",
             "Ayerscarpe": "char_294_ayer",
+            "Leto": "char_194_leto",
             "Wind Chimes": "char_4083_chimes",
             "Bibeak": "char_252_bibeak",
             "Tachanka": "char_459_tachak",
@@ -487,6 +491,7 @@
             "Tuye": "char_402_tuye",
             "Mulberry": "char_473_mberry",
             "Honeyberry": "char_449_glider",
+            "Harold": "char_4114_harold",
             "Hibiscus the Purifier": "char_1024_hbisc2",
             "Vendela": "char_494_vendla",
             "Paprika": "char_4071_peper",
@@ -617,6 +622,7 @@
             "Hoederer": "char_4088_hodrer",
             "Ch'en": "char_010_chen",
             "Irene": "char_4009_irene",
+            "Degenbrecher": "char_4116_blkkgt",
             "Blaze": "char_017_huang",
             "Gavial the Invincible": "char_1026_gvial2",
             "Surtr": "char_350_surtr",
@@ -886,6 +892,14 @@
             "🟨🟦🟦🟦🟦",
             "🟦🟦⬛⬛⬛",
             "[[0, 1], [1, 1], [0, 0], [1, 0], [2, 0], [3, 0], [4, 0], [0, -1], [1, -1]]"
+        ],
+        "4-10": [
+            "🟦⬛⬛⬛⬛",
+            "🟦🟦⬛⬛⬛",
+            "🟨🟦🟦🟦🟦",
+            "🟦🟦⬛⬛⬛",
+            "🟦⬛⬛⬛⬛",
+            "[[0, 2], [0, 1], [1, 1], [0, 0], [1, 0], [2, 0], [3, 0], [4, 0], [0, -1], [1, -1], [0, -2]]"
         ],
         "5-1": [
             "🟨🟦🟦🟦🟦🟦",
@@ -1553,6 +1567,12 @@
             "输出",
             "群攻"
         ],
+        "Leto": [
+            "资深干员",
+            "近战位",
+            "输出",
+            "支援"
+        ],
         "Wind Chimes": [
             "资深干员",
             "近战位",
@@ -1854,6 +1874,11 @@
             "治疗"
         ],
         "Honeyberry": [
+            "资深干员",
+            "远程位",
+            "治疗"
+        ],
+        "Harold": [
             "资深干员",
             "远程位",
             "治疗"
@@ -2629,6 +2654,13 @@
             "爆发",
             "输出",
             "控场"
+        ],
+        "Degenbrecher": [
+            "高级资深干员",
+            "近战位",
+            "爆发",
+            "输出",
+            "削弱"
         ],
         "Blaze": [
             "高级资深干员",

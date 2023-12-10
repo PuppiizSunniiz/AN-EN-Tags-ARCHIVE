@@ -38,7 +38,7 @@ json_tl_item        =   json.loads(open("json/tl-item.json").read())
 #########################################################################################################
 # Prep
 #########################################################################################################
-newchars = ['Harold','лето','Degenbrecher']
+newchars = ['Harold','Лето','Degenbrecher']
 newmods = [['Goldenglow',1],['Kjera',1],['Rockrock',1],['Minimalist',1],['Click',1],['Reed The Flame Shadow',1],['Hibiscus the Purifier',1],['Vendela',1],['Degenbrecher',1],['Lee',2],['Suzuran',2],['Carnelian',2],['Weedy',2],
 ]
 newmats = []
@@ -271,7 +271,7 @@ with open("update/tl-attacktype.json",'w') as JSON :
 #########################################################################################################
 
 for term in json_term["termDescriptionDict"].keys():
-    if term in json_constructEN["termDescriptionDict"].keys():
+    if term in json_constructEN["termDescriptionDict"].keys() and 'cc.' not in term :
         json_term["termDescriptionDict"][term]=json_constructEN["termDescriptionDict"][term]
         
 dumpling=json.dumps(json_term,indent=4, ensure_ascii=False)

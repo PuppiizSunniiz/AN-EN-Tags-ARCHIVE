@@ -180,6 +180,11 @@
             "termName": "Elemental Barrier",
             "description": "Can absorb a certain amount of <$ba.dt.element>Elemental damage</>"
         },
+        "ba.tremble": {
+            "termId": "ba.tremble",
+            "termName": "Tremble",
+            "description": "When blocked, unable to carry out normal attacks"
+        },
         "cc.bd_A_1": {
             "termId": "cc.bd_A_1",
             "termName": "Psychokinesis",
@@ -199,6 +204,11 @@
             "termId": "cc.bd_B_2",
             "termName": "Harmony Astray",
             "description": "Operators with this skill\nEbenholz"
+        },
+        "cc.bd_B_3": {
+            "termId": "cc.bd_B_3",
+            "termName": "Wordless Carols",
+            "description": "Operator with this skill\nVirtuosa"
         },
         "cc.bd_A": {
             "termId": "cc.bd_A",
@@ -355,6 +365,11 @@
             "termName": "Sami",
             "description": "Includes the following operators\nGitano, Bibeak, Qanipalaat, Typhon, Santalla, Valarqvin"
         },
+        "cc.g.bs": {
+            "termId": "cc.g.bs",
+            "termName": "Blacksteel",
+            "description": "Includes the following operators\nLiskarm, Franka, Jessica, Vanilla, Almond"
+        },
         "cc.c.abyssal2_1": {
             "termId": "cc.c.abyssal2_1",
             "termName": "Special Bonus",
@@ -379,6 +394,11 @@
             "termId": "cc.c.room2",
             "termName": "Other Facilities",
             "description": "Includes the following facilities: \nPower Plant, Factory, Trading Post, HR Office, Reception Room"
+        },
+        "cc.c.room3": {
+            "termId": "cc.c.room3",
+            "termName": "Workplace",
+            "description": "Includes the following facilities\nPower Station, Craft Station, Trade Station, Human Resource, Reception, Command Center, Training Room"
         },
         "cc.c.skill": {
             "termId": "cc.c.skill",

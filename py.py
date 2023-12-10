@@ -41,7 +41,7 @@ def Charname(self) -> str:
         return NameCheck(json_char[self]["appellation"])
     '''
     def NameCheck(self):
-        Russian = {'Гум': 'Gummy', 'Зима': 'Zima', 'Истина': 'Istina', 'Позёмка': 'Pozëmka', 'Роса': 'Rosa'}
+        Russian = {'Гум': 'Gummy', 'Зима': 'Zima', 'Истина': 'Istina', 'Позёмка': 'Pozëmka', 'Роса': 'Rosa','Лето':'Leto'}
         if self in Russian.keys():
             return Russian[self]
         else:
