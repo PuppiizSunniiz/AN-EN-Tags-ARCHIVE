@@ -604,7 +604,7 @@
             "color": "extra"
         },
         "生命值高于80%时，技力自然回复速度+0.25/秒": {
-            "en": "When HP higher than 80%, increases the SP recovery rate by +0.25/second",
+            "en": "Increases SP recovery rate by +0.25/second while above 80% HP",
             "color": "extra"
         },
         "并对目标造成10％<$ba.weaken>虚弱</>效果，持续2秒": {
