@@ -218,7 +218,7 @@
         "cc.bd_B": {
             "termId": "cc.bd_B",
             "termName": "Soundless Resonance",
-            "description": "Affects skills related to <$cc.bd_B_1><@cc.rem>Lingering Melody</></> and <$cc.bd_B_2><@cc.rem>Harmony Astray</></>\nProvided by the following Operator's skills:\nEbenholz"
+            "description": "Affects skills related to <$cc.bd_B_1><@cc.rem>Lingering Melody</></> and <$cc.bd_B_2><@cc.rem>Harmony Astray</></>\nProvided by the following Operator's skills:\nEbenholz, Virtuosa, Bassline"
         },
         "cc.bd_C": {
             "termId": "cc.bd_C",
@@ -402,8 +402,8 @@
         },
         "cc.c.skill": {
             "termId": "cc.c.skill",
-            "termName": "Certain Skills",
-            "description": "Includes the following skills: \nCapable Assistance, S.W.E.E.P., Snack Network, Cleaning Agreement, Substitute, Necessary Responsibility, Guarding, Tiny Leader, Self-Absorbed"
+            "termName": "Certain skills",
+            "description": "Includes the following skills\nCompetent, S.W.E.E.P.. Snack Network, Cleanup Agreement, Substitute, Necessary Responsibility, Bodyguard, Tiny Leader, Egocentric, Sunshine Smile**, Marigold Poetry Club**"
         },
         "cc.t.strong2": {
             "termId": "cc.t.strong2",
@@ -472,8 +472,8 @@
         },
         "cc.tag.knight": {
             "termId": "cc.tag.knight",
-            "termName": "Knight",
-            "description": "Includes the following operators\nNearl the Radiant Knight, Nearl, Blemishine, Whislash, Flametail, Fartooth, Ashlock, Wild Mane, Justice Knight, Gravel"
+            "termName": "Knights",
+            "description": "Includes the following operators\nNearl the Radiant Knight, Nearl, Blemishine, Whislash, Flametail, Fartooth, Ashlock, Wild Mane, Justice Knight, Gravel, Viviana"
         },
         "cc.tag.durin": {
             "termId": "cc.tag.durin",

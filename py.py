@@ -28,7 +28,7 @@ def Continue() -> bool:
         case "y":
             return True
         case default:
-            Continue()
+            return Continue()
 
 def Charname(self) -> str:
     '''
@@ -96,7 +96,7 @@ def Modcheck():
     mod=[]
     for key in json_mod["charEquip"].keys():
         if len(json_mod["charEquip"][key])>modnum:
-            mod.append(Charname(key)+" "+key)
+            mod.append(Charname(key)+" -- "+key)
     sorted(mod)
     mod.append("Search result :"+str(len(mod)))
     print("\n".join(mod))
@@ -110,14 +110,13 @@ def Rangecheck():
         return False
     elif rangeid.lower() == "s":
         print(list(DB["Range"].keys()))
-        Rangecheck()
+        return True
     elif rangeid.lower() not in DB["Range"].keys():
         print(rangeid,"is not Range ID")
-        Rangecheck()
+        return Continue()
     else :
         print("\n".join(DB["Range"][rangeid]))
-    
-    return Continue()
+        return Continue()
 
 '''
     def Tagcheck():

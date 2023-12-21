@@ -6475,7 +6475,7 @@
             "防护"
         ],
         "hidden": false,
-        "globalHidden": true
+		"globalHidden": false
     },
     {
         "id": "char_1032_excu2",
