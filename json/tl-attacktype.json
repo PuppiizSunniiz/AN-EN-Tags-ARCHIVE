@@ -612,7 +612,7 @@
             "color": "magic"
         },
         "<支援装置>的持有上限<@ba.kw>+{cnt}</>且部署费用<@ba.kw>减少</>": {
-            "en": "Can hold <@ba.kw>+{cnt}</> additional &lt;Support Devices&gt; and &lt;Support Devices&gt; deployment costs are <@ba.kw>reduced</>",
+            "en": "Increases the max number of Support Devices that can be held by <@ba.kw>+{cnt}</> and <@ba.kw>reduces</> their Deployment Cost",
             "color": "extra"
         },
         "技能发动期间阻挡数变为0，但使身前一名干员阻挡数<@ba.kw>+1</>":{

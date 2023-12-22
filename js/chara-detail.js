@@ -4417,7 +4417,7 @@
         var currModuleTalentName = EN?EN.name:TL?TL.name:CN.name
         var currModuleTalentDesc = EN?EN.upgradeDescription:TL?TL.upgradeDescription:CN.upgradeDescription
 
-        currModuleTalentDesc=ChangeDescriptionColor2(currModuleTalentDesc.replace(/\<([A-z]+)\>/g,"&lt;"+"$1"+'&gt;'))
+        currModuleTalentDesc=ChangeDescriptionColor2(currModuleTalentDesc.replace(/\<([A-z]+)\>/g,"&lt;"+"$1"+'&gt;').replace("\n","<br>"))
 
         var isModuleTalentRange = CN.rangeId
         var Moduletalentdetails = []
@@ -4513,7 +4513,7 @@
 
         var currTalentName = eachtalent.talentEN?eachtalent.talentEN.name:eachtalent.talentTL?eachtalent.talentTL.name:eachtalent.talent.name
         var currTalentDesc = eachtalent.talentEN?eachtalent.talentEN.description:eachtalent.talentTL?eachtalent.talentTL.desc:eachtalent.talent.description
-        currTalentDesc = ChangeDescriptionColor2(currTalentDesc.replace(/\<([A-z]+)\>/g,"&lt;"+"$1"+'&gt;'))
+        currTalentDesc = ChangeDescriptionColor2(currTalentDesc.replace(/\<([A-z]+)\>/g,"&lt;"+"$1"+'&gt;').replace("\n","<br>"))
         // console.log(eachtalent.talent.name)
         var isTalentRange = eachtalent.talent.rangeId
         var blacklist =
@@ -5182,7 +5182,7 @@
         var skillTL = db.skillsTL[skillId];
         var desc = skillEN?skillEN.description:skillTL?skillTL.desc[level]:skill.description;
 
-        desc = ChangeDescriptionColor2(desc.replace(/\<([A-z]+)\>/g,"&lt;"+"$1"+'&gt;'))
+        desc = ChangeDescriptionColor2(desc.replace(/\<([A-z]+)\>/g,"&lt;"+"$1"+'&gt;').replace("\n","<br>"))
         if(desc){
             // console.log(skill)
             desc=ChangeDescriptionContent(desc,skill)
