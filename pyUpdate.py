@@ -38,13 +38,12 @@ json_tl_item        =   json.loads(open("json/tl-item.json").read())
 #########################################################################################################
 # Prep
 #########################################################################################################
-newchars = ['Harold','Лето','Degenbrecher']
-newmods = [['Goldenglow',1],['Kjera',1],['Rockrock',1],['Minimalist',1],['Click',1],['Reed The Flame Shadow',1],['Hibiscus the Purifier',1],['Vendela',1],['Degenbrecher',1],['Lee',2],['Suzuran',2],['Carnelian',2],['Weedy',2],
-]
+newchars = ['Warmy','Ray']
+newmods = []
 newmats = []
 
 recruitCN=[]
-recruitEN=['Friston-3']
+recruitEN=[]
 
 newtrait ={}
 
