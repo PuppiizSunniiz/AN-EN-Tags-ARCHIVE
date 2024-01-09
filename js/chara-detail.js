@@ -3924,7 +3924,10 @@
                 var currname = currbuffEN?currbuffEN.buffName:tlbuff?tlbuff.name:currbuff.buffName
                 var currdesc = currbuffEN?currbuffEN.description:tlbuff?tlbuff.descformat:currbuff.description
                 var formattedesc = ChangeDescriptionColor2(currdesc)
-                formattedesc = formattedesc.replace(/\\n/g,"<br><br>")
+
+                console.log(currdesc,"\n",ChangeDesc1(currdesc),"\n",ChangeDescriptionColor2(currdesc))
+                console.log(formattedesc)
+                //formattedesc = formattedesc.replace(/\\n/g,"<br><br>")
                 riicskills.push(`
                 <div class="" style="background:#444;margin:4px;padding:0px;background:#444;border-radius:2px;text-align:left">
                     <div style="background:#999;display:inline-block;padding:2px;width:100%;border-radius:2px 2px 0px 0px;position:relative;height:33px">
@@ -4013,11 +4016,12 @@
         riicList.forEach(eachcat => {
             var eachtab = []
             eachcat.list.forEach(eachbuff => {
-                var currbuff = db.build.buffs[eachbuff]
-                var tlbuff = db.riic[eachbuff]
+                var currbuff = db.build.buffs[id]
+                var currbuffEN = db.buildEN.buffs[id]
+                var tlbuff = db.riic[id]
 
-                var currname = tlbuff?tlbuff.name:currbuff.buffName
-                var currdesc = tlbuff?tlbuff.desc:currbuff.description
+                var currname = currbuffEN?currbuffEN.buffName:tlbuff?tlbuff.name:currbuff.buffName
+                var currdesc = currbuffEN?currbuffEN.description:tlbuff?tlbuff.descformat:currbuff.description
                 var normdesc = currdesc
                 // console.log(eachbuff)
                 currdesc = currdesc.replace(/\\n/g,"\n\n")
@@ -4073,11 +4077,13 @@
             $("#op-riicdetail").slideUp(200)
         }else{
             var currbuff = db.build.buffs[id]
+            var currbuffEN = db.buildEN.buffs[id]
             var tlbuff = db.riic[id]
 
-            var currname = tlbuff?tlbuff.name:currbuff.buffName
-            var currdesc = tlbuff?tlbuff.descformat:currbuff.description
+            var currname = currbuffEN?currbuffEN.buffName:tlbuff?tlbuff.name:currbuff.buffName
+            var currdesc = currbuffEN?currbuffEN.description:tlbuff?tlbuff.descformat:currbuff.description
             var formattedesc = ChangeDescriptionColor2(currdesc)
+
             console.log(currname)
             console.log(currdesc)
             $("#op-riicdetail-img").attr("src",img)
