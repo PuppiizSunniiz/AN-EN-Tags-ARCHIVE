@@ -1,0 +1,54 @@
+Whisperain
+    Memory Fragments > Sensory Information
+
+When this Operator is assigned to the HR Office, HR contacting speed <@cc.vup>+20%</>. 
+Additionally, for every Recruit slot (Default slots do not count), <$cc.bd_a1_a1><@cc.rem>Memory Fragments</></> <@cc.vup>+10</> 
+
+When this Operator is assigned to the HR Office, HR contacting speed <span class="" style="color:#0098DC">+20%</span>. 
+Additionally, for every Recruit slot (Default slots do not count), <$cc.bd_a1_a1><span class="" style="color:#F49800">Memory Fragments</span></> <span class="" style="color:#0098DC">+10</span> 
+
+When this Operator is assigned to the HR Office, HR contacting speed <span class="" style="color:#0098DC">+20%</span>. 
+Additionally, for every Recruit slot (Default slots do not count), 
+<span class="stathover" data-toggle="tooltip" data-html="true" data-delay='{ "show": 0, "hide": 500 }' data-placement="bottom"
+                title='
+                <span class="tooltiptext" style="display:inline-block">
+                    <div class="tooltipHeader">Memory Fragments</div>
+                    <div class="tooltipcontent">Affects skills related to <span class="stat-important tooltip3" style="color:#0098DC"><span class="" style="color:#F49800">Perception Information</span><span class="tooltiptext2" style="display:inline-block"><div class="tooltipHeader">Perception Information</div>Affects skills related to <span class="stat-important" style="color:#0098DC"><span class="" style="color:#F49800">Chain of Thought</span></span> and <span class="stat-important" style="color:#0098DC"><span class="" style="color:#F49800">Soundless Resonance</span></span>
+Provided by the following Operators's skills:
+Rosmontis, Ebenholz, Dusk, Ling, Whisperain, Iris, Czerny</span></span>
+Provided by the following Operator&apos;s skills
+Whisperain</div>
+                </span>'
+                style="color:#0098DC"><span class="" style="color:#F49800">Memory Fragments</span></span> <span class="" style="color:#0098DC">+10</span>
+
+When stationed at Human Resource, accumulation of networking resources <span class="" style="color:#0098DC">+20%</span>. 
+Additionally, gain <span class="" style="color:#0098DC">+10</span> 
+<span class="stathover" data-toggle="tooltip" data-html="true" data-delay="{ "show": 0, "hide": 500 }" data-placement="bottom" 
+title="" style="color:#0098DC" data-original-title="
+                <span class="tooltiptext" style="display:inline-block">
+                    <div class="tooltipHeader">Memory Fragment</div>
+                    <div class="tooltipcontent">Affects variables related to <span class="stat-important tooltip3" style="color:#0098DC"><span class="" style="color:#F49800">Sensory Information</span><span class="tooltiptext2" style="display:inline-block"><div class="tooltipHeader">Sensory Information</div>Affects variables related to <span class="stat-important" style="color:#0098DC"><span class="" style="color:#F49800">Chain of Thought</span></span>, <span class="stat-important" style="color:#0098DC"><span class="" style="color:#F49800">Silent Resonance</span></span>
+Provided by the following operators
+Rosmontis, Ebenholz, Dusk, Ling, Whisperain, Iris, Czerny</span></span>
+Provided by the following operators
+Whisperain</div>
+                </span>"><span class="" style="color:#F49800">Memory Fragments</span></span> for every Open Recruitment slot (excluding the initial slots)
+                        </div>
+
+
+<div style="display:inline-block;margin:4px">
+    <div id="op-riicdetail-desc" style="font-size:11px;">
+When this Operator is assigned to the HR Office, HR contacting speed 
+    <span class="" style="color:#0098DC">+20%</span>.
+Additionally, for every Recruit slot (Default slots do not count),
+    <span class="stathover" data-toggle="tooltip" data-html="true" data-delay="{ &quot;show&quot;: 0, &quot;hide&quot;: 500 }" data-placement="bottom" 
+title="" s="" skills:="" rosmontis,="" ebenholz,="" dusk,="" ling,="" whisperain,="" iris,="" czerny<="" span="" data-original-title="
+    <span class=&quot;tooltiptext&quot; style=&quot;display:inline-block&quot;>
+    <div class=&quot;tooltipHeader&quot;>Memory Fragments</div>
+    <div class=&quot;tooltipcontent&quot;>Affects skills related to <span class=&quot;stat-important tooltip3&quot; style=&quot;color:#0098DC&quot;><span class=&quot;&quot; style=&quot;color:#F49800&quot;>Perception Information</span><span class=&quot;tooltiptext2&quot; style=&quot;display:inline-block&quot;><div class=&quot;tooltipHeader&quot;>Perception Information</div>Affects skills related to <span class=&quot;stat-important&quot; style=&quot;color:#0098DC&quot;><span class=&quot;&quot; style=&quot;color:#F49800&quot;>Chain of Thought</span></span> and <span class=&quot;stat-important&quot; style=&quot;color:#0098DC&quot;><span class=&quot;&quot; style=&quot;color:#F49800&quot;>Soundless Resonance</span></span>
+Provided by the following Operators"></span>
+Provided by the following Operator's skills
+Whisperain</div>
+                '
+                style="color:#0098DC"&gt;<span class="" style="color:#F49800">Memory Fragments</span> <span class="" style="color:#0098DC">+10</span>
+                        </div>
