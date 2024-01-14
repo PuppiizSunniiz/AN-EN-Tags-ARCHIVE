@@ -3918,16 +3918,12 @@
 
             eachcat.list.forEach(id => {
                 var currbuff = db.build.buffs[id]
-                var currbuffEN = db.buildEN.buffs[id]
                 var tlbuff = db.riic[id]
 
-                var currname = currbuffEN?currbuffEN.buffName:tlbuff?tlbuff.name:currbuff.buffName
-                var currdesc = currbuffEN?currbuffEN.description:tlbuff?tlbuff.descformat:currbuff.description
+                var currname = tlbuff?tlbuff.name:currbuff.buffName
+                var currdesc = tlbuff?tlbuff.descformat:currbuff.description
                 var formattedesc = ChangeDescriptionColor2(currdesc)
-
-                console.log(currdesc,"\n",ChangeDesc1(currdesc),"\n",ChangeDescriptionColor2(currdesc))
-                console.log(formattedesc)
-                //formattedesc = formattedesc.replace(/\\n/g,"<br><br>")
+                formattedesc = formattedesc.replace(/\\n/g,"<br>")
                 riicskills.push(`
                 <div class="" style="background:#444;margin:4px;padding:0px;background:#444;border-radius:2px;text-align:left">
                     <div style="background:#999;display:inline-block;padding:2px;width:100%;border-radius:2px 2px 0px 0px;position:relative;height:33px">
@@ -4017,11 +4013,10 @@
             var eachtab = []
             eachcat.list.forEach(eachbuff => {
                 var currbuff = db.build.buffs[id]
-                var currbuffEN = db.buildEN.buffs[id]
                 var tlbuff = db.riic[id]
 
-                var currname = currbuffEN?currbuffEN.buffName:tlbuff?tlbuff.name:currbuff.buffName
-                var currdesc = currbuffEN?currbuffEN.description:tlbuff?tlbuff.descformat:currbuff.description
+                var currname = tlbuff?tlbuff.name:currbuff.buffName
+                var currdesc = tlbuff?tlbuff.descformat:currbuff.description
                 var normdesc = currdesc
                 // console.log(eachbuff)
                 currdesc = currdesc.replace(/\\n/g,"\n\n")
@@ -4077,11 +4072,10 @@
             $("#op-riicdetail").slideUp(200)
         }else{
             var currbuff = db.build.buffs[id]
-            var currbuffEN = db.buildEN.buffs[id]
             var tlbuff = db.riic[id]
 
-            var currname = currbuffEN?currbuffEN.buffName:tlbuff?tlbuff.name:currbuff.buffName
-            var currdesc = currbuffEN?currbuffEN.description:tlbuff?tlbuff.descformat:currbuff.description
+            var currname = tlbuff?tlbuff.name:currbuff.buffName
+            var currdesc = tlbuff?tlbuff.descformat:currbuff.description
             var formattedesc = ChangeDescriptionColor2(currdesc)
 
             console.log(currname)
@@ -5251,7 +5245,7 @@
                 rich2 = db.dataconst.termDescriptionDict[rtf]
             }
             if (rich2) {
-                return `<span class="stat-important tooltip3" style="color:#0098DC">${text}<span class="tooltiptext2" style="display:inline-block"><div class="tooltipHeader">${rich2.termName}</div>${CreateTooltip2(rich2.description)}</span></span>`
+                return `<span class="stat-important tooltip3" style="color:#0098DC">${text}<span class="tooltiptext2" style="display:inline-block"><div class="tooltipHeader">${rich2.termName}</div>${CreateTooltip2(rich2.description.replace(/\'/g,"&apos;"))}</span></span>`
             }
         })
         return desc
