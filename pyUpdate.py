@@ -38,12 +38,12 @@ json_tl_item        =   json.loads(open("json/tl-item.json").read())
 #########################################################################################################
 # Prep
 #########################################################################################################
-newchars = ['Warmy','Ray']
+newchars = []
 newmods = []
 newmats = []
 
 recruitCN=[]
-recruitEN=[]
+recruitEN=['Chiave','Beeswax','thorns','andreana','jaye']
 
 newtrait ={}
 
@@ -113,7 +113,7 @@ if recruitCN:
                 chars["hidden"]=False
                 break
 ##EN
-if recruitCN:
+if recruitEN:
     for char in recruitEN:
         for chars in json_akhr:
             if char.lower()==chars["name_en"].lower():
@@ -279,3 +279,16 @@ with open("json/named_effects.json",'w') as JSON :
 
 
 print("\nUpdate Completed !!!\n")
+
+'''
+
+buildEN=json.loads(open("json/gamedata/en_US/gamedata/excel/building_data.json").read())
+RIIC=json.loads(open("json/ace/riic.json").read())
+
+for buff in buildEN["buffs"].keys():
+    RIIC[buff]["descformat"]=buildEN["buffs"][buff]["description"]
+
+dumpling=json.dumps(RIIC,indent=4, ensure_ascii=False)
+with open("json/ace/riic.json",'w') as JSON :
+    JSON.write(dumpling)
+    '''

@@ -3230,7 +3230,7 @@
             "防护"
         ],
         "hidden": false,
-        "globalHidden": true
+        "globalHidden": false
     },
     {
         "id": "char_349_chiave",
@@ -3253,7 +3253,7 @@
             "输出"
         ],
         "hidden": false,
-        "globalHidden": true
+        "globalHidden": false
     },
     {
         "id": "char_336_folivo",
@@ -3298,7 +3298,7 @@
             "输出"
         ],
         "hidden": false,
-        "globalHidden": true
+        "globalHidden": false
     },
     {
         "id": "char_218_cuttle",
@@ -3321,7 +3321,7 @@
             "减速"
         ],
         "hidden": false,
-        "globalHidden": true
+        "globalHidden": false
     },
     {
         "id": "char_293_thorns",
@@ -3344,7 +3344,7 @@
             "防护"
         ],
         "hidden": false,
-        "globalHidden": true
+        "globalHidden": false
     },
     {
         "id": "char_416_zumama",
@@ -6615,8 +6615,8 @@
         "id": "char_1016_agoat2",
         "name_cn": "纯烬艾雅法拉",
         "name_en": "Eyjafjalla the Hvít Aska",
-        "name_jp": "",
-        "name_kr": "",
+        "name_jp": "純燼エイヤフィヤトラ",
+        "name_kr": "에이야퍄들라 더 크비트 아스카",
         "characteristic_cn": "",
         "characteristic_en": "",
         "characteristic_jp": "",
@@ -6637,8 +6637,8 @@
         "id": "char_1033_swire2",
         "name_cn": "琳琅诗怀雅",
         "name_en": "Swire the Elegant Wit",
-        "name_jp": "",
-        "name_kr": "",
+        "name_jp": "琳琅スワイヤー",
+        "name_kr": "스와이어 디 엘리건트 위트",
         "characteristic_cn": "",
         "characteristic_en": "",
         "characteristic_jp": "",
@@ -6660,8 +6660,8 @@
         "id": "char_488_buildr",
         "name_cn": "青枳",
         "name_en": "Poncirus",
-        "name_jp": "",
-        "name_kr": "",
+        "name_jp": "ポンシラス",
+        "name_kr": "폰사이러스",
         "characteristic_cn": "",
         "characteristic_en": "",
         "characteristic_jp": "",
@@ -6683,8 +6683,8 @@
         "id": "char_4106_bryota",
         "name_cn": "苍苔",
         "name_en": "Bryophyta",
-        "name_jp": "",
-        "name_kr": "",
+        "name_jp": "ブライオファイタ",
+        "name_kr": "브라이오피타",
         "characteristic_cn": "",
         "characteristic_en": "",
         "characteristic_jp": "",
