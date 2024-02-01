@@ -20,10 +20,11 @@ def CharReady(JSON,mode=0):
     Chars={"Code2Name":{},"Name2Code":{}}
     OpsExclude=[] # "isNotObtainable": true
     for key in JSON.keys():
-        Chars["Code2Name"][key]=Charname(JSON,key)
-        Chars["Name2Code"][Charname(JSON,key)]=key
-        if JSON[key]["isNotObtainable"] and "char_" in key:
-            OpsExclude.append([key,Charname(JSON,key)])
+        if "char_" in key:
+            Chars["Code2Name"][key]=Charname(JSON,key)
+            Chars["Name2Code"][Charname(JSON,key)]=key
+            if JSON[key]["isNotObtainable"]:
+                OpsExclude.append([key,Charname(JSON,key)])
     Chars["Exclude"]=OpsExclude
     match mode :
         case 1 :

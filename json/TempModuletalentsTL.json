@@ -1013,7 +1013,7 @@
         [
             {
                 "name": "秉烛照影",
-                "upgradeDescription": "When deployed, ASPD +70 <@ba.talpu>(+3%)</> and increases the SP recovery rate by +2.3/second <$ba.berserk>Tenacity</> (reaches maximum bonus when losing 50% Max HP)"
+                "upgradeDescription": "When deployed, ASPD +70 and increases the SP recovery rate by +2.3/second <$ba.berserk>Tenacity</> (reaches maximum bonus when losing 50% Max HP)"
             }
         ]
     ],
@@ -1021,29 +1021,35 @@
         [
             {
                 "name": "百谷长青",
-                "CN": "治疗干员时对其与周围四格地块进行播种施加如下效果：每秒恢复70生命、获得10%<$ba.protect>庇护</>",
-                "mod": "治疗干员时对其与周围四格地块进行播种施加如下效果：每秒恢复80生命、获得10%<$ba.protect>庇护</>",
                 "upgradeDescription": "When healing allies, plant seeds on the ally's tile and the 4 adjacent tiles, granting the following effects: Restores the HP by 80 per second and apply 10% <$ba.protect>Sanctuary</> effect to allies"
             },
             {
                 "name": "百谷长青",
-                "CN": "治疗干员时对其与周围四格地块进行播种施加如下效果：每秒恢复75<@ba.talpu>（+5）</>生命、获得12%<@ba.talpu>（+2%）</><$ba.protect>庇护</>",
-                "mod": "治疗干员时对其与周围四格地块进行播种施加如下效果：每秒恢复85<@ba.talpu>（+5）</>生命、获得12%<@ba.talpu>（+2%）</><$ba.protect>庇护</>",
                 "upgradeDescription": "When healing allies, plant seeds on the ally's tile and the 4 adjacent tiles, granting the following effects: Restores the HP by 85 <@ba.talpu>(+5)</> per second and apply 12% <@ba.talpu>(+2%)</> <$ba.protect>Sanctuary</> effect to allies"
             }
         ],
         [
             {
                 "name": "百谷长青",
-                "CN": "治疗干员时对其与周围四格地块进行播种施加如下效果：每秒恢复70生命、获得10%<$ba.protect>庇护</>",
-                "mod": "治疗干员时对其与周围四格地块进行播种施加如下效果：每秒恢复80生命、获得15%<$ba.protect>庇护</>，部署时立即给所处地块播种该效果",
                 "upgradeDescription": "When healing allies, plant seeds on the ally's tile and the 4 adjacent tiles, granting the following effects: Restores the HP by 80 per second and apply 15% <$ba.protect>Sanctuary</> effect to allies; Upon deployment, immediately plant seeds on the tile Shu is on"
             },
             {
                 "name": "百谷长青",
-                "CN": "治疗干员时对其与周围四格地块进行播种施加如下效果：每秒恢复75<@ba.talpu>（+5）</>生命、获得12%<@ba.talpu>（+2%）</><$ba.protect>庇护</>",
-                "mod": "治疗干员时对其与周围四格地块进行播种施加如下效果：每秒恢复85<@ba.talpu>（+5）</>生命、获得17%<@ba.talpu>（+2%）</><$ba.protect>庇护</>，部署时立即给所处地块播种该效果",
                 "upgradeDescription": "When healing allies, plant seeds on the ally's tile and the 4 adjacent tiles, granting the following effects: Restores the HP by 85 <@ba.talpu>(+5)</> per second and apply 17% <@ba.talpu>(+2%)</> <$ba.protect>Sanctuary</> effect to allies; Upon deployment, immediately plant seeds on the tile Shu is on"
+            }
+        ]
+    ],
+    "uniequip_002_rfalcn": [
+        [
+            {
+                "name": "习惯使然",
+                "upgradeDescription": "In Tales Within The Sand, increases the SP recovery rate by +0.2/second. When her skill is activated, resources on her are sent to inventory"
+            }
+        ],
+        [
+            {
+                "name": "习惯使然",
+                "upgradeDescription": "In Tales Within The Sand, increases the SP recovery rate by +0.3/second. When her skill is activated, resources on her are sent to inventory"
             }
         ]
     ]
