@@ -1,10 +1,15 @@
 {
-    "受到来自自身阻挡单位的伤害降低<@ba.kw>15%</>":{    # Mountain Indra Flint Dagda Beehunter
+    "能够阻挡一个敌人，生命值高于50%时攻击速度<@ba.vup>+{attack_speed}</>":{
         "en": " Can block one enemy; When HP is above 50%, ASPD +10",
         "color":"physical"
     },
-    "受到来自自身阻挡单位的伤害降低<@ba.kw>15%</>":{    # Chong Jackie
+    "能够阻挡一个敌人，拥有<@ba.kw>15%</>的物理闪避":{ 
         "en": "Can block one enemy; 30% Physical Dodge",
         "color":"physical"
-}
+    },
+    "攻击范围内存在敌人时技力自然恢复速度+0.2/秒":{
+            "en": "SP recovery +0.2/sec when there are enemies within range",
+            "color": "extra"
+     }
+
 }
