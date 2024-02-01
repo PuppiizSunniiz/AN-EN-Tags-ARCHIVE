@@ -40,8 +40,8 @@ json_tempmod        =   json.loads(open("json/TempModuletalentsTL.json").read())
 #########################################################################################################
 # Prep
 #########################################################################################################
-newchars = ['Shu','Zuo Le','Wan Qing','Grain Buds','Kestrel']
-newmods = [['Mountain',1],['Chongyue',1],['Dagda',1],['Flint',1],['Indra',1],['Beehunter',1],['Jackie',1],['Kestrel',1],['Wan Qing',1],['Grain Buds',1],['Zuo Le',1],['Shu',1]]
+newchars = ['Shu','Zuo Le','Wanqing','Grain Buds','Kestrel']
+newmods = [['Mountain',1],['Chongyue',1],['Dagda',1],['Flint',1],['Indra',1],['Beehunter',1],['Jackie',1],['Kestrel',1],['Wanqing',1],['Grain Buds',1],['Zuo Le',1],['Shu',1]]
 newmats = []
 
 recruitCN=['Surtr','April','Arene']

@@ -94,9 +94,11 @@
             "char_349_chiave": "Chiave",
             "char_488_buildr": "Poncirus",
             "char_513_apionr": "Tulip",
+            "char_4023_rfalcn": "Kestrel",
             "char_261_sddrag": "Reed",
             "char_496_wildmn": "Wild Mane",
             "char_401_elysm": "Elysium",
+            "char_4119_wanqin": "Wanqing",
             "char_476_blkngt": "Blacknight",
             "char_497_ctable": "Cantabile",
             "char_4017_puzzle": "Puzzle",
@@ -213,6 +215,7 @@
             "char_195_glassb": "Istina",
             "char_326_glacus": "Glaucus",
             "char_4032_provs": "Proviso",
+            "char_4122_grabds": "Grain Buds",
             "char_433_windft": "Windflit",
             "char_101_sora": "Sora",
             "char_4045_heidi": "Heidi",
@@ -289,6 +292,7 @@
             "char_136_hsguma": "Hoshiguma",
             "char_202_demkni": "Saria",
             "char_423_blemsh": "Blemishine",
+            "char_2025_shu": "Shu",
             "char_2014_nian": "Nian",
             "char_311_mudrok": "Mudrock",
             "char_4065_judge": "Penance",
@@ -309,6 +313,7 @@
             "char_350_surtr": "Surtr",
             "char_4098_vvana": "Viviana",
             "char_188_helage": "Hellagur",
+            "char_4121_zuole": "Zuo Le",
             "char_485_pallas": "Pallas",
             "char_1014_nearl2": "Nearl the Radiant Knight",
             "char_4011_lessng": "Lessing",
@@ -418,9 +423,11 @@
             "Chiave": "char_349_chiave",
             "Poncirus": "char_488_buildr",
             "Tulip": "char_513_apionr",
+            "Kestrel": "char_4023_rfalcn",
             "Reed": "char_261_sddrag",
             "Wild Mane": "char_496_wildmn",
             "Elysium": "char_401_elysm",
+            "Wanqing": "char_4119_wanqin",
             "Blacknight": "char_476_blkngt",
             "Cantabile": "char_497_ctable",
             "Puzzle": "char_4017_puzzle",
@@ -536,6 +543,7 @@
             "Istina": "char_195_glassb",
             "Glaucus": "char_326_glacus",
             "Proviso": "char_4032_provs",
+            "Grain Buds": "char_4122_grabds",
             "Windflit": "char_433_windft",
             "Sora": "char_101_sora",
             "Heidi": "char_4045_heidi",
@@ -612,6 +620,7 @@
             "Hoshiguma": "char_136_hsguma",
             "Saria": "char_202_demkni",
             "Blemishine": "char_423_blemsh",
+            "Shu": "char_2025_shu",
             "Nian": "char_2014_nian",
             "Mudrock": "char_311_mudrok",
             "Penance": "char_4065_judge",
@@ -632,6 +641,7 @@
             "Surtr": "char_350_surtr",
             "Viviana": "char_4098_vvana",
             "Hellagur": "char_188_helage",
+            "Zuo Le": "char_4121_zuole",
             "Pallas": "char_485_pallas",
             "Nearl the Radiant Knight": "char_1014_nearl2",
             "Lessing": "char_4011_lessng",
@@ -1465,6 +1475,12 @@
             "费用回复",
             "输出"
         ],
+        "Kestrel": [
+            "资深干员",
+            "近战位",
+            "费用回复",
+            "输出"
+        ],
         "Reed": [
             "资深干员",
             "近战位",
@@ -1478,6 +1494,12 @@
             "输出"
         ],
         "Elysium": [
+            "资深干员",
+            "近战位",
+            "费用回复",
+            "支援"
+        ],
+        "Wanqing": [
             "资深干员",
             "近战位",
             "费用回复",
@@ -2129,6 +2151,12 @@
             "削弱",
             "减速"
         ],
+        "Grain Buds": [
+            "资深干员",
+            "远程位",
+            "减速",
+            "控场"
+        ],
         "Windflit": [
             "资深干员",
             "近战位",
@@ -2584,6 +2612,13 @@
             "治疗",
             "输出"
         ],
+        "Shu": [
+            "高级资深干员",
+            "近战位",
+            "防护",
+            "治疗",
+            "支援"
+        ],
         "Nian": [
             "高级资深干员",
             "近战位",
@@ -2702,6 +2737,12 @@
             "生存"
         ],
         "Hellagur": [
+            "高级资深干员",
+            "近战位",
+            "输出",
+            "生存"
+        ],
+        "Zuo Le": [
             "高级资深干员",
             "近战位",
             "输出",

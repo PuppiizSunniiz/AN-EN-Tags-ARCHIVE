@@ -7106,5 +7106,98 @@
         ],
         "hidden": true,
         "globalHidden": true
+    },
+    {
+        "id": "char_2025_shu",
+        "name_cn": "黍",
+        "name_en": "Shu",
+        "name_jp": "",
+        "name_kr": "",
+        "characteristic_cn": "",
+        "characteristic_en": "",
+        "characteristic_jp": "",
+        "characteristic_kr": "",
+        "camp": "",
+        "type": "重装",
+        "level": 6,
+        "sex": "女",
+        "tags": [
+            "高级资深干员",
+            "近战位",
+            "防护",
+            "治疗",
+            "支援"
+        ],
+        "hidden": true,
+        "globalHidden": true
+    },
+    {
+        "id": "char_4121_zuole",
+        "name_cn": "左乐",
+        "name_en": "Zuo Le",
+        "name_jp": "",
+        "name_kr": "",
+        "characteristic_cn": "",
+        "characteristic_en": "",
+        "characteristic_jp": "",
+        "characteristic_kr": "",
+        "camp": "",
+        "type": "近卫",
+        "level": 6,
+        "sex": "男",
+        "tags": [
+            "高级资深干员",
+            "近战位",
+            "输出",
+            "生存"
+        ],
+        "hidden": true,
+        "globalHidden": true
+    },
+    {
+        "id": "char_4122_grabds",
+        "name_cn": "小满",
+        "name_en": "Grain Buds",
+        "name_jp": "",
+        "name_kr": "",
+        "characteristic_cn": "",
+        "characteristic_en": "",
+        "characteristic_jp": "",
+        "characteristic_kr": "",
+        "camp": "",
+        "type": "辅助",
+        "level": 5,
+        "sex": "女",
+        "tags": [
+            "资深干员",
+            "远程位",
+            "减速",
+            "控场"
+        ],
+        "hidden": true,
+        "globalHidden": true
+    },
+    {
+        "id": "char_4119_wanqin",
+        "name_cn": "万顷",
+        "name_en": "Wanqing",
+        "name_jp": "",
+        "name_kr": "",
+        "characteristic_cn": "",
+        "characteristic_en": "",
+        "characteristic_jp": "",
+        "characteristic_kr": "",
+        "camp": "",
+        "type": "先锋",
+        "level": 5,
+        "sex": "男",
+        "tags": [
+            "资深干员",
+            "近战位",
+            "费用回复",
+            "支援"
+        ],
+        "hidden": true,
+        "globalHidden": true
     }
 ]

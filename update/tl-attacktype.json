@@ -1,1 +1,17 @@
-{}
+{
+    "能够阻挡一个敌人，生命值高于50%时攻击速度<@ba.vup>+{attack_speed}</>": {
+        "name": "Beehunter",
+        "code": "uniequip_002_brownb",
+        "mode": "newmods"
+    },
+    "能够阻挡一个敌人，拥有<@ba.kw>15%</>的物理闪避": {
+        "name": "Jackie",
+        "code": "uniequip_002_jaksel",
+        "mode": "newmods"
+    },
+    "攻击范围内存在敌人时技力自然恢复速度+0.2/秒": {
+        "name": "Grain Buds",
+        "code": "uniequip_002_grabds",
+        "mode": "newmods"
+    }
+}
