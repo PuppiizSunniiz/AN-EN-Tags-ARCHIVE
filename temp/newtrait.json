@@ -1,22 +1,10 @@
 {
-    "受到来自自身阻挡单位的伤害降低<@ba.kw>15%</>":{    # GG & RR mod Triat (-) // add "start with more damage" text ?
-        "en": "Controls a <@ba.kw>Drone</> to deal <@ba.kw>Arts</> damage to an enemy; When the Drone continuously attacks the same enemy, its damage will increase (Increasing initial damage, up to 110% of the operator's ATK)",
-        "color":"magic"
+    "受到来自自身阻挡单位的伤害降低<@ba.kw>15%</>":{    # Mountain Indra Flint Dagda Beehunter
+        "en": " Can block one enemy; When HP is above 50%, ASPD +10",
+        "color":"physical"
     },
-    "受到来自自身阻挡单位的伤害降低<@ba.kw>15%</>":{    # Kjera & Minimalist mod Triat (-)
-        "en": "Controls a <@ba.kw>Drone</> to deal <@ba.kw>Arts</> damage to an enemy; When the Drone continuously attacks the same enemy, its damage will increase (up to 120% of the operator's ATK)",
-        "color":"magic"
-    },
-    "受到来自自身阻挡单位的伤害降低<@ba.kw>15%</>":{    # Incatation Medic mod Trait (-)
-        "en": "Attacks deal <@ba.kw>Arts damage</> and heal the HP of an ally within Attack Range for <@ba.kw>60%</> of the damage dealt",
-        "color":"magic"
-    },
-    "受到来自自身阻挡单位的伤害降低<@ba.kw>15%</>":{    # Lee second mod Trait (MER-Y)
-        "en": "Has <@ba.kw>reduced</> Redeployment Time, but <@ba.kw>DP Cost</> is not refunded upon retreating; While deployed, <@ba.kw>3 DP</> are consumed every 3 seconds (automatically retreats without sufficient DP) and ATK +4% each time (stacks up to 5 times)",
-        "color":"extra"
-    },
-    "受到来自自身阻挡单位的伤害降低<@ba.kw>15%</>":{    # Carnelian second mod Trait (PLX-Y)
-        "en": "Normally <@ba.kw>does not attack</>, but has <@ba.kw>greatly increased</> DEF and RES; when skill is active, attacks deal <@ba.kw>AoE Arts Damage</>. Damage increse by numbers of enemies in attack range up to 15%"
-        "color":"magic"
-    }
+    "受到来自自身阻挡单位的伤害降低<@ba.kw>15%</>":{    # Chong Jackie
+        "en": "Can block one enemy; 30% Physical Dodge",
+        "color":"physical"
+}
 }

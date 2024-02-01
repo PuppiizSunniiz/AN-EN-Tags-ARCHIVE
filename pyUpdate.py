@@ -14,6 +14,7 @@ json_charKR         =   json.loads(open("json/gamedata/ko_KR/gamedata/excel/char
 
 json_handbook       =   json.loads(open("json/gamedata/zh_CN/gamedata/excel/handbook_info_table.json").read())
 json_mod_battle     =   json.loads(open("json/gamedata/zh_CN/gamedata/excel/battle_equip_table.json").read())
+json_mod_battleEN    =   json.loads(open("json/gamedata/en_US/gamedata/excel/battle_equip_table.json").read())
 json_mod_table      =   json.loads(open("json/gamedata/zh_CN/gamedata/excel/uniequip_table.json").read())
 json_stage          =   json.loads(open("json/gamedata/zh_CN/gamedata/excel/stage_table.json").read())
 
@@ -30,6 +31,7 @@ json_trait          =   json.loads(open("json/tl-attacktype.json").read())
 json_term           =   json.loads(open("json/named_effects.json").read())
 
 json_tl_item        =   json.loads(open("json/tl-item.json").read())
+json_tempmod        =   json.loads(open("json/TempModuletalentsTL.json").read())
 #########################################################################################################
 # test
 #########################################################################################################
@@ -38,12 +40,12 @@ json_tl_item        =   json.loads(open("json/tl-item.json").read())
 #########################################################################################################
 # Prep
 #########################################################################################################
-newchars = []
-newmods = []
+newchars = ['Shu','Zuo Le','Wan Qing','Grain Buds','Kestrel']
+newmods = [['Mountain',1],['Chongyue',1],['Dagda',1],['Flint',1],['Indra',1],['Beehunter',1],['Jackie',1],['Kestrel',1],['Wan Qing',1],['Grain Buds',1],['Zuo Le',1],['Shu',1]]
 newmats = []
 
-recruitCN=[]
-recruitEN=['Chiave','Beeswax','thorns','andreana','jaye']
+recruitCN=['Surtr','April','Arene']
+recruitEN=[]
 
 newtrait ={}
 
@@ -251,6 +253,17 @@ dumpling=json.dumps(modtl,indent=4, ensure_ascii=False)
 with open("update/TempModuletalentsTL.json",'w') as JSON :
     JSON.write(dumpling)
 
+poplist=[]
+for mod in json_tempmod.keys():
+    if mod in json_mod_battleEN.keys():
+        poplist.append(mod)
+for mod in poplist:
+    json_tempmod.pop(mod)
+
+dumpling=json.dumps(json_tempmod,indent=4, ensure_ascii=False)
+with open("json/TempModuletalentsTL.json",'w') as JSON :
+    JSON.write(dumpling)
+
 #########################################################################################################
 # Trait
 #########################################################################################################
@@ -281,14 +294,13 @@ with open("json/named_effects.json",'w') as JSON :
 print("\nUpdate Completed !!!\n")
 
 '''
+    buildEN=json.loads(open("json/gamedata/en_US/gamedata/excel/building_data.json").read())
+    RIIC=json.loads(open("json/ace/riic.json").read())
 
-buildEN=json.loads(open("json/gamedata/en_US/gamedata/excel/building_data.json").read())
-RIIC=json.loads(open("json/ace/riic.json").read())
+    for buff in buildEN["buffs"].keys():
+        RIIC[buff]["descformat"]=buildEN["buffs"][buff]["description"]
 
-for buff in buildEN["buffs"].keys():
-    RIIC[buff]["descformat"]=buildEN["buffs"][buff]["description"]
-
-dumpling=json.dumps(RIIC,indent=4, ensure_ascii=False)
-with open("json/ace/riic.json",'w') as JSON :
-    JSON.write(dumpling)
-    '''
+    dumpling=json.dumps(RIIC,indent=4, ensure_ascii=False)
+    with open("json/ace/riic.json",'w') as JSON :
+        JSON.write(dumpling)
+'''

@@ -1,0 +1,1593 @@
+{
+    "Food": {
+        "Food": {
+            "sandbox_0_food_1": {
+                "Name": "Seasoned Rations",
+                "Recipe": [
+                    "sandbox_0_wheat",
+                    "sandbox_0_wheat",
+                    "sandbox_0_wheat"
+                ],
+                "Buff": "Gives Operator bonus when eaten: Max HP +10%",
+                "BuffDetail": [
+                    {
+                        "key": "max_hp",
+                        "value": 1.1,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 30,
+                "Stamina": 0
+            },
+            "sandbox_0_food_2": {
+                "Name": "Crab Porridge",
+                "Recipe": [
+                    "sandbox_0_crab",
+                    "sandbox_0_wheat",
+                    "sandbox_0_wheat"
+                ],
+                "Buff": "Gives Operator bonus when eaten: Max HP +15%",
+                "BuffDetail": [
+                    {
+                        "key": "max_hp",
+                        "value": 1.15,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 30,
+                "Stamina": 0
+            },
+            "sandbox_0_food_3": {
+                "Name": "Super Thick Pie",
+                "Recipe": [
+                    "sandbox_0_venison",
+                    "sandbox_0_wheat",
+                    "sandbox_0_wheat"
+                ],
+                "Buff": "Gives Operator bonus when eaten: Deployment Cost -2, ASPD +4",
+                "BuffDetail": [
+                    {
+                        "key": "attack_speed",
+                        "value": 4.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "value",
+                        "value": -2.0,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 40,
+                "Stamina": 0
+            },
+            "sandbox_0_food_4": {
+                "Name": "Grilled Meat Wraps",
+                "Recipe": [
+                    "sandbox_0_beef",
+                    "sandbox_0_wheat",
+                    "sandbox_0_wheat"
+                ],
+                "Buff": "Gives Operator bonus when eaten: ATK +10%",
+                "BuffDetail": [
+                    {
+                        "key": "atk",
+                        "value": 1.1,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 50,
+                "Stamina": 0
+            },
+            "sandbox_0_food_5": {
+                "Name": "Crabshell Rice",
+                "Recipe": [
+                    "sandbox_0_crab",
+                    "sandbox_0_crab",
+                    "sandbox_0_wheat"
+                ],
+                "Buff": "Gives Operator bonus when eaten: DEF +15%",
+                "BuffDetail": [
+                    {
+                        "key": "def",
+                        "value": 1.15,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 30,
+                "Stamina": 0
+            },
+            "sandbox_0_food_6": {
+                "Name": "Hunter's Rice Wrap",
+                "Recipe": [
+                    "sandbox_0_crab",
+                    "sandbox_0_venison",
+                    "sandbox_0_wheat"
+                ],
+                "Buff": "Gives Operator bonus when eaten: Deployment Cost -2, DEF +6%",
+                "BuffDetail": [
+                    {
+                        "key": "def",
+                        "value": 1.06,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "value",
+                        "value": -2.0,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 40,
+                "Stamina": 0
+            },
+            "sandbox_0_food_7": {
+                "Name": "Pan-Fried Meats on Rice",
+                "Recipe": [
+                    "sandbox_0_beef",
+                    "sandbox_0_crab",
+                    "sandbox_0_wheat"
+                ],
+                "Buff": "Gives Operator bonus when eaten: ATK +12%",
+                "BuffDetail": [
+                    {
+                        "key": "atk",
+                        "value": 1.12,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 40,
+                "Stamina": 0
+            },
+            "sandbox_0_food_8": {
+                "Name": "Pine-Smoked Bacon",
+                "Recipe": [
+                    "sandbox_0_venison",
+                    "sandbox_0_venison",
+                    "sandbox_0_wheat"
+                ],
+                "Buff": "Gives Operator bonus when eaten: Deployment Cost -4",
+                "BuffDetail": [
+                    {
+                        "key": "value",
+                        "value": -4.0,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 50,
+                "Stamina": 0
+            },
+            "sandbox_0_food_9": {
+                "Name": "Crab Sashimi",
+                "Recipe": [
+                    "sandbox_0_crab",
+                    "sandbox_0_crab",
+                    "sandbox_0_crab"
+                ],
+                "Buff": "Gives Operator bonus when eaten: Block +1",
+                "BuffDetail": [
+                    {
+                        "key": "value",
+                        "value": 1.0,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 60,
+                "Stamina": 0
+            },
+            "sandbox_0_food_10": {
+                "Name": "Vacuum-Packed Minced Meat",
+                "Recipe": [
+                    "sandbox_0_beef",
+                    "sandbox_0_venison",
+                    "sandbox_0_wheat"
+                ],
+                "Buff": "Gives Operator bonus when eaten: ATK +10%, ASPD +10",
+                "BuffDetail": [
+                    {
+                        "key": "atk",
+                        "value": 1.1,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 10.0,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 70,
+                "Stamina": 0
+            },
+            "sandbox_0_food_11": {
+                "Name": "Outside-In Flashboiled Beastmeat",
+                "Recipe": [
+                    "sandbox_0_beef",
+                    "sandbox_0_beef",
+                    "sandbox_0_wheat"
+                ],
+                "Buff": "Gives Operator bonus when eaten: ATK +20%",
+                "BuffDetail": [
+                    {
+                        "key": "atk",
+                        "value": 1.2,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 30,
+                "Stamina": 0
+            },
+            "sandbox_0_food_12": {
+                "Name": "Pressure-Cooked Soup",
+                "Recipe": [
+                    "sandbox_0_crab",
+                    "sandbox_0_crab",
+                    "sandbox_0_venison"
+                ],
+                "Buff": "Gives Operator bonus when eaten: RES +20",
+                "BuffDetail": [
+                    {
+                        "key": "magic_resistance",
+                        "value": 20.0,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 40,
+                "Stamina": 0
+            },
+            "sandbox_0_food_13": {
+                "Name": "Sous Vide Meat",
+                "Recipe": [
+                    "sandbox_0_beef",
+                    "sandbox_0_crab",
+                    "sandbox_0_crab"
+                ],
+                "Buff": "Gives Operator bonus when eaten: ATK +15%, DEF +15%",
+                "BuffDetail": [
+                    {
+                        "key": "atk",
+                        "value": 1.15,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "def",
+                        "value": 1.15,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 50,
+                "Stamina": 0
+            },
+            "sandbox_0_food_14": {
+                "Name": "Dehydrated Seasoned Jerky",
+                "Recipe": [
+                    "sandbox_0_crab",
+                    "sandbox_0_venison",
+                    "sandbox_0_venison"
+                ],
+                "Buff": "Gives Operator bonus when eaten: Deployment Cost -6",
+                "BuffDetail": [
+                    {
+                        "key": "value",
+                        "value": -6.0,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 50,
+                "Stamina": 0
+            },
+            "sandbox_0_food_15": {
+                "Name": "Mixed Refined Meat Sauce",
+                "Recipe": [
+                    "sandbox_0_beef",
+                    "sandbox_0_crab",
+                    "sandbox_0_venison"
+                ],
+                "Buff": "Gives Operator bonus when eaten: ASPD +20",
+                "BuffDetail": [
+                    {
+                        "key": "attack_speed",
+                        "value": 20.0,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 60,
+                "Stamina": 0
+            },
+            "sandbox_0_food_16": {
+                "Name": "Low-Pressure Dried Meat",
+                "Recipe": [
+                    "sandbox_0_venison",
+                    "sandbox_0_venison",
+                    "sandbox_0_venison"
+                ],
+                "Buff": "Gives Operator bonus when eaten: Deployment Cost -8",
+                "BuffDetail": [
+                    {
+                        "key": "value",
+                        "value": -8.0,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 60,
+                "Stamina": 0
+            },
+            "sandbox_0_food_17": {
+                "Name": "Naturalist's Replacement Meal",
+                "Recipe": [
+                    "sandbox_0_supermeat",
+                    "sandbox_0_wheat",
+                    "sandbox_0_wheat"
+                ],
+                "Buff": "Gives Operator bonus when eaten: Redeployment Time -20%",
+                "BuffDetail": [
+                    {
+                        "key": "scale",
+                        "value": 0.8,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 70,
+                "Stamina": 0
+            },
+            "sandbox_0_food_18": {
+                "Name": "Rendered Fat",
+                "Recipe": [
+                    "sandbox_0_beef",
+                    "sandbox_0_beef",
+                    "sandbox_0_crab"
+                ],
+                "Buff": "Gives Operator 1 Stamina and bonus when eaten: ATK +25%",
+                "BuffDetail": [
+                    {
+                        "key": "atk",
+                        "value": 1.25,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 70,
+                "Stamina": 1
+            },
+            "sandbox_0_food_19": {
+                "Name": "Essence Cube",
+                "Recipe": [
+                    "sandbox_0_beef",
+                    "sandbox_0_venison",
+                    "sandbox_0_venison"
+                ],
+                "Buff": "Gives Operator 1 Stamina and bonus when eaten: Deployment Cost -8, ATK +10%",
+                "BuffDetail": [
+                    {
+                        "key": "atk",
+                        "value": 1.1,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "value",
+                        "value": -8.0,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 80,
+                "Stamina": 1
+            },
+            "sandbox_0_food_20": {
+                "Name": "Concentrated Extract",
+                "Recipe": [
+                    "sandbox_0_beef",
+                    "sandbox_0_beef",
+                    "sandbox_0_venison"
+                ],
+                "Buff": "Gives Operator 1 Stamina and bonus when eaten: ASPD +15",
+                "BuffDetail": [
+                    {
+                        "key": "attack_speed",
+                        "value": 15.0,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 90,
+                "Stamina": 1
+            },
+            "sandbox_0_food_21": {
+                "Name": "Soup Gel",
+                "Recipe": [
+                    "sandbox_0_beef",
+                    "sandbox_0_beef",
+                    "sandbox_0_beef"
+                ],
+                "Buff": "Gives Operator 1 Stamina and bonus when eaten: ATK +30%",
+                "BuffDetail": [
+                    {
+                        "key": "atk",
+                        "value": 1.3,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 120,
+                "Stamina": 1
+            },
+            "sandbox_0_food_22": {
+                "Name": "Crab Paste",
+                "Recipe": [
+                    "sandbox_0_crab",
+                    "sandbox_0_supermeat",
+                    "sandbox_0_wheat"
+                ],
+                "Buff": "Gives Operator 1 Stamina and bonus when eaten: Block +1, DEF +40%",
+                "BuffDetail": [
+                    {
+                        "key": "value",
+                        "value": 1.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "def",
+                        "value": 1.4,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 120,
+                "Stamina": 1
+            },
+            "sandbox_0_food_23": {
+                "Name": "Carbohydrate Fat Cube",
+                "Recipe": [
+                    "sandbox_0_supermeat",
+                    "sandbox_0_venison",
+                    "sandbox_0_wheat"
+                ],
+                "Buff": "Gives Operator 1 Stamina and bonus when eaten: Max HP +40%, Redeployment Time -30%",
+                "BuffDetail": [
+                    {
+                        "key": "max_hp",
+                        "value": 1.4,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "scale",
+                        "value": 0.7,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 130,
+                "Stamina": 1
+            },
+            "sandbox_0_food_24": {
+                "Name": "Essence of Savor",
+                "Recipe": [
+                    "sandbox_0_beef",
+                    "sandbox_0_supermeat",
+                    "sandbox_0_wheat"
+                ],
+                "Buff": "Gives Operator 1 Stamina and bonus when eaten: ATK +20%, ASPD +15",
+                "BuffDetail": [
+                    {
+                        "key": "atk",
+                        "value": 1.2,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "attack_speed",
+                        "value": 15.0,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 140,
+                "Stamina": 1
+            },
+            "sandbox_0_food_25": {
+                "Name": "Condensed Calories",
+                "Recipe": [
+                    "sandbox_0_crab",
+                    "sandbox_0_crab",
+                    "sandbox_0_supermeat"
+                ],
+                "Buff": "Gives Operator 1 Stamina and bonus when eaten: Max HP +60%, Block +2",
+                "BuffDetail": [
+                    {
+                        "key": "max_hp",
+                        "value": 1.6,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "value",
+                        "value": 2.0,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 120,
+                "Stamina": 1
+            },
+            "sandbox_0_food_26": {
+                "Name": "Flavor Granules",
+                "Recipe": [
+                    "sandbox_0_crab",
+                    "sandbox_0_supermeat",
+                    "sandbox_0_venison"
+                ],
+                "Buff": "Gives Operator 1 Stamina and bonus when eaten: Skill SP cost -30%, Redeployment Time -30%",
+                "BuffDetail": [
+                    {
+                        "key": "scale",
+                        "value": 0.7,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "scale",
+                        "value": 0.7,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 130,
+                "Stamina": 1
+            },
+            "sandbox_0_food_27": {
+                "Name": "Leithanian Soup Stock",
+                "Recipe": [
+                    "sandbox_0_beef",
+                    "sandbox_0_crab",
+                    "sandbox_0_supermeat"
+                ],
+                "Buff": "Gives Operator 1 Stamina and bonus when eaten: ATK +20%, Block +1",
+                "BuffDetail": [
+                    {
+                        "key": "value",
+                        "value": 1.0,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "atk",
+                        "value": 1.2,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 140,
+                "Stamina": 1
+            },
+            "sandbox_0_food_28": {
+                "Name": "Victorian Royal Jelly",
+                "Recipe": [
+                    "sandbox_0_supermeat",
+                    "sandbox_0_venison",
+                    "sandbox_0_venison"
+                ],
+                "Buff": "Gives Operator 1 Stamina and bonus when eaten: Deployment Cost -18",
+                "BuffDetail": [
+                    {
+                        "key": "value",
+                        "value": -18.0,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 140,
+                "Stamina": 1
+            },
+            "sandbox_0_food_29": {
+                "Name": "Columbian Molecular Capsule",
+                "Recipe": [
+                    "sandbox_0_beef",
+                    "sandbox_0_supermeat",
+                    "sandbox_0_venison"
+                ],
+                "Buff": "Gives Operator 1 Stamina and bonus when eaten: ASPD +35",
+                "BuffDetail": [
+                    {
+                        "key": "attack_speed",
+                        "value": 35.0,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 150,
+                "Stamina": 1
+            },
+            "sandbox_0_food_30": {
+                "Name": "Yanese Shanshui Essence",
+                "Recipe": [
+                    "sandbox_0_beef",
+                    "sandbox_0_beef",
+                    "sandbox_0_supermeat"
+                ],
+                "Buff": "Gives Operator 1 Stamina and bonus when eaten: ATK +40%",
+                "BuffDetail": [
+                    {
+                        "key": "atk",
+                        "value": 1.4,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 160,
+                "Stamina": 1
+            },
+            "sandbox_0_food_31": {
+                "Name": "Higashinese Bento",
+                "Recipe": [
+                    "sandbox_0_supermeat",
+                    "sandbox_0_supermeat",
+                    "sandbox_0_wheat"
+                ],
+                "Buff": "Gives Operator 2 Stamina and bonus when eaten: Max HP +50%, DEF +50%",
+                "BuffDetail": [
+                    {
+                        "key": "max_hp",
+                        "value": 1.5,
+                        "valueStr": null
+                    },
+                    {
+                        "key": "def",
+                        "value": 1.5,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 210,
+                "Stamina": 2
+            },
+            "sandbox_0_food_32": {
+                "Name": "Kazimierzian Knight Supplement",
+                "Recipe": [
+                    "sandbox_0_crab",
+                    "sandbox_0_supermeat",
+                    "sandbox_0_supermeat"
+                ],
+                "Buff": "Gives Operator 2 Stamina and bonus when eaten: Skill SP cost -40%",
+                "BuffDetail": [
+                    {
+                        "key": "scale",
+                        "value": 0.6,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 210,
+                "Stamina": 2
+            },
+            "sandbox_0_food_33": {
+                "Name": "Lateran Holy Soup",
+                "Recipe": [
+                    "sandbox_0_supermeat",
+                    "sandbox_0_supermeat",
+                    "sandbox_0_venison"
+                ],
+                "Buff": "Gives Operator 2 Stamina and bonus when eaten: Redeployment Time -50%",
+                "BuffDetail": [
+                    {
+                        "key": "scale",
+                        "value": 0.5,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 220,
+                "Stamina": 2
+            },
+            "sandbox_0_food_34": {
+                "Name": "Minos Poetic Gel",
+                "Recipe": [
+                    "sandbox_0_beef",
+                    "sandbox_0_supermeat",
+                    "sandbox_0_supermeat"
+                ],
+                "Buff": "Gives Operator 2 Stamina and bonus when eaten: When a skill is used, other Operators who have eaten this food recover 2 SP.",
+                "BuffDetail": [
+                    {
+                        "key": "key",
+                        "value": 0.0,
+                        "valueStr": "cast_on_add_sp"
+                    }
+                ],
+                "Energy": 230,
+                "Stamina": 2
+            },
+            "sandbox_0_food_35": {
+                "Name": "Folk Festive Feast",
+                "Recipe": [
+                    "sandbox_0_supermeat",
+                    "sandbox_0_supermeat",
+                    "sandbox_0_supermeat"
+                ],
+                "Buff": "Gives Operator 3 Stamina and bonus when eaten: Gain Camouflage, ATK +50%",
+                "BuffDetail": [
+                    {
+                        "key": "key",
+                        "value": 0.0,
+                        "valueStr": "atk_modify[camouflage]"
+                    },
+                    {
+                        "key": "atk",
+                        "value": 1.5,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 300,
+                "Stamina": 3
+            }
+        },
+        "Foodmat": {
+            "sandbox_0_egg": {
+                "Name": "Fowlbeast Egg",
+                "Buff": "ATK +3%",
+                "Buff2": "Ingredient commonly found in the wild.",
+                "BuffDetail": [
+                    {
+                        "key": "atk",
+                        "value": 1.03,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 2,
+                "Stamina": 0
+            },
+            "sandbox_0_mushroom": {
+                "Name": "Woodchip Fungus",
+                "Buff": "DEF +3%",
+                "Buff2": "Ingredient that can be gathered.",
+                "BuffDetail": [
+                    {
+                        "key": "def",
+                        "value": 1.03,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 2,
+                "Stamina": 0
+            },
+            "sandbox_0_peper": {
+                "Name": "Wild Redhorn",
+                "Buff": "HP +3%",
+                "Buff2": "Ingredient that can be gathered.",
+                "BuffDetail": [
+                    {
+                        "key": "max_hp",
+                        "value": 1.03,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 2,
+                "Stamina": 0
+            },
+            "sandbox_0_sugar": {
+                "Name": "Devil's Licorice",
+                "Buff": "ASPD +3",
+                "Buff2": "Ingredient that can be gathered.",
+                "BuffDetail": [
+                    {
+                        "key": "attack_speed",
+                        "value": 3.0,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 2,
+                "Stamina": 0
+            },
+            "sandbox_0_horn": {
+                "Name": "Mastic Gland",
+                "Buff": "RES +3",
+                "Buff2": "Rare ingredient that has a chance to drop when hunting rare animals.",
+                "BuffDetail": [
+                    {
+                        "key": "magic_resistance",
+                        "value": 3.0,
+                        "valueStr": null
+                    }
+                ],
+                "Energy": 2,
+                "Stamina": 0
+            },
+            "sandbox_0_crab": {
+                "Name": "Crab Leg",
+                "Buff": null,
+                "Buff2": "Ingredient that has a chance to drop when hunting.",
+                "BuffDetail": null,
+                "Energy": 10,
+                "Stamina": 0
+            },
+            "sandbox_0_wheat": {
+                "Name": "Rice",
+                "Buff": null,
+                "Buff2": "A common ingredient.",
+                "BuffDetail": null,
+                "Energy": 10,
+                "Stamina": 0
+            },
+            "sandbox_0_venison": {
+                "Name": "Puffball Tenderloin",
+                "Buff": null,
+                "Buff2": "Ingredient that has a chance to drop when hunting.",
+                "BuffDetail": null,
+                "Energy": 20,
+                "Stamina": 0
+            },
+            "sandbox_0_beef": {
+                "Name": "Leg Meat",
+                "Buff": null,
+                "Buff2": "Ingredient that has a chance to drop when hunting.",
+                "BuffDetail": null,
+                "Energy": 30,
+                "Stamina": 0
+            },
+            "sandbox_0_supermeat": {
+                "Name": "Marrow Fungus",
+                "Buff": null,
+                "Buff2": "Rare ingredient that has a chance to drop when hunting rare animals.",
+                "BuffDetail": null,
+                "Energy": 100,
+                "Stamina": 0
+            }
+        }
+    },
+    "Building": {
+        "sandbox_0_building_1": {
+            "Name": "Portable Planting Trough",
+            "Type": "Construct - Resource",
+            "Recipe": [
+                "sandbox_0_wood",
+                "sandbox_0_water"
+            ],
+            "Effect": "Effect when placed: Produces <Rice> daily (up to 12 constructs of the same type can be deployed).",
+            "UnlockDesc": "Unlocked by default"
+        },
+        "sandbox_0_building_2": {
+            "Name": "Mint I",
+            "Type": "Construct - Resource",
+            "Recipe": [
+                "sandbox_0_stone",
+                "sandbox_0_wood",
+                "sandbox_0_water"
+            ],
+            "Effect": "Effect when placed: Allows you to combine <Fresh Water> and <Iron Ore> into <Crude Gold> (up to 1 construct of the same type can be deployed).",
+            "UnlockDesc": "Unlock [Road of Prosperity] - [Formula - Mint]"
+        },
+        "sandbox_0_building_3": {
+            "Name": "Mint II",
+            "Type": "Construct - Resource",
+            "Recipe": [
+                "sandbox_0_iron",
+                "sandbox_0_stone",
+                "sandbox_0_wood",
+                "sandbox_0_water"
+            ],
+            "Effect": "Effect when placed: Allows you to combine <Fresh Water> and <Iron Ore> into more <Crude Gold> (up to 1 construct of the same type can be deployed).",
+            "UnlockDesc": "Requires [Mint I]"
+        },
+        "sandbox_0_building_4": {
+            "Name": "Mint III",
+            "Type": "Construct - Resource",
+            "Recipe": [
+                "sandbox_0_iron",
+                "sandbox_0_stone",
+                "sandbox_0_wood",
+                "sandbox_0_water"
+            ],
+            "Effect": "Effect when placed: Allows you to combine <Fresh Water> and <Iron Ore> into even more <Crude Gold> (up to 1 construct of the same type can be deployed).",
+            "UnlockDesc": "Requires [Mint II]"
+        },
+        "sandbox_0_building_5": {
+            "Name": "Monitoring Tower I",
+            "Type": "Construct - Recon",
+            "Recipe": [
+                "sandbox_0_wood"
+            ],
+            "Effect": "Effect when placed: Offers visibility in an area.",
+            "UnlockDesc": "Requires [Portable Planting Trough]"
+        },
+        "sandbox_0_building_6": {
+            "Name": "Monitoring Tower II",
+            "Type": "Construct - Recon",
+            "Recipe": [
+                "sandbox_0_iron",
+                "sandbox_0_stone",
+                "sandbox_0_wood"
+            ],
+            "Effect": "Effect when placed: Offers visibility in an area. Range increased, reinforced, and gains Camouflage.",
+            "UnlockDesc": "Requires [Monitoring Tower I]"
+        },
+        "sandbox_0_building_7": {
+            "Name": "Monitoring Tower III",
+            "Type": "Construct - Recon",
+            "Recipe": [
+                "sandbox_0_iron",
+                "sandbox_0_stone",
+                "sandbox_0_wood"
+            ],
+            "Effect": "Effect when placed: Offers visibility in an area. Range further increased, heavily-reinforced, and gains Camouflage.",
+            "UnlockDesc": "Requires [Monitoring Tower II]"
+        },
+        "sandbox_0_building_8": {
+            "Name": "Urban Style Barrier I",
+            "Type": "Construct - Combat",
+            "Recipe": [
+                "sandbox_0_stone",
+                "sandbox_0_water"
+            ],
+            "Effect": "Effect when placed: Blocks the enemy's path, forcing them to go around it.",
+            "UnlockDesc": "Unlocked by default"
+        },
+        "sandbox_0_building_9": {
+            "Name": "Urban Style Barrier II",
+            "Type": "Construct - Combat",
+            "Recipe": [
+                "sandbox_0_iron",
+                "sandbox_0_stone",
+                "sandbox_0_water"
+            ],
+            "Effect": "Effect when placed: Blocks the enemy's path, forcing them to go around it. Reinforced and gains Camouflage.",
+            "UnlockDesc": "Requires [Urban Style Barrier I]"
+        },
+        "sandbox_0_building_10": {
+            "Name": "Firm Platform I",
+            "Type": "Construct - Combat",
+            "Recipe": [
+                "sandbox_0_stone",
+                "sandbox_0_wood"
+            ],
+            "Effect": "Effect when placed: Fortification that ranged Operators can be deployed on.",
+            "UnlockDesc": "Requires [Fortification I]"
+        },
+        "sandbox_0_building_11": {
+            "Name": "Firm Platform II",
+            "Type": "Construct - Combat",
+            "Recipe": [
+                "sandbox_0_iron",
+                "sandbox_0_stone",
+                "sandbox_0_wood"
+            ],
+            "Effect": "Effect when placed: Reinforced fortification that ranged Operators can be deployed on.",
+            "UnlockDesc": "Requires [Firm Platform I]"
+        },
+        "sandbox_0_building_12": {
+            "Name": "Firm Platform III",
+            "Type": "Construct - Combat",
+            "Recipe": [
+                "sandbox_0_iron",
+                "sandbox_0_stone",
+                "sandbox_0_wood"
+            ],
+            "Effect": "Effect when placed: Heavily-reinforced fortification that ranged Operators can be deployed on.",
+            "UnlockDesc": "Requires [Firm Platform II]"
+        },
+        "sandbox_0_building_13": {
+            "Name": "Fortification I",
+            "Type": "Construct - Combat",
+            "Recipe": [
+                "sandbox_0_wood",
+                "sandbox_0_water"
+            ],
+            "Effect": "Effect when placed: Blocks the enemy, but does not change their path.",
+            "UnlockDesc": "Unlocked by default"
+        },
+        "sandbox_0_building_14": {
+            "Name": "Fortification II",
+            "Type": "Construct - Combat",
+            "Recipe": [
+                "sandbox_0_stone",
+                "sandbox_0_wood",
+                "sandbox_0_water"
+            ],
+            "Effect": "Effect when placed: Blocks the enemy, but does not change their path. Reinforced.",
+            "UnlockDesc": "Requires [Fortification I]"
+        },
+        "sandbox_0_building_17": {
+            "Name": "Trap Net Launcher I",
+            "Type": "Construct - Combat",
+            "Recipe": [
+                "sandbox_0_stone",
+                "sandbox_0_wood",
+                "sandbox_0_water"
+            ],
+            "Effect": "Effect when placed: Fires a net at the enemy in front, temporarily binding them.",
+            "UnlockDesc": "Requires [Base Station Core I]"
+        },
+        "sandbox_0_building_18": {
+            "Name": "Trap Net Launcher II",
+            "Type": "Construct - Combat",
+            "Recipe": [
+                "sandbox_0_stone",
+                "sandbox_0_wood",
+                "sandbox_0_water"
+            ],
+            "Effect": "Effect when placed: Fires a net at the enemy in front, temporarily binding them for a longer period.",
+            "UnlockDesc": "Requires [Trap Net Launcher I]"
+        },
+        "sandbox_0_building_19": {
+            "Name": "Gas Jet Thrower I",
+            "Type": "Construct - Combat",
+            "Recipe": [
+                "sandbox_0_iron",
+                "sandbox_0_stone",
+                "sandbox_0_wood"
+            ],
+            "Effect": "Effect when placed: Pushes away the enemy in front.",
+            "UnlockDesc": "Unlock [Road of Prosperity] - [Formula - Gas Jet Thrower]"
+        },
+        "sandbox_0_building_20": {
+            "Name": "Gas Jet Thrower II",
+            "Type": "Construct - Combat",
+            "Recipe": [
+                "sandbox_0_iron",
+                "sandbox_0_stone",
+                "sandbox_0_wood"
+            ],
+            "Effect": "Effect when placed: Pushes away the enemy in front with greater frequency.",
+            "UnlockDesc": "Requires [Gas Jet Thrower I]"
+        },
+        "sandbox_0_building_21": {
+            "Name": "Transregional Communication Station I",
+            "Type": "Construct - Resource",
+            "Recipe": [
+                "sandbox_0_stone",
+                "sandbox_0_wood"
+            ],
+            "Effect": "Effect when placed: Unlocks Transregional communication after day 9 of each round (up to 1 construct of the same type can be deployed).",
+            "UnlockDesc": "Unlock [Road of Prosperity] - [Formula - Transregional Communication Station]"
+        },
+        "sandbox_0_building_22": {
+            "Name": "Transregional Communication Station II",
+            "Type": "Construct - Resource",
+            "Recipe": [
+                "sandbox_0_iron",
+                "sandbox_0_stone",
+                "sandbox_0_wood"
+            ],
+            "Effect": "Effect when placed: Unlocks Transregional communication after day 6 of each round (up to 1 construct of the same type can be deployed).",
+            "UnlockDesc": "Requires [Transregional Communication Station I]"
+        },
+        "sandbox_0_building_23": {
+            "Name": "Resource Planning Station I",
+            "Type": "Construct - Resource",
+            "Recipe": [
+                "sandbox_0_stone",
+                "sandbox_0_wood",
+                "sandbox_0_water"
+            ],
+            "Effect": "Effect when placed: Gives an extra deployment slot each battle (up to 3 constructs of the same type can be deployed).",
+            "UnlockDesc": "Requires [Portable Planting Trough]"
+        },
+        "sandbox_0_building_24": {
+            "Name": "Resource Planning Station II",
+            "Type": "Construct - Resource",
+            "Recipe": [
+                "sandbox_0_iron",
+                "sandbox_0_stone",
+                "sandbox_0_wood",
+                "sandbox_0_water"
+            ],
+            "Effect": "Effect when placed: Gives 2 extra deployment slots each battle (up to 3 constructs of the same type can be deployed).",
+            "UnlockDesc": "Requires [Resource Planning Station I]"
+        },
+        "sandbox_0_building_25": {
+            "Name": "Combat Readiness Station I",
+            "Type": "Construct - Resource",
+            "Recipe": [
+                "sandbox_0_stone",
+                "sandbox_0_wood"
+            ],
+            "Effect": "Effect when placed: Gives 2 Life Points each battle (up to 5 constructs of the same type can be deployed).",
+            "UnlockDesc": "Unlock [Road of Prosperity] - [Formula - Combat Readiness Station]"
+        },
+        "sandbox_0_building_26": {
+            "Name": "Combat Readiness Station II",
+            "Type": "Construct - Resource",
+            "Recipe": [
+                "sandbox_0_iron",
+                "sandbox_0_stone",
+                "sandbox_0_wood"
+            ],
+            "Effect": "Effect when placed: Gives 3 Life Points each battle (up to 5 constructs of the same type can be deployed).",
+            "UnlockDesc": "Requires [Combat Readiness Station I]"
+        },
+        "sandbox_0_building_27": {
+            "Name": "Modular Computing Station",
+            "Type": "Construct - Resource",
+            "Recipe": [
+                "sandbox_0_iron",
+                "sandbox_0_stone",
+                "sandbox_0_wood"
+            ],
+            "Effect": "Effect when placed: Gives extra Construction Points at the end of the round (up to 4 constructs of the same type can be deployed).",
+            "UnlockDesc": "Unlock [Road of Prosperity] - [Formula - Modular Computing Station]"
+        },
+        "sandbox_0_tactical_1": {
+            "Name": "Wasteland Cache: Support Fog Machine",
+            "Type": "Tactical Prop - Support",
+            "Recipe": [
+                "sandbox_0_wood",
+                "sandbox_0_water"
+            ],
+            "Effect": "Effect when used: Slows the Movement Speed of nearby enemies.",
+            "UnlockDesc": "Requires [Crabbie Pumpie]"
+        },
+        "sandbox_0_tactical_2": {
+            "Name": "Wasteland Cache: Support Coil",
+            "Type": "Tactical Prop - Support",
+            "Recipe": [
+                "sandbox_0_iron",
+                "sandbox_0_stone",
+                "sandbox_0_wood"
+            ],
+            "Effect": "Effect when used: When linked to other Support Coils, deals Arts damage by shocking passing enemies, and slows them.",
+            "UnlockDesc": "Requires [Wasteland Cache: Support Replenishment Station]"
+        },
+        "sandbox_0_tactical_3": {
+            "Name": "Wasteland Cache: Support Landmine Set",
+            "Type": "Tactical Prop - Support",
+            "Recipe": [
+                "sandbox_0_wood"
+            ],
+            "Effect": "Effect when used: When activated, explodes when an enemy passes by, dealing True Damage to all nearby enemies, and temporarily increasing damage that they take.",
+            "UnlockDesc": "Requires [Crabbie Pumpie]"
+        },
+        "sandbox_0_tactical_4": {
+            "Name": "Wasteland Cache: Support Gas Tanks",
+            "Type": "Tactical Prop - Support",
+            "Recipe": [
+                "sandbox_0_wood"
+            ],
+            "Effect": "Effect when used: Pushes away nearby enemies with greater force.",
+            "UnlockDesc": "Requires [Wasteland Cache: Support Fog Machine]"
+        },
+        "sandbox_0_tactical_5": {
+            "Name": "Wasteland Cache: Support Originium Bomb",
+            "Type": "Tactical Prop - Support",
+            "Recipe": [
+                "sandbox_0_stone",
+                "sandbox_0_wood",
+                "sandbox_0_water"
+            ],
+            "Effect": "Effect when used: Explodes to deal heavy True Damage to all enemies within range.",
+            "UnlockDesc": "Requires [Wasteland Cache: Support Landmine Set]"
+        },
+        "sandbox_0_tactical_6": {
+            "Name": "Wasteland Cache: Hypnotic Censer",
+            "Type": "Tactical Prop - Support",
+            "Recipe": [
+                "sandbox_0_stone",
+                "sandbox_0_wood",
+                "sandbox_0_water"
+            ],
+            "Effect": "Effect when used: Temporarily inflicts Sleep on enemies in the 8 surrounding tiles. Special effect on animals.",
+            "UnlockDesc": "Requires [Wasteland Cache: Support First-aid Kit]"
+        },
+        "sandbox_0_tactical_7": {
+            "Name": "Wasteland Cache: Support Mr. Boom",
+            "Type": "Tactical Prop - Support",
+            "Recipe": [
+                "sandbox_0_stone",
+                "sandbox_0_wood",
+                "sandbox_0_water"
+            ],
+            "Effect": "Effect when used: Temporarily stuns nearby enemies.",
+            "UnlockDesc": "Requires [Wasteland Cache: Support Landmine Set]"
+        },
+        "sandbox_0_tactical_8": {
+            "Name": "Wasteland Cache: Camouflage Device",
+            "Type": "Tactical Prop - Support",
+            "Recipe": [
+                "sandbox_0_wood"
+            ],
+            "Effect": "Effect when used: Can be deployed on high and low ground. Grants Camouflage to all allies in the 8 surrounding tiles.",
+            "UnlockDesc": "Requires [Wasteland Cache: Support Fog Machine]"
+        },
+        "sandbox_0_tactical_9": {
+            "Name": "Wasteland Cache: Refreshing Potion",
+            "Type": "Tactical Prop - Support",
+            "Recipe": [
+                "sandbox_0_stone",
+                "sandbox_0_wood"
+            ],
+            "Effect": "Effect when used: Increases the ASPD of the Operator in front, and forces them to retreat when the effect expires (partial DP refund).",
+            "UnlockDesc": "Unlock [Road of Prosperity] - [Formula - Refreshing Potion]"
+        },
+        "sandbox_0_tactical_10": {
+            "Name": "Wasteland Cache: Support First-aid Kit",
+            "Type": "Tactical Prop - Support",
+            "Recipe": [
+                "sandbox_0_wood",
+                "sandbox_0_water"
+            ],
+            "Effect": "Effect when used: Restores a large amount of HP to an ally within range.",
+            "UnlockDesc": "Requires [Crabbie Pumpie]"
+        },
+        "sandbox_0_tactical_11": {
+            "Name": "Wasteland Cache: Support Replenishment Station",
+            "Type": "Tactical Prop - Support",
+            "Recipe": [
+                "sandbox_0_iron",
+                "sandbox_0_stone"
+            ],
+            "Effect": "Effect when used: Periodically restores SP to an ally.",
+            "UnlockDesc": "Unlock [Road of Prosperity] - [Formula - Wasteland Cache: Support Replenishment Station]"
+        },
+        "sandbox_0_tactical_12": {
+            "Name": "Wasteland Cache: Support Escape Crane",
+            "Type": "Tactical Prop - Support",
+            "Recipe": [
+                "sandbox_0_wood"
+            ],
+            "Effect": "Effect when used: Immediately causes the Operator in front to retreat, with greatly reduced Redeployment Time.",
+            "UnlockDesc": "Unlock [Road of Prosperity] - [Formula - Wasteland Cache: Support Escape Crane]"
+        },
+        "sandbox_0_tactical_13": {
+            "Name": "Wasteland Cache: Remote Shield Generator",
+            "Type": "Tactical Prop - Support",
+            "Recipe": [
+                "sandbox_0_stone",
+                "sandbox_0_wood"
+            ],
+            "Effect": "Effect when used: Periodically provides Barrier for an ally.",
+            "UnlockDesc": "Requires [Wasteland Cache: Support Replenishment Station]"
+        },
+        "sandbox_0_tactical_14": {
+            "Name": "Emergency Repair Vehicle",
+            "Type": "Tactical Prop - Repair",
+            "Recipe": [
+                "sandbox_0_iron",
+                "sandbox_0_stone",
+                "sandbox_0_wood"
+            ],
+            "Effect": "Effect when used: Can be deployed on high and low ground. Restores the HP of the construct in front every second.",
+            "UnlockDesc": "Unlock [Road of Prosperity] - [Formula - Emergency Repair Vehicle]"
+        },
+        "sandbox_0_tactical_15": {
+            "Name": "Crabbie Pumpie",
+            "Type": "Tactical Prop - Gathering",
+            "Recipe": [
+                "sandbox_0_wood"
+            ],
+            "Effect": "Effect when used: Allows <Fresh Water> to be gathered from <Clear Water>.",
+            "UnlockDesc": "Unlocked by default"
+        },
+        "sandbox_0_tactical_16": {
+            "Name": "Basic Gathering Hub",
+            "Type": "Tactical Prop - Gathering",
+            "Recipe": [
+                "sandbox_0_wood"
+            ],
+            "Effect": "Effect when used: Produces <Gatherers> to gather from <Thickets>, <Monoliths>, and <Strange Ore Veins>, with a bonus when gathering from <Thickets>. Limit of 3.",
+            "UnlockDesc": "Unlocked by default"
+        },
+        "sandbox_0_tactical_17": {
+            "Name": "Advanced Gathering Hub",
+            "Type": "Tactical Prop - Gathering",
+            "Recipe": [
+                "sandbox_0_stone"
+            ],
+            "Effect": "Effect when used: Produces <Gatherers> to gather from <Thickets>, <Monoliths>, and <Strange Ore Veins>, with a bonus when gathering from <Monolith>. Limit of 3.",
+            "UnlockDesc": "Requires [Basic Gathering Hub]"
+        },
+        "sandbox_0_tactical_18": {
+            "Name": "Executive Gathering Hub",
+            "Type": "Tactical Prop - Gathering",
+            "Recipe": [
+                "sandbox_0_iron"
+            ],
+            "Effect": "Effect when used: Produces <Gatherers> to gather from <Thickets>, <Monoliths>, and <Strange Ore Veins>, with a bonus when gathering from <Strange Ore Veins>. Limit of 4.",
+            "UnlockDesc": "Requires [Advanced Gathering Hub]"
+        },
+        "sandbox_0_tactical_19": {
+            "Name": "Wasteland Cache: Custom Floating Platform",
+            "Type": "Tactical Prop - Support",
+            "Recipe": [
+                "sandbox_0_iron",
+                "sandbox_0_wood"
+            ],
+            "Effect": "Effect when used: Constructs a platform on the water upon which any unit can be deployed.",
+            "UnlockDesc": "Requires [Crabbie Pumpie]"
+        },
+        "sandbox_0_gold": {
+            "Name": "Crude Gold",
+            "Type": "Precious Metal",
+            "Recipe": [
+                "sandbox_0_iron",
+                "sandbox_0_water"
+            ],
+            "Effect": "Unprocessed Pure Gold, low in value or circulation.",
+            "UnlockDesc": "Unlocked by default"
+        }
+    },
+    "Weather": {
+        "weather_normal": {
+            "Name": "Sunny",
+            "Type": "NORMAL",
+            "TypeName": "Normal",
+            "Level": 1,
+            "Function": "Regular weather, no special effects",
+            "FunctionDetail": []
+        },
+        "weather_thunder_storm": {
+            "Name": "Thunderstorm",
+            "Type": "RAINFOREST",
+            "TypeName": "Cloudburst",
+            "Level": 3,
+            "Function": "Lightning strikes 3 random tiles (range can overlap) every 15 seconds, dealing 1300 True damage to units on those tiles in an area",
+            "FunctionDetail": [
+                {
+                    "key": "key",
+                    "value": 0.0,
+                    "valueStr": "env_002_lightning"
+                },
+                {
+                    "key": "interval",
+                    "value": 15.0,
+                    "valueStr": null
+                },
+                {
+                    "key": "value",
+                    "value": 1300.0,
+                    "valueStr": null
+                },
+                {
+                    "key": "delay",
+                    "value": 5.0,
+                    "valueStr": null
+                },
+                {
+                    "key": "level",
+                    "value": 2.0,
+                    "valueStr": null
+                }
+            ]
+        },
+        "weather_thunder": {
+            "Name": "Thunderburst",
+            "Type": "RAINFOREST",
+            "TypeName": "Cloudburst",
+            "Level": 2,
+            "Function": "Lightning strikes 3 random tiles (range can overlap) every 30 seconds, dealing 1000 True damage to units on those tiles in an area",
+            "FunctionDetail": [
+                {
+                    "key": "key",
+                    "value": 0.0,
+                    "valueStr": "env_002_lightning"
+                },
+                {
+                    "key": "interval",
+                    "value": 30.0,
+                    "valueStr": null
+                },
+                {
+                    "key": "value",
+                    "value": 1000.0,
+                    "valueStr": null
+                },
+                {
+                    "key": "delay",
+                    "value": 5.0,
+                    "valueStr": null
+                },
+                {
+                    "key": "level",
+                    "value": 1.0,
+                    "valueStr": null
+                }
+            ]
+        },
+        "weather_acid_rain": {
+            "Name": "Acid Rain",
+            "Type": "RAINFOREST",
+            "TypeName": "Cloudburst",
+            "Level": 1,
+            "Function": "Deals 20 Corrosion Damage to all Operators every second",
+            "FunctionDetail": [
+                {
+                    "key": "key",
+                    "value": 0.0,
+                    "valueStr": "acid_rain"
+                },
+                {
+                    "key": "interval",
+                    "value": 1.0,
+                    "valueStr": null
+                },
+                {
+                    "key": "value",
+                    "value": 20.0,
+                    "valueStr": null
+                }
+            ]
+        },
+        "weather_heat_wave": {
+            "Name": "Scorching Sun",
+            "Type": "VOLCANO",
+            "TypeName": "Heatwave",
+            "Level": 3,
+            "Function": "Every 20 seconds, the Operator with the lowest Max HP is afflicted with [Burn](does not stack), receiving 150 Arts damage per second for 10 seconds, and upon subsiding spreads the effect to any nearby Operators in adjacent tiles",
+            "FunctionDetail": [
+                {
+                    "key": "key",
+                    "value": 0.0,
+                    "valueStr": "env_003_bigsun"
+                },
+                {
+                    "key": "duration",
+                    "value": 25.0,
+                    "valueStr": null
+                },
+                {
+                    "key": "[env]burn_dmg.baseDamage",
+                    "value": 150.0,
+                    "valueStr": null
+                },
+                {
+                    "key": "[env]burn_dmg.addOnDuration",
+                    "value": 0.0,
+                    "valueStr": null
+                },
+                {
+                    "key": "[env]burn_dmg.addOnDamage",
+                    "value": 0.0,
+                    "valueStr": null
+                },
+                {
+                    "key": "interval",
+                    "value": 20.0,
+                    "valueStr": null
+                },
+                {
+                    "key": "level",
+                    "value": 2.0,
+                    "valueStr": null
+                },
+                {
+                    "key": "[env]burn_dmg.duration",
+                    "value": 20.0,
+                    "valueStr": null
+                },
+                {
+                    "key": "burn_interval",
+                    "value": 20.0,
+                    "valueStr": null
+                }
+            ]
+        },
+        "weather_heat": {
+            "Name": "Bright Sun",
+            "Type": "VOLCANO",
+            "TypeName": "Heatwave",
+            "Level": 2,
+            "Function": "Every 20 seconds, the Operator with the lowest Max HP is afflicted with [Burn](does not stack), receiving 75 Arts damage per second for 10 seconds, and upon subsiding spreads the effect to any nearby Operators in adjacent tiles",
+            "FunctionDetail": [
+                {
+                    "key": "key",
+                    "value": 0.0,
+                    "valueStr": "env_003_bigsun"
+                },
+                {
+                    "key": "duration",
+                    "value": 25.0,
+                    "valueStr": null
+                },
+                {
+                    "key": "[env]burn_dmg.baseDamage",
+                    "value": 75.0,
+                    "valueStr": null
+                },
+                {
+                    "key": "[env]burn_dmg.addOnDuration",
+                    "value": 0.0,
+                    "valueStr": null
+                },
+                {
+                    "key": "[env]burn_dmg.addOnDamage",
+                    "value": 0.0,
+                    "valueStr": null
+                },
+                {
+                    "key": "interval",
+                    "value": 20.0,
+                    "valueStr": null
+                },
+                {
+                    "key": "level",
+                    "value": 1.0,
+                    "valueStr": null
+                },
+                {
+                    "key": "[env]burn_dmg.duration",
+                    "value": 20.0,
+                    "valueStr": null
+                },
+                {
+                    "key": "burn_interval",
+                    "value": 20.0,
+                    "valueStr": null
+                }
+            ]
+        },
+        "weather_hot": {
+            "Name": "Hot Weather",
+            "Type": "VOLCANO",
+            "TypeName": "Heatwave",
+            "Level": 1,
+            "Function": "Operators are stunned for 10 Seconds every 50 Seconds",
+            "FunctionDetail": [
+                {
+                    "key": "key",
+                    "value": 0.0,
+                    "valueStr": "sun_stroke_stun"
+                },
+                {
+                    "key": "interval",
+                    "value": 50.0,
+                    "valueStr": null
+                },
+                {
+                    "key": "stun",
+                    "value": 10.0,
+                    "valueStr": null
+                }
+            ]
+        },
+        "weather_big_sandstorm": {
+            "Name": "Habūb",
+            "Type": "DESERT",
+            "TypeName": "Windblaze",
+            "Level": 3,
+            "Function": "A sandstorm starts blowing in a random direction when the mission begins, and allied units caught in the sandstorm will have their ATK -50%. Facilities and other Operators can block the sandstorm to negate the effects.",
+            "FunctionDetail": [
+                {
+                    "key": "key",
+                    "value": 0.0,
+                    "valueStr": "env_001_storm"
+                },
+                {
+                    "key": "atk",
+                    "value": -0.5,
+                    "valueStr": null
+                },
+                {
+                    "key": "value",
+                    "value": 0.0,
+                    "valueStr": null
+                },
+                {
+                    "key": "level",
+                    "value": 2.0,
+                    "valueStr": null
+                }
+            ]
+        },
+        "weather_sandstorm": {
+            "Name": "Sandstorm",
+            "Type": "DESERT",
+            "TypeName": "Windblaze",
+            "Level": 2,
+            "Function": "A sandstorm starts blowing in a random direction when the mission begins, and allied units caught in the sandstorm will have their ATK -35%. Facilities and other Operators can block the sandstorm to negate the effects.",
+            "FunctionDetail": [
+                {
+                    "key": "key",
+                    "value": 0.0,
+                    "valueStr": "env_001_storm"
+                },
+                {
+                    "key": "atk",
+                    "value": -0.35,
+                    "valueStr": null
+                },
+                {
+                    "key": "value",
+                    "value": 0.0,
+                    "valueStr": null
+                },
+                {
+                    "key": "level",
+                    "value": 1.0,
+                    "valueStr": null
+                }
+            ]
+        },
+        "weather_drought": {
+            "Name": "Drought",
+            "Type": "DESERT",
+            "TypeName": "Windblaze",
+            "Level": 1,
+            "Function": "Redeployment Time +50%",
+            "FunctionDetail": [
+                {
+                    "key": "key",
+                    "value": 0.0,
+                    "valueStr": "respawn_time_mul_dry"
+                },
+                {
+                    "key": "respawn_time",
+                    "value": 0.5,
+                    "valueStr": null
+                }
+            ]
+        }
+    }
+}

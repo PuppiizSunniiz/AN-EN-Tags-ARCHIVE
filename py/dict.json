@@ -158,6 +158,7 @@
             "char_4040_rockr": "Rockrock",
             "char_4054_malist": "Minimalist",
             "char_499_kaitou": "Diamante",
+            "char_4081_warmy": "Warmy",
             "char_242_otter": "Mayer",
             "char_336_folivo": "Scene",
             "char_108_silent": "Silence",
@@ -239,6 +240,7 @@
             "char_2012_typhon": "Typhon",
             "char_391_rosmon": "Rosmontis",
             "char_1013_chen2": "Ch'en the Holungday",
+            "char_4117_ray": "Ray",
             "char_112_siege": "Siege",
             "char_222_bpipe": "Bagpipe",
             "char_362_saga": "Saga",
@@ -480,6 +482,7 @@
             "Rockrock": "char_4040_rockr",
             "Minimalist": "char_4054_malist",
             "Diamante": "char_499_kaitou",
+            "Warmy": "char_4081_warmy",
             "Mayer": "char_242_otter",
             "Scene": "char_336_folivo",
             "Silence": "char_108_silent",
@@ -560,6 +563,7 @@
             "Typhon": "char_2012_typhon",
             "Rosmontis": "char_391_rosmon",
             "Ch'en the Holungday": "char_1013_chen2",
+            "Ray": "char_4117_ray",
             "Siege": "char_112_siege",
             "Bagpipe": "char_222_bpipe",
             "Saga": "char_362_saga",
@@ -1819,6 +1823,12 @@
             "元素",
             "输出"
         ],
+        "Warmy": [
+            "资深干员",
+            "远程位",
+            "元素",
+            "爆发"
+        ],
         "Mayer": [
             "资深干员",
             "远程位",
@@ -2270,6 +2280,11 @@
             "远程位",
             "输出",
             "群攻"
+        ],
+        "Ray": [
+            "高级资深干员",
+            "远程位",
+            "输出"
         ],
         "Siege": [
             "高级资深干员",
