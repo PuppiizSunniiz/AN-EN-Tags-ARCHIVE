@@ -9,7 +9,7 @@ def CharReady(JSON,mode=0):
     '''
     def Charname(JSON,key) -> str:
         def NameCheck(appellation):
-            Russian = {'Гум': 'Gummy', 'Зима': 'Zima', 'Истина': 'Istina', 'Позёмка': 'Pozëmka', 'Роса': 'Rosa','лето':'Leto'}
+            Russian = {'Гум': 'Gummy', 'Зима': 'Zima', 'Истина': 'Istina', 'Позёмка': 'Pozëmka', 'Роса': 'Rosa','Лето':'Leto'}
             if appellation in Russian.keys():
                 return Russian[appellation]
             else:

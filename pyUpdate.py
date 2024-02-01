@@ -12,6 +12,9 @@ json_charEN         =   json.loads(open("json/gamedata/en_US/gamedata/excel/char
 json_charJP         =   json.loads(open("json/gamedata/ja_JP/gamedata/excel/character_table.json").read())
 json_charKR         =   json.loads(open("json/gamedata/ko_KR/gamedata/excel/character_table.json").read())
 
+json_skill           =   json.loads(open("json/gamedata/zh_CN/gamedata/excel/skill_table.json").read())
+json_skillEN         =   json.loads(open("json/gamedata/en_US/gamedata/excel/skill_table.json").read())
+
 json_handbook       =   json.loads(open("json/gamedata/zh_CN/gamedata/excel/handbook_info_table.json").read())
 json_mod_battle     =   json.loads(open("json/gamedata/zh_CN/gamedata/excel/battle_equip_table.json").read())
 json_mod_battleEN    =   json.loads(open("json/gamedata/en_US/gamedata/excel/battle_equip_table.json").read())
@@ -29,19 +32,16 @@ json_akhr           =   json.loads(open("json/tl-akhr.json").read())
 json_akmaterial     =   json.loads(open("json/akmaterial.json").read())
 json_trait          =   json.loads(open("json/tl-attacktype.json").read())
 json_term           =   json.loads(open("json/named_effects.json").read())
+json_skillTL        =   json.loads(open("json/ace/tl-skills.json").read())
 
 json_tl_item        =   json.loads(open("json/tl-item.json").read())
 json_tempmod        =   json.loads(open("json/TempModuletalentsTL.json").read())
-#########################################################################################################
-# test
-#########################################################################################################
-
 
 #########################################################################################################
 # Prep
 #########################################################################################################
-newchars = ['Kestrel']
-newmods = [['Kestrel',1]]
+newchars = []
+newmods = []
 newmats = []
 
 recruitCN=[]
@@ -65,16 +65,19 @@ for item in json_akmaterial:
 # Test
 #########################################################################################################
 
-print(CharReady["Name2Code"]['Kestrel'])
 
 #########################################################################################################
 # Chars
 #########################################################################################################
 skipchar=[]
+talenttl={}
+skilltl={}
 for newchar in newchars:
+    chartalent=[]
     if newchar not in charlist:
         try:
             newcode=CharReady["Name2Code"][newchar]
+            ## AKHR
             json_akhr.append({
                                     "id": newcode,
                                     "name_cn": json_char[newcode]["name"],
@@ -98,9 +101,30 @@ for newchar in newchars:
                                     "hidden": True,
                                     "globalHidden": True
             })
+            ## Trait
             newtrait[json_char[newcode]["description"]]={"name":newchar,
                                                         "code":newcode,
                                                         "mode":"newchars"}
+            ## Talent
+            for eachtalent in json_char[newcode]["talents"]:
+                eachchartalent=[]
+                for talent in eachtalent['candidates']:
+                    eachchartalent.append({
+                                        "name": talent["name"],
+                                        "descCN": talent['description'],
+                                        "desc": ""
+                                    })
+                chartalent.append(eachchartalent)
+            talenttl[newcode]=chartalent
+            
+            ## Skill
+            for skill in json_char[newcode]["skills"]:
+                skillid = skill["skillId"]
+                if skillid not in json_skillTL.keys():
+                    skilltl[skillid]={
+                                        "name" : json_skill[skillid]["levels"][0]["name"],
+                                        "desc": [json_skill[skillid]["levels"][x]["description"] for x in range(len(json_skill[skillid]["levels"]))]
+                                    }
         except:
             skipchar.append(newchar)
 
@@ -130,6 +154,14 @@ if recruitEN:
                 break
 dumpling=json.dumps(json_akhr,indent=4, ensure_ascii=False)
 with open("json/tl-akhr.json",'w') as JSON :
+    JSON.write(dumpling)
+    
+dumpling=json.dumps(talenttl,indent=4, ensure_ascii=False)
+with open("temp/tl-talent.json",'w') as JSON :
+    JSON.write(dumpling)
+
+dumpling=json.dumps(skilltl,indent=4, ensure_ascii=False)
+with open("temp/tl-skill.json",'w') as JSON :
     JSON.write(dumpling)
 
 #########################################################################################################

@@ -1,0 +1,212 @@
+{
+    "char_4116_blkkgt": [
+        [
+            {
+                "name": "“天生的武者”",
+                "desc": "When attacking, has a 10% chance to deal 130% damage and <$ba.tremble>Tremble</> the target for 5 seconds "
+            },
+            {
+                "name": "“天生的武者”",
+                "desc": "When attacking, has a 10% chance to deal 135%<@ba.talpu>（+5%）</> damage and <$ba.tremble>Tremble</> the target for 5 seconds "
+            },
+            {
+                "name": "“天生的武者”",
+                "desc": "When attacking, has a 10% chance to deal 160% damage and <$ba.tremble>Tremble</> the target for 5 seconds "
+            },
+            {
+                "name": "“天生的武者”",
+                "desc": "When attacking, has a 10% chance to deal 165%<@ba.talpu>（+5%）</> damage and <$ba.tremble>Tremble</> the target for 5 seconds "
+            }
+        ],
+        [
+            {
+                "name": "活着的传奇",
+                "desc": "When attacking <$ba.tremble>Tremble</> enemies, ignore 25% DEF"
+            },
+            {
+                "name": "活着的传奇",
+                "desc": "When attacking <$ba.tremble>Tremble</> enemies, ignore 30%<@ba.talpu>（+5%）</>DEF"
+            }
+        ]
+    ],
+    "char_4114_harold": [
+        [
+            {
+                "name": "我即军营",
+                "desc": "Allies with more than 50% accumulated element damage within Attack Range reduce received <$ba.dt.element>element damage</> by 12%"
+            },
+            {
+                "name": "我即军营",
+                "desc": "Allies with more than 50% accumulated element damage within Attack Range reduce received <$ba.dt.element>element damage</> by 15%<@ba.talpu>（+3%）</>"
+            },
+            {
+                "name": "我即军营",
+                "desc": "Allies with more than 50% accumulated element damage within Attack Range reduce received <$ba.dt.element>element damage</> by 15%"
+            },
+            {
+                "name": "我即军营",
+                "desc": "Allies with more than 50% accumulated element damage within Attack Range reduce received <$ba.dt.element>element damage</> by 18%<@ba.talpu>（+3%）</>"
+            }
+        ]
+    ],
+    "char_194_leto": [
+        [
+            {
+                "name": "快点快点",
+                "desc": "When skill is activated, all [Ursus Student Self-Governing Group] operators ASPD+10 until the end of the skill"
+            },
+            {
+                "name": "快点快点",
+                "desc": "When skill is activated, all [Ursus Student Self-Governing Group] operators ASPD+13<@ba.talpu>（+3）</> until the end of the skill"
+            },
+            {
+                "name": "快点快点",
+                "desc": "When skill is activated, all [Ursus Student Self-Governing Group] operators ASPD+21 until the end of the skill"
+            },
+            {
+                "name": "快点快点",
+                "desc": "When skill is activated, all [Ursus Student Self-Governing Group] operators ASPD+24<@ba.talpu>（+3）</> until the end of the skill"
+            }
+        ]
+    ],
+    "char_4117_ray": [
+        [
+            {
+                "name": "巡哨伙伴",
+                "desc": "Can summon a Sand Beast within Attack Range for 15 seconds. The Sand Beast scouts the area and extends Ray's Attack Range. Ray will prioritize targets within the scouting area and deal increased Physical damage by 10%"
+            },
+            {
+                "name": "巡哨伙伴",
+                "desc": "Can summon a Sand Beast within Attack Range for 25 seconds. The Sand Beast scouts the area and extends Ray's Attack Range. Ray will prioritize targets within the scouting area and deal increased Physical damage by 15%"
+            }
+        ],
+        [
+            {
+                "name": "入神",
+                "desc": "Each consecutive attack on the same target increases ATK by 8%, stacking up to 3 times."
+            },
+            {
+                "name": "入神",
+                "desc": "Each consecutive attack on the same target increases ATK by 9%<@ba.talpu>（+1%）</>, stacking up to 3 times."
+            }
+        ]
+    ],
+    "char_4081_warmy": [
+        [
+            {
+                "name": "难免会溢锅",
+                "desc": "When enemies within Attack Range trigger <$ba.dt.burning2>Burn</>, immediately receive Elemental damage by 200% of the Operator's ATK "
+            },
+            {
+                "name": "难免会溢锅",
+                "desc": "When enemies within Attack Range trigger <$ba.dt.burning2>Burn</>, immediately receive Elemental damage by 220%<@ba.talpu>（+20%）</>of the Operator's ATK "
+            },
+            {
+                "name": "难免会溢锅",
+                "desc": "When enemies within Attack Range trigger <$ba.dt.burning2>Burn</>, immediately receive Elemental damage by 300% of the Operator's ATK "
+            },
+            {
+                "name": "难免会溢锅",
+                "desc": "When enemies within Attack Range trigger <$ba.dt.burning2>Burn</>, immediately receive Elemental damage by 320%<@ba.talpu>（+20%）</>of the Operator's ATK "
+            }
+        ]
+    ],
+    "char_2025_shu": [
+        [
+            {
+                "name": "百谷长青",
+                "desc": "When healing allies, plant seeds on the ally's tile and the 4 adjacent tiles, granting the following effects: Restores the HP by 40 per second and apply 5% <$ba.protect>Sanctuary</> effect to allies"
+            },
+            {
+                "name": "百谷长青",
+                "desc": "When healing allies, plant seeds on the ally's tile and the 4 adjacent tiles, granting the following effects: Restores the HP by 45 <@ba.talpu>(+5)</> per second and apply 7% <@ba.talpu>(+2%)</> <$ba.protect>Sanctuary</> effect to allies"
+            },
+            {
+                "name": "百谷长青",
+                "desc": "When healing allies, plant seeds on the ally's tile and the 4 adjacent tiles, granting the following effects: Restores the HP by 70 per second and apply 10% <$ba.protect>Sanctuary</> effect to allies"
+            },
+            {
+                "name": "百谷长青",
+                "desc": "When healing allies, plant seeds on the ally's tile and the 4 adjacent tiles, granting the following effects: Restores the HP by 75 <@ba.talpu>(+5)</> per second and apply 12% <@ba.talpu>(+2%)</> <$ba.protect>Sanctuary</> effect to allies"
+            }
+        ],
+        [
+            {
+                "name": "天有四时",
+                "desc": "When there are 3 operators of different classes deployed, all operators Max HP +12%\nWhen there are 3 operators of the same class deployed, all operators ASPD+12\nWhen there are 4 [Sui] operators in the team, all operators ATK +12% and restores 1 Skill Point every 4 seconds"
+            }
+        ]
+    ],
+    "char_4121_zuole": [
+        [
+            {
+                "name": "秉烛照影",
+                "desc": "Gains up to +30 ASPD  and the SP recovery rate by +0.5/second <$ba.berserk>Tenacity</> (reaches maximum bonus when losing 50% Max HP)"
+            },
+            {
+                "name": "秉烛照影",
+                "desc": "Gains up to +40 ASPD  and the SP recovery rate by +1/second <$ba.berserk>Tenacity</> (reaches maximum bonus when losing 50% Max HP)"
+            },
+            {
+                "name": "秉烛照影",
+                "desc": "Gains up to +50 ASPD  and the SP recovery rate by +2/second <$ba.berserk>Tenacity</> (reaches maximum bonus when losing 50% Max HP)"
+            }
+        ],
+        [
+            {
+                "name": "守正自明",
+                "desc": "20% chance to recover 1 SP when attacking, when losing 50% Max HP chance increse to 70%"
+            },
+            {
+                "name": "守正自明",
+                "desc": "23%<@ba.talpu>（+3%）</>chance to recover 1 SP when attacking, when losing 50% Max HP chance increse to 75%<@ba.talpu>（+5%）</>"
+            }
+        ]
+    ],
+    "char_4122_grabds": [
+        [
+            {
+                "name": "好好听话",
+                "desc": "ASPD +6. If the target is a [Wild Animal], Extends the duration of <$ba.sluggish>Slows</>"
+            },
+            {
+                "name": "好好听话",
+                "desc": "ASPD +8 <@ba.talpu>(+2)</>. If the target is a [Wild Animal], Extends the duration of <$ba.sluggish>Slows</>"
+            },
+            {
+                "name": "好好听话",
+                "desc": "ASPD +10. If the target is a [Wild Animal], Extends the duration of <$ba.sluggish>Slows</>"
+            },
+            {
+                "name": "好好听话",
+                "desc": "ASPD +12 <@ba.talpu>(+2)</>. If the target is a [Wild Animal], Extends the duration of <$ba.sluggish>Slows</>"
+            }
+        ]
+    ],
+    "char_4023_rfalcn": [
+        [
+            {
+                "name": "蛮力重击",
+                "desc": "When attacking, has a 15% chance to increase the current damage of that attack to 140%"
+            },
+            {
+                "name": "蛮力重击",
+                "desc": "When attacking, has a 17%<@ba.talpu>（+2%）</>chance to increase the current damage of that attack to 140%"
+            },
+            {
+                "name": "蛮力重击",
+                "desc": "When attacking, has a 20% chance to increase the current damage of that attack to 140%"
+            },
+            {
+                "name": "蛮力重击",
+                "desc": "When attacking, has a 22%<@ba.talpu>（+2%）</>chance to increase the current damage of that attack to 140%"
+            }
+        ],
+        [
+            {
+                "name": "习惯使然",
+                "desc": "In [Tales Within The Sand], When skill is activated, resources on her are sent to inventory"
+            }
+        ]
+    ]
+}

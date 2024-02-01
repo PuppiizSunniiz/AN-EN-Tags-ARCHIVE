@@ -9287,5 +9287,157 @@
 			"Increase Attack Interval (<@ba.vdown>+{base_attack_time} seconds</>), ATK <@ba.vup>+{{atk}:.0%}</>, attack <@ba.vup>2</> targets simultaneously. <$ba.charged>Charged</> effect: Attack <@ba.vup>3</> targets simultaneously, increase duration to <@ba.vup>{{enhanced_duration}:.0f}</> seconds. Attacks deal <@ba.vup>{{attack@ep_damage_scale}:.0%}</> additional Elemental damage to targets under the active effect of <$ba.dt.burning2>Burn</>",
 			"Increase Attack Interval (<@ba.vdown>+{base_attack_time} seconds</>), ATK <@ba.vup>+{{atk}:.0%}</>, attack <@ba.vup>2</> targets simultaneously. <$ba.charged>Charged</> effect: Attack <@ba.vup>3</> targets simultaneously, increase duration to <@ba.vup>{{enhanced_duration}:.0f}</> seconds. Attacks deal <@ba.vup>{{attack@ep_damage_scale}:.0%}</> additional Elemental damage to targets under the active effect of <$ba.dt.burning2>Burn</>"
 		]
+	},
+
+
+	"skchr_shu_1": {
+        "name": "化被草木",
+        "desc": [
+            "Restores the HP of a nearby ally with less than 50% HP by <@ba.vup>{heal_scale:0%}</> of the Operator's ATK in the next attack\nCan store <@ba.vup>{ct}</> charge(s)",
+            "Restores the HP of a nearby ally with less than 50% HP by <@ba.vup>{heal_scale:0%}</> of the Operator's ATK in the next attack\nCan store <@ba.vup>{ct}</> charge(s)",
+            "Restores the HP of a nearby ally with less than 50% HP by <@ba.vup>{heal_scale:0%}</> of the Operator's ATK in the next attack\nCan store <@ba.vup>{ct}</> charge(s)",
+            "Restores the HP of a nearby ally with less than 50% HP by <@ba.vup>{heal_scale:0%}</> of the Operator's ATK in the next attack\nCan store <@ba.vup>{ct}</> charge(s)",
+            "Restores the HP of a nearby ally with less than 50% HP by <@ba.vup>{heal_scale:0%}</> of the Operator's ATK in the next attack\nCan store <@ba.vup>{ct}</> charge(s)",
+            "Restores the HP of a nearby ally with less than 50% HP by <@ba.vup>{heal_scale:0%}</> of the Operator's ATK in the next attack\nCan store <@ba.vup>{ct}</> charge(s)",
+            "Restores the HP of a nearby ally with less than 50% HP by <@ba.vup>{heal_scale:0%}</> of the Operator's ATK in the next attack\nCan store <@ba.vup>{ct}</> charge(s)",
+            "Restores the HP of a nearby ally with less than 50% HP by <@ba.vup>{heal_scale:0%}</> of the Operator's ATK in the next attack\nCan store <@ba.vup>{ct}</> charge(s)",
+            "Restores the HP of a nearby ally with less than 50% HP by <@ba.vup>{heal_scale:0%}</> of the Operator's ATK in the next attack\nCan store <@ba.vup>{ct}</> charge(s)",
+            "Restores the HP of a nearby ally with less than 50% HP by <@ba.vup>{heal_scale:0%}</> of the Operator's ATK in the next attack\nCan store <@ba.vup>{ct}</> charge(s)"
+        ] 
+    },
+    "skchr_shu_2": {
+        "name": "嘉禾盈仓",
+        "desc": [
+            "<@ba.vdown>Stops attacking</> and focuses on healing up to <@ba.vup>2</> surrounding allies, ATK <@ba.vup>+{atk:0%}</>, Block <@ba.vup>+{block_cnt}</>，Talent 1 effect increased to <@ba.vup>{extra_extend_scale}</>x\n<@ba.rem>Attack Interval increases</>",
+            "<@ba.vdown>Stops attacking</> and focuses on healing up to <@ba.vup>2</> surrounding allies, ATK <@ba.vup>+{atk:0%}</>, Block <@ba.vup>+{block_cnt}</>，Talent 1 effect increased to <@ba.vup>{extra_extend_scale}</>x\n<@ba.rem>Attack Interval increases</>",
+            "<@ba.vdown>Stops attacking</> and focuses on healing up to <@ba.vup>2</> surrounding allies, ATK <@ba.vup>+{atk:0%}</>, Block <@ba.vup>+{block_cnt}</>，Talent 1 effect increased to <@ba.vup>{extra_extend_scale}</>x\n<@ba.rem>Attack Interval increases</>",
+            "<@ba.vdown>Stops attacking</> and focuses on healing up to <@ba.vup>2</> surrounding allies, ATK <@ba.vup>+{atk:0%}</>, Block <@ba.vup>+{block_cnt}</>，Talent 1 effect increased to <@ba.vup>{extra_extend_scale}</>x\n<@ba.rem>Attack Interval increases</>",
+            "<@ba.vdown>Stops attacking</> and focuses on healing up to <@ba.vup>2</> surrounding allies, ATK <@ba.vup>+{atk:0%}</>, Block <@ba.vup>+{block_cnt}</>，Talent 1 effect increased to <@ba.vup>{extra_extend_scale}</>x\n<@ba.rem>Attack Interval increases</>",
+            "<@ba.vdown>Stops attacking</> and focuses on healing up to <@ba.vup>2</> surrounding allies, ATK <@ba.vup>+{atk:0%}</>, Block <@ba.vup>+{block_cnt}</>，Talent 1 effect increased to <@ba.vup>{extra_extend_scale}</>x\n<@ba.rem>Attack Interval increases</>",
+            "<@ba.vdown>Stops attacking</> and focuses on healing up to <@ba.vup>2</> surrounding allies, ATK <@ba.vup>+{atk:0%}</>, Block <@ba.vup>+{block_cnt}</>，Talent 1 effect increased to <@ba.vup>{extra_extend_scale}</>x\n<@ba.rem>Attack Interval increases</>",
+            "<@ba.vdown>Stops attacking</> and focuses on healing up to <@ba.vup>2</> surrounding allies, ATK <@ba.vup>+{atk:0%}</>, Block <@ba.vup>+{block_cnt}</>，Talent 1 effect increased to <@ba.vup>{extra_extend_scale}</>x\n<@ba.rem>Attack Interval increases</>",
+            "<@ba.vdown>Stops attacking</> and focuses on healing up to <@ba.vup>2</> surrounding allies, ATK <@ba.vup>+{atk:0%}</>, Block <@ba.vup>+{block_cnt}</>，Talent 1 effect increased to <@ba.vup>{extra_extend_scale}</>x\n<@ba.rem>Attack Interval increases</>",
+            "<@ba.vdown>Stops attacking</> and focuses on healing up to <@ba.vup>2</> surrounding allies, ATK <@ba.vup>+{atk:0%}</>, Block <@ba.vup>+{block_cnt}</>，Talent 1 effect increased to <@ba.vup>{extra_extend_scale}</>x\n<@ba.rem>Attack Interval increases</>"
+        ]
+    },
+    "skchr_shu_3": {
+        "name": "离离枯荣",
+        "desc": [
+            "Attack Range <@ba.vup>Expand</>, can healing allies while attacking, ATK<@ba.vup>+{atk:0%}</>. When ground enemies in seeded tile allies ATK<@ba.vup>+{e_atk:0%}</>, ASPD<@ba.vup>+{e_attack_speed}</> and grant following effect to enemies: \n After ground enemies moving from seeded tile over <@ba.vup>{max_distance}</> tiles teleport enemies back to said tiles",
+            "Attack Range <@ba.vup>Expand</>, can healing allies while attacking, ATK<@ba.vup>+{atk:0%}</>. When ground enemies in seeded tile allies ATK<@ba.vup>+{e_atk:0%}</>, ASPD<@ba.vup>+{e_attack_speed}</> and grant following effect to enemies: \n After ground enemies moving from seeded tile over <@ba.vup>{max_distance}</> tiles teleport enemies back to said tiles",
+            "Attack Range <@ba.vup>Expand</>, can healing allies while attacking, ATK<@ba.vup>+{atk:0%}</>. When ground enemies in seeded tile allies ATK<@ba.vup>+{e_atk:0%}</>, ASPD<@ba.vup>+{e_attack_speed}</> and grant following effect to enemies: \n After ground enemies moving from seeded tile over <@ba.vup>{max_distance}</> tiles teleport enemies back to said tiles",
+            "Attack Range <@ba.vup>Expand</>, can healing allies while attacking, ATK<@ba.vup>+{atk:0%}</>. When ground enemies in seeded tile allies ATK<@ba.vup>+{e_atk:0%}</>, ASPD<@ba.vup>+{e_attack_speed}</> and grant following effect to enemies: \n After ground enemies moving from seeded tile over <@ba.vup>{max_distance}</> tiles teleport enemies back to said tiles",
+            "Attack Range <@ba.vup>Expand</>, can healing allies while attacking, ATK<@ba.vup>+{atk:0%}</>. When ground enemies in seeded tile allies ATK<@ba.vup>+{e_atk:0%}</>, ASPD<@ba.vup>+{e_attack_speed}</> and grant following effect to enemies: \n After ground enemies moving from seeded tile over <@ba.vup>{max_distance}</> tiles teleport enemies back to said tiles",
+            "Attack Range <@ba.vup>Expand</>, can healing allies while attacking, ATK<@ba.vup>+{atk:0%}</>. When ground enemies in seeded tile allies ATK<@ba.vup>+{e_atk:0%}</>, ASPD<@ba.vup>+{e_attack_speed}</> and grant following effect to enemies: \n After ground enemies moving from seeded tile over <@ba.vup>{max_distance}</> tiles teleport enemies back to said tiles",
+            "Attack Range <@ba.vup>Expand</>, can healing allies while attacking, ATK<@ba.vup>+{atk:0%}</>. When ground enemies in seeded tile allies ATK<@ba.vup>+{e_atk:0%}</>, ASPD<@ba.vup>+{e_attack_speed}</> and grant following effect to enemies: \n After ground enemies moving from seeded tile over <@ba.vup>{max_distance}</> tiles teleport enemies back to said tiles",
+            "Attack Range <@ba.vup>Expand</>, can healing allies while attacking, ATK<@ba.vup>+{atk:0%}</>. When ground enemies in seeded tile allies ATK<@ba.vup>+{e_atk:0%}</>, ASPD<@ba.vup>+{e_attack_speed}</> and grant following effect to enemies: \n After ground enemies moving from seeded tile over <@ba.vup>{max_distance}</> tiles teleport enemies back to said tiles",
+            "Attack Range <@ba.vup>Expand</>, can healing allies while attacking, ATK<@ba.vup>+{atk:0%}</>. When ground enemies in seeded tile allies ATK<@ba.vup>+{e_atk:0%}</>, ASPD<@ba.vup>+{e_attack_speed}</> and grant following effect to enemies: \n After ground enemies moving from seeded tile over <@ba.vup>{max_distance}</> tiles teleport enemies back to said tiles",
+            "Attack Range <@ba.vup>Expand</>, can healing allies while attacking, ATK<@ba.vup>+{atk:0%}</>. When ground enemies in seeded tile allies ATK<@ba.vup>+{e_atk:0%}</>, ASPD<@ba.vup>+{e_attack_speed}</> and grant following effect to enemies: \n After ground enemies moving from seeded tile over <@ba.vup>{max_distance}</> tiles teleport enemies back to said tiles"
+        ] 
+    },
+    "skchr_zuole_1": {
+        "name": "破虏",
+        "desc": [
+            "Increases the ATK of the next attack to <@ba.vup>{atk_scale:0%}</>, when below 80% Max HP attack <@ba.vup>1</> addition hit , when below 50% Max HP attack <@ba.vup>2</> addition hit\n<@ba.rem>Can store 1 charge(s)</>",
+            "Increases the ATK of the next attack to <@ba.vup>{atk_scale:0%}</>, when below 80% Max HP attack <@ba.vup>1</> addition hit , when below 50% Max HP attack <@ba.vup>2</> addition hit\n<@ba.rem>Can store 1 charge(s)</>",
+            "Increases the ATK of the next attack to <@ba.vup>{atk_scale:0%}</>, when below 80% Max HP attack <@ba.vup>1</> addition hit , when below 50% Max HP attack <@ba.vup>2</> addition hit\n<@ba.rem>Can store 1 charge(s)</>",
+            "Increases the ATK of the next attack to <@ba.vup>{atk_scale:0%}</>, when below 80% Max HP attack <@ba.vup>1</> addition hit , when below 50% Max HP attack <@ba.vup>2</> addition hit\n<@ba.rem>Can store 2 charge(s)</>",
+            "Increases the ATK of the next attack to <@ba.vup>{atk_scale:0%}</>, when below 80% Max HP attack <@ba.vup>1</> addition hit , when below 50% Max HP attack <@ba.vup>2</> addition hit\n<@ba.rem>Can store 2 charge(s)</>",
+            "Increases the ATK of the next attack to <@ba.vup>{atk_scale:0%}</>, when below 80% Max HP attack <@ba.vup>1</> addition hit , when below 50% Max HP attack <@ba.vup>2</> addition hit\n<@ba.rem>Can store 2 charge(s)</>",
+            "Increases the ATK of the next attack to <@ba.vup>{atk_scale:0%}</>, when below 80% Max HP attack <@ba.vup>1</> addition hit , when below 50% Max HP attack <@ba.vup>2</> addition hit\n<@ba.rem>Can store 2 charge(s)</>",
+            "Increases the ATK of the next attack to <@ba.vup>{atk_scale:0%}</>, when below 80% Max HP attack <@ba.vup>1</> addition hit , when below 50% Max HP attack <@ba.vup>2</> addition hit\n<@ba.rem>Can store 2 charge(s)</>",
+            "Increases the ATK of the next attack to <@ba.vup>{atk_scale:0%}</>, when below 80% Max HP attack <@ba.vup>1</> addition hit , when below 50% Max HP attack <@ba.vup>2</> addition hit\n<@ba.rem>Can store 3 charge(s)</>",
+            "Increases the ATK of the next attack to <@ba.vup>{atk_scale:0%}</>, when below 80% Max HP attack <@ba.vup>1</> addition hit , when below 50% Max HP attack <@ba.vup>2</> addition hit\n<@ba.rem>Can store 3 charge(s)</>"
+        ] 
+    },
+    "skchr_zuole_2": {
+        "name": "行险",
+        "desc": [
+            "Lose <@ba.vdown>{hp_ratio:0%}</> of current HP and gain <$ba.barrier>Barrier</> equal to <@ba.vup>{scale:0%}</> Max HP, ATK<@ba.vup>+{atk:0%}</>, Block<@ba.vup>+{block_cnt}</>, Attack multiple enemies equal to block count \n<@ba.rem><$ba.barrier>Barrier</> can stack up to {max_scale} times of Max HP, and gradually decay overtime after skill end</>",
+            "Lose <@ba.vdown>{hp_ratio:0%}</> of current HP and gain <$ba.barrier>Barrier</> equal to <@ba.vup>{scale:0%}</> Max HP, ATK<@ba.vup>+{atk:0%}</>, Block<@ba.vup>+{block_cnt}</>, Attack multiple enemies equal to block count \n<@ba.rem><$ba.barrier>Barrier</> can stack up to {max_scale} times of Max HP, and gradually decay overtime after skill end</>",
+            "Lose <@ba.vdown>{hp_ratio:0%}</> of current HP and gain <$ba.barrier>Barrier</> equal to <@ba.vup>{scale:0%}</> Max HP, ATK<@ba.vup>+{atk:0%}</>, Block<@ba.vup>+{block_cnt}</>, Attack multiple enemies equal to block count \n<@ba.rem><$ba.barrier>Barrier</> can stack up to {max_scale} times of Max HP, and gradually decay overtime after skill end</>",
+            "Lose <@ba.vdown>{hp_ratio:0%}</> of current HP and gain <$ba.barrier>Barrier</> equal to <@ba.vup>{scale:0%}</> Max HP, ATK<@ba.vup>+{atk:0%}</>, Block<@ba.vup>+{block_cnt}</>, Attack multiple enemies equal to block count \n<@ba.rem><$ba.barrier>Barrier</> can stack up to {max_scale} times of Max HP, and gradually decay overtime after skill end</>",
+            "Lose <@ba.vdown>{hp_ratio:0%}</> of current HP and gain <$ba.barrier>Barrier</> equal to <@ba.vup>{scale:0%}</> Max HP, ATK<@ba.vup>+{atk:0%}</>, Block<@ba.vup>+{block_cnt}</>, Attack multiple enemies equal to block count \n<@ba.rem><$ba.barrier>Barrier</> can stack up to {max_scale} times of Max HP, and gradually decay overtime after skill end</>",
+            "Lose <@ba.vdown>{hp_ratio:0%}</> of current HP and gain <$ba.barrier>Barrier</> equal to <@ba.vup>{scale:0%}</> Max HP, ATK<@ba.vup>+{atk:0%}</>, Block<@ba.vup>+{block_cnt}</>, Attack multiple enemies equal to block count \n<@ba.rem><$ba.barrier>Barrier</> can stack up to {max_scale} times of Max HP, and gradually decay overtime after skill end</>",
+            "Lose <@ba.vdown>{hp_ratio:0%}</> of current HP and gain <$ba.barrier>Barrier</> equal to <@ba.vup>{scale:0%}</> Max HP, ATK<@ba.vup>+{atk:0%}</>, Block<@ba.vup>+{block_cnt}</>, Attack multiple enemies equal to block count \n<@ba.rem><$ba.barrier>Barrier</> can stack up to {max_scale} times of Max HP, and gradually decay overtime after skill end</>",
+            "Lose <@ba.vdown>{hp_ratio:0%}</> of current HP and gain <$ba.barrier>Barrier</> equal to <@ba.vup>{scale:0%}</> Max HP, ATK<@ba.vup>+{atk:0%}</>, Block<@ba.vup>+{block_cnt}</>, Attack multiple enemies equal to block count \n<@ba.rem><$ba.barrier>Barrier</> can stack up to {max_scale} times of Max HP, and gradually decay overtime after skill end</>",
+            "Lose <@ba.vdown>{hp_ratio:0%}</> of current HP and gain <$ba.barrier>Barrier</> equal to <@ba.vup>{scale:0%}</> Max HP, ATK<@ba.vup>+{atk:0%}</>, Block<@ba.vup>+{block_cnt}</>, Attack multiple enemies equal to block count \n<@ba.rem><$ba.barrier>Barrier</> can stack up to {max_scale} times of Max HP, and gradually decay overtime after skill end</>",
+            "Lose <@ba.vdown>{hp_ratio:0%}</> of current HP and gain <$ba.barrier>Barrier</> equal to <@ba.vup>{scale:0%}</> Max HP, ATK<@ba.vup>+{atk:0%}</>, Block<@ba.vup>+{block_cnt}</>, Attack multiple enemies equal to block count \n<@ba.rem><$ba.barrier>Barrier</> can stack up to {max_scale} times of Max HP, and gradually decay overtime after skill end</>"
+        ]
+    },
+    "skchr_zuole_3": {
+        "name": "佑序有炎",
+        "desc": [
+            "Immediately perform <@ba.vup>{times}</> slashes, maximum of <@ba.vup>3</> per enemies, each slash deal <@ba.vup>{atk_scale:0%}</> ATK as physical damage (Last slash deal double damage and <$ba.stun>Stun</> for <@ba.vup>{stun}</> seconds), HP recovery from trait change to <$ba.barrier>Barrier</> equal to <@ba.vup>{shield_scale}</> times of HP recovery amount \n<@ba.rem><$ba.barrier>Barrier</> can stack up to {max_scale} times of Max HP, last for {shield_duration} seconds</>",
+            "Immediately perform <@ba.vup>{times}</> slashes, maximum of <@ba.vup>3</> per enemies, each slash deal <@ba.vup>{atk_scale:0%}</> ATK as physical damage (Last slash deal double damage and <$ba.stun>Stun</> for <@ba.vup>{stun}</> seconds), HP recovery from trait change to <$ba.barrier>Barrier</> equal to <@ba.vup>{shield_scale}</> times of HP recovery amount \n<@ba.rem><$ba.barrier>Barrier</> can stack up to {max_scale} times of Max HP, last for {shield_duration} seconds</>",
+            "Immediately perform <@ba.vup>{times}</> slashes, maximum of <@ba.vup>3</> per enemies, each slash deal <@ba.vup>{atk_scale:0%}</> ATK as physical damage (Last slash deal double damage and <$ba.stun>Stun</> for <@ba.vup>{stun}</> seconds), HP recovery from trait change to <$ba.barrier>Barrier</> equal to <@ba.vup>{shield_scale}</> times of HP recovery amount \n<@ba.rem><$ba.barrier>Barrier</> can stack up to {max_scale} times of Max HP, last for {shield_duration} seconds</>",
+            "Immediately perform <@ba.vup>{times}</> slashes, maximum of <@ba.vup>3</> per enemies, each slash deal <@ba.vup>{atk_scale:0%}</> ATK as physical damage (Last slash deal double damage and <$ba.stun>Stun</> for <@ba.vup>{stun}</> seconds), HP recovery from trait change to <$ba.barrier>Barrier</> equal to <@ba.vup>{shield_scale}</> times of HP recovery amount \n<@ba.rem><$ba.barrier>Barrier</> can stack up to {max_scale} times of Max HP, last for {shield_duration} seconds</>",
+            "Immediately perform <@ba.vup>{times}</> slashes, maximum of <@ba.vup>3</> per enemies, each slash deal <@ba.vup>{atk_scale:0%}</> ATK as physical damage (Last slash deal double damage and <$ba.stun>Stun</> for <@ba.vup>{stun}</> seconds), HP recovery from trait change to <$ba.barrier>Barrier</> equal to <@ba.vup>{shield_scale}</> times of HP recovery amount \n<@ba.rem><$ba.barrier>Barrier</> can stack up to {max_scale} times of Max HP, last for {shield_duration} seconds</>",
+            "Immediately perform <@ba.vup>{times}</> slashes, maximum of <@ba.vup>3</> per enemies, each slash deal <@ba.vup>{atk_scale:0%}</> ATK as physical damage (Last slash deal double damage and <$ba.stun>Stun</> for <@ba.vup>{stun}</> seconds), HP recovery from trait change to <$ba.barrier>Barrier</> equal to <@ba.vup>{shield_scale}</> times of HP recovery amount \n<@ba.rem><$ba.barrier>Barrier</> can stack up to {max_scale} times of Max HP, last for {shield_duration} seconds</>",
+            "Immediately perform <@ba.vup>{times}</> slashes, maximum of <@ba.vup>3</> per enemies, each slash deal <@ba.vup>{atk_scale:0%}</> ATK as physical damage (Last slash deal double damage and <$ba.stun>Stun</> for <@ba.vup>{stun}</> seconds), HP recovery from trait change to <$ba.barrier>Barrier</> equal to <@ba.vup>{shield_scale}</> times of HP recovery amount \n<@ba.rem><$ba.barrier>Barrier</> can stack up to {max_scale} times of Max HP, last for {shield_duration} seconds</>",
+            "Immediately perform <@ba.vup>{times}</> slashes, maximum of <@ba.vup>3</> per enemies, each slash deal <@ba.vup>{atk_scale:0%}</> ATK as physical damage (Last slash deal double damage and <$ba.stun>Stun</> for <@ba.vup>{stun}</> seconds), HP recovery from trait change to <$ba.barrier>Barrier</> equal to <@ba.vup>{shield_scale}</> times of HP recovery amount \n<@ba.rem><$ba.barrier>Barrier</> can stack up to {max_scale} times of Max HP, last for {shield_duration} seconds</>",
+            "Immediately perform <@ba.vup>{times}</> slashes, maximum of <@ba.vup>3</> per enemies, each slash deal <@ba.vup>{atk_scale:0%}</> ATK as physical damage (Last slash deal double damage and <$ba.stun>Stun</> for <@ba.vup>{stun}</> seconds), HP recovery from trait change to <$ba.barrier>Barrier</> equal to <@ba.vup>{shield_scale}</> times of HP recovery amount \n<@ba.rem><$ba.barrier>Barrier</> can stack up to {max_scale} times of Max HP, last for {shield_duration} seconds</>",
+            "Immediately perform <@ba.vup>{times}</> slashes, maximum of <@ba.vup>3</> per enemies, each slash deal <@ba.vup>{atk_scale:0%}</> ATK as physical damage (Last slash deal double damage and <$ba.stun>Stun</> for <@ba.vup>{stun}</> seconds), HP recovery from trait change to <$ba.barrier>Barrier</> equal to <@ba.vup>{shield_scale}</> times of HP recovery amount \n<@ba.rem><$ba.barrier>Barrier</> can stack up to {max_scale} times of Max HP, last for {shield_duration} seconds</>"
+        ] 
+    },
+    "skchr_grabds_1": {
+        "name": "竹笛飞声",
+        "desc": [
+            "Increases the ATK of the next attack to <@ba.vup>{atk_scale:0%}</> as Art Damage, hits 1 additional target \n<@ba.rem>Can store {ct} charge(s)</>",
+            "Increases the ATK of the next attack to <@ba.vup>{atk_scale:0%}</> as Art Damage, hits 1 additional target \n<@ba.rem>Can store {ct} charge(s)</>",
+            "Increases the ATK of the next attack to <@ba.vup>{atk_scale:0%}</> as Art Damage, hits 1 additional target \n<@ba.rem>Can store {ct} charge(s)</>",
+            "Increases the ATK of the next attack to <@ba.vup>{atk_scale:0%}</> as Art Damage, hits 1 additional target \n<@ba.rem>Can store {ct} charge(s)</>",
+            "Increases the ATK of the next attack to <@ba.vup>{atk_scale:0%}</> as Art Damage, hits 1 additional target \n<@ba.rem>Can store {ct} charge(s)</>",
+            "Increases the ATK of the next attack to <@ba.vup>{atk_scale:0%}</> as Art Damage, hits 1 additional target \n<@ba.rem>Can store {ct} charge(s)</>",
+            "Increases the ATK of the next attack to <@ba.vup>{atk_scale:0%}</> as Art Damage, hits 1 additional target \n<@ba.rem>Can store {ct} charge(s)</>",
+            "Increases the ATK of the next attack to <@ba.vup>{atk_scale:0%}</> as Art Damage, hits 1 additional target \n<@ba.rem>Can store {ct} charge(s)</>",
+            "Increases the ATK of the next attack to <@ba.vup>{atk_scale:0%}</> as Art Damage, hits 1 additional target \n<@ba.rem>Can store {ct} charge(s)</>",
+            "Increases the ATK of the next attack to <@ba.vup>{atk_scale:0%}</> as Art Damage, hits 1 additional target \n<@ba.rem>Can store {ct} charge(s)</>"
+        ]
+    },
+    "skchr_grabds_2": {
+        "name": "乡音沉沉",
+        "desc": [
+            "Stops attacking and inflict <$ba.sleep>sleep</> up to <@ba.vup>{max_target}</> enemies in Attack Range for <@ba.vup>{sleep}</> seconds, then ASPD<@ba.vup>+{attack_speed}</> and attacks hit up to <@ba.vup>{max_target}</> ememies",
+            "Stops attacking and inflict <$ba.sleep>sleep</> up to <@ba.vup>{max_target}</> enemies in Attack Range for <@ba.vup>{sleep}</> seconds, then ASPD<@ba.vup>+{attack_speed}</> and attacks hit up to <@ba.vup>{max_target}</> ememies",
+            "Stops attacking and inflict <$ba.sleep>sleep</> up to <@ba.vup>{max_target}</> enemies in Attack Range for <@ba.vup>{sleep}</> seconds, then ASPD<@ba.vup>+{attack_speed}</> and attacks hit up to <@ba.vup>{max_target}</> ememies",
+            "Stops attacking and inflict <$ba.sleep>sleep</> up to <@ba.vup>{max_target}</> enemies in Attack Range for <@ba.vup>{sleep}</> seconds, then ASPD<@ba.vup>+{attack_speed}</> and attacks hit up to <@ba.vup>{max_target}</> ememies",
+            "Stops attacking and inflict <$ba.sleep>sleep</> up to <@ba.vup>{max_target}</> enemies in Attack Range for <@ba.vup>{sleep}</> seconds, then ASPD<@ba.vup>+{attack_speed}</> and attacks hit up to <@ba.vup>{max_target}</> ememies",
+            "Stops attacking and inflict <$ba.sleep>sleep</> up to <@ba.vup>{max_target}</> enemies in Attack Range for <@ba.vup>{sleep}</> seconds, then ASPD<@ba.vup>+{attack_speed}</> and attacks hit up to <@ba.vup>{max_target}</> ememies",
+            "Stops attacking and inflict <$ba.sleep>sleep</> up to <@ba.vup>{max_target}</> enemies in Attack Range for <@ba.vup>{sleep}</> seconds, then ASPD<@ba.vup>+{attack_speed}</> and attacks hit up to <@ba.vup>{max_target}</> ememies",
+            "Stops attacking and inflict <$ba.sleep>sleep</> up to <@ba.vup>{max_target}</> enemies in Attack Range for <@ba.vup>{sleep}</> seconds, then ASPD<@ba.vup>+{attack_speed}</> and attacks hit up to <@ba.vup>{max_target}</> ememies",
+            "Stops attacking and inflict <$ba.sleep>sleep</> up to <@ba.vup>{max_target}</> enemies in Attack Range for <@ba.vup>{sleep}</> seconds, then ASPD<@ba.vup>+{attack_speed}</> and attacks hit up to <@ba.vup>{max_target}</> ememies",
+            "Stops attacking and inflict <$ba.sleep>sleep</> up to <@ba.vup>{max_target}</> enemies in Attack Range for <@ba.vup>{sleep}</> seconds, then ASPD<@ba.vup>+{attack_speed}</> and attacks hit up to <@ba.vup>{max_target}</> ememies"
+        ] 
+    },
+    "skchr_rfalcn_2": {
+        "name": "醉刃乱舞",
+        "desc": [
+            "Gradually gains <@ba.vup>{value}</> DP over the skill duration. ATK<@ba.vup>+{atk:0%}</>, ASPD<@ba.vup>+{attack_speed}</>, Talent 1 effect increased to <@ba.vup>{talent@prob_scaler:0.0}</>x",
+            "Gradually gains <@ba.vup>{value}</> DP over the skill duration. ATK<@ba.vup>+{atk:0%}</>, ASPD<@ba.vup>+{attack_speed}</>, Talent 1 effect increased to <@ba.vup>{talent@prob_scaler:0.0}</>x",
+            "Gradually gains <@ba.vup>{value}</> DP over the skill duration. ATK<@ba.vup>+{atk:0%}</>, ASPD<@ba.vup>+{attack_speed}</>, Talent 1 effect increased to <@ba.vup>{talent@prob_scaler:0.0}</>x",
+            "Gradually gains <@ba.vup>{value}</> DP over the skill duration. ATK<@ba.vup>+{atk:0%}</>, ASPD<@ba.vup>+{attack_speed}</>, Talent 1 effect increased to <@ba.vup>{talent@prob_scaler:0.0}</>x",
+            "Gradually gains <@ba.vup>{value}</> DP over the skill duration. ATK<@ba.vup>+{atk:0%}</>, ASPD<@ba.vup>+{attack_speed}</>, Talent 1 effect increased to <@ba.vup>{talent@prob_scaler:0.0}</>x",
+            "Gradually gains <@ba.vup>{value}</> DP over the skill duration. ATK<@ba.vup>+{atk:0%}</>, ASPD<@ba.vup>+{attack_speed}</>, Talent 1 effect increased to <@ba.vup>{talent@prob_scaler:0.0}</>x",
+            "Gradually gains <@ba.vup>{value}</> DP over the skill duration. ATK<@ba.vup>+{atk:0%}</>, ASPD<@ba.vup>+{attack_speed}</>, Talent 1 effect increased to <@ba.vup>{talent@prob_scaler:0.0}</>x",
+            "Gradually gains <@ba.vup>{value}</> DP over the skill duration. ATK<@ba.vup>+{atk:0%}</>, ASPD<@ba.vup>+{attack_speed}</>, Talent 1 effect increased to <@ba.vup>{talent@prob_scaler:0.0}</>x",
+            "Gradually gains <@ba.vup>{value}</> DP over the skill duration. ATK<@ba.vup>+{atk:0%}</>, ASPD<@ba.vup>+{attack_speed}</>, Talent 1 effect increased to <@ba.vup>{talent@prob_scaler:0.0}</>x",
+            "Gradually gains <@ba.vup>{value}</> DP over the skill duration. ATK<@ba.vup>+{atk:0%}</>, ASPD<@ba.vup>+{attack_speed}</>, Talent 1 effect increased to <@ba.vup>{talent@prob_scaler:0.0}</>x"
+        ] 
+    },
+	"skchr_wanqin_2":{
+		"name": "醉刃乱舞",
+        "desc": [
+            "Gradually gains <@ba.vup>{value}</> DP over the skill duration.\nDuring skill duration restoring their HP equal to <@ba.vup>{attack@heal_scale:0%}</> of Wanqing's ATK every second, allies facing same direction with Wanqing ASPD<@ba.vup>+{attack@attack_speed}</>",
+            "Gradually gains <@ba.vup>{value}</> DP over the skill duration.\nDuring skill duration restoring their HP equal to <@ba.vup>{attack@heal_scale:0%}</> of Wanqing's ATK every second, allies facing same direction with Wanqing ASPD<@ba.vup>+{attack@attack_speed}</>",
+            "Gradually gains <@ba.vup>{value}</> DP over the skill duration.\nDuring skill duration restoring their HP equal to <@ba.vup>{attack@heal_scale:0%}</> of Wanqing's ATK every second, allies facing same direction with Wanqing ASPD<@ba.vup>+{attack@attack_speed}</>",
+            "Gradually gains <@ba.vup>{value}</> DP over the skill duration.\nDuring skill duration restoring their HP equal to <@ba.vup>{attack@heal_scale:0%}</> of Wanqing's ATK every second, allies facing same direction with Wanqing ASPD<@ba.vup>+{attack@attack_speed}</>",
+            "Gradually gains <@ba.vup>{value}</> DP over the skill duration.\nDuring skill duration restoring their HP equal to <@ba.vup>{attack@heal_scale:0%}</> of Wanqing's ATK every second, allies facing same direction with Wanqing ASPD<@ba.vup>+{attack@attack_speed}</>",
+            "Gradually gains <@ba.vup>{value}</> DP over the skill duration.\nDuring skill duration restoring their HP equal to <@ba.vup>{attack@heal_scale:0%}</> of Wanqing's ATK every second, allies facing same direction with Wanqing ASPD<@ba.vup>+{attack@attack_speed}</>",
+            "Gradually gains <@ba.vup>{value}</> DP over the skill duration.\nDuring skill duration restoring their HP equal to <@ba.vup>{attack@heal_scale:0%}</> of Wanqing's ATK every second, allies facing same direction with Wanqing ASPD<@ba.vup>+{attack@attack_speed}</>",
+            "Gradually gains <@ba.vup>{value}</> DP over the skill duration.\nDuring skill duration restoring their HP equal to <@ba.vup>{attack@heal_scale:0%}</> of Wanqing's ATK every second, allies facing same direction with Wanqing ASPD<@ba.vup>+{attack@attack_speed}</>",
+            "Gradually gains <@ba.vup>{value}</> DP over the skill duration.\nDuring skill duration restoring their HP equal to <@ba.vup>{attack@heal_scale:0%}</> of Wanqing's ATK every second, allies facing same direction with Wanqing ASPD<@ba.vup>+{attack@attack_speed}</>",
+            "Gradually gains <@ba.vup>{value}</> DP over the skill duration.\nDuring skill duration restoring their HP equal to <@ba.vup>{attack@heal_scale:0%}</> of Wanqing's ATK every second, allies facing same direction with Wanqing ASPD<@ba.vup>+{attack@attack_speed}</>"
+        ]
 	}
 }

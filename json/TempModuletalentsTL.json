@@ -731,21 +731,21 @@
         [
             {
                 "name": "“天生的武者”",
-                "upgradeDescription": "When attacking, has a 10% chance to increase the current damage of that attack to 165% and inflict [Tremble] to targets for 5 seconds"
+                "upgradeDescription": "When attacking, has a 10% chance to increase the current damage of that attack to 165% and inflict <$ba.tremble>Tremble</> to targets for 5 seconds"
             },
             {
                 "name": "“天生的武者”",
-                "upgradeDescription": "When attacking, has a 10% chance to increase the current damage of that attack to 170% <@ba.talpu>(+5%)</> and inflict [Tremble] to targets for 5 seconds"
+                "upgradeDescription": "When attacking, has a 10% chance to increase the current damage of that attack to 170% <@ba.talpu>(+5%)</> and inflict <$ba.tremble>Tremble</> to targets for 5 seconds"
             }
         ],
         [
             {
                 "name": "“天生的武者”",
-                "upgradeDescription": "When attacking, has a 10% chance to increase the current damage of that attack to 170% and inflict [Tremble] to targets for 5 seconds"
+                "upgradeDescription": "When attacking, has a 10% chance to increase the current damage of that attack to 170% and inflict <$ba.tremble>Tremble</> to targets for 5 seconds"
             },
             {
                 "name": "“天生的武者”",
-                "upgradeDescription": "When attacking, has a 10% chance to increase the current damage of that attack to 175% <@ba.talpu>(+5%)</> and inflict [Tremble] to targets for 5 seconds"
+                "upgradeDescription": "When attacking, has a 10% chance to increase the current damage of that attack to 175% <@ba.talpu>(+5%)</> and inflict <$ba.tremble>Tremble</> to targets for 5 seconds"
             }
         ]
     ],
@@ -989,13 +989,13 @@
             },
             {
                 "name": "好好听话",
-                "upgradeDescription": "ASPD +14 <@ba.talpu>(+2)</>. If the target is a [Wild Animal], Further extends the duration of <$ba.sluggish>Slows</>"
+                "upgradeDescription": "ASPD +14 <@ba.talpu>(+2)</>. If the target is a [Wild Animal], Extends the duration of <$ba.sluggish>Slows</>"
             }
         ],
         [
             {
                 "name": "好好听话",
-                "upgradeDescription": "ASPD +14. If the target is a [Wild Animal], Extends the duration of <$ba.sluggish>Slows</>"
+                "upgradeDescription": "ASPD +14. If the target is a [Wild Animal], Further extends the duration of <$ba.sluggish>Slows</>"
             },
             {
                 "name": "好好听话",
@@ -1007,13 +1007,13 @@
         [
             {
                 "name": "秉烛照影",
-                "upgradeDescription": "When deployed, ASPD +60 and increases the SP recovery rate by +2.2/second <$ba.berserk>Tenacity</> (reaches maximum bonus when losing 60% Max HP)"
+                "upgradeDescription": "Gains up to +60 ASPD  and the SP recovery rate by +2.2/second <$ba.berserk>Tenacity</> (reaches maximum bonus when losing 60% Max HP)"
             }
         ],
         [
             {
                 "name": "秉烛照影",
-                "upgradeDescription": "When deployed, ASPD +70 and increases the SP recovery rate by +2.3/second <$ba.berserk>Tenacity</> (reaches maximum bonus when losing 50% Max HP)"
+                "upgradeDescription": "Gains up to +70 ASPD and the SP recovery rate by +2.3/second <$ba.berserk>Tenacity</> (reaches maximum bonus when losing 50% Max HP)"
             }
         ]
     ],
@@ -1043,13 +1043,13 @@
         [
             {
                 "name": "习惯使然",
-                "upgradeDescription": "In Tales Within The Sand, increases the SP recovery rate by +0.2/second. When her skill is activated, resources on her are sent to inventory"
+                "upgradeDescription": "In [Tales Within The Sand], increases the SP recovery rate by +0.2/second. When her skill is activated, resources on her are sent to inventory"
             }
         ],
         [
             {
                 "name": "习惯使然",
-                "upgradeDescription": "In Tales Within The Sand, increases the SP recovery rate by +0.3/second. When her skill is activated, resources on her are sent to inventory"
+                "upgradeDescription": "In [Tales Within The Sand], increases the SP recovery rate by +0.3/second. When her skill is activated, resources on her are sent to inventory"
             }
         ]
     ]
