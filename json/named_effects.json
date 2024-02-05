@@ -348,12 +348,12 @@
         "cc.g.karlan": {
             "termId": "cc.g.karlan",
             "termName": "Karlan Trade",
-            "description": "Includes the following Operators\nSilverAsh, Gnosis, Pramanix, Cliffheart, Matterhorn, Courier, Kjera, Aurora"
+            "description": "Includes the following Operators\nSilverAsh, Gnosis, Pramanix, Cliffheart, Matterhorn, Courier, Kjera, Aurora, Degenbrecher"
         },
         "cc.g.sui": {
             "termId": "cc.g.sui",
             "termName": "Sui",
-            "description": "Includes the following Operators\nNian, Dusk, Ling, Chongyue"
+            "description": "Includes the following Operators\nNian, Dusk, Ling, Chongyue, Shu"
         },
         "cc.g.glasgow": {
             "termId": "cc.g.glasgow",
@@ -408,7 +408,7 @@
         "cc.c.skill": {
             "termId": "cc.c.skill",
             "termName": "Certain skills",
-            "description": "Includes the following skills\nCompetent, S.W.E.E.P.. Snack Network, Cleanup Agreement, Substitute, Necessary Responsibility, Bodyguard, Tiny Leader, Egocentric, Sunshine Smile**, Marigold Poetry Club**"
+            "description": "Includes the following skills\nCompetent, S.W.E.E.P.. Snack Network, Cleanup Agreement, Substitute, Necessary Responsibility, Bodyguard, Tiny Leader, Egocentric, Sunshine Smile (Coldshot), Marigold Poetry Club (Viviana), Way of the Protector(Kestrel)"
         },
         "cc.t.strong2": {
             "termId": "cc.t.strong2",
@@ -449,6 +449,11 @@
             "termId": "cc.w.ncdeer2",
             "termName": "Karma",
             "description": "Whenever a recipe that consumes <@cc.kw>8</> Morale fails to produce a byproduct, gain <@cc.kw>1</> point of <@cc.kw>Karma</> for every <@cc.kw>1</> Morale consumed"
+        },
+        "cc.t.accmuguard1": {
+            "termId": "cc.t.accmuguard1",
+            "termName": "Bushido",
+            "description": "When assisting in mastery training, gain <@cc.kw>1</> point when training to Mastery 1, <@cc.kw>2</> points when training to Mastery 2 and <@cc.kw>3</> points when training to Mastery 3, up to limit of 3 point (If trainer has 0 mood, point cannot accumulated or spent)"
         },
         "cc.sk.manu1": {
             "termId": "cc.sk.manu1",

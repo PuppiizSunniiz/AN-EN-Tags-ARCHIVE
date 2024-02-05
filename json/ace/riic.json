@@ -139,6 +139,11 @@
         "desc": "When stationed at the Command Center, mood recovery per hour of all operators in the Command Center +0.05",
         "descformat": "When stationed at the Command Center, mood recovery per hour of all operators in the Command Center <@cc.vup>+0.05</>"
     },
+    "control_mp_cost[011]": {
+		"name": "Way of the Protector",
+		"desc": "When stationed at the Command Center, mood recovery per hour of all operators in the Command Center +0.05",
+		"descformat": "When stationed at the Command Center, mood recovery per hour of all operators in the Command Center <@cc.vup>+0.05</>"
+	},
     "control_allCost_condChar[000]": {
         "name": "Moment of Respite",
         "desc": "When stationed together with Aak at the Command Center, mood recovery per hour of all operators in the Command Center +0.25",
@@ -254,6 +259,11 @@
         "desc": "When stationed at the Command Center, mood recovery per hour of all operators in all Dorms +0.05 (Only highest effect becomes active)",
         "descformat": "When this Operator is assigned to the Control Center, all Operators in Dormitories recover <@cc.vup>+0.05</> Morale per hour (strongest effect of the same type applies)"
     },
+    "control_dorm_rec[001]": {
+		"name": "War Tattoos",
+		"desc": "When stationed at the Command Center, mood recovery per hour of all operators in all Dorms +0.05 (Only highest effect becomes active)",
+		"descformat": "When stationed at the Command Center, mood recovery per hour of all operators in all Dorms <@cc.vup>+0.05</> (Only highest effect becomes active)"
+	},
     "control_tra_limit&spd[010]": {
         "name": "Operations Expert",
         "desc": "When stationed at the Command Center, for every 1 Glasgow Group operator stationed in the same Trade Station, order acquisition efficiency +10%",
@@ -649,6 +659,11 @@
         "desc": "When stationed at a Craft Station, production +2% for every 1 Shamanic Crystal",
         "descformat": "When this Operator is assigned to a Factory, for every <@cc.vup>1</> <$cc.bd_C><@cc.rem>Witchcraft Crystal</></>, productivity <@cc.vup>+2%</>"
     },
+    "manu_prod_spd_bd[300]": {
+		"name": "Abundant Grains, a Bountiful Harvest",
+		"desc": "When stationed at a Craft Station, production +1% for every 3 Worldly Plight",
+		"descformat": "When stationed at a Craft Station, production <@cc.vup>+1%</> for every <@cc.vup>3</> <$cc.bd_b1><@cc.rem>Worldly Plight</></>"
+	},
     "manu_formula_spd[000]": {
         "name": "Plan to Victory",
         "desc": "When stationed at a Craft Station, increase production of EXP cards by +25%",
@@ -689,6 +704,11 @@
         "desc": "When stationed at a Craft Station, increase production of precious metals by +35%",
         "descformat": "When this Operator is assigned to a Factory, <@cc.kw>Precious Metal</> formula related productivity <@cc.vup>+35%</>"
     },
+    "manu_formula_spd[101]": {
+		"name": "Metal Crafts·α",
+		"desc": "When stationed at a Craft Station, increase production of precious metals by +30%",
+		"descformat": "When stationed at a Craft Station, increase production of <@cc.kw>precious metals</> by <@cc.vup>+30%</>"
+	},
     "manu_formula_spd&cost[000]": {
         "name": "Little Stray Thoughts",
         "desc": "When stationed at a Craft Station, increase production of precious metals by +25% and mood reduction per hour +0.25",
@@ -729,11 +749,21 @@
         "desc": "When stationed at a Craft Station, increase production of originium products by +35%",
         "descformat": "When this Operator is assigned to a Factory, <@cc.kw>Originium</> formula related productivity <@cc.vup>+35%</>"
     },
+    "manu_formula_spd_P[000]": {
+		"name": "Partners in Adversity",
+		"desc": "When stationed at a Craft Station and Гум is stationed at a Trade Station, increase production of EXP cards by +35%",
+		"descformat": "When stationed at a Craft Station and <@cc.kw>Гум</> is stationed at a Trade Station, increase production of <@cc.kw>EXP cards</> by <@cc.vup>+35%</>"
+	},
     "manu_cost_all[000]": {
         "name": "Team Spirit",
         "desc": "When stationed at a Craft Station, remove self-affecting mood reduction effects of all operators in the same Station",
         "descformat": "When this Operator is assigned to a Factory, <@cc.kw>ignore</> the effects of any Operators stationed in that Factory that would affect the Morale consumption of <@cc.kw>this Operator</>"
     },
+    "manu_cost[000]": {
+		"name": "Heralding Spring, all Things Grow",
+		"desc": "When stationed at a Craft Station, mood reduction per hour of all operators in the same Station -0.1",
+		"descformat": "When stationed at a Craft Station, mood reduction per hour of all operators in the same Station <@cc.vup>-0.1</>"
+	},
     "trade_cost[000]": {
         "name": "Warm-Up",
         "desc": "When stationed at a Trade Station, mood reduction per hour of all operators -0.1",
@@ -799,6 +829,11 @@
         "desc": "When stationed at a Trade Station, order acquisition efficiency +5% for every 5% efficiency provided by operators, capping at +35%",
         "descformat": "When this Operator is assigned to a Trading Post, provides an additional <@cc.vup>5%</> order acquisition efficiency for every <@cc.vup>5%</> order acquisition efficiency provided by all other Operators assigned to that Trading Post, up to a maximum of <@cc.vup>35%</> order acquisition efficiency."
     },
+    "trade_ord_spd_variable3[000]": {
+		"name": "Champion's Bearing",
+		"desc": "When stationed at a Trade Station, order acquisition efficiency +25% for every 5 order limit provided by operators, capping at +100%",
+		"descformat": "When stationed at a Trade Station, order acquisition efficiency <@cc.vup>25%</> for every <@cc.vup>5</> order limit provided by operators, capping at <@cc.vup>+100%</>"
+	},
     "trade_ord_spd&dorm&lv[000]": {
         "name": "Sincere Fundraising·α",
         "desc": "When stationed at a Trade Station, order acquisition efficiency +1% for each level of every Dorm",
@@ -899,6 +934,16 @@
         "desc": "When stationed at a Trade Station, order acquisition efficiency +30% and order limit +1",
         "descformat": "When this Operator is assigned to a Trading Post, order acquisition efficiency <@cc.vup>+30%</> and the order limit <@cc.vup>+1</>"
     },
+    "trade_ord_spd&limit[100]": {
+		"name": "Pressure",
+		"desc": "When stationed at a Trade Station, order acquisition efficiency +20% and order limit -2 (to a minimum of 1)",
+		"descformat": "When stationed at a Trade Station, order acquisition efficiency <@cc.vup>+20%</> and order limit <@cc.vdown>-2</> (to a minimum of 1)"
+	},
+	"trade_ord_spd&limit[101]": {
+		"name": "Imposing Presence",
+		"desc": "When stationed at a Trade Station, order acquisition efficiency +25% and order limit -6 (to a minimum of 1)",
+		"descformat": "When stationed at a Trade Station, order acquisition efficiency <@cc.vup>+25%</> and order limit <@cc.vdown>-6</> (to a minimum of 1)"
+	},
     "trade_ord_spd&cost[000]": {
         "name": "Communication",
         "desc": "When stationed at a Trade Station, order acquisition efficiency +30% and mood reduction per hour -0.25",
@@ -989,6 +1034,11 @@
         "desc": "When stationed at a Trade Station, order acquisition efficiency +10% and all Pure Gold orders in the Trade Station will only trade 2 Pure Gold (not considered as Default orders)",
         "descformat": "When stationed at a Trade Station, order acquisition efficiency <@cc.vup>+10%</> and all <@cc.kw>Pure Gold orders</> in the Trade Station will only trade <@cc.kw>2</> <@cc.kw>Pure Gold</> (not considered as Default orders)"
     },
+    "workshop_proc_probability[032]": {
+		"name": "Heavenly Masters' Crafts",
+		"desc": "When stationed at the Synthesis Station and producing any kind of material, increase the rate of by-products by 65%",
+		"descformat": "When stationed at the Synthesis Station and producing <@cc.kw>any kind of material</>, increase the rate of by-products by <@cc.vup>65%</>"
+	},
     "trade_ord_limit&cost_P[010]": {
         "name": "Good Chemistry",
         "desc": "When stationed together with Exusiai at the same Trade Station, mood reduction per hour -0.3",
@@ -1119,6 +1169,11 @@
         "desc": "When stationed at the Synthesis Station and producing any kind of material, recipes which consume 4 mood and above will have -2 mood consumed",
         "descformat": "When this Operator is assigned to the Workshop to process <@cc.kw>any material</>, reduces the Morale consumed by all formulas that cost <@cc.kw>4</> Morale or more by <@cc.vup>-2</>"
     },
+    "workshop_formula_cost3[400]": {
+		"name": "Diligent Learner",
+		"desc": "When stationed at the Synthesis Station and producing any kind of material, recipes which consume 4 mood will have -1 mood consumed",
+		"descformat": "When stationed at the Synthesis Station and producing <@cc.kw>any kind of material</>, recipes which consume <@cc.kw>4</> mood will have <@cc.vup>-1</> mood consumed"
+	},
     "workshop_formula_recovery[000]": {
         "name": "The Art of Explosions",
         "desc": "When stationed at the Synthesis Station and producing any kind of material, recover mood equal to the cost of the recipe once for every 2 times production fails to produce by-products (calculated at the end of the batch)",
@@ -1324,6 +1379,16 @@
         "desc": "When stationed at the Synthesis Station and producing infrastructure materials, increase the rate of by-products by 75%",
         "descformat": "When stationed at the Synthesis Station and producing <@cc.kw>infrastructure materials</>, increase the rate of by-products by <@cc.vup>75%</>"
     },
+    "workshop_formula_probability[116]": {
+		"name": "Well Prospector·α",
+		"desc": "When stationed at the Synthesis Station and producing elite materials, increase the rate of by-products by 75%",
+		"descformat": "When stationed at the Synthesis Station and producing <@cc.kw>elite materials</>, increase the rate of by-products by <@cc.vup>75%</>"
+	},
+	"workshop_formula_probability[126]": {
+		"name": "Well Prospector·β",
+		"desc": "When stationed at the Synthesis Station and producing elite materials, increase the rate of by-products by 80%",
+		"descformat": "When stationed at the Synthesis Station and producing <@cc.kw>elite materials</>, increase the rate of by-products by <@cc.vup>80%</>"
+	},
     "workshop_formula_dorm[000]": {
         "name": "\"Waste Not Want Not\"",
         "desc": "When stationed at the Synthesis Station and producing elite materials, for every 1 operator with 4 or less mood stationed in the Dorms, increase the rate of by-products by 5%",
@@ -1349,6 +1414,11 @@
         "desc": "When stationed at the Synthesis Station and producing elite materials, any by-products of T3 quality produced will be Oriron Clusters",
         "descformat": "When this Operator is assigned to the Workshop to process <@cc.kw>Elite materials</>, any byproducts of <@cc.kw>T3</> quality produced will be <@cc.kw>Oriron Clusters</>"
     },
+    "workshop_formula_drop[040]": {
+		"name": "Rock Formation Anchoring",
+		"desc": "When stationed at the Synthesis Station and producing elite materials, any by-products of T3 quality produced will be Orirock Clusters",
+		"descformat": "When stationed at the Synthesis Station and producing <@cc.kw>elite materials</>, any by-products of <@cc.kw>T3</> quality produced will be <@cc.kw>Orirock Clusters</>"
+	},
     "workshop_formula_free[000]": {
         "name": "Meticulous Budgeting",
         "desc": "When stationed at the Synthesis Station and producing elite materials, remove LMD expenditure",
@@ -1414,6 +1484,11 @@
         "desc": "When stationed at the Synthesis Station and producing elite materials that originally consume 2 mood, increase the rate of by-products by 40%",
         "descformat": "When this Operator is assigned to a Workshop to process <@cc.kw>Elite materials</> with a base Morale cost of <@cc.kw>2</>, byproduct production chance is increased by <@cc.vup>40%</>"
     },
+    "train_spd[001]": {
+		"name": "All-Rounder·α",
+		"desc": "When stationed at the Training Station, operator skill training speed +25%",
+		"descformat": "When stationed at the Training Station, operator skill training speed <@cc.vup>+25%</>"
+	},
     "train_spd[000]": {
         "name": "Instructor",
         "desc": "When stationed at the Training Station, operator skill training speed +25%",
@@ -1469,6 +1544,11 @@
         "desc": "When stationed at the Training Station and after assisting an operator in training for 5 hours in a single session, reduce the training time required for that operator's next training by 50% (effect disappears if either operator leaves the Training Station)",
         "descformat": "When this Operator is assigned to the Training Room to train an Operator for <@cc.vup>5</> hours, that Operator's next training time <@cc.vup>-50%</> (effect expires if either Operator leaves the Training Room)"
     },
+    "train_spd_bd&reduceTime[000]": {
+		"name": "Thinking Before Action",
+		"desc": "When stationed at the Training Station, accumulate a certain amount of Bushido points whenever a Mastery training is completed. When the maximum number of Bushido points is accumulated, the next training for a Guard operator to Mastery 1 will be completed instantly and consume all Bushido points",
+		"descformat": "When stationed at the Training Station, accumulate a certain amount of <$cc.t.accmuguard1><@cc.rem>Bushido</></> points whenever a Mastery training is completed. When the maximum number of <$cc.t.accmuguard1><@cc.rem>Bushido</></> points is accumulated, the next training for a <@cc.kw>Guard</> operator to <@cc.kw>Mastery 1</> will be completed instantly and consume all <$cc.t.accmuguard1><@cc.rem>Bushido</></> points"
+	},
     "train_spd&profession[010]": {
         "name": "Vanguard Specialization·α",
         "desc": "When stationed at the Training Station, increase the skill training speed of Vanguard operators by +30%",
@@ -1824,6 +1904,11 @@
         "desc": "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.55 per hour (When stacked, only the highest effect becomes active)",
         "descformat": "When this Operator is assigned to a Dormitory, restores <@cc.vup>+0.55</> Morale per hour to another Operator assigned to that Dormitory whose Morale is not full (Only the strongest effect of this type takes place)"
     },
+    "dorm_rec_single[1010]": {
+		"name": "Empathetic",
+		"desc": "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.55 per hour (When stacked, only the highest effect becomes active)",
+		"descformat": "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by <@cc.vup>+0.55</> per hour (When stacked, only the highest effect becomes active)"
+	},
     "dorm_rec_single[000]": {
         "name": "Medical Service",
         "desc": "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.65 per hour (When stacked, only the highest effect becomes active)",
@@ -1914,6 +1999,11 @@
         "desc": "When stationed at a Dorm, increase mood recovery of all operators within that dorm by +0.15 per hour (When stacked, only the highest effect becomes active)",
         "descformat": "When this Operator is assigned to a Dormitory, restores <@cc.vup>+0.15</> Morale per hour to all Operators assigned to that Dormitory (Only the strongest effect of this type takes place)"
     },
+    "dorm_rec_all[014]": {
+		"name": "Big Rice Pot·α",
+		"desc": "When stationed at a Dorm, increase mood recovery of all operators within that dorm by +0.15 per hour (When stacked, only the highest effect becomes active)",
+		"descformat": "When stationed at a Dorm, increase mood recovery of all operators within that dorm by <@cc.vup>+0.15</> per hour (When stacked, only the highest effect becomes active)"
+	},
     "dorm_rec_all[020]": {
         "name": "Winter General",
         "desc": "When stationed at a Dorm, increase mood recovery of all operators within that dorm by +0.2 per hour (When stacked, only the highest effect becomes active)",
@@ -2064,6 +2154,16 @@
         "desc": "When stationed at a Dorm, increase mood recovery of all operators within that dorm by +0.15 per hour (When stacked, only the highest effect becomes active)",
         "descformat": "When stationed at a Dorm, increase mood recovery of all operators within that dorm by <@cc.vup>+0.15</> per hour (When stacked, only the highest effect becomes active)"
     },
+    "dorm_rec_all[024]": {
+		"name": "Big Rice Pot·β",
+		"desc": "When stationed at a Dorm, increase mood recovery of all operators within that dorm by +0.2 per hour (When stacked, only the highest effect becomes active)",
+		"descformat": "When stationed at a Dorm, increase mood recovery of all operators within that dorm by <@cc.vup>+0.2</> per hour (When stacked, only the highest effect becomes active)"
+	},
+	"dorm_rec_all[025]": {
+		"name": "Countryside Flutist",
+		"desc": "When stationed at a Dorm, increase mood recovery of all operators within that dorm by +0.15 per hour (When stacked, only the highest effect becomes active)",
+		"descformat": "When stationed at a Dorm, increase mood recovery of all operators within that dorm by <@cc.vup>+0.15</> per hour (When stacked, only the highest effect becomes active)"
+	},
     "dorm_bd_num[000]": {
         "name": "Silent Resonance",
         "desc": "When stationed at a Dorm, gain 1 Silent Resonance for every 1 operator in the current Dorm",
@@ -2339,6 +2439,11 @@
         "desc": "When stationed at Reception, it becomes easier to obtain clues from Glasgow Group (affected by work duration)",
         "descformat": "When this Operator is assigned to the Reception Room, the likelihood of obtaining <@cc.kw>Glasgow</> clues is increased (working time improves the likelihood)"
     },
+    "meet_team&char[000]": {
+		"name": "Making Friends",
+		"desc": "When stationed at Reception, it becomes easier to obtain clues from the faction of the other operator stationed in Reception (no effect if there are no other operators stationed in Reception)",
+		"descformat": "When stationed at Reception, it becomes easier to obtain clues from the <@cc.kw>faction of the other operator</> stationed in Reception (no effect if there are no other operators stationed in Reception)"
+	},
     "meet_flag[010]": {
         "name": "Colombian History",
         "desc": "When stationed at Reception, whenever a newly obtained clue is not from Rhine Labs, further increase the chance of obtaining clues from Rhine Labs (affected by work duration)",

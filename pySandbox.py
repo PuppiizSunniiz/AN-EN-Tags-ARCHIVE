@@ -3,7 +3,7 @@ import json
 #########################################################################################################
 # JSON
 #########################################################################################################
-SandboxCN=json.loads(open("json/gamedata/zh_CN/gamedata/excel/sandbox_table.json").read())
+SandboxCN=json.loads(open("json/gamedata/zh_CN/gamedata/excel/sandbox_perm_table.json").read())
 SandboxEN=json.loads(open("json/gamedata/en_US/gamedata/excel/sandbox_table.json").read())
 
 #########################################################################################################
@@ -13,25 +13,47 @@ FoodDict ={"Food":{},"Foodmat":{}}
 BuildDict={}
 WeatherDict = {}
 
-ItemData= SandboxEN["itemDatas"]
+#ItemData= SandboxEN["itemDatas"]
 
 #########################################################################################################
 # Food
 #########################################################################################################
-FoodProduct = SandboxEN["sandboxActTables"]["act1sandbox"]["foodProduceDatas"]
-FoodmatProduct = SandboxEN["sandboxActTables"]["act1sandbox"]["foodmatDatas"]
-FoodStamina=SandboxEN["sandboxActTables"]["act1sandbox"]["foodStaminaDatas"]
+FoodProduct = SandboxCN['detail']["SANDBOX_V2"]['sandbox_1']['foodData']
 
 for foodID in FoodProduct.keys():
     FoodDict["Food"][foodID]={
-                        "Name" : ItemData[foodID]["itemName"],
-                        "Recipe" : [ x for x in FoodProduct[foodID]["mainMaterialItems"]],
-                        "Buff" : ItemData[foodID]["itemUsage"],
-                        "BuffDetail" : [x["blackboard"][0] for x in SandboxEN["sandboxActTables"]["act1sandbox"]["runeDatas"][foodID]["runes"]],
-                        "Energy" : FoodStamina[foodID]["potCnt"],
-                        "Stamina" : FoodStamina[foodID]["foodStaminaCnt"]
+                        "Name" : FoodProduct[foodID]["itemName"],
+                        #"Recipe" : [ x for x in FoodProduct[foodID]["mainMaterialItems"]],
+                        "Buff" :  FoodProduct[foodID]["itemUsage"],
+                        #"BuffDetail" : [x["blackboard"][0] for x in SandboxEN["sandboxActTables"]["act1sandbox"]["runeDatas"][foodID]["runes"]],
+                        #"Energy" : FoodStamina[foodID]["potCnt"],
+                        #"Stamina" : FoodStamina[foodID]["foodStaminaCnt"]
                     }
-    
+
+#for foodID in FoodProduct.keys():
+    #print(FoodProduct[foodID]["itemName"],"\n> ",FoodProduct[foodID]["itemUsage"])
+
+Effectdata = SandboxCN['detail']["SANDBOX_V2"]['sandbox_1']['runeDatas']
+
+'''for item in Effectdata.keys():
+    if "_food_" in item:
+        if "_x" in item and FoodProduct[item[:-2]]["recipes"]:
+            print(Effectdata[item]["description"],"\t",[[FoodProduct[item[:-2]]["recipes"][x]["mats"][i].split("_")[2] for i in range(3)] for x in range(len(FoodProduct[item[:-2]]["recipes"]))])
+        elif "_x" not in item and FoodProduct[item]["recipes"]:
+            print(Effectdata[item]["description"],"\t",[[FoodProduct[item]["recipes"][x]["mats"][i].split("_")[2] for i in range(3)] for x in range(len(FoodProduct[item]["recipes"]))])
+        else:
+            print(Effectdata[item]["description"],"\t","None")
+'''
+for item in Effectdata.keys():
+    if "_food_" in item:
+        if "_x" in item and FoodProduct[item[:-2]]["recipes"]:
+            print([[FoodProduct[item[:-2]]["recipes"][x]["mats"][i].split("_")[2] for i in range(3)] for x in range(len(FoodProduct[item[:-2]]["recipes"]))])
+        elif "_x" not in item and FoodProduct[item]["recipes"]:
+            print([[FoodProduct[item]["recipes"][x]["mats"][i].split("_")[2] for i in range(3)] for x in range(len(FoodProduct[item]["recipes"]))])
+        else:
+            print("None")
+
+''' 
 for foodmatID in FoodmatProduct.keys():
     FoodDict["Foodmat"][foodmatID]={
                         "Name" : ItemData[foodmatID]["itemName"],
@@ -69,7 +91,7 @@ for weatherID in WeatherData.keys():
                             "Level":WeatherData[weatherID]["weatherLevel"],
                             "Function":WeatherData[weatherID]["functionDesc"],
                             "FunctionDetail" : SandboxEN["sandboxActTables"]["act1sandbox"]["runeDatas"][weatherID]["runes"][0]["blackboard"]
-                        }
+                        }'''
 
 #########################################################################################################
 # dumpling JSON
