@@ -1,0 +1,85 @@
+{
+    "char_XXXX_ABCDEF": [ # Ela
+        [
+            {
+                "name": "",
+                "desc": "Can deploy up to 8 Grzmot Miness (Can store up to 10); The first enemy that steps on a Grzmot Mines will trigger its effect, on retreat activate Grzmot Mine 's effect on self"
+            },
+            {
+                "name": "",
+                "desc": "Can deploy up to 10<@ba.talpu>（+2）</> Grzmot Miness (Can store up to 10); The first enemy that steps on a Grzmot Mines will trigger its effect, on retreat activate Grzmot Mine 's effect on self"
+            }
+        ],
+        [
+            {
+                "name": "",
+                "desc": "Has a 20% chance to deal 150% physical damage, 100% chance on enemies under Grzmot Miness 's effect"
+            },
+            {
+                "name": "",
+                "desc": "Has a 20% chance to deal 150% <@ba.talpu>（+2%）</>physical damage, 100% chance on enemies under Grzmot Miness 's effect"
+            }
+        ]
+    ],
+    "char_XXXX_ABCDEF": [ # Fuze
+        [
+            {
+                "name": "",
+                "desc": "Has 65% chance to dodge Ranged Physical attacks"
+            },
+            {
+                "name": "",
+                "desc": "Has 65%<@ba.talpu>（+2%）</> chance to dodge Ranged Physical attacks"
+            }
+        ]
+    ],
+    "char_XXXX_ABCDEF": [ # Iana
+        [
+            {
+                "name": "",
+                "desc": "When deployed, Iana places a hologram on the deployment tile. The hologram does not attack; When the hologram is attacked, inflict 20% <$ba.fragile>Fragile</> to the attacker for XXX seconds and remove <$ba.invisible>Invisibility</>, then immediately swap to [Substitute]"
+            },
+            {
+                "name": "",
+                "desc": "When deployed, Iana places a hologram on the deployment tile. The hologram does not attack; When the hologram is attacked, inflict 20%<@ba.talpu>（+2%）</> <$ba.fragile>Fragile</> to the attacker for XXX seconds and remove <$ba.invisible>Invisibility</>, then immediately swap to [Substitute]"
+            }
+        ]
+    ],
+    "char_XXXX_ABCDEF": [ # Doc
+        [
+            {
+                "name": "",
+                "desc": "Max HP +xx%, attacks ignore 100 Def"
+            },
+            {
+                "name": "",
+                "desc": "Max HP +xx%<@ba.talpu>（+2%）</> , attacks ignore 100 Def"
+            }
+        ]
+    ]
+}
+
+#template
+
+"char_XXXX_ABCDEF": [
+    [
+        {
+            "name": "",
+            "desc": ""
+        },
+        {
+            "name": "",
+            "desc": ""
+        }
+    ],
+    [
+        {
+            "name": "",
+            "desc": ""
+        },
+        {
+            "name": "",
+            "desc": ""
+        }
+    ]
+]

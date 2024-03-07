@@ -1,15 +1,10 @@
 {
-    "能够阻挡一个敌人，生命值高于50%时攻击速度<@ba.vup>+{attack_speed}</>":{
-        "en": " Can block one enemy; When HP is above 50%, ASPD +10",
-        "color":"physical"
+    "攻击造成<@ba.kw>法术伤害</>": {    # Sentinel
+        "en": "Blocks 3 enemies and attacks from long range, Enemies within Attack Range lose <$ba.invisible>Invisibility</>",
+        "color": "physical"
     },
-    "能够阻挡一个敌人，拥有<@ba.kw>15%</>的物理闪避":{ 
-        "en": "Can block one enemy; 30% Physical Dodge",
-        "color":"physical"
-    },
-    "攻击范围内存在敌人时技力自然恢复速度+0.2/秒":{
-            "en": "SP recovery +0.2/sec when there are enemies within range",
-            "color": "extra"
-     }
-
+    "攻击造成<@ba.kw>法术伤害</>": {    # Trapmaster X
+        "en": "Can use traps to assist in combat, but traps cannot be placed <@ba.kw>on tiles already occupied by an enemy</>;\nCan be deployed on Melee tiles ,traps can be deployed on Ranged tiles",
+        "color": "extra"
+    }
 }

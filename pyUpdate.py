@@ -38,15 +38,24 @@ json_tl_item        =   json.loads(open("json/tl-item.json").read())
 json_tempmod        =   json.loads(open("json/TempModuletalentsTL.json").read())
 
 #########################################################################################################
-# Prep
+# New
 #########################################################################################################
-newchars = []
-newmods = []
+#["OpsName#1","OpsName#2", ...]
+newchars = ["Fuze","Iana","Doc","Ela"]
+
+#[["OpsName#1",num(Mod)],["OpsName#2",num(Mod)], ...]
+newmods = [["Jessica the Liberated",1],["Blitz",1],["Liskarm",1],["Ela",1],["Fuze",1],["Iana",1],["Doc",1],["Ash",2]]
+
+#["ItemID#1","ItemID#2", ...]
 newmats = []
 
+#["OpsName#1","OpsName#2", ...]
 recruitCN=[]
 recruitEN=[]
 
+#########################################################################################################
+# Prep
+#########################################################################################################
 newtrait ={}
 
 CharReady=CharReady(json_char)

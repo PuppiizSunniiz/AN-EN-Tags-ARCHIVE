@@ -1,250 +1,187 @@
 {
-    "uniequip_002_f12yin": [ #Mountain  crit rate"prob" crit damage"atk_scale"
+    "uniequip_002_jesca2": [ # Jessica the Liberated // Shield Duration
         [
             {
-                "name": "Forceful Fist",
-                "upgradeDescription": "{20}% chance for attacks to deal {140}% damage and reduce the target's ATK by 10% for 3 seconds (Does not stack)"
+                "name": "Adaptable",
+                "upgradeDescription": "Can use a stronger Mobile Personnel Shield that lasts for 50 seconds. The shield can only be deployed in the 4 tiles adjacent to Jessica. After the shield is deployed, Jessica immediately changes direction to face the shield and grants DEF +15% to herself and the unit behind her "
             },
             {
-                "name": "Forceful Fist",
-                "upgradeDescription": "{20}% chance for attacks to deal {145}% <@ba.talpu>(+5%)</> damage and reduce the target's ATK by 10% for 3 seconds (Does not stack)"
+                "name": "Adaptable",
+                "upgradeDescription": "Can use a stronger Mobile Personnel Shield that lasts for 50 seconds. The shield can only be deployed in the 4 tiles adjacent to Jessica. After the shield is deployed, Jessica immediately changes direction to face the shield and grants DEF +18%<@ba.talpu>（+3%）</> to herself and the unit behind her "
             }
         ],
         [
             {
-                "name": "Forceful Fist",
-                "upgradeDescription": "{20}% chance for attacks to deal {140}% damage and reduce the target's ATK by 10% for 3 seconds (Does not stack)"
+                "name": "Adaptable",
+                "upgradeDescription": "Can use a more stronger Mobile Personnel Shield that lasts for 50 seconds. The shield can only be deployed in the 4 tiles adjacent to Jessica. After the shield is deployed, Jessica immediately changes direction to face the shield and grants DEF +15% to herself and the unit behind her "
             },
             {
-                "name": "Forceful Fist",
-                "upgradeDescription": "{20}% chance for attacks to deal {145}% <@ba.talpu>(+5%)</> damage and reduce the target's ATK by 10% for 3 seconds (Does not stack)"
+                "name": "Adaptable",
+                "upgradeDescription": "Can use a more stronger Mobile Personnel Shield that lasts for 50 seconds. The shield can only be deployed in the 4 tiles adjacent to Jessica. After the shield is deployed, Jessica immediately changes direction to face the shield and grants DEF +18%<@ba.talpu>（+3%）</> to herself and the unit behind her "
             }
         ]
     ],
-    "uniequip_002_chyue": [ Chong sp when kill // sp when not kill
+    "uniequip_002_blitz": [ # Blitz // ATK%
         [
             {
-                "name": "All Are Guests",
-                "upgradeDescription": "Chongyue recovers {3} SP if he defeats at least one enemy with a skill"
+                "name": "Shielded Shooting",
+                "upgradeDescription": "Prioritize <$ba.stun>Stunned</> enemies; Increase ATK to 160% when attacking <$ba.stun>Stunned</> enemies"
+            },
+            {
+                "name": "Shielded Shooting",
+                "upgradeDescription": "Prioritize <$ba.stun>Stunned</> enemies; Increase ATK to 165% <@ba.talpu>(+5%)</> when attacking <$ba.stun>Stunned</> enemies"
             }
         ],
         [
             {
-                "name": "All Are Guests",
-                "upgradeDescription": "Chongyue recovers {3} SP if he defeats at least one enemy with a skill, recovers {3} SP if no enemy defeat"
+                "name": "Shielded Shooting",
+                "upgradeDescription": "Prioritize <$ba.stun>Stunned</> enemies; Increase ATK to 160% when attacking <$ba.stun>Stunned</> enemies"
+            },
+            {
+                "name": "Shielded Shooting",
+                "upgradeDescription": "Prioritize <$ba.stun>Stunned</> enemies; Increase ATK to 165% <@ba.talpu>(+5%)</> when attacking <$ba.stun>Stunned</> enemies"
             }
         ]
     ],
-    "uniequip_002_dagda": [ Dagda crit damage // scale up
+    "uniequip_002_liskam": [ # Liskarm // SP % Chance
         [
             {
-                "name": "Gang Spirit",
-                "upgradeDescription": "Has a 30% chance of increasing ATK to {130}% when attacking. When deployed, this multiplier increases by +{5}% for every enemy defeated within the 4 adjacent tiles of a [Glasgow Gang] Operator (max 190%)"
+                "name": "Tactical Defense",
+                "upgradeDescription": "Restores 1 Skill Point to this Operator and a random ally in the surrounding tiles when attacked, 50% chance to recover extra 1 self SP"
             }
         ],
         [
             {
-                "name": "Gang Spirit",
-                "upgradeDescription": "Has a 30% chance of increasing ATK to {130}% when attacking. When deployed, this multiplier increases by +{5}% for every enemy defeated within the 4 adjacent tiles of a [Glasgow Gang] Operator (max 190%)"
+                "name": "Tactical Defense",
+                "upgradeDescription": "Restores 1 Skill Point to this Operator and a random ally in the surrounding tiles when attacked, 50% chance to recover extra 1 self SP"
             }
         ]
     ],
-    "uniequip_002_flint": [ Flint extra damage up
+    "uniequip_XXX_ABCDEF": [ # Ela // Chance & Damage
         [
             {
-                "name": "Featherweight",
-                "upgradeDescription": "Deals {20}% more damage to enemies that are not blocked by this unit"
+                "name": "",
+                "upgradeDescription": "Has a 20% chance to deal 150% physical damage, 100% chance on enemies under Grzmot Miness 's effect"
             },
             {
-                "name": "Featherweight",
-                "upgradeDescription": "Deals {25}% <@ba.talpu>(+5%)</> more damage to enemies that are not blocked by this unit"
+                "name": "",
+                "upgradeDescription": "Has a 20% chance to deal 150% <@ba.talpu>（+2%）</>physical damage, 100% chance on enemies under Grzmot Miness 's effect"
             }
         ],
         [
             {
-                "name": "Featherweight",
-                "upgradeDescription": "Deals {20}% more damage to enemies that are not blocked by this unit"
+                "name": "",
+                "upgradeDescription": "Has a 20% chance to deal 150% physical damage, 100% chance on enemies under Grzmot Miness 's effect"
             },
             {
-                "name": "Featherweight",
-                "upgradeDescription": "Deals {25}% <@ba.talpu>(+5%)</> more damage to enemies that are not blocked by this unit"
+                "name": "",
+                "upgradeDescription": "Has a 20% chance to deal 150% <@ba.talpu>（+2%）</>physical damage, 100% chance on enemies under Grzmot Miness 's effect"
             }
         ]
     ],
-    "uniequip_002_tiger": [ Indra Next Atk after dodge
+    "uniequip_XXX_ABCDEF": [ # Fuze // % Chance + Def%
         [
             {
-                "name": "Quick Fists",
-                "upgradeDescription": "Has a 30% chance to Dodge the enemy's Physical Melee Attack. ATK {+100}% in the next attack if the Dodge is successful"
+                "name": "",
+                "upgradeDescription": "Has 65% chance to dodge Ranged Physical attacks, Def +xx%"
             },
             {
-                "name": "Quick Fists",
-                "upgradeDescription": "Has a 33% <@ba.talpu>(+3%)</> chance to Dodge the enemy's Physical Melee Attack. ATK {+100}% in the next attack if the Dodge is successful"
+                "name": "",
+                "upgradeDescription": "Has 65%<@ba.talpu>（+5%）</> chance to dodge Ranged Physical attacks, Def +xx%"
             }
         ],
         [
             {
-                "name": "Quick Fists",
-                "upgradeDescription": "Has a 30% chance to Dodge the enemy's Physical Melee Attack. ATK {+100}% in the next attack if the Dodge is successful"
+                "name": "",
+                "upgradeDescription": "Has 65% chance to dodge Ranged Physical attacks, Def +xx%"
             },
             {
-                "name": "Quick Fists",
-                "upgradeDescription": "Has a 33% <@ba.talpu>(+3%)</> chance to Dodge the enemy's Physical Melee Attack. ATK {+100}% in the next attack if the Dodge is successful"
+                "name": "",
+                "upgradeDescription": "Has 65%<@ba.talpu>（+5%）</> chance to dodge Ranged Physical attacks, Def +xx%"
             }
         ]
     ],
-    "uniequip_002_brownb": [ Beehunter atk scale up
+    "uniequip_XXX_ABCDEF": [ # Iana // % Fragile + Duration
         [
             {
-                "name": "Boxer's Concentration",
-                "upgradeDescription": "Each consecutive attack on the same target increases ATK by {5}%, stacking up to 5 times. Stacks will be lost upon switching targets."
+                "name": "",
+                "upgradeDescription": "When deployed, Iana places a hologram on the deployment tile. The hologram does not attack; When the hologram is attacked, inflict 20% <$ba.fragile>Fragile</> to the attacker for XXX seconds and remove <$ba.invisible>Invisibility</>, then immediately swap to [Substitute]"
             },
             {
-                "name": "Boxer's Concentration",
-                "upgradeDescription": "Each consecutive attack on the same target increases ATK by {6}% <@ba.talpu>(+1%)</>, stacking up to 5 times. Stacks will be lost upon switching targets."
+                "name": "",
+                "upgradeDescription": "When deployed, Iana places a hologram on the deployment tile. The hologram does not attack; When the hologram is attacked, inflict 20% <@ba.talpu>（+2%）</><$ba.fragile>Fragile</> to the attacker for XXX seconds and remove <$ba.invisible>Invisibility</>, then immediately swap to [Substitute]"
             }
         ],
         [
             {
-                "name": "Boxer's Concentration",
-                "upgradeDescription": "Each consecutive attack on the same target increases ATK by {5}%, stacking up to 5 times. Stacks will be lost upon switching targets."
+                "name": "",
+                "upgradeDescription": "When deployed, Iana places a hologram on the deployment tile. The hologram does not attack; When the hologram is attacked, inflict 20% <@ba.talpu>（+2%）</><$ba.fragile>Fragile</> to the attacker for XXX seconds and remove <$ba.invisible>Invisibility</>, then immediately swap to [Substitute]"
             },
             {
-                "name": "Boxer's Concentration",
-                "upgradeDescription": "Each consecutive attack on the same target increases ATK by {6}% <@ba.talpu>(+1%)</>, stacking up to 5 times. Stacks will be lost upon switching targets."
+                "name": "",
+                "upgradeDescription": "When deployed, Iana places a hologram on the deployment tile. The hologram does not attack; When the hologram is attacked, inflict 20% <@ba.talpu>（+2%）</><$ba.fragile>Fragile</> to the attacker for XXX seconds and remove <$ba.invisible>Invisibility</>, then immediately swap to [Substitute]"
             }
         ]
     ],
-    "uniequip_002_jaksel": [ Jackie more dodge
+    "uniequip_XXX_ABCDEF": [ # Doc // Max HP + Def Ignore
         [
             {
-                "name": "Extreme Evasion",
-                "upgradeDescription": "{30}% Physical Dodge; After a successful dodge, gains +12 ASPD (Lasts for 5s, does not stack)"
+                "name": "",
+                "upgradeDescription": "Max HP +xx%, attacks ignore 100 Def"
             },
             {
-                "name": "Extreme Evasion",
-                "upgradeDescription": "{33}% <@ba.talpu>(+3%)</> Physical Dodge; After a successful dodge, gains +12 ASPD (Lasts for 5s, does not stack)"
+                "name": "",
+                "upgradeDescription": "Max HP +xx%<@ba.talpu>（+2%）</> , attacks ignore 100 Def"
             }
         ],
         [
             {
-                "name": "Extreme Evasion",
-                "upgradeDescription": "{30}% Physical Dodge; After a successful dodge, gains +12 ASPD (Lasts for 5s, does not stack)"
+                "name": "",
+                "upgradeDescription": "Max HP +xx%, attacks ignore 100 Def"
             },
             {
-                "name": "Extreme Evasion",
-                "upgradeDescription": "{33}% <@ba.talpu>(+3%)</> Physical Dodge; After a successful dodge, gains +12 ASPD (Lasts for 5s, does not stack)"
+                "name": "",
+                "upgradeDescription": "Max HP +xx%<@ba.talpu>（+2%）</> , attacks ignore 100 Def"
             }
         ]
     ],
-    "uniequip_002_Kestrel": [ Kestrel SP Recover
+    "uniequip_003_ash": [ # Ash // Stun Duration , buff damage% and duration
         [
             {
-                "name": "",
-                "upgradeDescription": "In Tales Within The Sand, increases the SP recovery rate by +{0.4}/second. When her skill is activated, resources on her are sent to inventory"
-            },
-            {
-                "name": "",
-                "upgradeDescription": "In Tales Within The Sand, increases the SP recovery rate by +{0.4}/second <@ba.talpu>(+3%)</>. When her skill is activated, resources on her are sent to inventory"
+                "name": "Auxiliary Equipment",
+                "upgradeDescription": "After deployment, immediately throw a Stun Grenade at an enemy within range, <$ba.stun>Stunning</> them and nearby enemies for 4 seconds, Ash deal addition physical damage for xx% to <$ba.stun>Stunned</> enemies for 4 seconds"
             }
         ],
         [
             {
-                "name": "",
-                "upgradeDescription": "In Tales Within The Sand, increases the SP recovery rate by +{0.4}/second. When her skill is activated, resources on her are sent to inventory"
-            },
-            {
-                "name": "",
-                "upgradeDescription": "In Tales Within The Sand, increases the SP recovery rate by +{0.4}/second <@ba.talpu>(+3%)</>. When her skill is activated, resources on her are sent to inventory"
-            }
-        ]
-    ],
-    "uniequip_002_Wan Qing": [ _Wan Qing Max HP + / ++
-        [
-            {
-                "name": "",
-                "upgradeDescription": "Increases the Max HP of friendly units within the surrounding 8 tiles by {xxx}%. If they are facing the same direction as Wan Qing, further increases the Max HP by {xxx}%"
-            },
-            {
-                "name": "",
-                "upgradeDescription": "Increases the Max HP of friendly units within the surrounding 8 tiles by {xxx}% <@ba.talpu>(+3%)</>. If they are facing the same direction as Wan Qing, further increases the Max HP by {xxx}% <@ba.talpu>(+3%)</>"
-            }
-        ],
-        [
-            {
-                "name": "",
-                "upgradeDescription": "Increases the Max HP of friendly units within the surrounding 8 tiles by {xxx}%. If they are facing the same direction as Wan Qing, further increases the Max HP by {xxx}%"
-            },
-            {
-                "name": "",
-                "upgradeDescription": "Increases the Max HP of friendly units within the surrounding 8 tiles by {xxx}% <@ba.talpu>(+3%)</>. If they are facing the same direction as Wan Qing, further increases the Max HP by {xxx}% <@ba.talpu>(+3%)</>"
-            }
-        ]
-    ],
-    "uniequip_002_Grain Buds": [ Grain Buds ASPD // Slow Duration
-        [
-            {
-                "name": "",
-                "upgradeDescription": "ASPD +{10}. If the target is a [Wild Animal], Extends the duration of <$ba.sluggish>Slows</> caused by the Trait by {xxx}s"
-            },
-            {
-                "name": "",
-                "upgradeDescription": "ASPD +{10} <@ba.talpu>(+3%)</>. If the target is a [Wild Animal], Extends the duration of <$ba.sluggish>Slows</> caused by the Trait by {xxx}s"
-            }
-        ],
-        [
-            {
-                "name": "",
-                "upgradeDescription": "ASPD +{10}. If the target is a [Wild Animal], Extends the duration of <$ba.sluggish>Slows</> caused by the Trait by {xxx}s"
-            },
-            {
-                "name": "",
-                "upgradeDescription": "ASPD +{10} <@ba.talpu>(+3%)</>. If the target is a [Wild Animal], Extends the duration of <$ba.sluggish>Slows</> caused by the Trait by {xxx}s"
-            }
-        ]
-    ],
-    "uniequip_002_Zuo Le": [ Zuo Le ASPD + SP
-        [
-            {
-                "name": "",
-                "upgradeDescription": "When deployed, ASPD +{10} and increases the SP recovery rate by +{2}/second <$ba.berserk>Tenacity</> (reaches maximum bonus when losing 60% Max HP)"
-            },
-            {
-                "name": "",
-                "upgradeDescription": "When deployed, ASPD +{10} <@ba.talpu>(+3%)</> and increases the SP recovery rate by +{2}/second <@ba.talpu>(+3%)</> <$ba.berserk>Tenacity</> (reaches maximum bonus when losing 60% Max HP)"
-            }
-        ],
-        [
-            {
-                "name": "",
-                "upgradeDescription": "When deployed, ASPD +{10} and increases the SP recovery rate by +{2}/second <$ba.berserk>Tenacity</> (reaches maximum bonus when losing 60% Max HP)"
-            },
-            {
-                "name": "",
-                "upgradeDescription": "When deployed, ASPD +{10} <@ba.talpu>(+3%)</> and increases the SP recovery rate by +{2}/second <@ba.talpu>(+3%)</> <$ba.berserk>Tenacity</> (reaches maximum bonus when losing 60% Max HP)"
-            }
-        ]
-    ],
-    "uniequip_002_Shu": [ Shu HP regen + Shelter
-        [
-            {
-                "name": "",
-                "upgradeDescription": "When healing allies, plant seeds on the ally's tile and the 4 adjacent tiles, granting the following effects: Restores the HP by {20} per second and apply {14}% <$ba.protect>Sanctuary</> effect to allies; Upon deployment, immediately plant seeds on the tile Shu is on"
-            },
-            {
-                "name": "",
-                "upgradeDescription": "When healing allies, plant seeds on the ally's tile and the 4 adjacent tiles, granting the following effects: Restores the HP by {20} <@ba.talpu>(+3%)</> per second and apply {14}% <@ba.talpu>(+3%)</> <$ba.protect>Sanctuary</> effect to allies; Upon deployment, immediately plant seeds on the tile Shu is on"
-            }
-        ],
-        [
-            {
-                "name": "",
-                "upgradeDescription": "When healing allies, plant seeds on the ally's tile and the 4 adjacent tiles, granting the following effects: Restores the HP by {20} per second and apply {14}% <$ba.protect>Sanctuary</> effect to allies; Upon deployment, immediately plant seeds on the tile Shu is on"
-            },
-            {
-                "name": "",
-                "upgradeDescription": "When healing allies, plant seeds on the ally's tile and the 4 adjacent tiles, granting the following effects: Restores the HP by {20} <@ba.talpu>(+3%)</> per second and apply {14}% <@ba.talpu>(+3%)</> <$ba.protect>Sanctuary</> effect to allies; Upon deployment, immediately plant seeds on the tile Shu is on"
+                "name": "Auxiliary Equipment",
+                "upgradeDescription": "After deployment, immediately throw a Stun Grenade at an enemy within range, <$ba.stun>Stunning</> them and nearby enemies for 4 seconds, Ash deal addition physical damage for xx% to <$ba.stun>Stunned</> enemies for 4 seconds"
             }
         ]
     ]
 }
+
+#template     
+
+"uniequip_00X_ABCDEF": [ # OPSname // Change
+    [
+        {
+            "name": "",
+            "upgradeDescription": ""
+        },
+        {
+            "name": "",
+            "upgradeDescription": ""
+        }
+    ],
+    [
+        {
+            "name": "",
+            "upgradeDescription": ""
+        },
+        {
+            "name": "",
+            "upgradeDescription": ""
+        }
+    ]
+]
