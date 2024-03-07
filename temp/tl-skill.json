@@ -2,136 +2,136 @@
     "skchr_fuze_1": {
         "name": "火力侦察",
         "desc": [
-            "攻击距离<@ba.vup>+{ability_range_forward_extend}</>，攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
-            "攻击距离<@ba.vup>+{ability_range_forward_extend}</>，攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
-            "攻击距离<@ba.vup>+{ability_range_forward_extend}</>，攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
-            "攻击距离<@ba.vup>+{ability_range_forward_extend}</>，攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
-            "攻击距离<@ba.vup>+{ability_range_forward_extend}</>，攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
-            "攻击距离<@ba.vup>+{ability_range_forward_extend}</>，攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
-            "攻击距离<@ba.vup>+{ability_range_forward_extend}</>，攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
-            "攻击距离<@ba.vup>+{ability_range_forward_extend}</>，攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
-            "攻击距离<@ba.vup>+{ability_range_forward_extend}</>，攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
-            "攻击距离<@ba.vup>+{ability_range_forward_extend}</>，攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>"
+            "When skill is activated, Attack Range<@ba.vup>+{ability_range_forward_extend}</>,  ATK<@ba.vup>+{atk:0%}</> and ASPD<@ba.vup>+{attack_speed}</>\\nSkill activation grants {attack@trigger_time} ammo and the skill ends when all ammo is used (Can manually deactivate skill)",
+            "When skill is activated, Attack Range<@ba.vup>+{ability_range_forward_extend}</>,  ATK<@ba.vup>+{atk:0%}</> and ASPD<@ba.vup>+{attack_speed}</>\\nSkill activation grants {attack@trigger_time} ammo and the skill ends when all ammo is used (Can manually deactivate skill)",
+            "When skill is activated, Attack Range<@ba.vup>+{ability_range_forward_extend}</>,  ATK<@ba.vup>+{atk:0%}</> and ASPD<@ba.vup>+{attack_speed}</>\\nSkill activation grants {attack@trigger_time} ammo and the skill ends when all ammo is used (Can manually deactivate skill)",
+            "When skill is activated, Attack Range<@ba.vup>+{ability_range_forward_extend}</>,  ATK<@ba.vup>+{atk:0%}</> and ASPD<@ba.vup>+{attack_speed}</>\\nSkill activation grants {attack@trigger_time} ammo and the skill ends when all ammo is used (Can manually deactivate skill)",
+            "When skill is activated, Attack Range<@ba.vup>+{ability_range_forward_extend}</>,  ATK<@ba.vup>+{atk:0%}</> and ASPD<@ba.vup>+{attack_speed}</>\\nSkill activation grants {attack@trigger_time} ammo and the skill ends when all ammo is used (Can manually deactivate skill)",
+            "When skill is activated, Attack Range<@ba.vup>+{ability_range_forward_extend}</>,  ATK<@ba.vup>+{atk:0%}</> and ASPD<@ba.vup>+{attack_speed}</>\\nSkill activation grants {attack@trigger_time} ammo and the skill ends when all ammo is used (Can manually deactivate skill)",
+            "When skill is activated, Attack Range<@ba.vup>+{ability_range_forward_extend}</>,  ATK<@ba.vup>+{atk:0%}</> and ASPD<@ba.vup>+{attack_speed}</>\\nSkill activation grants {attack@trigger_time} ammo and the skill ends when all ammo is used (Can manually deactivate skill)",
+            "When skill is activated, Attack Range<@ba.vup>+{ability_range_forward_extend}</>,  ATK<@ba.vup>+{atk:0%}</> and ASPD<@ba.vup>+{attack_speed}</>\\nSkill activation grants {attack@trigger_time} ammo and the skill ends when all ammo is used (Can manually deactivate skill)",
+            "When skill is activated, Attack Range<@ba.vup>+{ability_range_forward_extend}</>,  ATK<@ba.vup>+{atk:0%}</> and ASPD<@ba.vup>+{attack_speed}</>\\nSkill activation grants {attack@trigger_time} ammo and the skill ends when all ammo is used (Can manually deactivate skill)",
+            "When skill is activated, Attack Range<@ba.vup>+{ability_range_forward_extend}</>,  ATK<@ba.vup>+{atk:0%}</> and ASPD<@ba.vup>+{attack_speed}</>\\nSkill activation grants {attack@trigger_time} ammo and the skill ends when all ammo is used (Can manually deactivate skill)"
         ]
     },
     "skchr_fuze_2": {
         "name": "霰射炸药",
         "desc": [
-            "开启技能时，朝身前高地放置霰射炸药，炸药射出后在高地后附近的可通行地面上爆炸5次，每次对周围的目标造成攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害。<@ba.rem>此技能只有在面朝高地且高地后有可通行地面时才能使用，每次部署只能释放3次</>",
-            "开启技能时，朝身前高地放置霰射炸药，炸药射出后在高地后附近的可通行地面上爆炸5次，每次对周围的目标造成攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害。<@ba.rem>此技能只有在面朝高地且高地后有可通行地面时才能使用，每次部署只能释放3次</>",
-            "开启技能时，朝身前高地放置霰射炸药，炸药射出后在高地后附近的可通行地面上爆炸5次，每次对周围的目标造成攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害。<@ba.rem>此技能只有在面朝高地且高地后有可通行地面时才能使用，每次部署只能释放3次</>",
-            "开启技能时，朝身前高地放置霰射炸药，炸药射出后在高地后附近的可通行地面上爆炸5次，每次对周围的目标造成攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害。<@ba.rem>此技能只有在面朝高地且高地后有可通行地面时才能使用，每次部署只能释放3次</>",
-            "开启技能时，朝身前高地放置霰射炸药，炸药射出后在高地后附近的可通行地面上爆炸5次，每次对周围的目标造成攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害。<@ba.rem>此技能只有在面朝高地且高地后有可通行地面时才能使用，每次部署只能释放3次</>",
-            "开启技能时，朝身前高地放置霰射炸药，炸药射出后在高地后附近的可通行地面上爆炸5次，每次对周围的目标造成攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害。<@ba.rem>此技能只有在面朝高地且高地后有可通行地面时才能使用，每次部署只能释放3次</>",
-            "开启技能时，朝身前高地放置霰射炸药，炸药射出后在高地后附近的可通行地面上爆炸5次，每次对周围的目标造成攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害。<@ba.rem>此技能只有在面朝高地且高地后有可通行地面时才能使用，每次部署只能释放3次</>",
-            "开启技能时，朝身前高地放置霰射炸药，炸药射出后在高地后附近的可通行地面上爆炸5次，每次对周围的目标造成攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害。<@ba.rem>此技能只有在面朝高地且高地后有可通行地面时才能使用，每次部署只能释放3次</>",
-            "开启技能时，朝身前高地放置霰射炸药，炸药射出后在高地后附近的可通行地面上爆炸5次，每次对周围的目标造成攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害。<@ba.rem>此技能只有在面朝高地且高地后有可通行地面时才能使用，每次部署只能释放3次</>",
-            "开启技能时，朝身前高地放置霰射炸药，炸药射出后在高地后附近的可通行地面上爆炸5次，每次对周围的目标造成攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害。<@ba.rem>此技能只有在面朝高地且高地后有可通行地面时才能使用，每次部署只能释放3次</>"
+            "When skill is activated, Fuze places a Cluster Charge on a Ranged tile ahead, which then explodes on nearby passable ground tiles behind the Ranged tile 5 times, each dealing <@ba.vup>{atk_scale:0%}</> Physical damage to nearby targets\n<@ba.rem>This skill can only be activated when facing a Ranged tile with passable ground tiles behind it, and can only be used 3 times per deployment</>",
+            "When skill is activated, Fuze places a Cluster Charge on a Ranged tile ahead, which then explodes on nearby passable ground tiles behind the Ranged tile 5 times, each dealing <@ba.vup>{atk_scale:0%}</> Physical damage to nearby targets\n<@ba.rem>This skill can only be activated when facing a Ranged tile with passable ground tiles behind it, and can only be used 3 times per deployment</>",
+            "When skill is activated, Fuze places a Cluster Charge on a Ranged tile ahead, which then explodes on nearby passable ground tiles behind the Ranged tile 5 times, each dealing <@ba.vup>{atk_scale:0%}</> Physical damage to nearby targets\n<@ba.rem>This skill can only be activated when facing a Ranged tile with passable ground tiles behind it, and can only be used 3 times per deployment</>",
+            "When skill is activated, Fuze places a Cluster Charge on a Ranged tile ahead, which then explodes on nearby passable ground tiles behind the Ranged tile 5 times, each dealing <@ba.vup>{atk_scale:0%}</> Physical damage to nearby targets\n<@ba.rem>This skill can only be activated when facing a Ranged tile with passable ground tiles behind it, and can only be used 3 times per deployment</>",
+            "When skill is activated, Fuze places a Cluster Charge on a Ranged tile ahead, which then explodes on nearby passable ground tiles behind the Ranged tile 5 times, each dealing <@ba.vup>{atk_scale:0%}</> Physical damage to nearby targets\n<@ba.rem>This skill can only be activated when facing a Ranged tile with passable ground tiles behind it, and can only be used 3 times per deployment</>",
+            "When skill is activated, Fuze places a Cluster Charge on a Ranged tile ahead, which then explodes on nearby passable ground tiles behind the Ranged tile 5 times, each dealing <@ba.vup>{atk_scale:0%}</> Physical damage to nearby targets\n<@ba.rem>This skill can only be activated when facing a Ranged tile with passable ground tiles behind it, and can only be used 3 times per deployment</>",
+            "When skill is activated, Fuze places a Cluster Charge on a Ranged tile ahead, which then explodes on nearby passable ground tiles behind the Ranged tile 5 times, each dealing <@ba.vup>{atk_scale:0%}</> Physical damage to nearby targets\n<@ba.rem>This skill can only be activated when facing a Ranged tile with passable ground tiles behind it, and can only be used 3 times per deployment</>",
+            "When skill is activated, Fuze places a Cluster Charge on a Ranged tile ahead, which then explodes on nearby passable ground tiles behind the Ranged tile 5 times, each dealing <@ba.vup>{atk_scale:0%}</> Physical damage to nearby targets\n<@ba.rem>This skill can only be activated when facing a Ranged tile with passable ground tiles behind it, and can only be used 3 times per deployment</>",
+            "When skill is activated, Fuze places a Cluster Charge on a Ranged tile ahead, which then explodes on nearby passable ground tiles behind the Ranged tile 5 times, each dealing <@ba.vup>{atk_scale:0%}</> Physical damage to nearby targets\n<@ba.rem>This skill can only be activated when facing a Ranged tile with passable ground tiles behind it, and can only be used 3 times per deployment</>",
+            "When skill is activated, Fuze places a Cluster Charge on a Ranged tile ahead, which then explodes on nearby passable ground tiles behind the Ranged tile 5 times, each dealing <@ba.vup>{atk_scale:0%}</> Physical damage to nearby targets\n<@ba.rem>This skill can only be activated when facing a Ranged tile with passable ground tiles behind it, and can only be used 3 times per deployment</>"
         ]
     },
     "skchr_iana_1": {
         "name": "幻影诡雷",
         "desc": [
-            "切换为<替身>作战时，立即对攻击全息幻影的敌人及其周围所有敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害",
-            "切换为<替身>作战时，立即对攻击全息幻影的敌人及其周围所有敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害",
-            "切换为<替身>作战时，立即对攻击全息幻影的敌人及其周围所有敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害",
-            "切换为<替身>作战时，立即对攻击全息幻影的敌人及其周围所有敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害",
-            "切换为<替身>作战时，立即对攻击全息幻影的敌人及其周围所有敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害",
-            "切换为<替身>作战时，立即对攻击全息幻影的敌人及其周围所有敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害",
-            "切换为<替身>作战时，立即对攻击全息幻影的敌人及其周围所有敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害",
-            "切换为<替身>作战时，立即对攻击全息幻影的敌人及其周围所有敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害",
-            "切换为<替身>作战时，立即对攻击全息幻影的敌人及其周围所有敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害",
-            "切换为<替身>作战时，立即对攻击全息幻影的敌人及其周围所有敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害"
+            "When Iana swaps to [Substitute], immediately deal <@ba.vup>{atk_scale:0%}</> Physical damage to the hologram's attacker and nearby enemies",
+            "When Iana swaps to [Substitute], immediately deal <@ba.vup>{atk_scale:0%}</> Physical damage to the hologram's attacker and nearby enemies",
+            "When Iana swaps to [Substitute], immediately deal <@ba.vup>{atk_scale:0%}</> Physical damage to the hologram's attacker and nearby enemies",
+            "When Iana swaps to [Substitute], immediately deal <@ba.vup>{atk_scale:0%}</> Physical damage to the hologram's attacker and nearby enemies",
+            "When Iana swaps to [Substitute], immediately deal <@ba.vup>{atk_scale:0%}</> Physical damage to the hologram's attacker and nearby enemies",
+            "When Iana swaps to [Substitute], immediately deal <@ba.vup>{atk_scale:0%}</> Physical damage to the hologram's attacker and nearby enemies",
+            "When Iana swaps to [Substitute], immediately deal <@ba.vup>{atk_scale:0%}</> Physical damage to the hologram's attacker and nearby enemies",
+            "When Iana swaps to [Substitute], immediately deal <@ba.vup>{atk_scale:0%}</> Physical damage to the hologram's attacker and nearby enemies",
+            "When Iana swaps to [Substitute], immediately deal <@ba.vup>{atk_scale:0%}</> Physical damage to the hologram's attacker and nearby enemies",
+            "When Iana swaps to [Substitute], immediately deal <@ba.vup>{atk_scale:0%}</> Physical damage to the hologram's attacker and nearby enemies"
         ]
     },
     "skchr_iana_2": {
         "name": "全知者的战术",
         "desc": [
-            "立即使周围的敌人在<@ba.vup>{anti_invisible_duration}</>秒内<$ba.invisible>隐匿</>效果失效并切换为<替身>作战\\n持续时间内攻击速度<@ba.vup>+{attack_speed}</>并获得<$ba.invisible>隐匿</>",
-            "立即使周围的敌人在<@ba.vup>{anti_invisible_duration}</>秒内<$ba.invisible>隐匿</>效果失效并切换为<替身>作战\\n持续时间内攻击速度<@ba.vup>+{attack_speed}</>并获得<$ba.invisible>隐匿</>",
-            "立即使周围的敌人在<@ba.vup>{anti_invisible_duration}</>秒内<$ba.invisible>隐匿</>效果失效并切换为<替身>作战\\n持续时间内攻击速度<@ba.vup>+{attack_speed}</>并获得<$ba.invisible>隐匿</>",
-            "立即使周围的敌人在<@ba.vup>{anti_invisible_duration}</>秒内<$ba.invisible>隐匿</>效果失效并切换为<替身>作战\\n持续时间内攻击速度<@ba.vup>+{attack_speed}</>并获得<$ba.invisible>隐匿</>",
-            "立即使周围的敌人在<@ba.vup>{anti_invisible_duration}</>秒内<$ba.invisible>隐匿</>效果失效并切换为<替身>作战\\n持续时间内攻击速度<@ba.vup>+{attack_speed}</>并获得<$ba.invisible>隐匿</>",
-            "立即使周围的敌人在<@ba.vup>{anti_invisible_duration}</>秒内<$ba.invisible>隐匿</>效果失效并切换为<替身>作战\\n持续时间内攻击速度<@ba.vup>+{attack_speed}</>并获得<$ba.invisible>隐匿</>",
-            "立即使周围的敌人在<@ba.vup>{anti_invisible_duration}</>秒内<$ba.invisible>隐匿</>效果失效并切换为<替身>作战\\n持续时间内攻击速度<@ba.vup>+{attack_speed}</>并获得<$ba.invisible>隐匿</>",
-            "立即使周围的敌人在<@ba.vup>{anti_invisible_duration}</>秒内<$ba.invisible>隐匿</>效果失效并切换为<替身>作战\\n持续时间内攻击速度<@ba.vup>+{attack_speed}</>并获得<$ba.invisible>隐匿</>",
-            "立即使周围的敌人在<@ba.vup>{anti_invisible_duration}</>秒内<$ba.invisible>隐匿</>效果失效并切换为<替身>作战\\n持续时间内攻击速度<@ba.vup>+{attack_speed}</>并获得<$ba.invisible>隐匿</>",
-            "立即使周围的敌人在<@ba.vup>{anti_invisible_duration}</>秒内<$ba.invisible>隐匿</>效果失效并切换为<替身>作战\\n持续时间内攻击速度<@ba.vup>+{attack_speed}</>并获得<$ba.invisible>隐匿</>"
+            "When skill is activated, Iana immediately removes <$ba.invisible>Invisibility</> from nearby enemies for <@ba.vup>{anti_invisible_duration}</> seconds and swaps to [Substitute]\nWithin the duration of the skill, increase ASPD<@ba.vup>+{attack_speed}</> and gain <$ba.invisible>Invisibility</>",
+            "When skill is activated, Iana immediately removes <$ba.invisible>Invisibility</> from nearby enemies for <@ba.vup>{anti_invisible_duration}</> seconds and swaps to [Substitute]\nWithin the duration of the skill, increase ASPD<@ba.vup>+{attack_speed}</> and gain <$ba.invisible>Invisibility</>",
+            "When skill is activated, Iana immediately removes <$ba.invisible>Invisibility</> from nearby enemies for <@ba.vup>{anti_invisible_duration}</> seconds and swaps to [Substitute]\nWithin the duration of the skill, increase ASPD<@ba.vup>+{attack_speed}</> and gain <$ba.invisible>Invisibility</>",
+            "When skill is activated, Iana immediately removes <$ba.invisible>Invisibility</> from nearby enemies for <@ba.vup>{anti_invisible_duration}</> seconds and swaps to [Substitute]\nWithin the duration of the skill, increase ASPD<@ba.vup>+{attack_speed}</> and gain <$ba.invisible>Invisibility</>",
+            "When skill is activated, Iana immediately removes <$ba.invisible>Invisibility</> from nearby enemies for <@ba.vup>{anti_invisible_duration}</> seconds and swaps to [Substitute]\nWithin the duration of the skill, increase ASPD<@ba.vup>+{attack_speed}</> and gain <$ba.invisible>Invisibility</>",
+            "When skill is activated, Iana immediately removes <$ba.invisible>Invisibility</> from nearby enemies for <@ba.vup>{anti_invisible_duration}</> seconds and swaps to [Substitute]\nWithin the duration of the skill, increase ASPD<@ba.vup>+{attack_speed}</> and gain <$ba.invisible>Invisibility</>",
+            "When skill is activated, Iana immediately removes <$ba.invisible>Invisibility</> from nearby enemies for <@ba.vup>{anti_invisible_duration}</> seconds and swaps to [Substitute]\nWithin the duration of the skill, increase ASPD<@ba.vup>+{attack_speed}</> and gain <$ba.invisible>Invisibility</>",
+            "When skill is activated, Iana immediately removes <$ba.invisible>Invisibility</> from nearby enemies for <@ba.vup>{anti_invisible_duration}</> seconds and swaps to [Substitute]\nWithin the duration of the skill, increase ASPD<@ba.vup>+{attack_speed}</> and gain <$ba.invisible>Invisibility</>",
+            "When skill is activated, Iana immediately removes <$ba.invisible>Invisibility</> from nearby enemies for <@ba.vup>{anti_invisible_duration}</> seconds and swaps to [Substitute]\nWithin the duration of the skill, increase ASPD<@ba.vup>+{attack_speed}</> and gain <$ba.invisible>Invisibility</>",
+            "When skill is activated, Iana immediately removes <$ba.invisible>Invisibility</> from nearby enemies for <@ba.vup>{anti_invisible_duration}</> seconds and swaps to [Substitute]\nWithin the duration of the skill, increase ASPD<@ba.vup>+{attack_speed}</> and gain <$ba.invisible>Invisibility</>"
         ]
     },
     "skchr_rdoc_1": {
         "name": "以暴制暴",
         "desc": [
-            "立即对自身进行一次相当于攻击力<@ba.vup>{heal_scale:0%}</>的治疗，之后攻击间隔<@ba.vup>小幅度缩短</>\\n<@ba.rem>攻击装有31发子弹，打完后技能结束（期间可随时停止技能）；每次部署只能释放3次</>",
-            "立即对自身进行一次相当于攻击力<@ba.vup>{heal_scale:0%}</>的治疗，之后攻击间隔<@ba.vup>小幅度缩短</>\\n<@ba.rem>攻击装有31发子弹，打完后技能结束（期间可随时停止技能）；每次部署只能释放3次</>",
-            "立即对自身进行一次相当于攻击力<@ba.vup>{heal_scale:0%}</>的治疗，之后攻击间隔<@ba.vup>小幅度缩短</>\\n<@ba.rem>攻击装有31发子弹，打完后技能结束（期间可随时停止技能）；每次部署只能释放3次</>",
-            "立即对自身进行一次相当于攻击力<@ba.vup>{heal_scale:0%}</>的治疗，之后攻击间隔<@ba.vup>一定幅度缩短</>\\n<@ba.rem>攻击装有31发子弹，打完后技能结束（期间可随时停止技能）；每次部署只能释放3次</>",
-            "立即对自身进行一次相当于攻击力<@ba.vup>{heal_scale:0%}</>的治疗，之后攻击间隔<@ba.vup>一定幅度缩短</>\\n<@ba.rem>攻击装有31发子弹，打完后技能结束（期间可随时停止技能）；每次部署只能释放3次</>",
-            "立即对自身进行一次相当于攻击力<@ba.vup>{heal_scale:0%}</>的治疗，之后攻击间隔<@ba.vup>一定幅度缩短</>\\n<@ba.rem>攻击装有31发子弹，打完后技能结束（期间可随时停止技能）；每次部署只能释放3次</>",
-            "立即对自身进行一次相当于攻击力<@ba.vup>{heal_scale:0%}</>的治疗，之后攻击间隔<@ba.vup>大幅度缩短</>\\n<@ba.rem>攻击装有31发子弹，打完后技能结束（期间可随时停止技能）；每次部署只能释放3次</>",
-            "立即对自身进行一次相当于攻击力<@ba.vup>{heal_scale:0%}</>的治疗，之后攻击间隔<@ba.vup>大幅度缩短</>\\n<@ba.rem>攻击装有31发子弹，打完后技能结束（期间可随时停止技能）；每次部署只能释放3次</>",
-            "立即对自身进行一次相当于攻击力<@ba.vup>{heal_scale:0%}</>的治疗，之后攻击间隔<@ba.vup>大幅度缩短</>\\n<@ba.rem>攻击装有31发子弹，打完后技能结束（期间可随时停止技能）；每次部署只能释放3次</>",
-            "立即对自身进行一次相当于攻击力<@ba.vup>{heal_scale:0%}</>的治疗，之后攻击间隔<@ba.vup>大幅度缩短</>\\n<@ba.rem>攻击装有31发子弹，打完后技能结束（期间可随时停止技能）；每次部署只能释放3次</>"
+            "When skill is activated, Doc immediately heals <@ba.vup>{heal_scale:0%}</> to himself, then <@ba.vup>slightly reduces Attack Interval</>\\n<@ba.rem> Skill activation grants 31 ammo and the skill ends when all ammo is used (Can manually deactivate skill)\nCan only be used 3 times per deployment</>",
+            "When skill is activated, Doc immediately heals <@ba.vup>{heal_scale:0%}</> to himself, then <@ba.vup>slightly reduces Attack Interval</>\\n<@ba.rem> Skill activation grants 31 ammo and the skill ends when all ammo is used (Can manually deactivate skill)\nCan only be used 3 times per deployment</>",
+            "When skill is activated, Doc immediately heals <@ba.vup>{heal_scale:0%}</> to himself, then <@ba.vup>slightly reduces Attack Interval</>\\n<@ba.rem> Skill activation grants 31 ammo and the skill ends when all ammo is used (Can manually deactivate skill)\nCan only be used 3 times per deployment</>",
+            "When skill is activated, Doc immediately heals <@ba.vup>{heal_scale:0%}</> to himself, then <@ba.vup>moderate reduces Attack Interval</>\\n<@ba.rem> Skill activation grants 31 ammo and the skill ends when all ammo is used (Can manually deactivate skill)\nCan only be used 3 times per deployment</>",
+            "When skill is activated, Doc immediately heals <@ba.vup>{heal_scale:0%}</> to himself, then <@ba.vup>moderate reduces Attack Interval</>\\n<@ba.rem> Skill activation grants 31 ammo and the skill ends when all ammo is used (Can manually deactivate skill)\nCan only be used 3 times per deployment</>",
+            "When skill is activated, Doc immediately heals <@ba.vup>{heal_scale:0%}</> to himself, then <@ba.vup>moderate reduces Attack Interval</>\\n<@ba.rem> Skill activation grants 31 ammo and the skill ends when all ammo is used (Can manually deactivate skill)\nCan only be used 3 times per deployment</>",
+            "When skill is activated, Doc immediately heals <@ba.vup>{heal_scale:0%}</> to himself, then <@ba.vup>massively reduces Attack Interval</>\\n<@ba.rem> Skill activation grants 31 ammo and the skill ends when all ammo is used (Can manually deactivate skill)\nCan only be used 3 times per deployment</>",
+            "When skill is activated, Doc immediately heals <@ba.vup>{heal_scale:0%}</> to himself, then <@ba.vup>massively reduces Attack Interval</>\\n<@ba.rem> Skill activation grants 31 ammo and the skill ends when all ammo is used (Can manually deactivate skill)\nCan only be used 3 times per deployment</>",
+            "When skill is activated, Doc immediately heals <@ba.vup>{heal_scale:0%}</> to himself, then <@ba.vup>massively reduces Attack Interval</>\\n<@ba.rem> Skill activation grants 31 ammo and the skill ends when all ammo is used (Can manually deactivate skill)\nCan only be used 3 times per deployment</>",
+            "When skill is activated, Doc immediately heals <@ba.vup>{heal_scale:0%}</> to himself, then <@ba.vup>massively reduces Attack Interval</>\\n<@ba.rem> Skill activation grants 31 ammo and the skill ends when all ammo is used (Can manually deactivate skill)\nCan only be used 3 times per deployment</>"
         ]
     },
     "skchr_rdoc_2": {
         "name": "激素手枪",
         "desc": [
-            "立即朝正前方发射一枚激素子弹，若击中的首个目标为友方干员，对其进行一次相当于攻击力<@ba.vup>{heal_scale:0%}</>的治疗\\n<@ba.rem>每次部署只能释放3次</>",
-            "立即朝正前方发射一枚激素子弹，若击中的首个目标为友方干员，对其进行一次相当于攻击力<@ba.vup>{heal_scale:0%}</>的治疗\\n<@ba.rem>每次部署只能释放3次</>",
-            "立即朝正前方发射一枚激素子弹，若击中的首个目标为友方干员，对其进行一次相当于攻击力<@ba.vup>{heal_scale:0%}</>的治疗\\n<@ba.rem>每次部署只能释放3次</>",
-            "立即朝正前方发射一枚激素子弹，若击中的首个目标为友方干员，对其进行一次相当于攻击力<@ba.vup>{heal_scale:0%}</>的治疗\\n<@ba.rem>每次部署只能释放3次</>",
-            "立即朝正前方发射一枚激素子弹，若击中的首个目标为友方干员，对其进行一次相当于攻击力<@ba.vup>{heal_scale:0%}</>的治疗\\n<@ba.rem>每次部署只能释放3次</>",
-            "立即朝正前方发射一枚激素子弹，若击中的首个目标为友方干员，对其进行一次相当于攻击力<@ba.vup>{heal_scale:0%}</>的治疗\\n<@ba.rem>每次部署只能释放3次</>",
-            "立即朝正前方发射一枚激素子弹，若击中的首个目标为友方干员，对其进行一次相当于攻击力<@ba.vup>{heal_scale:0%}</>的治疗\\n<@ba.rem>每次部署只能释放3次</>",
-            "立即朝正前方发射一枚激素子弹，若击中的首个目标为友方干员，对其进行一次相当于攻击力<@ba.vup>{heal_scale:0%}</>的治疗\\n<@ba.rem>每次部署只能释放3次</>",
-            "立即朝正前方发射一枚激素子弹，若击中的首个目标为友方干员，对其进行一次相当于攻击力<@ba.vup>{heal_scale:0%}</>的治疗\\n<@ba.rem>每次部署只能释放3次</>",
-            "立即朝正前方发射一枚激素子弹，若击中的首个目标为友方干员，对其进行一次相当于攻击力<@ba.vup>{heal_scale:0%}</>的治疗\\n<@ba.rem>每次部署只能释放3次</>"
+            "When skill is activated, immediately fire an epinephrine shot forwards. If the first target hit is an allied operator, heal them for <@ba.vup>{heal_scale:0%}</>\n<@ba.rem>Can only be used 3 times per deployment</>",
+            "When skill is activated, immediately fire an epinephrine shot forwards. If the first target hit is an allied operator, heal them for <@ba.vup>{heal_scale:0%}</>\n<@ba.rem>Can only be used 3 times per deployment</>",
+            "When skill is activated, immediately fire an epinephrine shot forwards. If the first target hit is an allied operator, heal them for <@ba.vup>{heal_scale:0%}</>\n<@ba.rem>Can only be used 3 times per deployment</>",
+            "When skill is activated, immediately fire an epinephrine shot forwards. If the first target hit is an allied operator, heal them for <@ba.vup>{heal_scale:0%}</>\n<@ba.rem>Can only be used 3 times per deployment</>",
+            "When skill is activated, immediately fire an epinephrine shot forwards. If the first target hit is an allied operator, heal them for <@ba.vup>{heal_scale:0%}</>\n<@ba.rem>Can only be used 3 times per deployment</>",
+            "When skill is activated, immediately fire an epinephrine shot forwards. If the first target hit is an allied operator, heal them for <@ba.vup>{heal_scale:0%}</>\n<@ba.rem>Can only be used 3 times per deployment</>",
+            "When skill is activated, immediately fire an epinephrine shot forwards. If the first target hit is an allied operator, heal them for <@ba.vup>{heal_scale:0%}</>\n<@ba.rem>Can only be used 3 times per deployment</>",
+            "When skill is activated, immediately fire an epinephrine shot forwards. If the first target hit is an allied operator, heal them for <@ba.vup>{heal_scale:0%}</>\n<@ba.rem>Can only be used 3 times per deployment</>",
+            "When skill is activated, immediately fire an epinephrine shot forwards. If the first target hit is an allied operator, heal them for <@ba.vup>{heal_scale:0%}</>\n<@ba.rem>Can only be used 3 times per deployment</>",
+            "When skill is activated, immediately fire an epinephrine shot forwards. If the first target hit is an allied operator, heal them for <@ba.vup>{heal_scale:0%}</>\n<@ba.rem>Can only be used 3 times per deployment</>"
         ]
     },
     "skchr_ela_1": {
         "name": "眩目阻滞",
         "desc": [
-            "被动效果：陷阱触发时使周围所有目标<$ba.sluggish>停顿</>且物理与法术命中率<@ba.vup>{damage_hitrate_physical:0%}</>，持续<@ba.vup>{sluggish}</>秒\\n主动效果：立即获得一个陷阱",
-            "被动效果：陷阱触发时使周围所有目标<$ba.sluggish>停顿</>且物理与法术命中率<@ba.vup>{damage_hitrate_physical:0%}</>，持续<@ba.vup>{sluggish}</>秒\\n主动效果：立即获得一个陷阱",
-            "被动效果：陷阱触发时使周围所有目标<$ba.sluggish>停顿</>且物理与法术命中率<@ba.vup>{damage_hitrate_physical:0%}</>，持续<@ba.vup>{sluggish}</>秒\\n主动效果：立即获得一个陷阱",
-            "被动效果：陷阱触发时使周围所有目标<$ba.sluggish>停顿</>且物理与法术命中率<@ba.vup>{damage_hitrate_physical:0%}</>，持续<@ba.vup>{sluggish}</>秒\\n主动效果：立即获得一个陷阱",
-            "被动效果：陷阱触发时使周围所有目标<$ba.sluggish>停顿</>且物理与法术命中率<@ba.vup>{damage_hitrate_physical:0%}</>，持续<@ba.vup>{sluggish}</>秒\\n主动效果：立即获得一个陷阱",
-            "被动效果：陷阱触发时使周围所有目标<$ba.sluggish>停顿</>且物理与法术命中率<@ba.vup>{damage_hitrate_physical:0%}</>，持续<@ba.vup>{sluggish}</>秒\\n主动效果：立即获得一个陷阱",
-            "被动效果：陷阱触发时使周围所有目标<$ba.sluggish>停顿</>且物理与法术命中率<@ba.vup>{damage_hitrate_physical:0%}</>，持续<@ba.vup>{sluggish}</>秒\\n主动效果：立即获得一个陷阱",
-            "被动效果：陷阱触发时使周围所有目标<$ba.sluggish>停顿</>且物理与法术命中率<@ba.vup>{damage_hitrate_physical:0%}</>，持续<@ba.vup>{sluggish}</>秒\\n主动效果：立即获得一个陷阱",
-            "被动效果：陷阱触发时使周围所有目标<$ba.sluggish>停顿</>且物理与法术命中率<@ba.vup>{damage_hitrate_physical:0%}</>，持续<@ba.vup>{sluggish}</>秒\\n主动效果：立即获得一个陷阱",
-            "被动效果：陷阱触发时使周围所有目标<$ba.sluggish>停顿</>且物理与法术命中率<@ba.vup>{damage_hitrate_physical:0%}</>，持续<@ba.vup>{sluggish}</>秒\\n主动效果：立即获得一个陷阱"
+            "Passive: When Grzmot Mines are activated, <$ba.sluggish>Slow</> all nearby targets and reduce <@ba.vup>{damage_hitrate_physical:0%}</> their Physical and Arts accuracy for <@ba.vup>{sluggish}</> seconds\nWhen skill is activated, immediately gain 1 Grzmot Mine",
+            "Passive: When Grzmot Mines are activated, <$ba.sluggish>Slow</> all nearby targets and reduce <@ba.vup>{damage_hitrate_physical:0%}</> their Physical and Arts accuracy for <@ba.vup>{sluggish}</> seconds\nWhen skill is activated, immediately gain 1 Grzmot Mine",
+            "Passive: When Grzmot Mines are activated, <$ba.sluggish>Slow</> all nearby targets and reduce <@ba.vup>{damage_hitrate_physical:0%}</> their Physical and Arts accuracy for <@ba.vup>{sluggish}</> seconds\nWhen skill is activated, immediately gain 1 Grzmot Mine",
+            "Passive: When Grzmot Mines are activated, <$ba.sluggish>Slow</> all nearby targets and reduce <@ba.vup>{damage_hitrate_physical:0%}</> their Physical and Arts accuracy for <@ba.vup>{sluggish}</> seconds\nWhen skill is activated, immediately gain 1 Grzmot Mine",
+            "Passive: When Grzmot Mines are activated, <$ba.sluggish>Slow</> all nearby targets and reduce <@ba.vup>{damage_hitrate_physical:0%}</> their Physical and Arts accuracy for <@ba.vup>{sluggish}</> seconds\nWhen skill is activated, immediately gain 1 Grzmot Mine",
+            "Passive: When Grzmot Mines are activated, <$ba.sluggish>Slow</> all nearby targets and reduce <@ba.vup>{damage_hitrate_physical:0%}</> their Physical and Arts accuracy for <@ba.vup>{sluggish}</> seconds\nWhen skill is activated, immediately gain 1 Grzmot Mine",
+            "Passive: When Grzmot Mines are activated, <$ba.sluggish>Slow</> all nearby targets and reduce <@ba.vup>{damage_hitrate_physical:0%}</> their Physical and Arts accuracy for <@ba.vup>{sluggish}</> seconds\nWhen skill is activated, immediately gain 1 Grzmot Mine",
+            "Passive: When Grzmot Mines are activated, <$ba.sluggish>Slow</> all nearby targets and reduce <@ba.vup>{damage_hitrate_physical:0%}</> their Physical and Arts accuracy for <@ba.vup>{sluggish}</> seconds\nWhen skill is activated, immediately gain 1 Grzmot Mine",
+            "Passive: When Grzmot Mines are activated, <$ba.sluggish>Slow</> all nearby targets and reduce <@ba.vup>{damage_hitrate_physical:0%}</> their Physical and Arts accuracy for <@ba.vup>{sluggish}</> seconds\nWhen skill is activated, immediately gain 1 Grzmot Mine",
+            "Passive: When Grzmot Mines are activated, <$ba.sluggish>Slow</> all nearby targets and reduce <@ba.vup>{damage_hitrate_physical:0%}</> their Physical and Arts accuracy for <@ba.vup>{sluggish}</> seconds\nWhen skill is activated, immediately gain 1 Grzmot Mine"
         ]
     },
     "skchr_ela_2": {
         "name": "震荡坚守",
         "desc": [
-            "被动效果：陷阱触发时使周围所有目标<$ba.stun>晕眩</>，持续<@ba.vup>{stun}</>秒\\n主动效果：架设机动护盾使自身防御力<@ba.vup>+{def:0%}</>，攻击范围<@ba.vdown>缩小</>，攻击对目标周围造成溅射物理伤害且无视其<@ba.vup>{def_penetrate_fixed}</>的防御力\\n<@ba.rem>技能结束时获得一个陷阱</>",
-            "被动效果：陷阱触发时使周围所有目标<$ba.stun>晕眩</>，持续<@ba.vup>{stun}</>秒\\n主动效果：架设机动护盾使自身防御力<@ba.vup>+{def:0%}</>，攻击范围<@ba.vdown>缩小</>，攻击对目标周围造成溅射物理伤害且无视其<@ba.vup>{def_penetrate_fixed}</>的防御力\\n<@ba.rem>技能结束时获得一个陷阱</>",
-            "被动效果：陷阱触发时使周围所有目标<$ba.stun>晕眩</>，持续<@ba.vup>{stun}</>秒\\n主动效果：架设机动护盾使自身防御力<@ba.vup>+{def:0%}</>，攻击范围<@ba.vdown>缩小</>，攻击对目标周围造成溅射物理伤害且无视其<@ba.vup>{def_penetrate_fixed}</>的防御力\\n<@ba.rem>技能结束时获得一个陷阱</>",
-            "被动效果：陷阱触发时使周围所有目标<$ba.stun>晕眩</>，持续<@ba.vup>{stun}</>秒\\n主动效果：架设机动护盾使自身防御力<@ba.vup>+{def:0%}</>，攻击范围<@ba.vdown>缩小</>，攻击对目标周围造成溅射物理伤害且无视其<@ba.vup>{def_penetrate_fixed}</>的防御力\\n<@ba.rem>技能结束时获得一个陷阱</>",
-            "被动效果：陷阱触发时使周围所有目标<$ba.stun>晕眩</>，持续<@ba.vup>{stun}</>秒\\n主动效果：架设机动护盾使自身防御力<@ba.vup>+{def:0%}</>，攻击范围<@ba.vdown>缩小</>，攻击对目标周围造成溅射物理伤害且无视其<@ba.vup>{def_penetrate_fixed}</>的防御力\\n<@ba.rem>技能结束时获得一个陷阱</>",
-            "被动效果：陷阱触发时使周围所有目标<$ba.stun>晕眩</>，持续<@ba.vup>{stun}</>秒\\n主动效果：架设机动护盾使自身防御力<@ba.vup>+{def:0%}</>，攻击范围<@ba.vdown>缩小</>，攻击对目标周围造成溅射物理伤害且无视其<@ba.vup>{def_penetrate_fixed}</>的防御力\\n<@ba.rem>技能结束时获得一个陷阱</>",
-            "被动效果：陷阱触发时使周围所有目标<$ba.stun>晕眩</>，持续<@ba.vup>{stun}</>秒\\n主动效果：架设机动护盾使自身防御力<@ba.vup>+{def:0%}</>，攻击范围<@ba.vdown>缩小</>，攻击对目标周围造成溅射物理伤害且无视其<@ba.vup>{def_penetrate_fixed}</>的防御力\\n<@ba.rem>技能结束时获得一个陷阱</>",
-            "被动效果：陷阱触发时使周围所有目标<$ba.stun>晕眩</>，持续<@ba.vup>{stun}</>秒\\n主动效果：架设机动护盾使自身防御力<@ba.vup>+{def:0%}</>，攻击范围<@ba.vdown>缩小</>，攻击对目标周围造成溅射物理伤害且无视其<@ba.vup>{def_penetrate_fixed}</>的防御力\\n<@ba.rem>技能结束时获得一个陷阱</>",
-            "被动效果：陷阱触发时使周围所有目标<$ba.stun>晕眩</>，持续<@ba.vup>{stun}</>秒\\n主动效果：架设机动护盾使自身防御力<@ba.vup>+{def:0%}</>，攻击范围<@ba.vdown>缩小</>，攻击对目标周围造成溅射物理伤害且无视其<@ba.vup>{def_penetrate_fixed}</>的防御力\\n<@ba.rem>技能结束时获得一个陷阱</>",
-            "被动效果：陷阱触发时使周围所有目标<$ba.stun>晕眩</>，持续<@ba.vup>{stun}</>秒\\n主动效果：架设机动护盾使自身防御力<@ba.vup>+{def:0%}</>，攻击范围<@ba.vdown>缩小</>，攻击对目标周围造成溅射物理伤害且无视其<@ba.vup>{def_penetrate_fixed}</>的防御力\\n<@ba.rem>技能结束时获得一个陷阱</>"
+            "Passive: When Grzmot Mines are activated, <$ba.stun>Stun</> all nearby targets for <@ba.vup>{stun}</> seconds\nWhen skill is activated, Ela deploys a mobile shield, DEF<@ba.vup>+{def:0%}</> and reducing Attack Range. Attacks deal splash Physical daamge and ignore <@ba.vup>{def_penetrate_fixed}</> DEF\nWhen skill ends, immediately gain 1 Grzmot Mine",
+            "Passive: When Grzmot Mines are activated, <$ba.stun>Stun</> all nearby targets for <@ba.vup>{stun}</> seconds\nWhen skill is activated, Ela deploys a mobile shield, DEF<@ba.vup>+{def:0%}</> and reducing Attack Range. Attacks deal splash Physical daamge and ignore <@ba.vup>{def_penetrate_fixed}</> DEF\nWhen skill ends, immediately gain 1 Grzmot Mine",
+            "Passive: When Grzmot Mines are activated, <$ba.stun>Stun</> all nearby targets for <@ba.vup>{stun}</> seconds\nWhen skill is activated, Ela deploys a mobile shield, DEF<@ba.vup>+{def:0%}</> and reducing Attack Range. Attacks deal splash Physical daamge and ignore <@ba.vup>{def_penetrate_fixed}</> DEF\nWhen skill ends, immediately gain 1 Grzmot Mine",
+            "Passive: When Grzmot Mines are activated, <$ba.stun>Stun</> all nearby targets for <@ba.vup>{stun}</> seconds\nWhen skill is activated, Ela deploys a mobile shield, DEF<@ba.vup>+{def:0%}</> and reducing Attack Range. Attacks deal splash Physical daamge and ignore <@ba.vup>{def_penetrate_fixed}</> DEF\nWhen skill ends, immediately gain 1 Grzmot Mine",
+            "Passive: When Grzmot Mines are activated, <$ba.stun>Stun</> all nearby targets for <@ba.vup>{stun}</> seconds\nWhen skill is activated, Ela deploys a mobile shield, DEF<@ba.vup>+{def:0%}</> and reducing Attack Range. Attacks deal splash Physical daamge and ignore <@ba.vup>{def_penetrate_fixed}</> DEF\nWhen skill ends, immediately gain 1 Grzmot Mine",
+            "Passive: When Grzmot Mines are activated, <$ba.stun>Stun</> all nearby targets for <@ba.vup>{stun}</> seconds\nWhen skill is activated, Ela deploys a mobile shield, DEF<@ba.vup>+{def:0%}</> and reducing Attack Range. Attacks deal splash Physical daamge and ignore <@ba.vup>{def_penetrate_fixed}</> DEF\nWhen skill ends, immediately gain 1 Grzmot Mine",
+            "Passive: When Grzmot Mines are activated, <$ba.stun>Stun</> all nearby targets for <@ba.vup>{stun}</> seconds\nWhen skill is activated, Ela deploys a mobile shield, DEF<@ba.vup>+{def:0%}</> and reducing Attack Range. Attacks deal splash Physical daamge and ignore <@ba.vup>{def_penetrate_fixed}</> DEF\nWhen skill ends, immediately gain 1 Grzmot Mine",
+            "Passive: When Grzmot Mines are activated, <$ba.stun>Stun</> all nearby targets for <@ba.vup>{stun}</> seconds\nWhen skill is activated, Ela deploys a mobile shield, DEF<@ba.vup>+{def:0%}</> and reducing Attack Range. Attacks deal splash Physical daamge and ignore <@ba.vup>{def_penetrate_fixed}</> DEF\nWhen skill ends, immediately gain 1 Grzmot Mine",
+            "Passive: When Grzmot Mines are activated, <$ba.stun>Stun</> all nearby targets for <@ba.vup>{stun}</> seconds\nWhen skill is activated, Ela deploys a mobile shield, DEF<@ba.vup>+{def:0%}</> and reducing Attack Range. Attacks deal splash Physical daamge and ignore <@ba.vup>{def_penetrate_fixed}</> DEF\nWhen skill ends, immediately gain 1 Grzmot Mine",
+            "Passive: When Grzmot Mines are activated, <$ba.stun>Stun</> all nearby targets for <@ba.vup>{stun}</> seconds\nWhen skill is activated, Ela deploys a mobile shield, DEF<@ba.vup>+{def:0%}</> and reducing Attack Range. Attacks deal splash Physical daamge and ignore <@ba.vup>{def_penetrate_fixed}</> DEF\nWhen skill ends, immediately gain 1 Grzmot Mine"
         ]
     },
     "skchr_ela_3": {
         "name": "“博萨克风暴”",
         "desc": [
-            "被动效果：陷阱触发时使周围所有目标<$ba.sluggish>停顿</>并获得<@ba.vup>{fake_damage_scale:0%}</>的<$ba.fragile>脆弱</>效果，持续<@ba.vup>{sluggish}</>秒\\n主动效果：攻击间隔<@ba.vup>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，优先攻击受到雷鸣地雷效果影响的敌人\\n<@ba.rem>攻击装有40发子弹，打完后技能结束（期间可随时停止技能），技能结束时获得两个陷阱</>",
-            "被动效果：陷阱触发时使周围所有目标<$ba.sluggish>停顿</>并获得<@ba.vup>{fake_damage_scale:0%}</>的<$ba.fragile>脆弱</>效果，持续<@ba.vup>{sluggish}</>秒\\n主动效果：攻击间隔<@ba.vup>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，优先攻击受到雷鸣地雷效果影响的敌人\\n<@ba.rem>攻击装有40发子弹，打完后技能结束（期间可随时停止技能），技能结束时获得两个陷阱</>",
-            "被动效果：陷阱触发时使周围所有目标<$ba.sluggish>停顿</>并获得<@ba.vup>{fake_damage_scale:0%}</>的<$ba.fragile>脆弱</>效果，持续<@ba.vup>{sluggish}</>秒\\n主动效果：攻击间隔<@ba.vup>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，优先攻击受到雷鸣地雷效果影响的敌人\\n<@ba.rem>攻击装有40发子弹，打完后技能结束（期间可随时停止技能），技能结束时获得两个陷阱</>",
-            "被动效果：陷阱触发时使周围所有目标<$ba.sluggish>停顿</>并获得<@ba.vup>{fake_damage_scale:0%}</>的<$ba.fragile>脆弱</>效果，持续<@ba.vup>{sluggish}</>秒\\n主动效果：攻击间隔<@ba.vup>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，优先攻击受到雷鸣地雷效果影响的敌人\\n<@ba.rem>攻击装有40发子弹，打完后技能结束（期间可随时停止技能），技能结束时获得两个陷阱</>",
-            "被动效果：陷阱触发时使周围所有目标<$ba.sluggish>停顿</>并获得<@ba.vup>{fake_damage_scale:0%}</>的<$ba.fragile>脆弱</>效果，持续<@ba.vup>{sluggish}</>秒\\n主动效果：攻击间隔<@ba.vup>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，优先攻击受到雷鸣地雷效果影响的敌人\\n<@ba.rem>攻击装有40发子弹，打完后技能结束（期间可随时停止技能），技能结束时获得两个陷阱</>",
-            "被动效果：陷阱触发时使周围所有目标<$ba.sluggish>停顿</>并获得<@ba.vup>{fake_damage_scale:0%}</>的<$ba.fragile>脆弱</>效果，持续<@ba.vup>{sluggish}</>秒\\n主动效果：攻击间隔<@ba.vup>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，优先攻击受到雷鸣地雷效果影响的敌人\\n<@ba.rem>攻击装有40发子弹，打完后技能结束（期间可随时停止技能），技能结束时获得两个陷阱</>",
-            "被动效果：陷阱触发时使周围所有目标<$ba.sluggish>停顿</>并获得<@ba.vup>{fake_damage_scale:0%}</>的<$ba.fragile>脆弱</>效果，持续<@ba.vup>{sluggish}</>秒\\n主动效果：攻击间隔<@ba.vup>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，优先攻击受到雷鸣地雷效果影响的敌人\\n<@ba.rem>攻击装有40发子弹，打完后技能结束（期间可随时停止技能），技能结束时获得两个陷阱</>",
-            "被动效果：陷阱触发时使周围所有目标<$ba.sluggish>停顿</>并获得<@ba.vup>{fake_damage_scale:0%}</>的<$ba.fragile>脆弱</>效果，持续<@ba.vup>{sluggish}</>秒\\n主动效果：攻击间隔<@ba.vup>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，优先攻击受到雷鸣地雷效果影响的敌人\\n<@ba.rem>攻击装有40发子弹，打完后技能结束（期间可随时停止技能），技能结束时获得两个陷阱</>",
-            "被动效果：陷阱触发时使周围所有目标<$ba.sluggish>停顿</>并获得<@ba.vup>{fake_damage_scale:0%}</>的<$ba.fragile>脆弱</>效果，持续<@ba.vup>{sluggish}</>秒\\n主动效果：攻击间隔<@ba.vup>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，优先攻击受到雷鸣地雷效果影响的敌人\\n<@ba.rem>攻击装有40发子弹，打完后技能结束（期间可随时停止技能），技能结束时获得两个陷阱</>",
-            "被动效果：陷阱触发时使周围所有目标<$ba.sluggish>停顿</>并获得<@ba.vup>{fake_damage_scale:0%}</>的<$ba.fragile>脆弱</>效果，持续<@ba.vup>{sluggish}</>秒\\n主动效果：攻击间隔<@ba.vup>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，优先攻击受到雷鸣地雷效果影响的敌人\\n<@ba.rem>攻击装有40发子弹，打完后技能结束（期间可随时停止技能），技能结束时获得两个陷阱</>"
+            "Passive: When Grzmot Mines are activated, <$ba.sluggish>Slow</> all nearby targets and inflict <@ba.vup>{fake_damage_scale:0%}</> of <$ba.fragile>Fragile</> for <@ba.vup>{sluggish}</> seconds\nWhen skill is activated, <@ba.vup>reduce</> Attack Interval, ATK<@ba.vup>+{atk:0%}</> and prioritize enemies affected by Grzmot Mines\n<@ba.rem>Skill activation grants 31 ammo and the skill ends when all ammo is used (Can manually deactivate skill)When skill ends, immediately gain 2 Grzmot Mines</>",
+            "Passive: When Grzmot Mines are activated, <$ba.sluggish>Slow</> all nearby targets and inflict <@ba.vup>{fake_damage_scale:0%}</> of <$ba.fragile>Fragile</> for <@ba.vup>{sluggish}</> seconds\nWhen skill is activated, <@ba.vup>reduce</> Attack Interval, ATK<@ba.vup>+{atk:0%}</> and prioritize enemies affected by Grzmot Mines\n<@ba.rem>Skill activation grants 31 ammo and the skill ends when all ammo is used (Can manually deactivate skill)When skill ends, immediately gain 2 Grzmot Mines</>",
+            "Passive: When Grzmot Mines are activated, <$ba.sluggish>Slow</> all nearby targets and inflict <@ba.vup>{fake_damage_scale:0%}</> of <$ba.fragile>Fragile</> for <@ba.vup>{sluggish}</> seconds\nWhen skill is activated, <@ba.vup>reduce</> Attack Interval, ATK<@ba.vup>+{atk:0%}</> and prioritize enemies affected by Grzmot Mines\n<@ba.rem>Skill activation grants 31 ammo and the skill ends when all ammo is used (Can manually deactivate skill)When skill ends, immediately gain 2 Grzmot Mines</>",
+            "Passive: When Grzmot Mines are activated, <$ba.sluggish>Slow</> all nearby targets and inflict <@ba.vup>{fake_damage_scale:0%}</> of <$ba.fragile>Fragile</> for <@ba.vup>{sluggish}</> seconds\nWhen skill is activated, <@ba.vup>reduce</> Attack Interval, ATK<@ba.vup>+{atk:0%}</> and prioritize enemies affected by Grzmot Mines\n<@ba.rem>Skill activation grants 31 ammo and the skill ends when all ammo is used (Can manually deactivate skill)When skill ends, immediately gain 2 Grzmot Mines</>",
+            "Passive: When Grzmot Mines are activated, <$ba.sluggish>Slow</> all nearby targets and inflict <@ba.vup>{fake_damage_scale:0%}</> of <$ba.fragile>Fragile</> for <@ba.vup>{sluggish}</> seconds\nWhen skill is activated, <@ba.vup>reduce</> Attack Interval, ATK<@ba.vup>+{atk:0%}</> and prioritize enemies affected by Grzmot Mines\n<@ba.rem>Skill activation grants 31 ammo and the skill ends when all ammo is used (Can manually deactivate skill)When skill ends, immediately gain 2 Grzmot Mines</>",
+            "Passive: When Grzmot Mines are activated, <$ba.sluggish>Slow</> all nearby targets and inflict <@ba.vup>{fake_damage_scale:0%}</> of <$ba.fragile>Fragile</> for <@ba.vup>{sluggish}</> seconds\nWhen skill is activated, <@ba.vup>reduce</> Attack Interval, ATK<@ba.vup>+{atk:0%}</> and prioritize enemies affected by Grzmot Mines\n<@ba.rem>Skill activation grants 31 ammo and the skill ends when all ammo is used (Can manually deactivate skill)When skill ends, immediately gain 2 Grzmot Mines</>",
+            "Passive: When Grzmot Mines are activated, <$ba.sluggish>Slow</> all nearby targets and inflict <@ba.vup>{fake_damage_scale:0%}</> of <$ba.fragile>Fragile</> for <@ba.vup>{sluggish}</> seconds\nWhen skill is activated, <@ba.vup>reduce</> Attack Interval, ATK<@ba.vup>+{atk:0%}</> and prioritize enemies affected by Grzmot Mines\n<@ba.rem>Skill activation grants 31 ammo and the skill ends when all ammo is used (Can manually deactivate skill)When skill ends, immediately gain 2 Grzmot Mines</>",
+            "Passive: When Grzmot Mines are activated, <$ba.sluggish>Slow</> all nearby targets and inflict <@ba.vup>{fake_damage_scale:0%}</> of <$ba.fragile>Fragile</> for <@ba.vup>{sluggish}</> seconds\nWhen skill is activated, <@ba.vup>reduce</> Attack Interval, ATK<@ba.vup>+{atk:0%}</> and prioritize enemies affected by Grzmot Mines\n<@ba.rem>Skill activation grants 31 ammo and the skill ends when all ammo is used (Can manually deactivate skill)When skill ends, immediately gain 2 Grzmot Mines</>",
+            "Passive: When Grzmot Mines are activated, <$ba.sluggish>Slow</> all nearby targets and inflict <@ba.vup>{fake_damage_scale:0%}</> of <$ba.fragile>Fragile</> for <@ba.vup>{sluggish}</> seconds\nWhen skill is activated, <@ba.vup>reduce</> Attack Interval, ATK<@ba.vup>+{atk:0%}</> and prioritize enemies affected by Grzmot Mines\n<@ba.rem>Skill activation grants 31 ammo and the skill ends when all ammo is used (Can manually deactivate skill)When skill ends, immediately gain 2 Grzmot Mines</>",
+            "Passive: When Grzmot Mines are activated, <$ba.sluggish>Slow</> all nearby targets and inflict <@ba.vup>{fake_damage_scale:0%}</> of <$ba.fragile>Fragile</> for <@ba.vup>{sluggish}</> seconds\nWhen skill is activated, <@ba.vup>reduce</> Attack Interval, ATK<@ba.vup>+{atk:0%}</> and prioritize enemies affected by Grzmot Mines\n<@ba.rem>Skill activation grants 31 ammo and the skill ends when all ammo is used (Can manually deactivate skill)When skill ends, immediately gain 2 Grzmot Mines</>"
         ]
     }
 }
