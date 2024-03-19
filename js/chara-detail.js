@@ -1,5 +1,7 @@
     $.holdReady(true);
 
+    console.log = function () { }
+
     const jsonList = {
 
         //CN
@@ -3411,28 +3413,60 @@
             illustrator  += `<a href="https://www.google.com/search?q=illustrator+${IllustratorList[i]}"  target="_blank">${IllustratorList[i]}</a>`
         }
         console.log(illustrator)
-        let voiceActor = db.vaTL[currStory.infoName]?db.vaTL[currStory.infoName]:currStory.infoName
         $('#name-illustrator').html(illustrator)
+
         var voiceDict = db.charword.voiceLangDict[opdataFull.id]
+        var voiceDictEN = db.charwordEN.voiceLangDict[opdataFull.id]
         console.log(voiceDict)
-        var jpvoice
-        var cnvoice
-        if (voiceDict.dict.JP){
-            $('#voiceactor-1').html(` JP`)
-            jpvoice = voiceDict.dict.JP.cvName
-        }else{
-            $('#voiceactor-1').html(``)
-            jpvoice = voiceDict.dict[Object.keys(voiceDict.dict)[0]].cvName
-        }
-        if (voiceDict.dict.CN_MANDARIN){
-            cnvoice = voiceDict.dict.CN_MANDARIN.cvName
-        }
-        $('#name-voiceactor').html(`<a href="https://www.google.com/search?q=Voice+Actor+${jpvoice}"  target="_blank">${jpvoice}</a>`)
-        if(cnvoice){
-            $('#name-voiceactor-cn').html(`<a href="https://www.google.com/search?q=Voice+Actor+${cnvoice}"  target="_blank">${cnvoice}</a>`)
-        }
-        if(voiceActor !="Unknown"){
-            $('#name-voiceactor').html(`<a href="https://www.google.com/search?q=Voice+Actor+${voiceActor}"  target="_blank">${voiceActor}</a>`)
+        console.log(voiceDictEN)
+
+        var VAlang
+        const VAlanglist=["JP","LINKAGE","CN_MANDARIN","CN_TOPOLECT","EN","KR","ITA","GER","RUS"]
+        VAhtml=""
+        for (i=0;i<VAlanglist.length;i++){
+            if(voiceDict.dict[VAlanglist[i]]){
+                switch(voiceDict.dict[VAlanglist[i]].voiceLangType) {
+                    case "LINKAGE":
+                        if(opdataFull.id =="char_4019_ncdeer"){ 
+                            VAlang = "CN"
+                        }
+                        else if(opdataFull.id=="char_4077_palico"){
+                            VAlang = "None"
+                        }
+                        else VAlang = "EN"
+                        break;
+                    case "CN_MANDARIN":
+                        VAlang = "CN"
+                        break;
+                    case "CN_TOPOLECT":
+                        VAlang = "CN&#42"
+                        break;
+                    default:
+                        VAlang=voiceDict.dict[VAlanglist[i]].voiceLangType
+                }
+            try{
+                VAName=voiceDictEN.dict[VAlanglist[i]].cvName[0]
+                }
+            catch(error){
+                VAName=voiceDict.dict[VAlanglist[i]].cvName[0]
+            }
+                //console.log(VAlanglist[i],"|",VAlang,"|",VAName,"|",voiceDict.dict[VAlanglist[i]])
+                VAhtml+=`
+                            <div class="voiceactor-${VAlang}">
+                                <div id="lang-voiceactor-${VAlang}" class="btn-infoleft ak-shadow">
+                                    <i class="fas fa-microphone-alt" title="Voice Actor">
+                                    </i>
+                                    <b ${VAlang.length>2?`style="font-size:11px"`:""}>
+                                        ${VAlang=="None"?"":VAlang}
+                                    </b>
+                                </div>
+                                <div id="name-voiceactor-${VAlang}" class="btn-inforight">
+                                    ${VAlang=="None"?VAName:`<a href="https://www.google.com/search?q=Voice+Actor+${VAName}"  target="_blank">${VAName}</a>`}
+                                </div>
+                            </div>
+                        `
+            }
+        $('#info-voiceactor').html(VAhtml)
         }
 
         let puretext = []

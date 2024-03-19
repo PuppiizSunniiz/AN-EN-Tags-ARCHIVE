@@ -1613,7 +1613,7 @@ body {
 }
 
 
-#info-illustrator,#info-voiceactor{
+#info-illustrator,[class^="voiceactor-"]{
     display: flex;
     margin: 2px;
 }
