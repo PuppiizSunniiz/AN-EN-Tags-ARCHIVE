@@ -41,10 +41,10 @@ json_tempmod        =   json.loads(open("json/TempModuletalentsTL.json").read())
 # New
 #########################################################################################################
 #["OpsName#1","OpsName#2", ...]
-newchars = ["Fuze","Iana","Doc","Ela"]
+newchars = []
 
 #[["OpsName#1",num(Mod)],["OpsName#2",num(Mod)], ...]
-newmods = [["Jessica the Liberated",1],["Blitz",1],["Liskarm",1],["Ela",1],["Fuze",1],["Iana",1],["Doc",1],["Ash",2]]
+newmods = []
 
 #["ItemID#1","ItemID#2", ...]
 newmats = []
